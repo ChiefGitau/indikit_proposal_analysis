@@ -86,3 +86,56 @@ PROMPT_VERSION: str = "disclosure-v1"          # five-part disclosure prompt (pi
 EXTRACTION_PROMPT_VERSION: str = "v1"          # legacy per-chunk extraction prompt (novel pass)
 LINK_PROMPT_VERSION: str = "link-v1"           # legacy Present/Different/Missing linking prompt
 METADATA_ENRICH_PROMPT_VERSION: str = "enrich-v1"  # optional LLM enrichment of Knowledge/SearchTerm
+
+# --------------------------------------------------------------------------- #
+# Phase 2 — preprocessing, knowledge bases, retrieval
+# --------------------------------------------------------------------------- #
+PIPELINE_VERSION: str = "kb-v1"   # bump when parsing / chunking / KB layout changes (forces a rebuild)
+
+# Document sources. ``proposals/`` is the corpus; the template folder of the IndiKit app is used only for the
+# integration sanity checks (docs/phase_2.md Task 8) and is registered under the "template" region.
+DOCUMENT_ROOTS: tuple[tuple[str, Path], ...] = (
+    ("proposals", PROPOSALS_DIR),
+    ("template", INDIKIT_ROOT / "data" / "proposals" / "template"),
+)
+DOCUMENT_EXTENSIONS: tuple[str, ...] = (".pdf", ".docx", ".xlsx")
+
+KB_BASELINE_DIR: Path = OUTPUTS_DIR / "kb_baseline"
+MANIFEST_CSV: Path = KB_DIR / "manifest.csv"
+PAIR_SCORES_PATH: Path = KB_DIR / "pair_scores.parquet"      # falls back to pair_scores.csv without pyarrow
+QUERIES_DIR: Path = KB_DIR / "_queries"
+EMBEDDING_CACHE_DB: Path = KB_DIR / "_cache" / "embeddings.sqlite"
+PREPROCESS_REPORT_MD: Path = KB_DIR / "preprocess_report.md"
+
+# Embedding models. Names are "<backend>:<model>" or a bare model name (backend chosen automatically:
+# fastembed first - ONNX, no PyTorch, works on Intel Macs - then sentence-transformers). "hashing" is the
+# deterministic dependency-free embedder used by the tests.
+KB_EMBEDDING_MODEL: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"   # documents are EN + FR
+BASELINE_EMBEDDING_MODEL: str = "sentence-transformers/all-MiniLM-L6-v2"                  # paper's plain-RAG benchmark
+TEST_EMBEDDING_MODEL: str = "hashing"
+
+# Re-rankers. Default: multilingual cross-encoder available through fastembed (ONNX). The brief's first choice
+# BAAI/bge-reranker-v2-m3 needs PyTorch via sentence-transformers and is selectable as "st:BAAI/bge-reranker-v2-m3".
+RERANKER_MODEL: str = "jinaai/jina-reranker-v2-base-multilingual"
+RERANKER_MODEL_FAST: str = "Xenova/ms-marco-MiniLM-L-6-v2"   # small English-only alternative for quick runs
+TEST_RERANKER_MODEL: str = "lexical"
+
+# Parsing limits (warn, never silently truncate)
+MAX_CELL_CHARS: int = 4000
+MAX_BLOCK_CHARS: int = 20000
+MAX_TABLE_ROWS: int = 2000
+
+# Text KB chunking: section-aware, target words per chunk (never crossing a top-level heading)
+CHUNK_TARGET_WORDS: int = 250
+CHUNK_MAX_WORDS: int = 350
+# Table KB: tables with at most this many rows are expanded whole on a keyword/summary hit
+SMALL_TABLE_ROWS: int = 12
+
+# Baseline (plain RAG): fixed-size character chunks
+BASELINE_CHUNK_CHARS: int = 1000
+BASELINE_CHUNK_OVERLAP: int = 200
+
+# Retrieval defaults (paper 3.4.1: top-N per KB, re-rank to top-k)
+RETRIEVAL_TOP_N: int = 5
+RETRIEVAL_TOP_K: int = 4
+LOGFRAME_BOOST: float = 0.05      # added to the vector score of logframe evidence before re-ranking

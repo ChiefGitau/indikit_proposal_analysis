@@ -27,3 +27,4 @@ outputs/cache/
 
 # Editable-install metadata
 *.egg-info/
+outputs/kb_baseline/
