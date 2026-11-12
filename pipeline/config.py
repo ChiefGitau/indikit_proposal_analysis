@@ -82,7 +82,7 @@ LEGACY_CACHE_MODEL: str = "gpt-4o-mini"   # model that produced the pre-existing
 EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
 
 # Prompt versions: bump when a prompt's wording changes so caches are not reused.
-PROMPT_VERSION: str = "disclosure-v1"          # five-part disclosure prompt (pipeline.agent.prompts)
+PROMPT_VERSION: str = "disclosure-v2"          # five-part disclosure prompt (pipeline.agent.prompts); v2 = multi-match schema (Phase 3)
 EXTRACTION_PROMPT_VERSION: str = "v1"          # legacy per-chunk extraction prompt (novel pass)
 LINK_PROMPT_VERSION: str = "link-v1"           # legacy Present/Different/Missing linking prompt
 METADATA_ENRICH_PROMPT_VERSION: str = "enrich-v1"  # optional LLM enrichment of Knowledge/SearchTerm
@@ -139,3 +139,76 @@ BASELINE_CHUNK_OVERLAP: int = 200
 RETRIEVAL_TOP_N: int = 5
 RETRIEVAL_TOP_K: int = 4
 LOGFRAME_BOOST: float = 0.05      # added to the vector score of logframe evidence before re-ranking
+
+# --------------------------------------------------------------------------- #
+# Phase 3 — LLM agent, pair selection, novel pass, runs, evaluation, review
+# --------------------------------------------------------------------------- #
+# Provider and model roles. The repository owner sets these (or the environment variables LLM_PROVIDER,
+# ANSWER_MODEL, STRONG_MODEL, EXTRACTION_MODEL, which take precedence). Providers: "openai" | "azure" | "ollama"
+# (local, OpenAI-compatible) | "mock" (tests only). An empty provider means "not configured": the CLI then
+# refuses every live call (docs/phase_3.md Section 2 and 3). Keys are read from the environment / .env at call
+# time only (pipeline.agent.llm); nothing here reads .env.
+LLM_PROVIDER: str = ""                                   # owner decision: which service may process ZOA documents
+ANSWER_MODEL: str = DEFAULT_MODEL_NAME                   # disclosure answering (default: the repository's existing default model)
+STRONG_MODEL: str = ""                                   # model comparison (owner fills in, e.g. "gpt-4o")
+EXTRACTION_MODEL: str = DEFAULT_MODEL_NAME               # novel-indicator pass (text sections, unmapped tables)
+AZURE_OPENAI_API_VERSION_DEFAULT: str = "2024-10-21"
+
+# Budget (enforced in code by pipeline.agent.llm.UsageTracker). Conservative defaults; the owner raises them.
+MAX_CALLS_PER_RUN: int = 1500
+MAX_COST_USD_PER_RUN: float = 5.0
+# USD per 1M tokens (prompt, completion). Unknown models are priced at the most expensive entry (fail safe).
+MODEL_PRICES_USD_PER_M: dict[str, tuple[float, float]] = {
+    "gpt-4o-mini": (0.15, 0.60),
+    "gpt-4o": (2.50, 10.00),
+    "gpt-4.1-mini": (0.40, 1.60),
+    "gpt-4.1-nano": (0.10, 0.40),
+    "gpt-4.1": (2.00, 8.00),
+    "o4-mini": (1.10, 4.40),
+    "llama3.2": (0.0, 0.0),          # local
+}
+UNKNOWN_MODEL_PRICE_USD_PER_M: tuple[float, float] = (2.50, 10.00)
+# Averages used for the pre-run estimate (pairs x average tokens); updated from the pilot in the run report.
+EST_PROMPT_TOKENS_PER_PAIR: int = 1800
+EST_COMPLETION_TOKENS_PER_PAIR: int = 220
+EST_PROMPT_TOKENS_PER_EXTRACTION: int = 1500
+EST_COMPLETION_TOKENS_PER_EXTRACTION: int = 500
+
+LLM_MAX_WORKERS: int = 4                # bounded concurrency
+LLM_RATE_LIMIT_PER_MIN: int = 120       # calls per minute across workers
+LLM_MAX_RETRIES: int = 3                # transport retries with exponential backoff
+LLM_TIMEOUT_S: float = 120.0
+LLM_MAX_COMPLETION_TOKENS: int = 1500
+
+AGENT_CACHE_DIR: Path = CACHE_DIR / "agent"              # one JSON per (doc sha, indicator, evidence fingerprint, prompt version, model)
+RUNS_DIR: Path = OUTPUTS_DIR / "runs"
+LATEST_DIR: Path = OUTPUTS_DIR / "latest"
+PILOT_SIZE: int = 5
+
+# Prompt / rubric versions (bump when wording changes; part of every cache key)
+RUBRIC_VERSION: str = "rubric-v1"
+RUBRIC_MD: Path = DOCS_DIR / "rubric.md"
+NOVEL_PROMPT_VERSION: str = "extract-v2"               # LLM extraction for logframe text sections / unmapped tables
+REVERSE_CHECK_PROMPT_VERSION: str = "reverse-v1"
+
+# Pair selection (docs/phase_3.md Task 4). Defaults apply when no verified gold exists.
+GATE_TOP_M: int = 60                    # always keep each document's top-M indicators by score
+GATE_TAU: float | None = None           # absolute threshold; None = the GATE_TAU_PERCENTILE-th percentile of all pair scores
+GATE_TAU_PERCENTILE: float = 90.0
+GATE_TARGET_RECALL: float = 0.95        # tuning target on the dev split
+ROUTE_SECTORS: bool = False             # sector routing off until evaluated
+SECTOR_ROUTE_TOP_N: int = 1             # a sector is "covered" when the mean of its top-N pair scores >= the sector threshold
+SECTOR_ROUTE_PERCENTILE: float = 75.0   # sector threshold = this percentile of all pair scores (independent of tau)
+INCLUDE_EXPORT_ONLY: bool = True        # ask export-only indicators (on_site = false) too; marked in the outputs
+
+# Post-validation of answers (guards against invented indicators)
+QUOTE_MATCH_THRESHOLD: int = 88         # rapidfuzz partial_ratio on normalised text (0-100)
+VERBATIM_SIMILARITY_WARN: int = 60      # verbatim matches below this token-set similarity to the IndiKit wording get needs_review
+LINK_TEXT_SIMILARITY: int = 80          # linking disclosure matches to extracted document indicators
+
+# Reverse check (Task 5C) and novel clustering (Task 6)
+REVERSE_CHECK_TOP: int = 10
+NOVEL_CLUSTER_THRESHOLD: float = 0.80   # cosine similarity for greedy clustering of novel indicators
+
+# Review workflow (Task 9)
+REVIEW_DECISIONS: tuple[str, ...] = ("accept", "change_to_verbatim", "change_to_close", "reject", "other_id")
