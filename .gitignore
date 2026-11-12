@@ -24,3 +24,6 @@ MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app/source/
 outputs/api_cache/
 outputs/kb/
 outputs/cache/
+
+# Editable-install metadata
+*.egg-info/
