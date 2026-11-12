@@ -1,8 +1,6 @@
 """extraction_utils is a thin shim over the pipeline package."""
 from __future__ import annotations
 
-import warnings
-
 import pytest
 
 
@@ -13,21 +11,23 @@ def test_package_imports_and_cli_lists_subcommands():
 
     assert cfg.REPO_ROOT.joinpath("pipeline").is_dir()
     help_text = build_parser().format_help()
-    for name in ("build-metadata", "validate-gold", "build-kb", "build-baseline-kb", "score-pairs", "retrieve", "kb-report", "query", "run-experiments"):
+    for name in ("build-metadata", "validate-gold", "build-kb", "build-baseline-kb", "score-pairs", "retrieve", "kb-report", "select-pairs", "estimate", "run", "answer", "novel-pass", "consolidate", "report", "experiments", "export-review", "import-review"):
         assert name in help_text
     assert pipeline.__doc__
 
 
-def test_phase_stubs_raise_not_implemented():
+def test_phase3_entry_points_exist_and_cli_refuses_live_calls_without_provider(monkeypatch, tmp_path):
+    from pipeline import config
     from pipeline.agent import answer, novel_pass
     from pipeline.run import main
 
-    with pytest.raises(NotImplementedError, match="Phase 3"):
-        answer.answer_indicator()
-    with pytest.raises(NotImplementedError, match="Phase 3"):
-        novel_pass.run_novel_pass()
-    with pytest.raises(NotImplementedError, match="Phase 3"):
-        main(["query"])
+    assert callable(answer.answer_pair) and answer.answer_indicator.__doc__ and callable(novel_pass.run_novel_pass)
+    monkeypatch.delenv("LLM_PROVIDER", raising=False)
+    monkeypatch.setattr(config, "LLM_PROVIDER", "")
+    with pytest.raises(SystemExit, match="LLM access is not configured"):
+        main(["run", "--pilot"])
+    with pytest.raises(SystemExit, match="LLM access is not configured"):
+        main(["experiments", "--allow-unverified", "--name", "benchmark"])
 
 
 def test_shim_reexports_and_forwards_settings():
@@ -48,18 +48,6 @@ def test_shim_reexports_and_forwards_settings():
         eu.does_not_exist
 
 
-def test_deprecated_matching_v1_warns_but_works():
-    import extraction_utils as eu
-
-    with pytest.warns(DeprecationWarning):
-        t = eu.THRESHOLDS
-    with pytest.warns(DeprecationWarning):
-        assert eu.classify_match_status(0.96, 92, t) == "exact"
-    with pytest.warns(DeprecationWarning):
-        assert eu._best_lexical_match("a b", ["a b", "c"])[0] == 0
-    with warnings.catch_warnings():
-        warnings.simplefilter("error")
-        eu.normalize_text_for_dedupe("x")  # non-deprecated helpers stay silent
 
 
 def test_load_reference_library_no_dummy_fallback(tmp_path):
@@ -67,6 +55,6 @@ def test_load_reference_library_no_dummy_fallback(tmp_path):
 
     with pytest.raises(FileNotFoundError, match="python -m pipeline.run build-metadata"):
         eu.load_reference_library(str(tmp_path / "missing.csv"))
-    with pytest.warns(DeprecationWarning):
-        with pytest.raises(FileNotFoundError):
-            eu.match_indicators_to_library([eu.Indicator(indicator_text="x")], str(tmp_path / "missing.csv"), embedding_model=None)
+    for name in ("match_indicators_to_library", "classify_match_status", "_best_lexical_match", "THRESHOLDS"):
+        with pytest.raises(AttributeError):
+            getattr(eu, name)

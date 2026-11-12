@@ -28,3 +28,9 @@ outputs/cache/
 # Editable-install metadata
 *.egg-info/
 outputs/kb_baseline/
+
+# Phase 3 run outputs, evaluation artefacts and the LLM response cache (never tracked)
+outputs/runs/
+outputs/latest/
+outputs/eval/
+outputs/cache/agent/
