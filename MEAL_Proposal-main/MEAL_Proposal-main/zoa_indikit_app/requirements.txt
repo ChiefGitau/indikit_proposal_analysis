@@ -1,8 +1,9 @@
 # Core — the app runs fully on these (semantic pages fall back to TF-IDF + PCA).
-streamlit>=1.36
+streamlit>=1.49        # pages use width="stretch" (added in 1.49)
 pandas
 plotly
 scikit-learn
+openpyxl               # Indicator Matching page: review.xlsx download
 # Site Comparison page: scrape the live IndiKit site (requests ships with the
 # stack; beautifulsoup4 parses the server-rendered HTML).
 requests

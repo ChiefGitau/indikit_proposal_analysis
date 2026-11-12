@@ -18,14 +18,38 @@ import numpy as np
 import streamlit as st
 
 EMB_PATH = Path(__file__).resolve().parent.parent / "data" / "embeddings.npy"
-DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+# Shared with the pipeline (pipeline/config.py KB_EMBEDDING_MODEL): the multilingual model, because the documents
+# and part of the IndiKit wording are French as well as English. The on-disk cache is keyed on this name.
+DEFAULT_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+# The pipeline's metadata file (one record per unique IndiKit ID, with Knowledge / SearchTerm extensions).
+METADATA_JSONL = None
+try:
+    from src.config import METADATA_JSONL  # noqa: F401
+except Exception:
+    pass
 
 
 @st.cache_resource
 def get_model(model_name: str = DEFAULT_MODEL):
-    from sentence_transformers import SentenceTransformer
+    """fastembed (ONNX, no PyTorch) first - the backend the pipeline uses - then sentence-transformers."""
+    try:
+        from fastembed import TextEmbedding
 
-    return SentenceTransformer(model_name)
+        class _Wrapped:
+            def __init__(self, name):
+                self._m = TextEmbedding(model_name=name)
+
+            def encode(self, texts, **kw):
+                vecs = np.asarray(list(self._m.embed(list(texts))), dtype=np.float32)
+                norms = np.linalg.norm(vecs, axis=1, keepdims=True)
+                norms[norms == 0] = 1.0
+                return vecs / norms
+
+        return _Wrapped(model_name)
+    except Exception:
+        from sentence_transformers import SentenceTransformer
+
+        return SentenceTransformer(model_name)
 
 
 def _tfidf(texts):
@@ -47,7 +71,7 @@ def embed_indicators(texts: tuple, model_name: str = DEFAULT_MODEL):
     if use_disk and EMB_PATH.exists():
         cached = np.load(EMB_PATH)
         if len(cached) == len(texts):
-            return cached, "sentence-transformers (cached)"
+            return cached, "embeddings (cached)"
 
     try:
         vecs = get_model(model_name).encode(
@@ -58,9 +82,9 @@ def embed_indicators(texts: tuple, model_name: str = DEFAULT_MODEL):
         )
         if use_disk:
             np.save(EMB_PATH, vecs)
-        return vecs, "sentence-transformers"
+        return vecs, DEFAULT_MODEL.split("/")[-1]
     except ImportError:
-        return _tfidf(texts), "TF-IDF (sentence-transformers not installed)"
+        return _tfidf(texts), "TF-IDF (fastembed / sentence-transformers not installed)"
 
 
 @st.cache_data(show_spinner="Projecting to 2D…")

@@ -15,10 +15,25 @@ DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "Export indikit.cs
 CATEGORICAL_COLS = ["Section", "Sector", "Sub-Sector", "Indicator Level"]
 
 
+def _resolve_pointer(csv_path: Path) -> Path:
+    """``data/Export indikit.csv`` in the app folder is a one-line pointer to the shared export under
+    ``data/indicators/``; follow it (relative to the pointer file) when the file is not a CSV itself."""
+    try:
+        if csv_path.exists() and csv_path.stat().st_size < 512:
+            text = csv_path.read_text(encoding="utf-8", errors="ignore").strip()
+            if text and "\n" not in text and "," not in text:
+                target = (csv_path.parent / text).resolve()
+                if target.exists():
+                    return target
+    except OSError:
+        pass
+    return csv_path
+
+
 @st.cache_data
 def load_indikit(path=None) -> pd.DataFrame:
     """Read the IndiKit export, drop empty trailing columns, normalise types."""
-    csv_path = Path(path) if path else DATA_PATH
+    csv_path = _resolve_pointer(Path(path) if path else DATA_PATH)
     df = pd.read_csv(csv_path, encoding="latin-1")
 
     df = df.loc[:, ~df.columns.str.startswith("Unnamed")]

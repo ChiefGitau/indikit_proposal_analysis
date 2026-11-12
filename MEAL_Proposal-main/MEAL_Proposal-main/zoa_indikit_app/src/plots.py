@@ -4,13 +4,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
-def africa_project_map(countries_df, sites_df, title="ZOA proposals across Africa"):
+def africa_project_map(countries_df, sites_df, title="ZOA proposals across Africa", scope="africa"):
     """Africa-only map: highlighted countries + hoverable project-site markers.
 
     ``countries_df`` — columns ``country`` (Natural-Earth name) and ``proposals``.
     ``sites_df``     — one row per site with ``lat``, ``lon``, ``site``, ``title``,
                        ``donor``, ``budget``, ``timeframe``, ``partners``,
-                       ``sector``, ``beneficiaries``.
+                       ``sector``, ``beneficiaries`` (may be empty).
+    ``scope``        — Plotly geo scope ("africa" or "world" when Asian countries are present).
     """
     fig = go.Figure()
 
@@ -69,7 +70,7 @@ def africa_project_map(countries_df, sites_df, title="ZOA proposals across Afric
         )
 
     fig.update_geos(
-        scope="africa",
+        scope=scope,
         showcountries=True,
         countrycolor="#cccccc",
         showland=True,

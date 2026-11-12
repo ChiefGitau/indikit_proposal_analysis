@@ -21,7 +21,8 @@ audiences:
 | 5 · Duplicates | Near-duplicate pairs above a similarity threshold, CSV export |
 | 6 · Data Quality | Missing values, level values, language coverage, URL check |
 | 7 · Analysis Log | Every section's collected tables + metrics, browse + export as one zip |
-| 8 · Proposal Overview | Per-proposal metadata + Africa map (dummy data for now) |
+| 8 · Proposal Overview | Per-document results of the indicator pipeline (`outputs/latest/document_summary.csv`) + map by country; falls back to the dummy proposals with a "demo data" banner when no run exists |
+| 10 · Indicator Matching | Per-document table *document indicator / IndiKit indicator (ID) / match* with evidence quotes and IndiKit links, coverage views (most-used / never-used indicators, sector x country), novel-indicator clusters, documents whose indicators are in another document, CSV / review.xlsx downloads |
 | 9 · Site Comparison | Scrapes the live IndiKit site (BeautifulSoup) and diffs it against the CSV: coverage (removed indicators), per-field text drift, and whether the site can fill the CSV's missing indicator levels |
 
 ### Analysis log
@@ -93,3 +94,10 @@ rm -f data/embeddings.npy
 
 (The Streamlit `@st.cache_data` loader cache also clears on a server restart or
 via the "Clear cache" item in the app's ☰ menu.)
+
+### Pipeline results (pages 8 and 10)
+
+Pages 8 and 10 read the CSV files written by the `proposal_investigated` pipeline into `outputs/latest/`
+(`python -m pipeline.run run --all --confirm-full-run`, then `export-review`). The location is resolved in
+`src/config.py` (three levels above this folder) and can be overridden with the environment variable
+`ZOA_PIPELINE_LATEST`. The app makes no LLM calls and needs none of the pipeline's optional dependencies.
