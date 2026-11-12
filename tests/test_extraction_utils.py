@@ -6,8 +6,6 @@ from extraction_utils import (
     is_table_like_text,
     deduplicate_indicators,
     Indicator,
-    classify_match_status,
-    THRESHOLDS,
 )
 
 
@@ -287,16 +285,7 @@ def test_llm_client_handles_bare_list_and_uses_json_mode(monkeypatch, tmp_path):
     assert out[0].doc_id == "d"
 
 
-def test_classify_match_status_thresholds():
-    t = THRESHOLDS
-    # exact
-    assert classify_match_status(0.96, 92, t) == "exact"
-    # close
-    assert classify_match_status(0.85, 50, t) == "close"
-    # related
-    assert classify_match_status(0.66, 10, t) == "related"
-    # novel
-    assert classify_match_status(0.5, 10, t) == "novel"
+
 
 
 def _reset_embedding_state():

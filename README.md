@@ -14,17 +14,18 @@ match. The method follows *ESGReveal* (Zou et al., 2023, arXiv:2312.17264), adap
 |---|---|---|---|
 | **Metadata** (paper 3.2) | `pipeline/metadata/` | every IndiKit indicator as `<Aspect, KPI, Topic, Quantity>` plus `<Knowledge>` and `<SearchTerm>`; `indikit_metadata.jsonl` | **Phase 1, done** |
 | **Preprocessing** (paper 3.3) | `pipeline/preprocess/` | layout-aware parsers (PDF, docx, xlsx), outline, logframe detection, reference detection, text / outline / table knowledge bases + vector index, plain-RAG baseline | **Phase 2, done** |
-| **LLM agent** (paper 3.4) | `pipeline/agent/` | retrieval + re-ranking (done in Phase 2), five-part prompt, `DisclosureAnswer` schema, novel-indicator pass | Phase 3 (answering loop and novel pass) |
-| **Evaluation** (paper 5.1) | `pipeline/eval/` | gold-set format + validator, metrics (Acc_DC, Acc_DE, precision/recall, match-type, reference detection), experiment runner | Phase 1 scaffold; experiments in Phase 3 |
+| **LLM agent** (paper 3.4) | `pipeline/agent/` | retrieval + re-ranking, provider layer with budget enforcement, five-part prompt, multi-match `DisclosureAnswer`, pair selection (gate + routing), novel-indicator pass, consolidation + reverse check, run outputs | **Phase 3, done** |
+| **Evaluation** (paper 5.1) | `pipeline/eval/` | gold-set format + validator, metrics (Acc_DC, Acc_DE, precision/recall, match-type, reference detection, novel P/R, extraction recall), experiments, error analysis | **Phase 3, done** (live experiments wait for verified gold) |
+| **Review** | `pipeline/review/` | export rows that need review to Excel, import decisions, propose overrides, export gold files | **Phase 3, done** |
 
 | Phase | Scope | Status |
 |---|---|---|
 | 1 — Foundation | repo clean-up, `pipeline/` skeleton, metadata module, evaluation scaffold | done (`docs/phase_1_report.md`) |
 | 2 — Preprocessing | parsers, outline, references, knowledge bases, retrieval, baseline index | done (`docs/phase_2_report.md`) |
-| 3 — Agent & evaluation | prompt + answering, novel pass, benchmark + ablations, full run, Streamlit | next |
+| 3 — Agent & evaluation | provider layer, answering, pair selection, novel pass, consolidation, evaluation, runs, review, Streamlit | done (`docs/phase_3_report.md`) |
 
-`extraction_utils.py` is now a thin compatibility shim over `pipeline/`; the notebook
-`proposal_indicator_analysis.ipynb` still runs the legacy extraction and (deprecated) matching v1.
+`extraction_utils.py` is a thin compatibility shim over `pipeline/` (the old fuzzy matcher was removed in Phase 3);
+`proposal_indicator_analysis.ipynb` is a thin walkthrough of the pipeline outputs (no LLM calls).
 
 ## Setup
 
@@ -32,8 +33,11 @@ match. The method follows *ESGReveal* (Zou et al., 2023, arXiv:2312.17264), adap
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .            # optional: lets `python -m pipeline.run` work from any directory
-cp .env.example .env        # then add your own OPENAI_API_KEY (only needed for LLM calls)
+cp .env.example .env        # then add your own key (only needed for LLM calls; see "Configuring the LLM")
 ```
+
+On this machine the project virtualenv is `.venv/` (fastembed / ONNX; PyTorch is not usable on the Intel-Mac build);
+the Streamlit app runs from the system Python which has `streamlit` installed.
 
 ## Commands
 
@@ -89,6 +93,72 @@ Known limitations: scanned PDF pages are only read with `--ocr` (needs `pytesser
 otherwise the document is marked `partial`); heavily merged or nested tables may lose cell alignment; PDF heading
 levels are inferred from font sizes and can nest wrongly; the language heuristic is stop-word based.
 
+## Phase 3 — LLM agent, runs, evaluation, review (end-to-end usage)
+
+```bash
+python -m pipeline.run build-metadata                       # 1. IndiKit metadata (351 records)
+python -m pipeline.run build-kb --all                        # 2. parse + index every document (incremental)
+python -m pipeline.run build-baseline-kb --all               #    plain-RAG index for the benchmark experiment
+python -m pipeline.run score-pairs --all --no-rerank         # 3. best score per document x indicator (gate input)
+python -m pipeline.run estimate --all                        # 4. pairs, calls, cost - no LLM call
+python -m pipeline.run select-pairs --pilot                  #    the gate for the 5 pilot documents (selected_pairs.csv + estimate)
+python -m pipeline.run run --pilot --copy-latest             # 5. pilot: answer -> novel pass -> consolidate -> reverse check -> outputs
+python -m pipeline.run run --all --confirm-full-run          # 6. full run (resumable with --run-id; stops cleanly at the budget)
+python -m pipeline.run report --doc "Annex C-Logical Framework"   # 7. one document's three-column table
+python -m pipeline.run export-review                         # 8. outputs/latest/review.xlsx for MEAL staff
+python -m pipeline.run import-review --file outputs/latest/review.xlsx --export-gold   # 9. apply decisions, propose overrides, grow the gold set
+python -m pipeline.run experiments --split dev               # 10. benchmark / ablations / models / gate / reverse check (needs verified gold)
+cd MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app && streamlit run app.py      # 11. pages 8 and 10 show outputs/latest
+```
+
+Step-only commands: `answer` (disclosure step of a run), `novel-pass [--no-llm]`, `consolidate`. Every `run`
+prints the estimate first and refuses to start when it exceeds `MAX_CALLS_PER_RUN` / `MAX_COST_USD_PER_RUN`.
+
+### Configuring the LLM (owner decision)
+
+Nothing calls a model until `LLM_PROVIDER` is set, in `pipeline/config.py` or the environment / `.env`:
+
+| Setting | Where | Meaning |
+|---|---|---|
+| `LLM_PROVIDER` | config / env | `openai`, `azure` (Azure OpenAI) or `ollama` (local, OpenAI-compatible). Empty = no live calls. |
+| `OPENAI_API_KEY` / `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_API_VERSION` | `.env` only | read at call time, never logged or cached |
+| `ANSWER_MODEL`, `STRONG_MODEL`, `EXTRACTION_MODEL` | config / env | model roles (Azure: deployment names); `STRONG_MODEL` only for the model comparison |
+| `MAX_CALLS_PER_RUN`, `MAX_COST_USD_PER_RUN`, `MODEL_PRICES_USD_PER_M` | config | enforced in code (`UsageTracker`); unknown models are priced at the most expensive entry |
+| `LLM_MAX_WORKERS`, `LLM_RATE_LIMIT_PER_MIN` | config | bounded concurrency and rate limiting |
+| `GATE_TAU` / `GATE_TAU_PERCENTILE`, `GATE_TOP_M`, `ROUTE_SECTORS`, `INCLUDE_EXPORT_ONLY` | config / flags | pair selection |
+
+Answers are cached under `outputs/cache/agent/` keyed by (document SHA-256, IndiKit ID, evidence fingerprint,
+prompt version, rubric version, model); `--force` ignores the cache. Runs live under `outputs/runs/<run_id>/`
+(`selected_pairs.csv`, `answers.jsonl`, `usage.json`, `docs/*.json`, the output CSVs, `run_report.md`); a confirmed
+full run is copied to `outputs/latest/`.
+
+### Adding gold documents
+
+Label a document in the Phase 1 format (`pipeline/eval/gold/README.md`): one `<doc_id>.csv` with every document
+indicator (IndiKit ID + match type, or `none`) and a line in `index.csv` with `verified=true` once a second MEAL
+colleague has checked it, `split=dev` (tuning allowed) or `test` (held out). `python -m pipeline.run validate-gold`
+checks the files. `import-review --export-gold` writes gold files from reviewed pipeline output.
+
+### Reading the outputs
+
+| File | One row per | Use |
+|---|---|---|
+| `document_indicators.csv` | document indicator | the main table: wording, level, baseline, target, `match_type` (verbatim / close / none), `indikit_id`, alternates, source (disclosure / reverse_check / extraction), evidence quote, `needs_review` |
+| `disclosure_matrix.csv` | document x present IndiKit indicator | the paper's disclosure matrix |
+| `novel_indicators.csv` | document indicator without IndiKit match | nearest IndiKit indicators and cluster id |
+| `document_summary.csv` | document | counts, % matched, `note` = "indicators are in another document: ..." |
+| `portfolio_summary.md` + `portfolio_*.csv` | - | totals, by country, by sector, most / never used, novel clusters |
+| `run_report.md` | - | config fingerprint, versions, counts, tokens, cost, runtime, extrapolation |
+
+### Limitations
+
+- No verified gold labels exist yet, so no accuracy figure has been measured; the experiments run as soon as
+  `index.csv` has `verified=true` rows (unverified labels only with `--allow-unverified`, watermarked).
+- The retrieval gate uses vector scores (the re-ranked pair scores take ~1 h on CPU); its defaults (p90, M = 60)
+  were not tuned.
+- The reverse check and the LLM extraction of text-only logframes cost extra calls (~1 per novel candidate / section).
+- Scanned PDFs need `--ocr`; nine documents are `partial`.
+
 ## Data sources and their quirks
 
 All raw IndiKit files live under `MEAL_Proposal-main/MEAL_Proposal-main/` and are read-only; derived files go
@@ -109,12 +179,12 @@ to `pipeline/metadata/` and `outputs/`.
 ## Repository layout
 
 ```
-pipeline/            config.py, models.py, run.py (CLI), metadata/, preprocess/, agent/, eval/
-docs/                plan.md (ESGReveal transformation plan), phase_1.md (brief), phase_1_report.md,
-                     plan_v1_roadmap.md, archive/plan_2026-08/ (earlier plans)
+pipeline/            config.py, models.py, run.py (CLI), metadata/, preprocess/, agent/, eval/, review/
+docs/                plan.md (ESGReveal transformation plan), method.md (how the code maps to the paper), rubric.md,
+                     phase_{1,2,3}.md (briefs), phase_{1,3}_report.md, plan_v1_roadmap.md, archive/plan_2026-08/
 tests/               pytest suites (conftest blocks network access)
 proposals/           115 project documents (75 docx, 33 pdf, 7 xlsx)
-outputs/             api_cache/ (legacy cache), kb/ and kb_baseline/ (Phase 2, git-ignored), metadata/, figures/, result CSVs
+outputs/             api_cache/ (legacy cache), kb/, kb_baseline/, cache/agent/, runs/, latest/, eval/ (all git-ignored), metadata/, figures/
 extraction_utils.py  compatibility shim re-exporting the moved functions
 ```
 

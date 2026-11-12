@@ -18,7 +18,8 @@ and ``monkeypatch.setattr(extraction_utils, "CACHE_DIR", ...)`` still take effec
 What stays here (legacy, replaced in later phases):
 - the simple docx/PDF parsers (Phase 2 replaces them with layout-aware parsers);
 - the IndiKit CSV -> reference_library.csv converter and ``load_reference_library``;
-- matching v1 (``match_indicators_to_library`` and friends) - **deprecated**, replaced by the agent;
+- matching v1 (``match_indicators_to_library``, ``classify_match_status``, ``_best_lexical_match``, ``THRESHOLDS``)
+  was **removed in Phase 3**; the LLM agent (``pipeline.agent``) replaces it;
 - the embedding shortlist + LLM linking v2 (``shortlist_reference_candidates``,
   ``link_indicator_to_reference``) - retired by the Phase 3 agent, kept for the notebook.
 """
@@ -89,42 +90,6 @@ _FORWARDED = frozenset(
         "_call_llm_with_retries",
     }
 )
-
-# Deprecated matching-v1 thresholds. Accessing ``THRESHOLDS`` warns (see module __getattr__).
-_THRESHOLDS = {
-    "exact_embedding": 0.95,
-    "exact_lexical": 90,
-    "close_embedding": 0.80,
-    "related_embedding": 0.65,
-}
-
-_DEPRECATION_MSG = (
-    "{name} belongs to the retired matching v1 (fuzzy + embedding thresholds). "
-    "It is replaced by the Phase 3 LLM agent (pipeline.agent); see docs/plan.md Section 5."
-)
-
-
-def _deprecated(name: str) -> None:
-    warnings.warn(_DEPRECATION_MSG.format(name=name), DeprecationWarning, stacklevel=3)
-
-
-# ------------------ Deprecated matching v1 ------------------
-
-def classify_match_status(embedding_score: float, lexical_score: float, thresholds: Optional[Dict] = None) -> str:
-    """Deprecated. Classify a combined match status per the v1 thresholds.
-
-    lexical_score is 0-100; embedding_score is 0-1
-    """
-    _deprecated("classify_match_status")
-    thresholds = thresholds or _THRESHOLDS
-    if embedding_score >= thresholds["exact_embedding"] and lexical_score >= thresholds["exact_lexical"]:
-        return "exact"
-    if embedding_score >= thresholds["close_embedding"]:
-        return "close"
-    if embedding_score >= thresholds["related_embedding"]:
-        return "related"
-    return "novel"
-
 
 # ------------------ Deterministic parse helpers (replaced in Phase 2) ------------------
 
@@ -318,21 +283,6 @@ def load_reference_library(path: str):
     return df, False
 
 
-def _best_lexical_match(query: str, choices: List[str]) -> Tuple[int, int]:
-    """Deprecated (matching v1)."""
-    _deprecated("_best_lexical_match")
-    if fuzz is None:
-        raise RuntimeError("rapidfuzz is required for lexical matching")
-    best_score = -1
-    best_idx = -1
-    for idx, choice in enumerate(choices):
-        score = fuzz.token_sort_ratio(query, choice)
-        if score > best_score:
-            best_score = score
-            best_idx = idx
-    return best_idx, best_score
-
-
 # Embedding backends, tried in order. fastembed runs the same MiniLM model through ONNX Runtime and needs
 # no PyTorch, which matters on Intel Macs where PyTorch stopped at 2.2.2 (incompatible with numpy 2 and
 # transformers 5). sentence-transformers is kept as a fallback for machines where PyTorch works.
@@ -412,83 +362,6 @@ def _best_embedding_matches(query_embeddings, reference_embeddings):
     scores = reference_embeddings.dot(query.T).flatten().tolist()
     best_idx = int(max(range(len(scores)), key=lambda i: scores[i])) if scores else -1
     return best_idx, float(scores[best_idx]) if best_idx >= 0 else 0.0
-
-
-def match_indicators_to_library(indicators: List[Indicator], reference_path: str, embedding_model: Optional[str] = _config.EMBEDDING_MODEL):
-    """Deprecated (matching v1): best lexical + embedding match per indicator with threshold classes.
-
-    Returns ``(DataFrame, False)``. The second element used to flag the dummy library, which was removed;
-    a missing reference file now raises FileNotFoundError.
-    """
-    _deprecated("match_indicators_to_library")
-    try:
-        import pandas as pd
-    except Exception as exc:
-        raise RuntimeError("pandas is required for matching indicators") from exc
-
-    reference_df, dummy_library = load_reference_library(reference_path)
-    ref_texts = reference_df["indicator_text"].astype(str).tolist()
-    match_rows = []
-
-    if not indicators:
-        return pd.DataFrame(match_rows), dummy_library
-
-    extracted_texts = [ind.indicator_text for ind in indicators]
-
-    # Lexical matches (always available)
-    with warnings.catch_warnings():
-        warnings.simplefilter("ignore", DeprecationWarning)
-        lex_results = [_best_lexical_match(q, ref_texts) for q in extracted_texts]
-
-    # Embedding matches (optional)
-    use_embeddings = bool(embedding_model)
-    ref_embeddings = None
-    query_embeddings = None
-    if use_embeddings:
-        try:
-            ref_embeddings = _compute_embeddings(ref_texts, embedding_model)
-            query_embeddings = _compute_embeddings(extracted_texts, embedding_model)
-        except Exception as exc:
-            # If embeddings fail, fall back to lexical-only, but say so loudly
-            print(f"WARNING: embedding similarity unavailable ({type(exc).__name__}: {exc}). Falling back to lexical matching only.")
-            use_embeddings = False
-            ref_embeddings = None
-            query_embeddings = None
-
-    for idx, ind in enumerate(indicators):
-        lex_idx, lex_score = lex_results[idx]
-        emb_idx, emb_score = -1, 0.0
-        if use_embeddings and query_embeddings is not None and ref_embeddings is not None:
-            emb_idx, emb_score = _best_embedding_matches(query_embeddings[idx], ref_embeddings)
-        ref_lex = reference_df.iloc[lex_idx] if lex_idx >= 0 else None
-        ref_emb = reference_df.iloc[emb_idx] if emb_idx >= 0 else None
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore", DeprecationWarning)
-            status = classify_match_status(emb_score, lex_score)
-        match_rows.append(
-            {
-                "doc_id": ind.doc_id,
-                "indicator_text": ind.indicator_text,
-                "level": ind.level,
-                "baseline": ind.baseline,
-                "target": ind.target,
-                "means_of_verification": ind.means_of_verification,
-                "sector": ind.sector,
-                "disaggregation": ind.disaggregation,
-                "unit_or_type": ind.unit_or_type,
-                "source_confidence": ind.source_confidence,
-                "reference_id_lexical": ref_lex["indicator_id"] if ref_lex is not None else "",
-                "reference_text_lexical": ref_lex["indicator_text"] if ref_lex is not None else "",
-                "lexical_score": lex_score,
-                "reference_id_embedding": ref_emb["indicator_id"] if ref_emb is not None else "",
-                "reference_text_embedding": ref_emb["indicator_text"] if ref_emb is not None else "",
-                "embedding_score": emb_score,
-                "match_status": status,
-                "dummy_library": dummy_library,
-            }
-        )
-
-    return pd.DataFrame(match_rows), dummy_library
 
 
 # ------------------ Linking v2: embedding shortlist + LLM judgement (retired by the Phase 3 agent) ------------------
@@ -647,14 +520,11 @@ def link_indicator_to_reference(
 # ------------------ Attribute forwarding (keeps old notebook code and tests working) ------------------
 
 class _ShimModule(types.ModuleType):
-    """Module type that forwards the runtime settings to ``pipeline.agent.answer`` and warns on THRESHOLDS."""
+    """Module type that forwards the runtime settings to ``pipeline.agent.answer``."""
 
     def __getattr__(self, name: str):  # only called when normal lookup fails
         if name in _FORWARDED:
             return getattr(_answer, name)
-        if name == "THRESHOLDS":
-            _deprecated("THRESHOLDS")
-            return _THRESHOLDS
         raise AttributeError(f"module 'extraction_utils' has no attribute '{name}'")
 
     def __setattr__(self, name: str, value) -> None:
