@@ -133,12 +133,10 @@ def test_pairs_from_gold_rows():
 
 
 def test_run_experiments_stub_and_results_writer(tmp_path):
-    assert EXPERIMENTS == ("benchmark", "enhanced_rag", "plus_knowledge", "plus_search_term", "model_comparison", "gate_sensitivity")
-    with pytest.raises(NotImplementedError, match="Phase 3"):
-        run_experiment("benchmark")
+    assert EXPERIMENTS == ("benchmark", "enhanced_rag", "plus_knowledge", "plus_search_term", "model_comparison", "gate_sensitivity", "reverse_check_value")
     with pytest.raises(ValueError):
-        run_experiment("nope")
-    path = write_results_table([{"experiment": "benchmark", "model": "m", "split": "test", "acc_dc": 0.5781, "extra": "ignored"}], tmp_path / "results.csv")
-    assert path.read_text().splitlines()[1].startswith("benchmark,m,test,0.5781,")
+        run_experiment("nope", runner_factory=None, gold_docs=[], metadata={}, doc_id_map={})
+    path = write_results_table([{"experiment": "benchmark", "model": "m", "split": "test", "n_documents": 9, "acc_dc": 0.5781, "extra": "ignored"}], tmp_path / "results.csv")
+    assert path.read_text().splitlines()[1].startswith("benchmark,m,test,9,,,0.578,")
     md = (tmp_path / "results.md").read_text()
-    assert "| benchmark | m | test | 0.578 |" in md
+    assert "| Benchmark (basic RAG) | test | 9 | 0.578 |" in md

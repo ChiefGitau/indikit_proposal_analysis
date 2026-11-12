@@ -202,9 +202,24 @@ def _norm_doc_name(name: Optional[str]) -> Optional[str]:
     return s or None
 
 
+_ANNEX_ID_RE = re.compile(r"\b(?:annexe?|appendix|attachment)\s*(?:n[o°]\s*)?([a-z0-9]{1,3})\b")
+
+
+def doc_names_match(predicted: Optional[str], gold: Optional[str]) -> bool:
+    """Same document name after normalisation: equal, one contains the other, or the same annex identifier
+    ("Annex C - Logical Framework" ~ "Annex C (indicator")."""
+    a, b = _norm_doc_name(predicted), _norm_doc_name(gold)
+    if not a or not b:
+        return False
+    if a == b or a in b or b in a:
+        return True
+    ia, ib = _ANNEX_ID_RE.search(a), _ANNEX_ID_RE.search(b)
+    return bool(ia and ib and ia.group(1) == ib.group(1))
+
+
 def reference_detection_accuracy(gold: list[ReferenceLabel], predictions: list[ReferencePrediction]) -> float:
     """Over gold documents that reference another document: share where the prediction names the same document
-    (case / punctuation insensitive). ``nan`` when no gold document has a reference."""
+    (case / punctuation insensitive; containment or the same annex letter counts). ``nan`` when no gold document has a reference."""
     with_ref = [g for g in gold if g.referenced_document]
     if not with_ref:
         return math.nan
@@ -212,7 +227,7 @@ def reference_detection_accuracy(gold: list[ReferenceLabel], predictions: list[R
     correct = 0
     for g in with_ref:
         p = by_doc.get(g.doc_id)
-        if p is not None and _norm_doc_name(p.referenced_document) == _norm_doc_name(g.referenced_document):
+        if p is not None and doc_names_match(p.referenced_document, g.referenced_document):
             correct += 1
     return correct / len(with_ref)
 
