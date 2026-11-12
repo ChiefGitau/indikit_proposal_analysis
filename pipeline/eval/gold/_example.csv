@@ -1,0 +1,5 @@
+doc_indicator_id,indicator_text,level,baseline,target,unit,location,indikit_id,match_type
+D01,% of households with handwashing facilities with soap and water at home,outcome,12%,60%,%,Annex 1 logframe p.2,5138,verbatim
+D02,Proportion of target households reporting acceptable food consumption (FCS > 35),outcome,40,75,%,Section 4.2 table,5620,close
+D03,Number of VSLA groups established and supported,output,0,25,number,Annex 1 logframe p.3,,none
+D04,Fictional example: % of community wells with free residual chlorine >= 0.2 mg/l,output,,90%,%,Annex 1 logframe p.2,5330,close
