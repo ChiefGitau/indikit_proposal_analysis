@@ -1,0 +1,25 @@
+# Manual overrides for the metadata extensions (docs/phase_1.md Task 4.3).
+# Applied last; they always win over the deterministic baseline and the optional LLM enrichment.
+#
+#   "<indikit_id>":
+#     name: <must match the built record's name, else the entry is skipped and reported>
+#     knowledge: <optional replacement text>
+#     search_terms_add: [ ... ]
+#     search_terms_remove: [ ... ]
+#
+# Seed entries: donor-code examples (BHA WASH/Shelter codes, EU phrasings) so the mechanism is exercised.
+"5138":
+  name: Handwashing Facilities With Soap and Water
+  search_terms_add: ["W8", "handwashing station", "soap and water"]
+"5330":
+  name: Drinking Water Quality (residual chlorine)
+  search_terms_add: ["W35", "free residual chlorine", "FRC"]
+"5639":
+  name: Total CVA Value Distributed
+  search_terms_add: ["K1", "total USD value of cash transferred"]
+"5620":
+  name: Food Consumption Score
+  search_terms_add: ["FCS", "FCS > 35", "acceptable food consumption"]
+"5889":
+  name: "PIP: % of households who are implementing their PIP plans"
+  search_terms_add: ["PIP plan", "plan intégré du paysan", "integrated farm plan"]
