@@ -1,0 +1,304 @@
+zoa_title,zoa_sector,match_title,match_site,match_sector,similarity,mutual
+Food Consumption Score,Food Security,Food Consumption Score,adra,ACCESS TO FOOD INDICATORS,1.0,True
+Access to Bathing Facilities,Sanitation,Access to Bathing Facilities,adra,Water Indicators,1.0,True
+Access to Excreta Disposal Facilities,Sanitation,Access to Excreta Disposal Facilities,adra,Sanitation Indicators,1.0,True
+Prevention of Groundwater Contamination by Faeces,Water,Prevention of Groundwater Contamination by Faeces,adra,Sanitation Indicators,1.0,True
+Solid Waste Management,Sanitation,Solid Waste Management,adra,Solid Waste Management Indicators,1.0,True
+Access to Hygiene Items,Hygiene,Access to Hygiene Items,www,Hygiene Indicators,1.0,True
+Access to Adequate Shelter,Shelter,Access to Adequate Shelter,www,Shelter and NFI,1.0,True
+Use of Cash/ Materials for Shelter (Re)Construction,Shelter,Use of Cash/ Materials for Shelter (Re)Construction,www,Shelter and NFI,1.0,True
+Local Participation in Shelter Construction,Shelter and mainstreaming,Local Participation in Shelter Construction,irw,Shelter and NFI,1.0,True
+Household Average Income,Income and Employment,Household Average Income,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Household Expenditure,Income and Employment,Household Expenditure,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Household Consumption,Food Security,Household Consumption,adra,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Income from Employment,Income and Employment,Income from Employment,adra,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Income of Supported Businesses,Income and Employment,Income of Supported Businesses,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Savings - Existence and Levels,Income and Employment,Savings - Existence and Levels,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Indebtedness - Existence and Levels,Income and Employment,Indebtedness - Existence and Levels,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Awareness of the Causes and Prevention of Diarrhoea,Water,Awareness of the Causes and Prevention of Diarrhoea,irw,Diarrhoea Indicators,1.0,True
+Awareness of Where to Access Service,Market Development,Awareness of Where to Access Service,www,Agricultural Extension Indicators,1.0,True
+Use of Promoted Products / Services,Market Development,Use of Promoted Products / Services,www,Agricultural Extension Indicators,1.0,True
+Diversity of Products Sold,Market Development,Diversity of Products Sold,www,Market Supply-Related Indicators,1.0,True
+Quality of Provided Services,Market Development,Quality of Provided Services,www,Agricultural Extension Indicators,1.0,True
+Customer Satisfaction,Market Development,Customer Satisfaction,adra,Market Demand-Related Indicators,1.0,True
+Number of Clients Served,Market Development,Number of Clients Served,www,Market Supply-Related Indicators,1.0,True
+Number of Products Sold,Income and Employment,Number of Products Sold,www,Market Supply-Related Indicators,1.0,True
+Generation of Employment Opportunities,Income and Employment,Generation of Employment Opportunities,irw,Restored livelihoods,1.0,True
+Use of Improved Sanitation Facility,Sanitation,Use of Improved Sanitation Facility,adra,Sanitation Indicators,1.0,True
+Access to Sanitation Facilities at Institutions,Sanitation,Access to Sanitation Facilities at Institutions,adra,Sanitation Indicators,1.0,True
+Disposal of Child Faeces,Sanitation,Disposal of Child Faeces,adra,Sanitation Indicators,1.0,True
+Maintenance of Sanitation Facilities,Sanitation,Maintenance of Sanitation Facilities,www,Sanitation Indicators,1.0,True
+Replication of Model Latrines,Sanitation,Replication of Model Latrines,www,Sanitation Indicators,1.0,True
+Number of Selling Points,Market Development,Number of Selling Points,www,Climate-Smart Energy Indicators,1.0,True
+Number of Service Providers,Market Development,Number of Service Providers,www,Market Supply-Related Indicators,1.0,True
+Awareness of Where to Purchase Product,Market Development,Awareness of Where to Purchase Product,www,Market Demand-Related Indicators,1.0,True
+Access to Labour Market Information,Income and Employment,Access to Labour Market Information,www,Quality and Relevance of Vocational Education,1.0,True
+Adequate School Infrastructure,Shelter,Adequate School Infrastructure,irw,Global Results Framework,1.0,True
+Number of Cash for Work Projects,Process & quality management,Number of Cash for Work Projects,www,Results Indicators,1.0,True
+Perception of WASH Needs,Water,Perception of WASH Needs,adra,Hygiene Indicators,1.0,True
+WASH Services in Facilities,Water,WASH Services in Facilities,www,Composite WASH Indicators,1.0,True
+Safe and Dignified Shelters,Shelter,Safe and Dignified Shelters,adra,Shelter and NFI,1.0,True
+Employment of Vulnerable Persons,"Skills, Training and Employability",Employment of Vulnerable Persons,adra,EMPLOYMENT-RELATED INDICATORS,1.0,True
+VET Quality Standards,"Skills, Training and Employability",VET Quality Standards,adra,Quality and Relevance of Vocational Education,1.0,True
+Market-Relevant Curriculum,"Skills, Training and Employability",Market-Relevant Curriculum,adra,Quality and Relevance of Vocational Education,1.0,True
+Successfully Trained Teachers/ Trainers,"Skills, Training and Employability",Successfully Trained Teachers/ Trainers,www,Quality and Relevance of Vocational Education,1.0,True
+Adequate Vocational Education Training Facilities,"Skills, Training and Employability",Adequate Vocational Education Training Facilities,www,Quality and Relevance of Vocational Education,1.0,True
+Trainee-Trainer Ratio,"Skills, Training and Employability",Trainee-Trainer Ratio,www,Quality and Relevance of Vocational Education,1.0,True
+Participation in Work-Based Learning,Income and Employment,Participation in Work-Based Learning,www,Placement and Employment,1.0,True
+VET Providers Offering Internships,"Skills, Training and Employability",VET Providers Offering Internships,www,Placement and Employment,1.0,True
+Employment of Vocational Education Training Completers,"Skills, Training and Employability",Employment of Vocational Education Training Completers,www,Placement and Employment,1.0,True
+Access to Public Infrastructure / Services,Shelter,Access to Public Infrastructure / Services,www,Risk Reduction and Resilience Outcomes,1.0,True
+Shelter Protection,Shelter and mainstreaming,Shelter Protection,adra,DRR and Resilience,1.0,True
+Natural Resource Management,Integrated Water Resources Management,Natural Resource Management,adra,DRR and Resilience,1.0,True
+Enrolment in Vocational Education Training,"Skills, Training and Employability",Enrolment in Vocational Education Training,www,Participation and Completion,1.0,True
+Dropout Rate in Vocational Education Training,"Skills, Training and Employability",Dropout Rate in Vocational Education Training,www,Participation and Completion,1.0,True
+Completion Rate in Vocational Education Training,"Skills, Training and Employability",Completion Rate in Vocational Education Training,www,Participation and Completion,1.0,True
+Participation of Vulnerable Groups,"Skills, Training and Employability",Participation of Vulnerable Groups,adra,Participation and Completion,1.0,True
+Achievement of Vocational Education Training Competency Standards,"Skills, Training and Employability",Achievement of Vocational Education Training Competency Standards,www,Quality and Relevance of Vocational Education,1.0,True
+Access to Non-Food Items,Shelter,Access to Non-Food Items,www,Shelter and NFI,1.0,True
+Beneficiaries' Satisfaction,Shelter and mainstreaming,Beneficiaries' Satisfaction,adra,Quality Management Indicators,1.0,True
+Vulnerability and Capacity Assessment,"Skills, Training and Employability",Vulnerability and Capacity Assessment,adra,DRR and Resilience,1.0,True
+Community-Led Disaster Risk Management,Shelter and Disaster Risk Reduction,Community-Led Disaster Risk Management,www,Community-Level Disaster Preparedness,1.0,True
+Disaster Preparedness Plan - Implementation,Shelter and Disaster Risk Reduction,Disaster Preparedness Plan - Implementation,www,Community-Level Disaster Preparedness,1.0,True
+Self-Help Groups - Functionality,"Community Engagement, Participation & Advocacy",Self-Help Groups - Functionality,adra,DRR and Resilience,1.0,True
+Self-Help Groups - Coverage,"Community Engagement, Participation & Advocacy",Self-Help Groups - Coverage,adra,Social Protection and Inclusion,1.0,True
+Adoption of Environmental Protection Practices,Environment,Adoption of Environmental Protection Practices,www,Environmental Mainstreaming in Operations,1.0,True
+Use of Environmental Assessment Recommendations,Agriculture and Natural Resource Management,Use of Environmental Assessment Recommendations,adra,Environmental Mainstreaming in Project Activities,1.0,True
+Energy-Saving Measures,Environment,Energy-Saving Measures,www,Environmental Mainstreaming in Project Activities,1.0,True
+Fuel-Efficient Cooking Practices,Shelter and environment,Fuel-Efficient Cooking Practices,www,Sustainable Consumption and Production Indicators,1.0,True
+Water-Saving Measures,Water,Water-Saving Measures,www,Access to Water Indicators,1.0,True
+Knowledge / Skills for Protecting Environment,Environment,Knowledge / Skills for Protecting Environment,www,Capacities for Environmental Mainstreaming,1.0,True
+Livelihood Coping Strategy Index,Food Security,Livelihood Coping Strategy Index,adra,DRR and Resilience,1.0,True
+Staff Understanding of Mainstreaming Social Inclusion,"Staff Attitudes, Perceptions and Knowledge",Staff Understanding of Mainstreaming Social Inclusion,www,Social Inclusion Mainstreaming,1.0,True
+Implementation of Social Inclusion Mainstreaming Measures,"Gender, Age and Social Inclusion Mainstreaming",Implementation of Social Inclusion Mainstreaming Measures,www,Social Inclusion Mainstreaming,1.0,True
+People Benefiting,"Community Engagement, Participation & Advocacy",People Benefiting,www,Results of Advocacy Strategies,1.0,True
+Adopted Recommendations,"Community Engagement, Participation & Advocacy",Adopted Recommendations,www,Results of Advocacy Strategies,1.0,True
+Budgetary Commitment,"Community Engagement, Participation & Advocacy",Budgetary Commitment,www,Results of Advocacy Strategies,1.0,True
+Engagement with Decision Makers,"Community Engagement, Participation & Advocacy",Engagement with Decision Makers,www,Stakeholders' Engagement in Advocacy,1.0,True
+People Reached,"Community Engagement, Participation & Advocacy",People Reached,www,Stakeholders' Engagement in Advocacy,1.0,True
+Policy / Public Events,"Community Engagement, Participation & Advocacy",Policy / Public Events,www,Stakeholders' Engagement in Advocacy,1.0,True
+Accessing a Service,"Community Engagement, Participation & Advocacy",Accessing a Service,www,Ensuring Participation,1.0,True
+Key Barriers to Participation,"Gender, Age and Social Inclusion Mainstreaming",Key Barriers to Participation,www,Social Inclusion Mainstreaming,1.0,True
+Use of Gender and Age Analysis,"Gender, Age and Social Inclusion Mainstreaming",Use of Gender and Age Analysis,www,Programme Indicators,1.0,True
+Implementation of Gender and Age Mainstreaming Measures,"Gender, Age and Social Inclusion Mainstreaming",Implementation of Gender and Age Mainstreaming Measures,www,Programme Indicators,1.0,True
+Perception of Equal Opportunities,"Gender, Age and Social Inclusion Mainstreaming",Perception of Equal Opportunities,www,Programme Indicators,1.0,True
+Decisions About Assistance Provided,"Gender, Age and Social Inclusion Mainstreaming",Decisions About Assistance Provided,www,Programme Indicators,1.0,True
+Understanding of Gender and Age Mainstreaming,"Staff Attitudes, Perceptions and Knowledge",Understanding of Gender and Age Mainstreaming,www,Organizational Indicators,1.0,True
+Supportive Attitudes of Staff,"Staff Attitudes, Perceptions and Knowledge",Supportive Attitudes of Staff,www,Organizational Indicators,1.0,True
+Understanding of Protection Mainstreaming,"Staff Attitudes, Perceptions and Knowledge",Understanding of Protection Mainstreaming,www,Protection Mainstreaming,1.0,True
+Implementation of Risk Mitigation Measures,Shelter and Disaster Risk Reduction,Implementation of Risk Mitigation Measures,www,Protection Mainstreaming,1.0,True
+Assistance Delivery,"Gender, Age and Social Inclusion Mainstreaming",Assistance Delivery,www,Post-Distribution Monitoring (PDM) Markers,1.0,True
+Engagement in Identifying Needs and Solutions,"Community Engagement, Participation & Advocacy",Engagement in Identifying Needs and Solutions,www,Engaging People,1.0,True
+Sharing Data with Communities,"Community Engagement, Participation & Advocacy",Sharing Data with Communities,www,Engaging People,1.0,True
+Awareness of How to Participate in Activities,"Community Engagement, Participation & Advocacy",Awareness of How to Participate in Activities,www,Ensuring Participation,1.0,True
+Active Participation in Activities,"Community Engagement, Participation & Advocacy",Active Participation in Activities,www,Ensuring Participation,1.0,True
+Awareness of How to Access a Service,Market Development,Awareness of How to Access a Service,www,Ensuring Participation,1.0,True
+Production of Nutrient-Rich Crops,Food Security,Production of Nutrient-Rich Crops,www,Crop and Livestock Production Indicators,1.0,True
+Household Hunger Score,Food Security,Household Hunger Score,adra,ACCESS TO FOOD INDICATORS,1.0,True
+Household Food Insecurity Access Scale,Food Security,Household Food Insecurity Access Scale,adra,Nutrition-Sensitive Agriculture Indicators,1.0,True
+Living Below the Poverty Line,Income and Employment,Living Below the Poverty Line,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Drinking Water Quality (residual chlorine),Water,Drinking Water Quality (residual chlorine),www,Water Quality Indicators,1.0,True
+Water Access Safety,Water,Water Access Safety,adra,Water Indicators,1.0,True
+Distance to Water Source,Water,Distance to Water Source,www,Access to Water Indicators,1.0,True
+Soil Quality,Agriculture and Natural Resource Management,Soil Quality,www,Natural Resources Management (NRM) Indicators,1.0,True
+Sales to New Markets,Market Development,Sales to New Markets,www,Agricultural Marketing Indicators,1.0,True
+Area of Degraded Land Under Sustainable Management,Integrated Water Resources Management,Area of Degraded Land Under Sustainable Management,adra,Natural Resources Management (NRM) Indicators,1.0,True
+Extent of Soil Erosion,Integrated Water Resources Management,Extent of Soil Erosion,www,Natural Resources Management (NRM) Indicators,1.0,True
+Adequate WASH Services and Hygiene Practices,Water,Adequate WASH Services and Hygiene Practices,www,Composite WASH Indicators,1.0,True
+"Drinking Water Quality (fecal contamination, household level)",Water,"Drinking Water Quality (fecal contamination, household level)",adra,Water Indicators,1.0,True
+Access to Shelter,Shelter,Access to Shelter,www,Shelter and NFI,1.0,True
+Shelters with Hazard Mitigation Measures,Shelter and Disaster Risk Reduction,Shelters with Hazard Mitigation Measures,www,Shelter and NFI,1.0,True
+Reported Crop Yield Per Unit,Agriculture and Natural Resource Management,Reported Crop Yield Per Unit,www,Crop and Livestock Production Indicators,1.0,True
+Agricultural Productivity,Agriculture and Natural Resource Management,Agricultural Productivity,www,Crop and Livestock Production Indicators,1.0,True
+Production Losses,Agriculture and Natural Resource Management,Production Losses,www,Crop and Livestock Production Indicators,1.0,True
+Storage-Related Post-Harvest Losses,Agriculture and Natural Resource Management,Storage-Related Post-Harvest Losses,www,Crop and Livestock Production Indicators,1.0,True
+Animal Mortality,Agriculture and Natural Resource Management,Animal Mortality,www,Crop and Livestock Production Indicators,1.0,True
+Acquired Knowledge / Skills,"Skills, Training and Employability",Acquired Knowledge / Skills,adra,Capacities for Effective Advocacy,1.0,True
+Testing of Promoted Practices,Integrated Water Resources Management,Testing of Promoted Practices,www,Natural Resources Management (NRM) Indicators,1.0,True
+Awareness of Rights,Social Inclusion and Protection,Awareness of Rights,www,Social Protection and Inclusion,1.0,True
+Attitudes Towards Marginalized Groups,Social Inclusion and Protection,Attitudes Towards Marginalized Groups,www,Social Protection and Inclusion,1.0,True
+Perceived Access to Basic Services,Social Inclusion and Protection,Perceived Access to Basic Services,www,Social Protection and Inclusion,1.0,True
+Farm Diversity Score,Agriculture and Natural Resource Management,Farm Diversity Score,whh,Agriculture and NRM,1.0,True
+Crop Production,Agriculture and Natural Resource Management,Crop Production,www,Crop and Livestock Production Indicators,1.0,True
+Animal Raising,Agriculture and Natural Resource Management,Animal Raising,www,Crop and Livestock Production Indicators,1.0,True
+Cropping Area,Agriculture and Natural Resource Management,Cropping Area,www,Crop and Livestock Production Indicators,1.0,True
+Reported Agricultural Output,Agriculture and Natural Resource Management,Reported Agricultural Output,www,Crop and Livestock Production Indicators,1.0,True
+Value of Loans Accessed,Income and Employment,Value of Loans Accessed,adra,Market Demand-Related Indicators,1.0,True
+Amount of Production,Agriculture and Natural Resource Management,Amount of Production,www,Market Supply-Related Indicators,1.0,True
+Sales Revenue,Market Development,Sales Revenue,adra,Market Supply-Related Indicators,1.0,True
+Stock Availability,Market Development,Stock Availability,www,Market Supply-Related Indicators,1.0,True
+Local Availability of Products / Services,Market Development,Local Availability of Products / Services,www,Climate-Smart Energy Indicators,1.0,True
+Number of Jobs Created,Income and Employment,Number of Jobs Created,adra,EMPLOYMENT-RELATED INDICATORS,1.0,True
+Cost-Effectiveness of Jobs Creation,"Skills, Training and Employability",Cost-Effectiveness of Jobs Creation,www,EMPLOYMENT-RELATED INDICATORS,1.0,True
+Women in Management,Market Development,Women in Management,www,EMPLOYMENT-RELATED INDICATORS,1.0,True
+Unmet Demand,Process & quality management,Unmet Demand,www,Post-Distribution Monitoring (PDM) Markers,1.0,True
+Women’s Economic Decision-Making,Income and Employment,Women’s Economic Decision-Making,www,Market Demand-Related Indicators,1.0,True
+Use of Financial Products / Services,Market Development,Use of Financial Products / Services,www,Market Demand-Related Indicators,1.0,True
+Attitudes Towards Women’s Economic Participation,Gender Equality,Attitudes Towards Women’s Economic Participation,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Attitudes Towards Women’s Political Participation,Gender Equality,Attitudes Towards Women’s Political Participation,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Women’s Participation in Community Groups,Gender Equality,Women’s Participation in Community Groups,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Women’s Representation in Community Groups’ Management,Gender Equality,Women’s Representation in Community Groups’ Management,irw,CCCM,1.0,True
+Number of Households Supported to Meet Basic Needs,Process & quality management,Number of Households Supported to Meet Basic Needs,adra,Results Indicators,1.0,True
+Delivery Mechanism Performance,Process & quality management,Delivery Mechanism Performance,www,Post-Distribution Monitoring (PDM) Markers,1.0,True
+Saving Groups – Average Savings,Income and Employment,Saving Groups – Average Savings,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Saving and Loan Groups – Total Value of Provided Loans,Income and Employment,Saving and Loan Groups – Total Value of Provided Loans,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Favourable Attitude,"Community Engagement, Participation & Advocacy",Favourable Attitude,www,Social and Behaviour Change,1.0,True
+Gender-Segregated Sanitation Facilities in Schools,Sanitation,Gender-Segregated Sanitation Facilities in Schools,www,Sanitation Indicators,1.0,True
+Increased Income,Income and Employment,Increased Income,www,INCOME AND ASSETS-RELATED INDICATORS,1.0,True
+Environmentally-Friendly Energy Technologies,Environment,Environmentally-Friendly Energy Technologies,www,Natural Resources Management (NRM) Indicators,1.0,True
+Household Decision-Making Index,Gender Equality,Household Decision-Making Index,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Women’s Autonomy Index,Gender Equality,Women’s Autonomy Index,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Awareness of Promoted Practices,"Community Engagement, Participation & Advocacy",Awareness of Promoted Practices,irw,Global Results Framework,1.0,True
+Perceived Effectiveness,"Community Engagement, Participation & Advocacy",Perceived Effectiveness,www,Landscape Management Indicators,1.0,True
+Area of Land Under Improved Management,Agriculture and Natural Resource Management,Area of Land Under Improved Management,adra,Landscape Management Indicators,1.0,True
+Fulfilment of Landscape Management Plans,Integrated Water Resources Management,Fulfilment of Landscape Management Plans,www,Natural Resources Management (NRM) Indicators,1.0,True
+Proportion of Surviving Seedlings,Agriculture and Natural Resource Management,Proportion of Surviving Seedlings,www,Landscape Management Indicators,1.0,True
+Safe Solid Waste Disposal,Sanitation,Safe Solid Waste Disposal,www,Waste Management Indicators,1.0,True
+Coverage of Solid Waste Management System,Sanitation,Coverage of Solid Waste Management System,www,Pollution Management Indicators,1.0,True
+Operation of the Community Feedback and Response Mechanism,Process & quality management,Operation of the Community Feedback and Response Mechanism,www,Community Feedback,1.0,True
+Awareness of Climate-Smart Energy Technologies,Environment,Awareness of Climate-Smart Energy Technologies,www,Climate-Smart Energy Indicators,1.0,True
+Awareness of How to Access Promoted Energy Technologies,Environment,Awareness of How to Access Promoted Energy Technologies,www,Climate-Smart Energy Indicators,1.0,True
+Use of Eco-Friendly Practices / Products,Agriculture and Natural Resource Management,Use of Eco-Friendly Practices / Products,www,Sustainable Consumption and Production Indicators,1.0,True
+Protection of Services / Infrastructure Against Hazards,Shelter and Disaster Risk Reduction,Protection of Services / Infrastructure Against Hazards,adra,Climate Resilience and Adaptation Indicators,1.0,True
+Reduced Vulnerability,Shelter and mainstreaming,Reduced Vulnerability,www,Risk Reduction and Resilience Outcomes,1.0,True
+Diversified Income,Income and Employment,Diversified Income,adra,Climate Resilience and Adaptation Indicators,1.0,True
+Survival Rate,Agriculture and Natural Resource Management,Survival Rate,www,Business Development Indicators,1.0,True
+Return on Investment,Market Development,Return on Investment,www,Business Development Indicators,1.0,True
+Adoption of the Promoted Management Practices,"Community Engagement, Participation & Advocacy",Adoption of the Promoted Management Practices,www,Business Development Indicators,1.0,True
+Adoption of the Promoted Technologies,"Community Engagement, Participation & Advocacy",Adoption of the Promoted Technologies,www,Business Development Indicators,1.0,True
+Marketing Practices Leading to Higher Sales,Market Development,Marketing Practices Leading to Higher Sales,adra,Business Development Indicators,1.0,True
+Investments into Promoted Business Practices / Models,Market Development,Investments into Promoted Business Practices / Models,www,Business Development Indicators,1.0,True
+Expected Sustainability of Supported Businesses,Market Development,Expected Sustainability of Supported Businesses,www,Business Development Indicators,1.0,True
+Awareness of Community Feedback and Response Mechanism,Process & quality management,Awareness of Community Feedback and Response Mechanism,www,Community Feedback,1.0,True
+Employers’ Use of Job Matching Services,"Skills, Training and Employability",Employers’ Use of Job Matching Services,www,Placement and Employment,1.0,True
+Job Seekers’ Awareness of Job Matching Services,"Skills, Training and Employability",Job Seekers’ Awareness of Job Matching Services,www,Placement and Employment,1.0,True
+Job Seekers’ Use of Job Matching Services,"Skills, Training and Employability",Job Seekers’ Use of Job Matching Services,www,Placement and Employment,1.0,True
+Labour Safety,Income and Employment,Labour Safety,www,EMPLOYMENT-RELATED INDICATORS,1.0,True
+Security of Employment,Income and Employment,Security of Employment,www,EMPLOYMENT-RELATED INDICATORS,1.0,True
+Attitudes Towards Gender Equality,Gender Equality,Attitudes Towards Gender Equality,www,Gender Equality & Women Empowerment Indicators,1.0,True
+Public-Private Platforms,"Community Engagement, Participation & Advocacy",Public-Private Platforms,www,Business Environment Indicators,1.0,True
+Adoption of Business Environment Changes,Market Development,Adoption of Business Environment Changes,www,Business Environment Indicators,1.0,True
+Sexual Violence Against Women,Gender-Based Violence,Sexual Violence Against Women,www,Gender-Based Violence Indicators,1.0,True
+Physical Violence Against Women,Gender-Based Violence,Physical Violence Against Women,www,Gender-Based Violence Indicators,1.0,True
+Acceptability of Gender-Based Violence,Gender-Based Violence,Acceptability of Gender-Based Violence,www,Gender-Based Violence Indicators,1.0,True
+Acquired Knowledge / Skills,Shelter and mainstreaming,Acquired Knowledge / Skills,adra,Capacities for Effective Advocacy,1.0,False
+Water Affordability,Water,Water Affordability,www,Access to Water Indicators,1.0,True
+Hand Washing Knowledge,Hygiene,Hand Washing Knowledge,www,Hygiene Indicators,1.0,True
+Hand Washing Practice,Hygiene,Hand Washing Practice,www,Hygiene Indicators,1.0,True
+Availability of Soap,Hygiene,Availability of Soap,adra,Hygiene Indicators,1.0,True
+Handwashing Facilities With Soap and Water,Water,Handwashing Facilities With Soap and Water,adra,Hygiene Indicators,1.0,True
+WASH Promoters' Knowledge and Skills,Water,WASH Promoters' Knowledge and Skills,www,Water Quality Indicators,1.0,True
+Hygiene Education at Schools,Hygiene,Hygiene Education at Schools,www,Hygiene Indicators,1.0,True
+Adequate Menstrual Hygiene Facilities,Hygiene,Adequate Menstrual Hygiene Facilities,adra,Hygiene Indicators,1.0,True
+"Drinking Water Quality (fecal contamination, water point level)",Water,"Drinking Water Quality (fecal contamination, water point level)",www,Water Quality Indicators,1.0,True
+Treatment of Drinking Water,Water,Treatment of Drinking Water,www,Water Quality Indicators,1.0,True
+Safe Water Storage,Water,Safe Water Storage,www,Water Quality Indicators,1.0,True
+Water Source Functionality,Water,Water Source Functionality,www,Water Source Management Indicators,1.0,True
+Duration of Water Source Functionality,Water,Duration of Water Source Functionality,adra,Water Indicators,1.0,True
+Water Source Repairs,Water,Water Source Repairs,adra,Water Indicators,1.0,True
+Functionality of the Water Management Groups,Water,Functionality of the Water Management Groups,www,Water Source Management Indicators,1.0,True
+Water Source Users' Satisfaction,Water,Water Source Users' Satisfaction,adra,Water Indicators,1.0,True
+Appropriate Treatment of Diarrhoea - Fluids,Hygiene,Appropriate Treatment of Diarrhoea - Fluids,www,Child Diarrhoea Indicators,1.0,True
+Appropriate Treatment of Diarrhoea - Food,Hygiene,Appropriate Treatment of Diarrhoea - Food,www,Child Diarrhoea Indicators,1.0,True
+Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,Hygiene,Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,adra,Child Diarrhoea Indicators,1.0,True
+Access to Drinking Water,Water,Access to Drinking Water,adra,Water Indicators,1.0,True
+Access to Water at Institutions,Water,Access to Water at Institutions,adra,Water Indicators,1.0,True
+Average Queuing Time at a Water Point,Water,Average Queuing Time at a Water Point,adra,Water Indicators,1.0,True
+Number of People per Water Point,Water,Number of People per Water Point,adra,Water Indicators,1.0,True
+Water Quantity,Water,Water Quantity,www,Access to Water Indicators,1.0,True
+Individual Dietary Diversity Score,Food Security,Individual Dietary Diversity Score,www,Adult Dietary Diversity Indicators,1.0,True
+Household Dietary Diversity Score,Food Security,Household Dietary Diversity Score,adra,Crop and Livestock Production Indicators,1.0,True
+Months of Adequate Household Food Provisioning,Food Security,Months of Adequate Household Food Provisioning,adra,Nutrition-Sensitive Agriculture Indicators,1.0,True
+Awareness of Appropriate Diet,Food Security,Awareness of Appropriate Diet,www,Nutrition-Sensitive Agriculture Indicators,1.0,True
+Prevalence of Diarrhoea Among Children,Hygiene,Prevalence of Diarrhoea Among Children,www,Child Diarrhoea Indicators,1.0,True
+Appropriate Treatment of Diarrhoea - ORS,Hygiene,Appropriate Treatment of Diarrhoea - ORS,www,Child Diarrhoea Indicators,1.0,True
+Life Skills Learning,"Skills, Training and Employability",Life Skills Learning,irw,Student Learning Outcomes Indicators,0.999,True
+Adoption of Promoted Practices (1),Agriculture and Natural Resource Management,Adoption of Promoted Practices,whh,Agriculture and NRM,0.997,True
+Adoption of Promoted Practices (2),Integrated Water Resources Management,Adoption of Promoted Practices,www,Landscape Management Indicators,0.995,True
+Ease of Use,Process & quality management,Ease of Use,adra,Quality Management Indicators,0.969,True
+Food Insecurity Experience Scale (FIES),Food Security,Food Insecurity Experience Scale (FIES),irw,Global Results Framework,0.968,True
+FSL: Coping Strategy Index,Sector specific results of CVA,Coping Strategy Index,adra,ACCESS TO FOOD INDICATORS,0.961,True
+Incurred Travel Costs,Process & quality management,Incurred Travel Costs,www,Post-Distribution Monitoring (PDM) Markers,0.961,True
+FSL: Reduced Coping Strategy Index,Sector specific results of CVA,Reduced Coping Strategy Index,adra,Results Indicators,0.954,True
+Access to Markets,Process & quality management,Access to Markets,www,Post-Distribution Monitoring (PDM) Markers,0.949,True
+CVA-related Conflicts / Tensions,Process & quality management,CBA-related Conflicts / Tensions,adra,Quality Management Indicators,0.945,True
+Livelihood Coping Strategies Indicator for Essential Needs,Multisectoral results related to CVA,Livelihood Coping Strategies – Essential Needs (LCS-EN),www,Results Indicators,0.938,True
+FSL: Food Consumption Score,Sector specific results of CVA,Food Consumption Score,adra,ACCESS TO FOOD INDICATORS,0.931,False
+Trust,Social cohesion and trust,V6: Trust,tearfund,Gender-based violence (GBV) and psychosocial support (PSS),0.923,True
+Perception of Disaster Preparedness,Project level indicators,Perception of Disaster Preparedness,www,"Knowledge, Perceptions and Adoption",0.918,True
+Absence of Tensions or Conflicts due to Assistance Provided,Project level indicators,Absence of Tensions or Conflicts,www,Protection Mainstreaming,0.918,True
+Area of Land Under Improved Management,Project level indicators,Area of Land Under Improved Management,www,Landscape Management Indicators,0.911,False
+Knowledge / Skills for Protecting Environment,Project level indicators,Knowledge / Skills for Protecting Environment,www,Capacities for Environmental Mainstreaming,0.891,False
+Awareness of Cash & Voucher Assistance Programme,Process & quality management,Awareness of Cash-Based Assistance Programme,adra,Quality Management Indicators,0.882,True
+Climate Risk Perception,Project level indicators,Risk Perception,adra,DRR and Resilience,0.873,True
+Adoption of Environmental Protection Practices,Project level indicators,Adoption of Environmental Protection Practices,www,Environmental Mainstreaming in Operations,0.872,False
+Adoption of Promoted Adaptation Measures,Project level indicators,Adoption of Promoted Adaptation Measures,adra,Climate Resilience and Adaptation Indicators,0.864,True
+Access to Justice,Peacebuilding - General,Use of Conflict Resolution Services,irw,Global Results Framework,0.863,True
+Acquired Knowledge / Skills,Project level indicators,Acquired Knowledge / Skills,whh,Food Security,0.859,False
+Awareness of Available Support for GBV survivors,Gender-Based Violence,Awareness of Available Support,www,Gender-Based Violence Indicators,0.852,True
+Decision-Making Power,Process & quality management,Decision-Making Power,adra,Quality Management Indicators,0.832,True
+Amount of Greenhouse Gas Emissions Saved,Project level indicators,Amount of Greenhouse Gas Emissions Saved,www,Environmental Mainstreaming in Project Activities,0.828,True
+Amount of Resources Saved,Project level indicators,Amount of Resources Saved,www,Environmental Mainstreaming in Project Activities,0.826,True
+Basic Needs (Alternative),Multisectoral results related to CVA,Perceived Ability to Meet Basic Needs,tearfund,Disaster Response,0.811,True
+Awareness of Promoted Practices,Project level indicators,Awareness of Promoted Practices,irw,Global Results Framework,0.801,False
+Protection Mainstreaming,Process & quality management,Mainstreaming Protection in Assistance Delivery,whh,Protection Mainstreaming,0.789,False
+Climate Resilience in Evaluations,Organisational level indicators,Implementation of climate resilience projects,tearfund,Environment and Climate Change,0.767,True
+Basic Needs,Multisectoral results related to CVA,Perceived Ability to Meet Basic Needs,tearfund,Disaster Response,0.763,False
+Shelter: Use of Quality Shelter,Sector specific results of CVA,Adequate Shelter - Safety,irw,Global Results Framework,0.749,True
+Acute malnutrition,Food Security,Malnutrition recovery,savethechildren,Other Strategy Indicators,0.747,True
+WASH: Sanitation,Sector specific results of CVA,Water - HH collect from improved source,tearfund,"Water, sanitation and hygiene (WASH)",0.74,True
+Women's Decision Making: Women's Involvement,Multisectoral results related to CVA,Decision-Making Power,www,Post-Distribution Monitoring (PDM) Markers,0.738,True
+Trust in formal/informal justice provider,Community based conflict prevention and resolution,V6: Trust,tearfund,Gender-based violence (GBV) and psychosocial support (PSS),0.725,False
+Women's Decision Making: Frequency of Involvement,Multisectoral results related to CVA,Decision-Making Power,www,Post-Distribution Monitoring (PDM) Markers,0.724,False
+WASH: Water supply,Sector specific results of CVA,Water - HH collect from improved source,tearfund,"Water, sanitation and hygiene (WASH)",0.719,False
+Satisfaction with Conflict Resolution,Community based conflict prevention and resolution,Satisfaction with Community Conflict Resolution Mechanisms,irw,Global Results Framework,0.716,True
+Timely Delivery of Cash,Process & quality management,Delivery Mechanism Performance,www,Post-Distribution Monitoring (PDM) Markers,0.715,False
+Well-Being Questionnaire (SRQ 20),Social cohesion and trust,Improved subjective wellbeing (MHPSS),savethechildren,Improved mental health and/or psychosocial wellbeing (MHPSS),0.712,True
+Indicator 10b from the results framework water (IGG-DGIS),Integrated Water Resources Management,WFC 1.5 People benefiting from integrated water resources management,helvetas,People,0.708,True
+Adoption of Promoted Practices,Project level indicators,Adoption of Environmental Protection Practices,www,Environmental Mainstreaming in Operations,0.704,False
+Shelter: Winterproof Shelter,Sector specific results of CVA,Thermal Comfort,www,Shelter and NFI,0.699,True
+Indicator 10a from the results framework water (IGG-DGIS),Integrated Water Resources Management,WFC 1.5 People benefiting from integrated water resources management,helvetas,People,0.693,False
+Household food production,Food Security,Reported Agricultural Output,whh,Agriculture and NRM,0.679,False
+Education: School Attendance,Sector specific results of CVA,Net Attendance Rate,www,Access and Learning Environment,0.674,True
+Climate risk integration,Project level indicators,Implementation of climate resilience projects,tearfund,Environment and Climate Change,0.674,False
+WASH: Hygiene,Sector specific results of CVA,Handwashing Facilities With Soap and Water,www,Hygiene Indicators,0.662,False
+Indicator 8 from the results framework water (IGG-DGIS),Integrated Water Resources Management,WFC 1.5 People benefiting from integrated water resources management,helvetas,People,0.661,False
+"Use of a Gender, Inclusion or Power Analysis",Organisational level indicators,Use of Gender and Age Analysis,www,Programme Indicators,0.659,False
+Prevalence of Land Disputes,Land Rights,Use of Conflict Resolution Services,irw,Global Results Framework,0.656,False
+Education: Enrolment,Sector specific results of CVA,Enrolment,www,Access and Learning Environment,0.649,True
+Problems with Receiving CVA,Process & quality management,Ease of Use,adra,Quality Management Indicators,0.645,False
+Indicator 7 from the results framework water (IGG-DGIS),Integrated Water Resources Management,WFC 1.5 People benefiting from integrated water resources management,helvetas,People,0.642,False
+People's Perception of Security,Peacebuilding - General,Number of People Receiving Social Protection Services,irw,Social Protection and Inclusion,0.639,True
+Perception of Social Cohesion and Trust,Social cohesion and trust,V6: Trust,tearfund,Gender-based violence (GBV) and psychosocial support (PSS),0.639,False
+Cash Spending,Income and Employment,Use of Improved Sanitation Facility,adra,Sanitation Indicators,0.637,False
+Received Correct Amount of CVA,Process & quality management,Delivery Mechanism Performance,www,Post-Distribution Monitoring (PDM) Markers,0.635,False
+EST Utilisation,Project level indicators,Use of Environmental Assessment Recommendations,adra,Environmental Mainstreaming in Project Activities,0.633,False
+Expenditure (2),Multisectoral results related to CVA,Number of Households Supported to Meet Basic Needs,adra,Results Indicators,0.627,False
+Shelter: Non-Food Items,Sector specific results of CVA,Access to Non-Food Items (NFIs),tearfund,Disaster Response,0.623,False
+Shelter: Financial Access,Sector specific results of CVA,# of households received emergency shelter support,savethechildren,Output Indicators,0.621,True
+Conflicts Addressed and Resolved by Different Actors,Community based conflict prevention and resolution,Perception of Community Conflict Resolution Mechanisms,irw,Global Results Framework,0.615,False
+Use of EST tool,Organisational level indicators,Implementation of climate resilience projects,tearfund,Environment and Climate Change,0.612,False
+Perceived Community Cohesion,Social cohesion and trust,VIC 3.3 Improvement in social cohesion,helvetas,People,0.611,True
+Prevalence of Conflicts,Peacebuilding - General,VIC 3.5 People take action to prevent conflicts,helvetas,People,0.606,True
+GCT Increased Capacity to Plan and Implement,Group cash transfers,Consultations with Communities,www,Protection Mainstreaming,0.599,False
+Performance of Land Administration Services,Land Rights,Satisfaction with Local Authorities' Services,www,Policy and Institutional Capacity,0.587,False
+Land Conflict Resolution Rate through ADR,Land Rights,Use of Conflict Resolution Services,irw,Global Results Framework,0.586,False
+Local Involvement in Project Design,Organisational level indicators,Engagement with Decision Makers,www,Stakeholders' Engagement in Advocacy,0.585,False
+GCT Process - Protection Mainstreaming,Group cash transfers,Safety Around Assistance Delivery,tearfund,Gender-based violence (GBV) and psychosocial support (PSS),0.585,False
+Cash Directly Received by Local Groups,Organisational level indicators,Participatory Spending,adra,Good Governance,0.581,True
+Expenditure (1),Multisectoral results related to CVA,Number of Households Supported to Meet Basic Needs,adra,Results Indicators,0.581,False
+GDI in Evaluations,Organisational level indicators,Gender Ratio in Activities,www,Programme Indicators,0.58,False
+Group Cash Transfer: Increased Resilience,Multisectoral results related to CVA,Number of SHG (or VSLA) CREATED,tearfund,Livelihoods & Agriculture,0.572,False
+GCT Use,Group cash transfers,Delivery Mechanism Performance,www,Post-Distribution Monitoring (PDM) Markers,0.571,False
+Sense of Community,Social cohesion and trust,Participation in Community Decisions,whh,Civil Society,0.569,False
+GCT Group Strengthening,Group cash transfers,Satisfaction with Provided Assistance,www,Community Feedback,0.568,False
+% of Country Budget to Local Partners,Organisational level indicators,Participatory Spending,adra,Good Governance,0.556,False
+Projects with a Peace/Conflict Indicator,Organisational level indicators,People Benefiting,www,Results of Advocacy Strategies,0.553,False
+Land Tenure Security (Legal Documentation and Perception),Land Rights,Security of Employment,www,EMPLOYMENT-RELATED INDICATORS,0.549,False
+Total CVA Value Distributed,Process & quality management,Total amount (in US dollars) disbursed in the form of cash or vouchers,savethechildren,Other Strategy Indicators,0.518,False
+Peace Nexus in Evaluations,Organisational level indicators,People Benefiting,www,Results of Advocacy Strategies,0.51,False
+Total GCT Amount Distributed,Group cash transfers,Saving and Loan Groups – Total Value of Provided Loans,www,INCOME AND ASSETS-RELATED INDICATORS,0.501,False
+Violent Deaths per 100.000 People,Peacebuilding - General,Number of Affected People,adra,DRR and Resilience,0.493,False
+Number of GCT Workshop Participants,Group cash transfers,Number of Community Dialogue Participants,tearfund,Gender-based violence (GBV) and psychosocial support (PSS),0.489,False
+Women's Land Rights on Issued Land Certificates or Title Deeds,Land Rights,Assets Control Score,irw,Reduced Poverty,0.481,False
+Number of Land Certificates or Title Deeds Issued,Land Rights,Protection of Public Infrastructure,adra,DRR and Resilience,0.467,False

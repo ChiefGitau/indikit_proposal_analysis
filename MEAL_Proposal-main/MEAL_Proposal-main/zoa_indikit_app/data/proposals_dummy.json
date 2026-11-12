@@ -1,0 +1,87 @@
+[
+  {
+    "id": "COD21264",
+    "title": "Transition for Inclusive Development in Eastern DRC (TRIDE)",
+    "donor": "Embassy of the Kingdom of the Netherlands (Kigali)",
+    "sector": "Food Security & IWRM / Livelihoods",
+    "summary": "Five-year transition programme in eastern DRC strengthening inclusive economic development for smallholder farmers, market actors and public authorities through integrated water resource management and food security.",
+    "partners": "ZOA Great Lakes Program (consortium)",
+    "timeframe": "2021–2025",
+    "budget": "—",
+    "beneficiaries": "Smallholder farmers, market actors, public authorities",
+    "source_file": "COD21264 FS-IWRM_full proposal_final.pdf",
+    "countries": ["Democratic Republic of the Congo"],
+    "sites": [
+      {"name": "South Kivu, Eastern DRC", "lat": -2.49, "lon": 28.85}
+    ]
+  },
+  {
+    "id": "ETH-GMILL",
+    "title": "Grinding Mill business development — Itang & Terkidi refugee camp, Gambella",
+    "donor": "ZOA (private / institutional — NL)",
+    "sector": "Livelihoods & Food Security",
+    "summary": "Strengthen the livelihoods and self-reliance of refugees and host communities in Itang woreda, Gambella, by developing grinding-mill businesses.",
+    "partners": "ZBA Ethiopia",
+    "timeframe": "Oct 2022 – Sep 2024",
+    "budget": "€145,000",
+    "beneficiaries": "300 direct · 45,800 total (refugees + host community)",
+    "source_file": "Grinding Mill Development Proposal.docx",
+    "countries": ["Ethiopia"],
+    "sites": [
+      {"name": "Itang Special Woreda, Gambella", "lat": 8.21, "lon": 34.27}
+    ]
+  },
+  {
+    "id": "COD2501",
+    "title": "Emergency WASH and Cash support for war-affected populations",
+    "donor": "Humanitarian pooled fund (cluster)",
+    "sector": "WASH & Multi-Purpose Cash",
+    "summary": "Three-month emergency response delivering multi-purpose cash assistance and improved access to drinking water and hygiene for conflict-affected populations around Goma, North Kivu.",
+    "partners": "Local partner: AVUDS",
+    "timeframe": "Apr 2025 – Jul 2025",
+    "budget": "USD 300,000",
+    "beneficiaries": "800 households (cash) · 5,000 households / 30,000 people (water)",
+    "source_file": "Projet Assistance ZOA AVUDS Goma_Project Proposal in English.docx",
+    "countries": ["Democratic Republic of the Congo"],
+    "sites": [
+      {"name": "Goma, North Kivu", "lat": -1.68, "lon": 29.22}
+    ]
+  },
+  {
+    "id": "ETH-TIGRAY-BHA",
+    "title": "Lifesaving Emergency Shelter/NFI and WASH assistance for IDPs in Tigray",
+    "donor": "USAID — Bureau for Humanitarian Assistance (BHA)",
+    "sector": "Shelter & Settlements / WASH",
+    "summary": "Nine-month emergency intervention addressing the basic needs of conflict-induced IDPs and host communities in Tigray through integrated, gender-sensitive shelter, NFI and WASH assistance.",
+    "partners": "Stichting ZOA",
+    "timeframe": "Aug 2021 – May 2022 (9 months)",
+    "budget": "USD 2,700,000",
+    "beneficiaries": "63,000 targeted · 56,700 IDPs",
+    "source_file": "ZOA Revised Proposal Tigray Emergency Response 2021-07-27, BHA.pdf",
+    "countries": ["Ethiopia"],
+    "sites": [
+      {"name": "Shire / Adigrat, Tigray", "lat": 14.10, "lon": 38.28}
+    ]
+  },
+  {
+    "id": "WAA-POV",
+    "title": "We are able! — Co-creating inclusive governance for access to basic resources",
+    "donor": "Dutch Ministry of Foreign Affairs (Power of Voices)",
+    "sector": "Inclusive Governance / Food Security / Advocacy",
+    "summary": "Multi-country civil-society programme co-creating inclusive governance for access to basic resources, leaving no one behind — with a focus on persons with disabilities and food security.",
+    "partners": "Power of Voices Partnership (consortium)",
+    "timeframe": "2021–2025",
+    "budget": "—",
+    "beneficiaries": "Persons with disabilities, women, IDPs, ultra-poor, youth",
+    "source_file": "ZOA-we-are-able-full-proposal-v6.pdf",
+    "countries": ["Burundi", "Democratic Republic of the Congo", "Ethiopia", "South Sudan", "Sudan", "Uganda"],
+    "sites": [
+      {"name": "Makamba & Cibitoke, Burundi", "lat": -4.13, "lon": 29.81},
+      {"name": "Eastern DRC", "lat": -2.00, "lon": 28.90},
+      {"name": "Oromia / Addis Abeba, Ethiopia", "lat": 9.03, "lon": 38.74},
+      {"name": "Jonglei State, South Sudan", "lat": 6.21, "lon": 31.56},
+      {"name": "Gedaref State, Sudan", "lat": 14.04, "lon": 35.38},
+      {"name": "West-Nile & Acholi, Uganda", "lat": 3.02, "lon": 30.91}
+    ]
+  }
+]

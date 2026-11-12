@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.DS_Store
+.idea/
+
+# Archives (MEAL_Proposal-main.zip stays on disk, not in git)
+*.zip
+
+# Virtual environments (two were committed inside the IndiKit app folder)
+.venv/
+venv/
+MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app/&&/
+MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app/source/
+
+# Generated caches and knowledge bases
+outputs/api_cache/
+outputs/kb/
+outputs/cache/

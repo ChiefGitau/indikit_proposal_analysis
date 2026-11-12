@@ -1,0 +1,40 @@
+
+PROPOSAL INDICATOR LINKING SUMMARY
+═══════════════════════════════════
+
+Overall Statistics:
+  Total proposals analyzed: 75
+  Total indicators extracted: 988
+
+Linking Results:
+  Present (matched to ZOA): 204 (20.6%)
+  Different (similar but adapted): 158 (16.0%)
+  Missing (no ZOA equivalent): 606 (61.3%)
+
+Average Confidence: 0.85
+
+Top 10 Most Frequently Missing Indicators:
+indicator_text
+Number of people provided with resources to protect and start rebuilding livelihood assets                                                             3
+Number of small-scale food producers who progressively realize a living income.                                                                        2
+Number of small-scale food producers whose livelihood became more resilient to shocks.                                                                 2
+Number of small-scale food producers indirectly reached.                                                                                               2
+% of targeted persons reporting an increased sense of safety and well-being after engaging in the protection activities under this project             2
+# of people receiving agricultural support                                                                                                             2
+Targeted households testify that improved housing has a positive impact on their dignity and self-esteem.                                              2
+70% of targeted returning households have testified that the project contributed to improving their social reintegration by the end of the project.    2
+At least 15 VSLAs are supported.                                                                                                                       2
+100 IGAs created and supported.                                                                                                                        2
+
+Top 10 Most Frequently Adapted Indicators:
+zoa_match
+% of supported farmers who increased the productivity of their [specify the crop or animal] production                                                               7
+% of the target population with acceptable Food Consumption Score (FCS)                                                                                              6
+average amount spent by the project on creating one job                                                                                                              4
+% of target population with adequate WASH services and hygiene practices                                                                                             4
+% of project participants that experience an improvement in their mental wellbeing                                                                                   3
+number or % of farmers who for the past [specify the duration] correctly followed the promoted [specify: climate-smart / sustainable / other] agronomic practices    3
+% of households which in the past 12 months grew at least X out of X [specify numbers] promoted nutrient-rich crops                                                  3
+% of trainees who completed [specify the VET program]                                                                                                                3
+% of households who keep their sanitation facilities clean                                                                                                           3
+% of households with at least 15 litres of safe water for drinking, cooking and personal hygiene per person per day                                                  3

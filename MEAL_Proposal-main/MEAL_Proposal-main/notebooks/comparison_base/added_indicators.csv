@@ -1,0 +1,874 @@
+domain,title,sector,similarity
+adra_indikit_net,Prevention of Groundwater Contamination by Faeces,Sanitation Indicators,0.622
+adra_indikit_net,Number of Affected People,DRR and Resilience,0.579
+adra_indikit_net,Number of Damaged Houses,DRR and Resilience,0.517
+adra_indikit_net,Vulnerability and Capacity Assessment,DRR and Resilience,0.793
+adra_indikit_net,Early Warning System's Effectiveness,DRR and Resilience,0.742
+adra_indikit_net,Self-Help Groups - Functionality,DRR and Resilience,0.548
+adra_indikit_net,Self-Help Groups - Coverage,Social Protection and Inclusion,0.643
+adra_indikit_net,Shelter Protection,DRR and Resilience,0.755
+adra_indikit_net,Protection of Productive Assets,DRR and Resilience,0.696
+adra_indikit_net,Natural Resource Management,DRR and Resilience,0.665
+adra_indikit_net,Number of Households Supported to Meet Basic Needs,Results Indicators,0.676
+adra_indikit_net,Ability to Cover Basic Needs,Results Indicators,0.773
+adra_indikit_net,Awareness of Cash-Based Assistance Programme,Quality Management Indicators,0.761
+adra_indikit_net,CBA-related Conflicts / Tensions,Quality Management Indicators,0.758
+adra_indikit_net,Local Authority Disaster Management Plans,DRR and Resilience,0.74
+adra_indikit_net,Disaster Risk Reduction Policy Changes,DRR and Resilience,0.749
+adra_indikit_net,Acquired Knowledge / Skills,Capacities for Effective Advocacy,0.796
+adra_indikit_net,Local Authorities’ Responsiveness,Good Governance,0.67
+adra_indikit_net,Multi-Stakeholder Partnerships,Good Governance,0.615
+adra_indikit_net,Participatory Budgeting,Good Governance,0.793
+adra_indikit_net,Inclusive Participatory Budgeting,Good Governance,0.73
+adra_indikit_net,Participatory Spending,Good Governance,0.726
+adra_indikit_net,Transparency of Local Authorities’ Decision Making,Good Governance,0.634
+adra_indikit_net,CSOs' Capacity to Influence Policy Making,Good Governance,0.643
+adra_indikit_net,Diversified Income,Climate Resilience and Adaptation Indicators,0.64
+adra_indikit_net,Use of Environmental Assessment Recommendations,Environmental Mainstreaming in Project Activities,0.734
+adra_indikit_net,Average Queuing Time at a Water Point,Water Indicators,0.591
+adra_indikit_net,Number of People per Water Point,Water Indicators,0.603
+adra_indikit_net,Recall Health Education Messages,Health,0.553
+adra_indikit_net,Improving IYCF Practices through Behavior Change Interventions,Complementary Feeding Indicators,0.611
+adra_indikit_net,Individuals Benefiting from Improved Agricultural Production,Crop and Livestock Production Indicators,0.662
+adra_indikit_net,Applying Improved Management Practices or Technologies,Natural Resources Management (NRM) Indicators,0.631
+adra_indikit_net,Improved Post-Harvest Storage Practices,Natural Resources Management (NRM) Indicators,0.686
+adra_indikit_net,Water Source Repairs,Water Indicators,0.679
+adra_indikit_net,Availability of Soap,Hygiene Indicators,0.793
+adra_indikit_net,Customer Satisfaction,Market Demand-Related Indicators,0.774
+irw_indikit_net,Number of Working Days Lost Due To Diarrhoeal Diseases,Diarrhoea Indicators,0.616
+irw_indikit_net,Number of School Days Lost Due to Diarrhoeal Diseases,Diarrhoea Indicators,0.642
+irw_indikit_net,Average Queuing Time at a Water Point,Water Indicators,0.591
+irw_indikit_net,Number of People per Water Point,Water Indicators,0.603
+irw_indikit_net,Water Source Repairs,Global Results Framework,0.642
+irw_indikit_net,Availability of Soap,Hygiene Indicators,0.793
+irw_indikit_net,Customer Satisfaction,Other results areas,0.774
+irw_indikit_net,Generation of Employment Opportunities,Restored livelihoods,0.613
+irw_indikit_net,Household Asset Index,Reduced Poverty,0.642
+irw_indikit_net,Assets Control Score,Reduced Poverty,0.587
+irw_indikit_net,Untargeted Distribution of Breastmilk Substitutes,Food Security Indicators,0.546
+irw_indikit_net,Case Fatality Rate,Health,0.622
+irw_indikit_net,Prevention of Groundwater Contamination by Faeces,Sanitation Indicators,0.622
+irw_indikit_net,Number of Affected People,Disaster Risk Reduction and Resilience,0.579
+irw_indikit_net,Number of Damaged Houses,Disaster Risk Reduction and Resilience,0.517
+irw_indikit_net,Vulnerability and Capacity Assessment (VCA),Disaster Risk Reduction and Resilience,0.667
+irw_indikit_net,Early Warning System's Effectiveness,Disaster Risk Reduction and Resilience,0.746
+irw_indikit_net,Self-Help Groups - Functionality,Social Protection and Inclusion,0.548
+irw_indikit_net,Self-Help Groups - Coverage,Social Protection and Inclusion,0.54
+irw_indikit_net,Shelter Protection,Disaster Risk Reduction and Resilience,0.755
+irw_indikit_net,Protection of Productive Assets,Disaster Risk Reduction and Resilience,0.696
+irw_indikit_net,Natural Resource Management,Disaster Risk Reduction and Resilience,0.665
+irw_indikit_net,Reading With Fluency and Comprehension,Global Results Framework,0.691
+irw_indikit_net,National Exam Results,Global Results Framework,0.747
+irw_indikit_net,Equitable Education Participation,Access and Inclusion Indicators,0.55
+irw_indikit_net,Access to Scholastic Materials,Global Results Framework,0.793
+irw_indikit_net,Average Class Size,Access and Inclusion Indicators,0.571
+irw_indikit_net,Locally Relevant Learning Content,Quality Education Indicators,0.71
+irw_indikit_net,Positive Discipline Practices,Quality Education Indicators,0.511
+irw_indikit_net,Teacher Supervision,Quality Education Indicators,0.664
+irw_indikit_net,Extra-Curricular Activities,Quality Education Indicators,0.591
+irw_indikit_net,Parent Engagement in Education,Quality Education Indicators,0.649
+irw_indikit_net,Minimum Education Standards,Global Results Framework,0.524
+irw_indikit_net,Code of Conduct for Teachers,Quality Education Indicators,0.716
+irw_indikit_net,Complaint and Feedback Reporting Mechanism for Teachers,Quality Education Indicators,0.611
+irw_indikit_net,Local Authority Disaster Management Plans,Disaster Risk Reduction and Resilience,0.74
+irw_indikit_net,DRR Policy Changes,Disaster Risk Reduction and Resilience,0.754
+irw_indikit_net,Number of Cash Transfer Recipients,Results Indicators,0.664
+irw_indikit_net,Minimum Expenditure Basket,Improved income,0.592
+irw_indikit_net,Safe and Dignified Shelters,Shelter and NFI,0.779
+irw_indikit_net,Number of People Receiving Social Protection Services,Social Protection and Inclusion,0.716
+irw_indikit_net,Acquired Knowledge / Skills,Social Protection and Inclusion,0.79
+irw_indikit_net,Local Authorities’ Responsiveness,Good Governance,0.67
+irw_indikit_net,Multi-Stakeholder Partnerships,Social Protection and Inclusion,0.625
+irw_indikit_net,Participatory Budgeting,Social Protection and Inclusion,0.793
+irw_indikit_net,Inclusive Participatory Budgeting,Social Protection and Inclusion,0.73
+irw_indikit_net,Participatory Spending,Social Protection and Inclusion,0.726
+irw_indikit_net,Maternal Tetanus Toxoid Vaccination,Antenatal Indicators,0.463
+irw_indikit_net,Active Management of the Third Stage of Labour (AMTSL),Postpartum Care Indicators,0.489
+irw_indikit_net,Clean Cord Cutting,Postpartum Care Indicators,0.67
+irw_indikit_net,Cord Care,Postpartum Care Indicators,0.545
+irw_indikit_net,Vitamin A Deficiency Among Pregnant Women,Antenatal Indicators,0.759
+irw_indikit_net,Existence of Complaint and Response Mechanisms,CCCM,0.474
+irw_indikit_net,Operation of the Complaint Response Mechanism,CCCM,0.639
+irw_indikit_net,Representative Governance Structures,CCCM,0.562
+irw_indikit_net,Access to CCCM Information,Shelter and NFI,0.608
+irw_indikit_net,Awareness of Offered Services,CCCM,0.623
+irw_indikit_net,Transparency of Local Authorities’ Decision Making,Good Governance,0.632
+irw_indikit_net,CSOs' Capacity to Influence Policy Making,Social Protection and Inclusion,0.643
+irw_indikit_net,Gender Ratio for Minimum Acceptable Diet (MAD),Gender Mainstreaming Indicators,0.731
+irw_indikit_net,Women’s Representation in Community Groups’ Management,CCCM,0.779
+irw_indikit_net,Gender Ratio for School Attendance,Gender Mainstreaming Indicators,0.657
+irw_indikit_net,Gender Ratio for School Dropout,Gender Mainstreaming Indicators,0.742
+irw_indikit_net,Students’ Understanding of the Teacher’s Code of Conduct,Quality Education Indicators,0.744
+irw_indikit_net,Life Skills Learning,Student Learning Outcomes Indicators,0.505
+irw_indikit_net,Student Attendance Rate,Access and Inclusion Indicators,0.724
+irw_indikit_net,Number of Households Receiving Cash-Based Assistance,Results Indicators,0.737
+irw_indikit_net,Ability to Cover Basic Needs,Results Indicators,0.758
+irw_indikit_net,CBA-related Conflicts / Tensions,Quality Management Indicators,0.758
+irw_indikit_net,Perceived Safety and Dignity,Protection Mainstreaming,0.735
+irw_indikit_net,Effective Referrals,Protection Mainstreaming,0.766
+irw_indikit_net,Knowledge of Protection Mainstreaming,Protection Mainstreaming,0.788
+irw_indikit_net,Awareness of Protection Risks and Mitigation Measures,Protection Mainstreaming,0.784
+irw_indikit_net,Use of Protection Services,Protection Mainstreaming,0.738
+irw_indikit_net,Operation of the Complaint Response Mechanism,Protection Mainstreaming,0.638
+irw_indikit_net,Vitamin A Supplementation Coverage,Child Health Indicators,0.742
+irw_indikit_net,Diversified Income,Climate Resilience and Adaptation Indicators,0.642
+irw_indikit_net,Perception of Feedback & Complaints Mechanism - Accessible & Safe,Global Results Framework,0.574
+irw_indikit_net,*Awareness of the Complaints & Feedback Mechanism,Global Results Framework,0.674
+irw_indikit_net,Awareness of Conflict Resolution Services,Global Results Framework,0.586
+irw_indikit_net,Use of Conflict Resolution Services,Global Results Framework,0.458
+irw_indikit_net,Institutions Promoting Peace and Development,Global Results Framework,0.493
+irw_indikit_net,Perception of Community Conflict Resolution Mechanisms,Global Results Framework,0.547
+irw_indikit_net,Satisfaction with Community Conflict Resolution Mechanisms,Global Results Framework,0.492
+irw_indikit_net,Number of Social Cohesion Activities,Social Cohesion,0.463
+irw_indikit_net,*People Reached by Social Cohesion Activities,Global Results Framework,0.479
+irw_indikit_net,Perception of Complaints & Feedback Mechanism - Confidence,Global Results Framework,0.571
+irw_indikit_net,*Timeliness of Support,Global Results Framework,0.537
+irw_indikit_net,*Appropriateness & Relevance of Support,Global Results Framework,0.627
+irw_indikit_net,*Support Meeting the Highest Need,Global Results Framework,0.598
+irw_indikit_net,*People Reached by Climate Change Activities,Global Results Framework,0.435
+irw_indikit_net,Distaster Risk Reduction Plans - Assessment & Plan,Global Results Framework,0.651
+irw_indikit_net,Effectiveness is Reducing Disaster Impact,Disaster Risk Reduction and Resilience,0.671
+irw_indikit_net,*People Reached by DRR Activities,Global Results Framework,0.411
+irw_indikit_net,Access to Education in Emergencies,Global Results Framework,0.503
+irw_indikit_net,Access to Early Child Development,Access and Inclusion Indicators,0.578
+irw_indikit_net,*People Reached by Education Activities,Global Results Framework,0.449
+irw_indikit_net,Meeting Nutritional Requirements,Food Security Indicators,0.624
+irw_indikit_net,Prevalence of Acute Malnutrition - People Receiving Treatment,Global Results Framework,0.789
+irw_indikit_net,Reduced Hunger and Food Insecurity,Food Security Indicators,0.711
+irw_indikit_net,Attendance of Nutritional Awareness Sessions,Treatment of Acute Malnutrition Indicators,0.496
+irw_indikit_net,People Reached by Nutritional Awareness Sessions,Global Results Framework,0.559
+irw_indikit_net,Reduced Child Mortality Rate,Child Health Indicators,0.51
+irw_indikit_net,Reduced Morbidity,Global Results Framework,0.624
+irw_indikit_net,Under 5 Mortality Rate,Global Results Framework,0.675
+irw_indikit_net,Access to Health Services,Global Results Framework,0.472
+irw_indikit_net,Access to Essential Medicines,Health,0.526
+irw_indikit_net,Individuals Who Received Treatment,Health,0.538
+irw_indikit_net,Provision of Trained and Equipped Healthcare Workers,Global Results Framework,0.493
+irw_indikit_net,Healthcare Clinics Constructed/ Rehabilitated,Global Results Framework,0.383
+irw_indikit_net,National Vaccinations,Health,0.565
+irw_indikit_net,*People Reached by Health Activities,Global Results Framework,0.456
+irw_indikit_net,Protection in Emergencies - Access to MHPSS,Global Results Framework,0.526
+irw_indikit_net,Protection in Emergencies - Safe Spaces Established,Global Results Framework,0.548
+irw_indikit_net,Protection in Emergencies - Number of Dignity Kits,Global Results Framework,0.532
+irw_indikit_net,Child Marriage,Global Results Framework,0.751
+irw_indikit_net,Forced Marriage,Global Results Framework,0.556
+irw_indikit_net,Child Labour,Global Results Framework,0.525
+irw_indikit_net,Physical or Sexual Harassment,Global Results Framework,0.582
+irw_indikit_net,Adolescent Birth Rate,Global Results Framework,0.651
+irw_indikit_net,*People Reached by P&I Activities,Global Results Framework,0.37
+irw_indikit_net,Adequate Shelter - Materials,Global Results Framework,0.577
+irw_indikit_net,Adequate Shelter - Quality,Global Results Framework,0.732
+irw_indikit_net,Adequate Shelter - Minimum Shelter Area,Shelter and NFI,0.563
+irw_indikit_net,Adequate Shelter - Safety,Global Results Framework,0.686
+irw_indikit_net,*People Reached by Shelter Activities,Global Results Framework,0.411
+irw_indikit_net,"Value of Household Assets - Productive, Household, Land, Etc.",Reduced Poverty,0.549
+irw_indikit_net,Value of Productive Assets,Reduced Poverty,0.504
+irw_indikit_net,Value of Non-Productive Assets,Reduced Poverty,0.467
+irw_indikit_net,Multi-Dimensional Poverty Indicator (MDPI),Global Results Framework,0.688
+irw_indikit_net,National Poverty Line,Global Results Framework,0.645
+irw_indikit_net,Livelihoods Restoration,Global Results Framework,0.458
+irw_indikit_net,Livelihood Restoration - Cash Assistance,Global Results Framework,0.507
+irw_indikit_net,People Practicing Livelihood Skills,Global Results Framework,0.507
+irw_indikit_net,Average Number of Income Sources,Global Results Framework,0.532
+irw_indikit_net,Number of New Businesses,Global Results Framework,0.487
+irw_indikit_net,People Trained on Livelihood Skills,Global Results Framework,0.424
+irw_indikit_net,*People Reached by Livelihood Activities,Global Results Framework,0.442
+irw_indikit_net,"Youth Education, Employment or Training",Global Results Framework,0.552
+irw_indikit_net,Recall of Hygiene Awareness,Global Results Framework,0.587
+irw_indikit_net,Sanitation Services Access Safety,Global Results Framework,0.68
+irw_indikit_net,Mortality Rate due to Poor Water and Sanitation Services,Global Results Framework,0.57
+irw_indikit_net,Water Quantity - Distance,Global Results Framework,0.731
+irw_indikit_net,"Improved Sanitation - Gender, Culture, Disability Inclusive",Global Results Framework,0.468
+irw_indikit_net,Improved Sanitation - Access to Sanitation Facilities,Global Results Framework,0.677
+irw_indikit_net,Improved Sanitation - Access to Sanitation Facilities (distance),Global Results Framework,0.661
+irw_indikit_net,Improved Sanitation - # of Sanitation Facilities,Global Results Framework,0.715
+irw_indikit_net,People Attending Hygiene Awareness,Global Results Framework,0.639
+irw_indikit_net,*People Reached by WASH Activities,Global Results Framework,0.352
+irw_indikit_net,Households Receiving MPCA,Other Cross-Cutting Indicators,0.441
+irw_indikit_net,Reduced Mortality from Water-Borne Diseases,Global Results Framework,0.656
+irw_indikit_net,Perceived Effectiveness of Implemented Disaster Risk Reduction Me,Global Results Framework,0.728
+irw_indikit_net,Number of Communities with a DRR Plan,Global Results Framework,0.747
+irw_indikit_net,Early Child Development,Global Results Framework,0.541
+irw_indikit_net,People Receiving Shelter/ NFIs/ Winterization Kits,Global Results Framework,0.455
+irw_indikit_net,*People Reached by Food Security & Nutrition Activities,Global Results Framework,0.428
+irw_indikit_net,Child Mortality,Global Results Framework,0.524
+irw_indikit_net,Women Having At Least One Antenatal Health Check,Global Results Framework,0.711
+irw_indikit_net,Childhood Vaccinations,Global Results Framework,0.584
+irw_indikit_net,Water Quality,Global Results Framework,0.48
+irw_indikit_net,Improved children psychosocial wellbeing,Child Wellbeing,0.639
+irw_indikit_net,Parents & caregivers' confidence to protect their children,Child Wellbeing,0.553
+irw_indikit_net,Improved Relationships to Others,Child Wellbeing,0.504
+irw_indikit_net,Meeting Children's Basic Needs,Child Wellbeing,0.593
+irw_indikit_net,Children in participation activities,Cross-Cutting Topics,0.581
+zoa_indikit_net,Average Queuing Time at a Water Point,Water,0.591
+zoa_indikit_net,Number of People per Water Point,Water,0.603
+zoa_indikit_net,Water Source Repairs,Water,0.679
+zoa_indikit_net,Availability of Soap,Hygiene,0.793
+zoa_indikit_net,Customer Satisfaction,Market Development,0.774
+zoa_indikit_net,Generation of Employment Opportunities,Income and Employment,0.613
+zoa_indikit_net,Prevention of Groundwater Contamination by Faeces,Water,0.622
+zoa_indikit_net,Vulnerability and Capacity Assessment,"Skills, Training and Employability",0.793
+zoa_indikit_net,Climate Risk Perception,Project level indicators,0.718
+zoa_indikit_net,Self-Help Groups - Functionality,"Community Engagement, Participation & Advocacy",0.548
+zoa_indikit_net,Self-Help Groups - Coverage,"Community Engagement, Participation & Advocacy",0.643
+zoa_indikit_net,Shelter Protection,Shelter and mainstreaming,0.755
+zoa_indikit_net,Natural Resource Management,Integrated Water Resources Management,0.665
+zoa_indikit_net,Acquired Knowledge / Skills,"Skills, Training and Employability",0.796
+zoa_indikit_net,Adoption of Promoted Practices (1),Agriculture and Natural Resource Management,0.763
+zoa_indikit_net,Women’s Representation in Community Groups’ Management,Gender Equality,0.779
+zoa_indikit_net,Life Skills Learning,"Skills, Training and Employability",0.505
+zoa_indikit_net,Number of Households Supported to Meet Basic Needs,Process & quality management,0.676
+zoa_indikit_net,Awareness of Cash & Voucher Assistance Programme,Process & quality management,0.684
+zoa_indikit_net,CVA-related Conflicts / Tensions,Process & quality management,0.731
+zoa_indikit_net,Diversified Income,Income and Employment,0.64
+zoa_indikit_net,Use of Environmental Assessment Recommendations,Agriculture and Natural Resource Management,0.734
+zoa_indikit_net,Acute malnutrition,Food Security,0.735
+zoa_indikit_net,Household food production,Food Security,0.664
+zoa_indikit_net,Cash Spending,Income and Employment,0.648
+zoa_indikit_net,Use of EST tool,Organisational level indicators,0.522
+zoa_indikit_net,Climate Resilience in Evaluations,Organisational level indicators,0.553
+zoa_indikit_net,Projects with a Peace/Conflict Indicator,Organisational level indicators,0.56
+zoa_indikit_net,% of Country Budget to Local Partners,Organisational level indicators,0.504
+zoa_indikit_net,Peace Nexus in Evaluations,Organisational level indicators,0.496
+zoa_indikit_net,Local Involvement in Project Design,Organisational level indicators,0.6
+zoa_indikit_net,Cash Directly Received by Local Groups,Organisational level indicators,0.548
+zoa_indikit_net,"Use of a Gender, Inclusion or Power Analysis",Organisational level indicators,0.666
+zoa_indikit_net,GDI in Evaluations,Organisational level indicators,0.584
+zoa_indikit_net,Basic Needs,Multisectoral results related to CVA,0.699
+zoa_indikit_net,Basic Needs (Alternative),Multisectoral results related to CVA,0.693
+zoa_indikit_net,Protection Mainstreaming,Process & quality management,0.761
+zoa_indikit_net,Expenditure (1),Multisectoral results related to CVA,0.526
+zoa_indikit_net,Expenditure (2),Multisectoral results related to CVA,0.574
+zoa_indikit_net,Women's Decision Making: Women's Involvement,Multisectoral results related to CVA,0.739
+zoa_indikit_net,Women's Decision Making: Frequency of Involvement,Multisectoral results related to CVA,0.73
+zoa_indikit_net,Education: Enrolment,Sector specific results of CVA,0.645
+zoa_indikit_net,Education: School Attendance,Sector specific results of CVA,0.666
+zoa_indikit_net,Shelter: Non-Food Items,Sector specific results of CVA,0.62
+zoa_indikit_net,Shelter: Use of Quality Shelter,Sector specific results of CVA,0.661
+zoa_indikit_net,Shelter: Financial Access,Sector specific results of CVA,0.581
+zoa_indikit_net,Shelter: Winterproof Shelter,Sector specific results of CVA,0.704
+zoa_indikit_net,WASH: Water supply,Sector specific results of CVA,0.654
+zoa_indikit_net,WASH: Sanitation,Sector specific results of CVA,0.694
+zoa_indikit_net,WASH: Hygiene,Sector specific results of CVA,0.677
+zoa_indikit_net,Group Cash Transfer: Increased Resilience,Multisectoral results related to CVA,0.564
+zoa_indikit_net,Total CVA Value Distributed,Process & quality management,0.515
+zoa_indikit_net,Timely Delivery of Cash,Process & quality management,0.703
+zoa_indikit_net,Received Correct Amount of CVA,Process & quality management,0.631
+zoa_indikit_net,Problems with Receiving CVA,Process & quality management,0.662
+zoa_indikit_net,Land Tenure Security (Legal Documentation and Perception),Land Rights,0.571
+zoa_indikit_net,Land Conflict Resolution Rate through ADR,Land Rights,0.409
+zoa_indikit_net,Number of Land Certificates or Title Deeds Issued,Land Rights,0.413
+zoa_indikit_net,Women's Land Rights on Issued Land Certificates or Title Deeds,Land Rights,0.449
+zoa_indikit_net,Satisfaction with Conflict Resolution,Community based conflict prevention and resolution,0.535
+zoa_indikit_net,Indicator 7 from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.552
+zoa_indikit_net,Indicator 8 from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.545
+zoa_indikit_net,Indicator 10a from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.568
+zoa_indikit_net,Indicator 10b from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.568
+zoa_indikit_net,Acquired Knowledge / Skills,Shelter and mainstreaming,0.796
+zoa_indikit_net,People's Perception of Security,Peacebuilding - General,0.585
+zoa_indikit_net,Violent Deaths per 100.000 People,Peacebuilding - General,0.436
+zoa_indikit_net,Perception of Social Cohesion and Trust,Social cohesion and trust,0.61
+zoa_indikit_net,Conflicts Addressed and Resolved by Different Actors,Community based conflict prevention and resolution,0.488
+zoa_indikit_net,Sense of Community,Social cohesion and trust,0.583
+zoa_indikit_net,Well-Being Questionnaire (SRQ 20),Social cohesion and trust,0.554
+zoa_indikit_net,Prevalence of Land Disputes,Land Rights,0.471
+zoa_indikit_net,Total GCT Amount Distributed,Group cash transfers,0.529
+zoa_indikit_net,GCT Use,Group cash transfers,0.555
+zoa_indikit_net,GCT Increased Capacity to Plan and Implement,Group cash transfers,0.586
+zoa_indikit_net,GCT Group Strengthening,Group cash transfers,0.579
+zoa_indikit_net,Number of GCT Workshop Participants,Group cash transfers,0.456
+zoa_indikit_net,GCT Process - Protection Mainstreaming,Group cash transfers,0.502
+zoa_indikit_net,Access to Justice,Peacebuilding - General,0.372
+zoa_indikit_net,Performance of Land Administration Services,Land Rights,0.566
+zoa_indikit_net,Prevalence of Conflicts,Peacebuilding - General,0.561
+zoa_indikit_net,Trust in formal/informal justice provider,Community based conflict prevention and resolution,0.615
+zoa_indikit_net,Perceived Community Cohesion,Social cohesion and trust,0.503
+zoa_indikit_net,Trust,Social cohesion and trust,0.65
+zoa_indikit_net,Acquired Knowledge / Skills,Project level indicators,0.648
+zoa_indikit_net,EST Utilisation,Project level indicators,0.563
+zoa_indikit_net,Climate risk integration,Project level indicators,0.585
+tearfund_indikit_net,Safety in access of WASH facilities,"Water, sanitation and hygiene (WASH)",0.695
+tearfund_indikit_net,HH solid waste disposal,"Water, sanitation and hygiene (WASH)",0.675
+tearfund_indikit_net,Water user committees active,"Water, sanitation and hygiene (WASH)",0.604
+tearfund_indikit_net,Water safety plans in use,"Water, sanitation and hygiene (WASH)",0.684
+tearfund_indikit_net,Actual Number of Direct Project participants (Beneficiaries),Livelihoods & Agriculture,0.671
+tearfund_indikit_net,Awareness of Safe Harvest Storage,Livelihoods & Agriculture,0.669
+tearfund_indikit_net,Access to Services/Products,Livelihoods & Agriculture,0.753
+tearfund_indikit_net,Benefits of Improved Marketing,Livelihoods & Agriculture,0.716
+tearfund_indikit_net,Increased Production,Livelihoods & Agriculture,0.749
+tearfund_indikit_net,Actual Number of Direct Beneficiaries,Livelihoods & Agriculture,0.668
+tearfund_indikit_net,Number of Active Group Members,Livelihoods & Agriculture,0.617
+tearfund_indikit_net,Acquired Knowledge / Skills,Livelihoods & Agriculture,0.761
+tearfund_indikit_net,Use of the Promoted Marketing Practices,Livelihoods & Agriculture,0.774
+tearfund_indikit_net,Number of Supported Enterprises,Livelihoods & Agriculture,0.631
+tearfund_indikit_net,Saving Group Members’ Total Savings,Livelihoods & Agriculture,0.79
+tearfund_indikit_net,Operating Enterprises,Livelihoods & Agriculture,0.623
+tearfund_indikit_net,Satisfaction with Economic Situation,Livelihoods & Agriculture,0.682
+tearfund_indikit_net,Women’s Economic Empowerment Scale,Livelihoods & Agriculture,0.712
+tearfund_indikit_net,Actual Number of Beneficiaries,Environment and Climate Change,0.663
+tearfund_indikit_net,Environmental Waste Awareness Training,Environment and Climate Change,0.638
+tearfund_indikit_net,Amount of Waste Processed in an Environmentally-Sensitive Way,Environment and Climate Change,0.739
+tearfund_indikit_net,Green Jobs Creation,Environment and Climate Change,0.588
+tearfund_indikit_net,Benefits of Environmentally-Sensitive Waste Management,Environment and Climate Change,0.674
+tearfund_indikit_net,Number of Beneficiaries,Disaster Response,0.676
+tearfund_indikit_net,Beneficiaries’ Satisfaction,Disaster Response,0.698
+tearfund_indikit_net,Actual Number of Direct Beneficiaries,"Disaster Preparedness, Anticipation and Resilience",0.636
+tearfund_indikit_net,Awareness of DRM Plan,"Disaster Preparedness, Anticipation and Resilience",0.791
+tearfund_indikit_net,Acquired Knowledge,"Disaster Preparedness, Anticipation and Resilience",0.726
+tearfund_indikit_net,Acquired Skills,"Disaster Preparedness, Anticipation and Resilience",0.676
+tearfund_indikit_net,Adoption of Resilience Strengthening Measures,"Disaster Preparedness, Anticipation and Resilience",0.655
+tearfund_indikit_net,Early Warning Systems,"Disaster Preparedness, Anticipation and Resilience",0.777
+tearfund_indikit_net,Effective Natural Resources Management System,"Disaster Preparedness, Anticipation and Resilience",0.645
+tearfund_indikit_net,Income Diversification,"Disaster Preparedness, Anticipation and Resilience",0.528
+tearfund_indikit_net,Perceived Vulnerability,"Disaster Preparedness, Anticipation and Resilience",0.739
+tearfund_indikit_net,Awareness of Protection Risks and Mitigation Measures,Gender-based violence (GBV) and psychosocial support (PSS),0.76
+tearfund_indikit_net,Safety Around Assistance Delivery,Gender-based violence (GBV) and psychosocial support (PSS),0.73
+tearfund_indikit_net,Perceived Usefulness of Protection Services,Gender-based violence (GBV) and psychosocial support (PSS),0.724
+tearfund_indikit_net,Safety in Access,Gender-based violence (GBV) and psychosocial support (PSS),0.673
+tearfund_indikit_net,Community-Managed Protection Mechanisms,Gender-based violence (GBV) and psychosocial support (PSS),0.613
+tearfund_indikit_net,Negative Coping Strategies,Gender-based violence (GBV) and psychosocial support (PSS),0.612
+tearfund_indikit_net,Actual Number of Direct Beneficiaries,Gender-based violence (GBV) and psychosocial support (PSS),0.578
+tearfund_indikit_net,Faith / Community Leaders’ Knowledge and Skills,Gender-based violence (GBV) and psychosocial support (PSS),0.588
+tearfund_indikit_net,Gender Champions’ Knowledge and Skills,Gender-based violence (GBV) and psychosocial support (PSS),0.579
+tearfund_indikit_net,Number of Community Dialogue Participants,Gender-based violence (GBV) and psychosocial support (PSS),0.673
+tearfund_indikit_net,Champions Leading Support Groups,Gender-based violence (GBV) and psychosocial support (PSS),0.513
+tearfund_indikit_net,Attendance of Peer Support Groups,Gender-based violence (GBV) and psychosocial support (PSS),0.514
+tearfund_indikit_net,Acceptance of Gender Based Violence,Gender-based violence (GBV) and psychosocial support (PSS),0.765
+tearfund_indikit_net,Gender Equitable Norms,Gender-based violence (GBV) and psychosocial support (PSS),0.758
+tearfund_indikit_net,Actual Number of Direct Beneficiaries,Disaster Response,0.674
+tearfund_indikit_net,Actual Number of Beneficiaries of Cash Assistance,Disaster Response,0.7
+tearfund_indikit_net,Actual Number of Beneficiaries of Voucher Assistance,Disaster Response,0.643
+tearfund_indikit_net,Actual Number of Beneficiaries of In-Kind Assistance,Disaster Response,0.604
+tearfund_indikit_net,Financial Value of Provided Cash Assistance,Disaster Response,0.598
+tearfund_indikit_net,Beneficiaries’ Satisfaction,Disaster Response,0.74
+tearfund_indikit_net,Awareness of Feedback and Response Mechanism,Disaster Response,0.773
+tearfund_indikit_net,Perceived Ability to Meet Basic Needs,Disaster Response,0.694
+tearfund_indikit_net,Number of Jobs,Livelihoods & Agriculture,0.641
+tearfund_indikit_net,Advocacy capacity strengthening,Advocacy,0.732
+tearfund_indikit_net,Public policies or practices changed,Advocacy,0.621
+tearfund_indikit_net,People impacted by public policy / practice change,Advocacy,0.763
+tearfund_indikit_net,G5: Participants,Peacebuilding,0.474
+tearfund_indikit_net,G2: Activists trained,Gender-based violence (GBV) and psychosocial support (PSS),0.404
+tearfund_indikit_net,Number of People Trained in Peacebuilding,Peacebuilding,0.489
+tearfund_indikit_net,O2.2 Network membership,Gender-based violence (GBV) and psychosocial support (PSS),0.403
+tearfund_indikit_net,O2.1 Active networks,Gender-based violence (GBV) and psychosocial support (PSS),0.413
+tearfund_indikit_net,G3: Active champions,Peacebuilding,0.456
+tearfund_indikit_net,Inequal Access to Services,Peacebuilding,0.645
+tearfund_indikit_net,V6: Trust,Gender-based violence (GBV) and psychosocial support (PSS),0.668
+tearfund_indikit_net,V5: Hope,Gender-based violence (GBV) and psychosocial support (PSS),0.499
+tearfund_indikit_net,V7: Physical violence,Gender-based violence (GBV) and psychosocial support (PSS),0.608
+tearfund_indikit_net,V8: Discrimination,Gender-based violence (GBV) and psychosocial support (PSS),0.501
+tearfund_indikit_net,Number of Local Churches,Mobilising the church for integral mission,0.436
+tearfund_indikit_net,Number of Influenced Theological Training Organisations,Mobilising the church for integral mission,0.369
+tearfund_indikit_net,Active facilitators,Mobilising the church for integral mission,0.496
+tearfund_indikit_net,Theological Training Organisations teaching CCT,Mobilising the church for integral mission,0.372
+tearfund_indikit_net,Churches' Mobilisation for Poverty Reduction,Mobilising the church for integral mission,0.43
+tearfund_indikit_net,Perception of Church's Influence,Mobilising the church for integral mission,0.464
+tearfund_indikit_net,Individual Religious Practice,Mobilising the church for integral mission,0.368
+tearfund_indikit_net,People's Contribution,Mobilising the church for integral mission,0.363
+tearfund_indikit_net,Perceived Cooperation,Mobilising the church for integral mission,0.456
+tearfund_indikit_net,Holistic transformation,Mobilising the church for integral mission,0.431
+tearfund_indikit_net,Experience of Inner Peace,Mobilising the church for integral mission,0.404
+tearfund_indikit_net,Active CCT trainers,Mobilising the church for integral mission,0.542
+tearfund_indikit_net,Number of Influenced Church Denominations,Mobilising the church for integral mission,0.454
+tearfund_indikit_net,Number of Influenced Networks,Mobilising the church for integral mission,0.437
+tearfund_indikit_net,CCT sustainable Scale Up - Denominations,Mobilising the church for integral mission,0.45
+tearfund_indikit_net,CCT sustainable Scale Up - Networks,Mobilising the church for integral mission,0.399
+tearfund_indikit_net,O4.2 Active communities,Gender-based violence (GBV) and psychosocial support (PSS),0.483
+tearfund_indikit_net,O2.4 Gathering attendance,Gender-based violence (GBV) and psychosocial support (PSS),0.485
+tearfund_indikit_net,O2.3 Supported activists,Gender-based violence (GBV) and psychosocial support (PSS),0.546
+tearfund_indikit_net,Churches responding to disaster,Mobilising the church for integral mission,0.655
+tearfund_indikit_net,Number of SHG (or VSLA) CREATED,Livelihoods & Agriculture,0.578
+tearfund_indikit_net,Number of SHGs (or VSLAs) HELPED develop,Livelihoods & Agriculture,0.51
+tearfund_indikit_net,Practitioners trained in CCT advocacy and social accountability,Mobilising the church for integral mission,0.518
+tearfund_indikit_net,Church denominations and networks engaging in advocacy,Mobilising the church for integral mission,0.494
+tearfund_indikit_net,Local churches integrating advocacy into CCT,Mobilising the church for integral mission,0.498
+tearfund_indikit_net,Community gender training,Peacebuilding,0.603
+tearfund_indikit_net,Strategic advocacy opportunities utilised,Advocacy,0.612
+tearfund_indikit_net,Movement building allies,Advocacy,0.464
+tearfund_indikit_net,People trained in advocacy,Advocacy,0.621
+tearfund_indikit_net,G1: Improved relationships,Peacebuilding,0.453
+tearfund_indikit_net,G4: Active churches,Peacebuilding,0.39
+tearfund_indikit_net,G6: Advocacy engagements with decision-makers,Peacebuilding,0.649
+tearfund_indikit_net,G7: Advocacy allies,Peacebuilding,0.507
+tearfund_indikit_net,G8: Advocacy impact,Peacebuilding,0.577
+tearfund_indikit_net,V1: Hopeful communities,Gender-based violence (GBV) and psychosocial support (PSS),0.552
+tearfund_indikit_net,V2: Trusting communities,Gender-based violence (GBV) and psychosocial support (PSS),0.531
+tearfund_indikit_net,V3: Peaceful communities,Gender-based violence (GBV) and psychosocial support (PSS),0.457
+tearfund_indikit_net,V4: Non-discriminating communities,Gender-based violence (GBV) and psychosocial support (PSS),0.464
+tearfund_indikit_net,O1.1: Church - injustice,Peacebuilding,0.375
+tearfund_indikit_net,O1.2: Church - peacebuilding,Peacebuilding,0.423
+tearfund_indikit_net,O1.3: Church - gender,Gender-based violence (GBV) and psychosocial support (PSS),0.53
+tearfund_indikit_net,O1.4: Faith leaders - peace,Peacebuilding,0.411
+tearfund_indikit_net,O1.5: Faith leaders - gender,Gender-based violence (GBV) and psychosocial support (PSS),0.488
+tearfund_indikit_net,O2.6: Satisfaction,Peacebuilding,0.547
+tearfund_indikit_net,O4.1: Faith leaders trained,Peacebuilding,0.307
+tearfund_indikit_net,O5.1: Representation - youth,Peacebuilding,0.553
+tearfund_indikit_net,O5.2: Representation - women,Peacebuilding,0.649
+tearfund_indikit_net,O5.3: Speakers - youth,Peacebuilding,0.502
+tearfund_indikit_net,O5.4: Speakers - women,Peacebuilding,0.503
+tearfund_indikit_net,O5.5: Influence - women,Peacebuilding,0.56
+tearfund_indikit_net,O5.6: Influence - youth,Peacebuilding,0.64
+tearfund_indikit_net,O6.1: RPS policy change,Peacebuilding,0.486
+tearfund_indikit_net,O6.2: RPS process change,Peacebuilding,0.438
+tearfund_indikit_net,O6.3: RPS structures changed,Peacebuilding,0.441
+tearfund_indikit_net,Diarrhea - prevalence at HH level,"Water, sanitation and hygiene (WASH)",0.594
+tearfund_indikit_net,Water - HH use improved water supply,"Water, sanitation and hygiene (WASH)",0.608
+tearfund_indikit_net,Water - HH access to basic drinking water service,"Water, sanitation and hygiene (WASH)",0.668
+tearfund_indikit_net,Water - HH collect from improved source,"Water, sanitation and hygiene (WASH)",0.693
+tearfund_indikit_net,Water - HH quality FRC less than 0.2 mg/L,"Water, sanitation and hygiene (WASH)",0.668
+tearfund_indikit_net,Water points - FRC less than 0.2 mg/L,"Water, sanitation and hygiene (WASH)",0.747
+tearfund_indikit_net,Water points - clean and protected,"Water, sanitation and hygiene (WASH)",0.629
+tearfund_indikit_net,Institutional settings - basic drinking water,"Water, sanitation and hygiene (WASH)",0.629
+tearfund_indikit_net,Sanitation - individuals with basic sanitation service,"Water, sanitation and hygiene (WASH)",0.687
+tearfund_indikit_net,Sanitation - HH no evidence of feces,"Water, sanitation and hygiene (WASH)",0.601
+tearfund_indikit_net,Sanitation - number of individuals using improved sanitation,"Water, sanitation and hygiene (WASH)",0.719
+tearfund_indikit_net,Sanitation - percentage of population using improved latrines,"Water, sanitation and hygiene (WASH)",0.692
+tearfund_indikit_net,Open defecation: HH reduction in practice,"Water, sanitation and hygiene (WASH)",0.51
+tearfund_indikit_net,Open defecation free communities,"Water, sanitation and hygiene (WASH)",0.536
+tearfund_indikit_net,Institutional settings - basic drinking water,"Water, sanitation and hygiene (WASH)",0.636
+tearfund_indikit_net,Hygiene promotion people reached directly,"Water, sanitation and hygiene (WASH)",0.698
+tearfund_indikit_net,Handwashing - knowledge of key moments,"Water, sanitation and hygiene (WASH)",0.755
+tearfund_indikit_net,Latrine use - individual self reported used,"Water, sanitation and hygiene (WASH)",0.687
+tearfund_indikit_net,MHM products - girls with sufficient access,"Water, sanitation and hygiene (WASH)",0.668
+tearfund_indikit_net,MHM girl's knowledge,"Water, sanitation and hygiene (WASH)",0.65
+tearfund_indikit_net,MHM in schools - equipped teachers,"Water, sanitation and hygiene (WASH)",0.769
+tearfund_indikit_net,MHM impact on class participation,"Water, sanitation and hygiene (WASH)",0.717
+tearfund_indikit_net,MHM school facilities,"Water, sanitation and hygiene (WASH)",0.716
+tearfund_indikit_net,WASH NFIs - number reached,"Water, sanitation and hygiene (WASH)",0.616
+tearfund_indikit_net,WASH NFIs - HH satisfaction with contents,"Water, sanitation and hygiene (WASH)",0.66
+tearfund_indikit_net,WASH NFIs - HH satisfaction with quantity,"Water, sanitation and hygiene (WASH)",0.683
+tearfund_indikit_net,WASH NFIs - HH satisfaction with quality,"Water, sanitation and hygiene (WASH)",0.674
+tearfund_indikit_net,Schools with basic drinking water service,"Water, sanitation and hygiene (WASH)",0.587
+tearfund_indikit_net,Schools with basic sanitation service,"Water, sanitation and hygiene (WASH)",0.714
+tearfund_indikit_net,Schools with basic hygiene service,"Water, sanitation and hygiene (WASH)",0.764
+tearfund_indikit_net,Health care facilities with improved water source,"Water, sanitation and hygiene (WASH)",0.566
+tearfund_indikit_net,Health care facilities with improved sanitation facilities,"Water, sanitation and hygiene (WASH)",0.64
+tearfund_indikit_net,Health care facilities with hand hygiene facilities,"Water, sanitation and hygiene (WASH)",0.633
+tearfund_indikit_net,Health care facilities with waste segregation,"Water, sanitation and hygiene (WASH)",0.518
+tearfund_indikit_net,Health care facilities with cleaning protocols,"Water, sanitation and hygiene (WASH)",0.531
+tearfund_indikit_net,Women's productive labour: impact  on water collection time,"Water, sanitation and hygiene (WASH)",0.585
+tearfund_indikit_net,Systems strengthening - water and sanitation institutions strengthened,"Water, sanitation and hygiene (WASH)",0.606
+tearfund_indikit_net,Systems strengthening - building block elements strengthened,"Water, sanitation and hygiene (WASH)",0.494
+tearfund_indikit_net,Water resources - climate resilience monitoring,"Water, sanitation and hygiene (WASH)",0.546
+tearfund_indikit_net,Water and peacebuilding,"Water, sanitation and hygiene (WASH)",0.544
+tearfund_indikit_net,MBS: household investment in toilets,"Water, sanitation and hygiene (WASH)",0.585
+tearfund_indikit_net,MBS: new sales agents/promoters,"Water, sanitation and hygiene (WASH)",0.564
+tearfund_indikit_net,MBS: MFIs providing sanitation loans,"Water, sanitation and hygiene (WASH)",0.511
+tearfund_indikit_net,MBS: new sales of sanitation products,"Water, sanitation and hygiene (WASH)",0.605
+tearfund_indikit_net,MBS: businesses offering new products/services,"Water, sanitation and hygiene (WASH)",0.562
+tearfund_indikit_net,MBS: trained and supported businesses,"Water, sanitation and hygiene (WASH)",0.505
+tearfund_indikit_net,MBS:  satisfaction with purchase,"Water, sanitation and hygiene (WASH)",0.609
+tearfund_indikit_net,Increase in climate-resilient employment opportunities,Environment and Climate Change,0.575
+tearfund_indikit_net,Improved climate adaptation and resilience,Environment and Climate Change,0.682
+tearfund_indikit_net,Green job creation and livelihood support,Environment and Climate Change,0.567
+tearfund_indikit_net,Implementation of climate resilience projects,Environment and Climate Change,0.596
+tearfund_indikit_net,EES publications,Environment and Climate Change,0.309
+tearfund_indikit_net,EES Theology TF Project Support,Environment and Climate Change,0.328
+tearfund_indikit_net,EES Theology Paper Engagement (reach),Environment and Climate Change,0.448
+tearfund_indikit_net,Gender: Change in division of WASH related household chores,"Water, sanitation and hygiene (WASH)",0.695
+tearfund_indikit_net,Water: HHs with zero fecal coliforms,"Water, sanitation and hygiene (WASH)",0.778
+tearfund_indikit_net,Water points with less than 10 colony forming units,"Water, sanitation and hygiene (WASH)",0.704
+tearfund_indikit_net,Water points with zero fecal coliforms,"Water, sanitation and hygiene (WASH)",0.761
+indicators_savethechildren_net,# of individuals who received health-related kits,Output Indicators,0.637
+indicators_savethechildren_net,Gender equality coordination,"Supported CSOs, Child-Focused Organizations, Child-Led Organizations, and Child Participation Structures Reporting Improved Coordination and Collaboration with Civil Society on Child Rights",0.553
+indicators_savethechildren_net,# of recommendations by human rights mechanisms accepted/endorsed by the government,Output Indicators,0.666
+indicators_savethechildren_net,# of sector-specific action plans at national or subnational levels costed as a result of influence,Output Indicators,0.556
+indicators_savethechildren_net,Abilities of children to exercise civil rights and freedoms,Supported Children and Civil Society Actors Reporting Enhanced Ability to Exercise Civil Rights and Navigate Civic Space Challenges,0.578
+indicators_savethechildren_net,Coordination by adult-led civil society organizations with civil society actors to maximise the impact of engagement around advancing respect for child rights,"Supported CSOs, Child-Focused Organizations, Child-Led Organizations, and Child Participation Structures Reporting Improved Coordination and Collaboration with Civil Society on Child Rights",0.578
+indicators_savethechildren_net,# of individuals participating in awareness raising activities,Output Indicators,0.59
+indicators_savethechildren_net,# of people reached through anticipatory actions,Output Indicators,0.762
+indicators_savethechildren_net,Youth trained or employed,Other Strategy Indicators,0.587
+indicators_savethechildren_net,Adolescent and youth in employment or decent work,"Adolescent and youth in employment, education or training",0.481
+indicators_savethechildren_net,Adolescent and youth in further education and training,"Adolescent and youth in employment, education or training",0.52
+indicators_savethechildren_net,Adolescent and youth life skills improvement,Other Strategy Indicators,0.522
+indicators_savethechildren_net,Financial diversification of local actors,Other Strategy Indicators,0.558
+indicators_savethechildren_net,Organizational capacity of local actors,Other Strategy Indicators,0.555
+indicators_savethechildren_net,Coordination by formal and informal child-led organizations and participation structures with civil society actors to maximize the impact of engagement around advancing respect for child rights,"Supported CSOs, Child-Focused Organizations, Child-Led Organizations, and Child Participation Structures Reporting Improved Coordination and Collaboration with Civil Society on Child Rights",0.557
+indicators_savethechildren_net,Malnutrition recovery,Other Strategy Indicators,0.73
+indicators_savethechildren_net,# of primary caregivers counselled on Infant and Young Child Feeding,Output Indicators,0.54
+indicators_savethechildren_net,# of pregnant women counselled on Infant and Young Child Feeding,Output Indicators,0.632
+indicators_savethechildren_net,# of H&N workers trained on community management of acute malnutrition,Output Indicators,0.56
+indicators_savethechildren_net,# of children and women screened for acute malnutrition,Output Indicators,0.742
+indicators_savethechildren_net,Children treated for malnutrition,Other Strategy Indicators,0.768
+indicators_savethechildren_net,PLWs treated for malnutrition,Other Strategy Indicators,0.526
+indicators_savethechildren_net,# of mother-infant pairs reached with MAMI interventions,Output Indicators,0.501
+indicators_savethechildren_net,Coverage of Acute Malnutrition Treatment,Other Strategy Indicators,0.788
+indicators_savethechildren_net,Births attended by skilled health personnel,Other Strategy Indicators,0.747
+indicators_savethechildren_net,Kangaroo Mother care for preterm/low birth weight babies,Other Strategy Indicators,0.492
+indicators_savethechildren_net,Health workers using climate-health information,Other Strategy Indicators,0.543
+indicators_savethechildren_net,Children covered by climate-health information system,Other Strategy Indicators,0.526
+indicators_savethechildren_net,# of maternal and reproductive health consultations provided,Output Indicators,0.566
+indicators_savethechildren_net,# of newborn consultations (up to 27 days),Output Indicators,0.601
+indicators_savethechildren_net,Modern contraceptive prevalence rate (mCPR),Other Strategy Indicators,0.705
+indicators_savethechildren_net,# of antenatal care consultations,Output Indicators,0.695
+indicators_savethechildren_net,"Safe, accessible, accountable and participatory assistance","Safe, accessible, accountable, and participatory assistance delivery",0.656
+indicators_savethechildren_net,Informal child protection service providers with improved service quality,Child protection service providers with improved service quality,0.552
+indicators_savethechildren_net,Children with improved situation due to addressed needs through case management,Other Strategy Indicators,0.566
+indicators_savethechildren_net,Child protection providers supported,Other Strategy Indicators,0.665
+indicators_savethechildren_net,Improvement in competence among child protection case workers,Other Strategy Indicators,0.549
+indicators_savethechildren_net,# of referrals to relevant services for individuals,Output Indicators,0.721
+indicators_savethechildren_net,# of child protection professionals or paraprofessionals (including case workers) trained,Output Indicators,0.616
+indicators_savethechildren_net,Adult attitude towards physical and humiliating punishment,Physical and humiliating punishment,0.497
+indicators_savethechildren_net,Positive caregiver-child relationships,Positive caregiver-child relationships,0.48
+indicators_savethechildren_net,Formal child protection service providers with improved service quality,Child protection service providers with improved service quality,0.561
+indicators_savethechildren_net,Children experiencing physical or psychological aggression by caregivers,Physical punishment and/or psychological aggression by caregivers,0.515
+indicators_savethechildren_net,# of children participating in learning opportunities,Output Indicators,0.514
+indicators_savethechildren_net,ECCD centres supported for health outcomes,Other Strategy Indicators,0.386
+indicators_savethechildren_net,Very young children with early stimulation and responsive care,Other Strategy Indicators,0.545
+indicators_savethechildren_net,# of households receiving essential household items,Output Indicators,0.598
+indicators_savethechildren_net,# of households received emergency shelter support,Output Indicators,0.556
+indicators_savethechildren_net,% of individuals provided with technical assistance on Shelter,Other Strategy Indicators,0.653
+indicators_savethechildren_net,% of households shelters meeting sphere shelter standards,Other Strategy Indicators,0.616
+indicators_savethechildren_net,Children exposed to protection risks due to household financial weakness,Other Strategy Indicators,0.483
+indicators_savethechildren_net,# of households received cash to maintain productive assets,Output Indicators,0.673
+indicators_savethechildren_net,Children with improved SEL skills,Other Strategy Indicators,0.652
+indicators_savethechildren_net,Usage of Weather & Climate Information Services (WCIS),Weather or climate information services coverage,0.433
+indicators_savethechildren_net,Usage of Climate Early Warning Systems (EWS),Weather or climate information services coverage,0.72
+indicators_savethechildren_net,Uptake of diversified / climate-resilient livelihood options,Diversified/climate-resilient livelihood options,0.607
+indicators_savethechildren_net,# of individuals reached through food security and livelihoods activities,Output Indicators,0.635
+indicators_savethechildren_net,Total amount (in US dollars) disbursed in the form of cash or vouchers,Other Strategy Indicators,0.546
+indicators_savethechildren_net,# of individuals reached through cash or voucher assistance,Output Indicators,0.482
+indicators_savethechildren_net,Food items distributed (MT),Other Strategy Indicators,0.483
+indicators_savethechildren_net,# of households received in-kind food assistance,Output Indicators,0.643
+indicators_savethechildren_net,# of households received agricultural inputs based on livelihood systems,Output Indicators,0.614
+indicators_savethechildren_net,"# of hazards for which triggers, indicators and plans for early action identified and regular monitoring in place as a part of the EPP process",Output Indicators,0.636
+indicators_savethechildren_net,Households meeting basic needs (%),Other Strategy Indicators,0.713
+indicators_savethechildren_net,Increased access to productive economic resources,Other Strategy Indicators,0.595
+indicators_savethechildren_net,Decision making on equitable services,Supported Children and Civil Society Actors Reporting Improved Access to Decision-Making and Inclusion in Planning by Government and Stakeholders,0.682
+indicators_savethechildren_net,# of commitments made or processes initiated by the Government and/or decision maker to improve the education budget,Output Indicators,0.605
+indicators_savethechildren_net,Abilities of civil society actors to exercise civil rights and freedoms,Supported Children and Civil Society Actors Reporting Enhanced Ability to Exercise Civil Rights and Navigate Civic Space Challenges,0.583
+indicators_savethechildren_net,Capacity of children to engage around advancing and influencing respect for child rights,Supported Children and Civil Society Actors Reporting Enhanced Capacity to Advocate for Child Rights,0.524
+indicators_savethechildren_net,Capacity of civil society actors to engage around advancing and influencing respect for child rights,Supported Children and Civil Society Actors Reporting Enhanced Capacity to Advocate for Child Rights,0.589
+indicators_savethechildren_net,Capacity of formal and informal child-led organizations and child participation structures to sustain engagement in advancing respect for child rights,"Supported CSOs, Child-Focused or Child-Led Organizations, and Child Participation Structures Reporting Stronger Capacities to Sustain Engagement in Advancing Child Rights",0.507
+indicators_savethechildren_net,Capacity of adult-led civil society organizations to sustain engagement in advancing respect for child rights,"Supported CSOs, Child-Focused or Child-Led Organizations, and Child Participation Structures Reporting Stronger Capacities to Sustain Engagement in Advancing Child Rights",0.562
+indicators_savethechildren_net,Capacity of duty bearers to uphold children's rights,Supported Duty Bearers and Service Providers Reporting Enhanced Capacities to Uphold Children's Rights,0.561
+indicators_savethechildren_net,Children's improved access to and inclusion in decision-making processes,Supported Children and Civil Society Actors Reporting Improved Access to Decision-Making and Inclusion in Planning by Government and Stakeholders,0.633
+indicators_savethechildren_net,Civil society actors' improved access to and inclusion in decision-making processes,Supported Children and Civil Society Actors Reporting Improved Access to Decision-Making and Inclusion in Planning by Government and Stakeholders,0.671
+indicators_savethechildren_net,Gender equitable norms,Other Strategy Indicators,0.755
+indicators_savethechildren_net,# of children reached through case management,Output Indicators,0.517
+indicators_savethechildren_net,# of individuals participating in child protection services,Output Indicators,0.553
+indicators_savethechildren_net,# of individuals receiving mental health & psychosocial support,Output Indicators,0.537
+indicators_savethechildren_net,# of individuals attending positive parenting group or children’s sessions,Output Indicators,0.47
+indicators_savethechildren_net,# of registered unaccompanied and/or separated children who were supported with services for reunification,Output Indicators,0.375
+indicators_savethechildren_net,Child reunification and appropriate alternative care,Other Strategy Indicators,0.472
+indicators_savethechildren_net,Access to documentation for children on the move,Other Strategy Indicators,0.548
+indicators_savethechildren_net,Improved functioning (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.534
+indicators_savethechildren_net,Improved subjective wellbeing (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.562
+indicators_savethechildren_net,Strengthened ability to cope (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.583
+indicators_savethechildren_net,Reduced distress or symptoms of disorder (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.502
+indicators_savethechildren_net,Improved social behavior (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.559
+indicators_savethechildren_net,Improved social connectedness (MHPSS),Improved mental health and/or psychosocial wellbeing (MHPSS),0.54
+indicators_savethechildren_net,"Children completing grade, level or program",Other Strategy Indicators,0.606
+indicators_savethechildren_net,Enrolment of children with disabilities,Other Strategy Indicators,0.66
+indicators_savethechildren_net,"Improved reading, numeracy, and SEL in humanitarian crisis",Other Strategy Indicators,0.603
+indicators_savethechildren_net,Children supported in literacy learning,Other Strategy Indicators,0.549
+indicators_savethechildren_net,Children supported in math learning,Other Strategy Indicators,0.523
+indicators_savethechildren_net,# of caregivers/community members actively participating in project implementation,Output Indicators,0.629
+indicators_savethechildren_net,# of teachers and facilitators supported to strengthen their competencies,Output Indicators,0.576
+indicators_savethechildren_net,"# of children supported in foundational literacy, math, or social and emotional learning",Output Indicators,0.544
+indicators_savethechildren_net,# of children supported in social and emotional learning (SEL),Output Indicators,0.584
+indicators_savethechildren_net,# of children who accessed digital platforms for learning,Output Indicators,0.545
+indicators_savethechildren_net,# of safe spaces/schools that provide structured life saving learning activities,Output Indicators,0.582
+indicators_savethechildren_net,# of teaching/learning kits distributed,Output Indicators,0.619
+indicators_savethechildren_net,"# of children in schools, ECCD centres, safe spaces and other learning spaces supported to improve safety of the learning space or the route to access it",Output Indicators,0.667
+indicators_savethechildren_net,"# of children in schools, ECCD centres, safe spaces and other learning spaces plus home learning supported to improve climate resilience in education",Output Indicators,0.598
+indicators_savethechildren_net,"# of girls participating in safe spaces and activities to build their knowledge, confidence and skills",Output Indicators,0.619
+indicators_savethechildren_net,Accelerated Education learners reading proficiency,Children Achieving Foundational level in Literacy,0.649
+indicators_savethechildren_net,Children in Catch-up Clubs who achieve highest reading level,Children Achieving Foundational level in Literacy,0.618
+indicators_savethechildren_net,Minimum proficiency in reading in grade 2 or 3,Children Achieving Foundational level in Literacy,0.687
+indicators_savethechildren_net,Minimum proficiency in maths in grade 2 or 3,Children Achieving Foundational level in Numeracy,0.633
+indicators_savethechildren_net,Children achieving grade 1 Literacy,Children Achieving Foundational level in Literacy,0.707
+indicators_savethechildren_net,Children achieving grade 2 Literacy,Children Achieving Foundational level in Literacy,0.71
+indicators_savethechildren_net,Children achieving grade 3 Literacy,Children Achieving Foundational level in Literacy,0.679
+indicators_savethechildren_net,Children achieving grade 4 Literacy,Children Achieving Foundational level in Literacy,0.7
+indicators_savethechildren_net,Children achieving grade 5 Literacy,Children Achieving Foundational level in Literacy,0.706
+indicators_savethechildren_net,Children in Numeracy Boost gain numeracy skills,Children Achieving Foundational level in Numeracy,0.675
+indicators_savethechildren_net,Children in Catch-up Clubs who gain numeracy skills,Children Achieving Foundational level in Numeracy,0.639
+indicators_savethechildren_net,Children achieving grade 1 Numeracy,Children Achieving Foundational level in Numeracy,0.692
+indicators_savethechildren_net,Children achieving grade 2 Numeracy,Children Achieving Foundational level in Numeracy,0.692
+indicators_savethechildren_net,Children achieving grade 3 Numeracy,Children Achieving Foundational level in Numeracy,0.67
+indicators_savethechildren_net,Children achieving grade 4 Numeracy,Children Achieving Foundational level in Numeracy,0.688
+indicators_savethechildren_net,Children achieving grade 5 Numeracy,Children Achieving Foundational level in Numeracy,0.689
+indicators_savethechildren_net,Children in Literacy Boost Projects reading with comprehension,Children Achieving Foundational level in Literacy,0.614
+indicators_savethechildren_net,Students perceiving high level of safety in school environment,Other Strategy Indicators,0.64
+indicators_savethechildren_net,Teaching that demonstrates Numeracy Boost methodologies,Teachers/facilitators teaching at a proficient competency level,0.531
+indicators_savethechildren_net,Teaching that demonstrates Literacy Boost methodologies,Teachers/facilitators teaching at a proficient competency level,0.564
+indicators_savethechildren_net,Teaching observed at a proficient competency level,Teachers/facilitators teaching at a proficient competency level,0.552
+indicators_savethechildren_net,Teaching self-assessed at a proficient competency level,Other Strategy Indicators,0.599
+indicators_savethechildren_net,Accelerated Education Teaching at Minimum Standard for effective teaching practice,Teachers/facilitators teaching at a proficient competency level,0.592
+indicators_savethechildren_net,Children receiving valid third dose of vaccines (DTP/Hep B/PCV/Hib/Rotavirus),Other Strategy Indicators,0.525
+indicators_savethechildren_net,# of vaccines administered,Output Indicators,0.598
+indicators_savethechildren_net,# of patients who received inpatient or outpatient consultation,Output Indicators,0.561
+indicators_savethechildren_net,Treatment of acute respiratory infection symptoms by health facility or provider,"Treatment of focus childhood illnesses (pneumonia, malaria and diarrhea)",0.509
+indicators_savethechildren_net,# of community health workers trained by Save the Children,Output Indicators,0.518
+indicators_savethechildren_net,"Children treated for pneumonia, diarrhoea or malaria",Other Strategy Indicators,0.525
+indicators_savethechildren_net,Children with diarrhoea receiving Oral Rehydration Solution and/or Zinc,"Treatment of focus childhood illnesses (pneumonia, malaria and diarrhea)",0.779
+indicators_savethechildren_net,Children with fever treated with anti-malarial drugs,"Treatment of focus childhood illnesses (pneumonia, malaria and diarrhea)",0.558
+indicators_savethechildren_net,School Limited Hygiene,"Institutions with basic drinking water, limited sanitation or hygiene services",0.666
+indicators_savethechildren_net,Health Facilities Limited Hygiene,"Institutions with basic drinking water, limited sanitation or hygiene services",0.694
+indicators_savethechildren_net,Climate Resilient WASH in Health Facilities,Other Strategy Indicators,0.678
+indicators_savethechildren_net,School Basic Hygiene,"Institutions with basic drinking water, limited sanitation or hygiene services",0.733
+indicators_savethechildren_net,# of individuals reached through WASH services,Output Indicators,0.687
+indicators_savethechildren_net,# of individuals reached through sanitation activities,Output Indicators,0.571
+indicators_savethechildren_net,# of individuals reached through emergency WASH interventions in response to diseases and epidemics,Output Indicators,0.584
+indicators_savethechildren_net,"# of communal shelters (child-friendly spaces, IGA centers and youth centers) constructed and used",Output Indicators,0.487
+indicators_savethechildren_net,# of individuals trained on safe construction practices,Output Indicators,0.607
+indicators_savethechildren_net,Safely managed drinking water,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.641
+indicators_savethechildren_net,Safely managed sanitation,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.665
+indicators_savethechildren_net,"Households Water, Sanitation and Hygiene","Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.722
+indicators_savethechildren_net,Households Safely Managed Water,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.663
+indicators_savethechildren_net,Households Basic Water,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.74
+indicators_savethechildren_net,Households Safely Managed Sanitation,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.703
+indicators_savethechildren_net,Households Limited Sanitation,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.705
+indicators_savethechildren_net,Households Limited Hygiene,"Access to at least basic drinking water, basic hygiene or limited (humanitarian contexts) or basic (development contexts) sanitation",0.755
+indicators_savethechildren_net,"School Water, Sanitation and Hygiene","Institutions with basic drinking water, limited sanitation or hygiene services",0.7
+indicators_savethechildren_net,"Health Facilities Water, Sanitation and Hygiene","Institutions with basic drinking water, limited sanitation or hygiene services",0.728
+indicators_savethechildren_net,School Basic Water,"Institutions with basic drinking water, limited sanitation or hygiene services",0.661
+indicators_savethechildren_net,Health Facilities Basic Water,"Institutions with basic drinking water, limited sanitation or hygiene services",0.657
+indicators_savethechildren_net,School Basic Sanitation,"Institutions with basic drinking water, limited sanitation or hygiene services",0.742
+indicators_savethechildren_net,Health Facilities Basic Sanitation,"Institutions with basic drinking water, limited sanitation or hygiene services",0.76
+indicators_savethechildren_net,School Limited Sanitation,"Institutions with basic drinking water, limited sanitation or hygiene services",0.705
+indicators_savethechildren_net,Health Facilities Limited Sanitation,"Institutions with basic drinking water, limited sanitation or hygiene services",0.696
+indicators_savethechildren_net,Health Facilities Basic Hygiene,"Institutions with basic drinking water, limited sanitation or hygiene services",0.731
+indicators_savethechildren_net,Girls’ Power Index (GPI),Other Strategy Indicators,0.503
+indicators_savethechildren_net,Satisfaction with services,Other Strategy Indicators,0.629
+indicators_savethechildren_net,Community improvements for equality,Other Strategy Indicators,0.53
+indicators_savethechildren_net,Upholding rights to equality and non-discrimination,Other Strategy Indicators,0.56
+indicators_savethechildren_net,Participants taking locally-led climate risk reduction actions,Other Strategy Indicators,0.576
+indicators_savethechildren_net,# of individuals received training and inputs/ support for diversified or climate-resilient livelihood options,Output Indicators,0.52
+indicators_savethechildren_net,Children benefiting from climate resilience in education,Other Strategy Indicators,0.661
+indicators_savethechildren_net,Climate resilience of child protection service providers,Other Strategy Indicators,0.587
+whh_indikit_net,Minimum Acceptable Diet (MAD),Food Security,0.793
+whh_indikit_net,Solid Waste Management,WASH,0.703
+whh_indikit_net,Access to Hygiene Items (NFI-Kit),WASH,0.763
+whh_indikit_net,Enrolment in TVET,Education and Skills Development,0.7
+whh_indikit_net,TVET Quality Standards,Education and Skills Development,0.751
+whh_indikit_net,TVET Providers Offering Internships,Education and Skills Development,0.714
+whh_indikit_net,Employment of TVET Graduates,Education and Skills Development,0.669
+whh_indikit_net,Acquired Knowledge / Skills,Food Security,0.771
+whh_indikit_net,Multi Actor Partnerships (MAP),Civil Society,0.609
+whh_indikit_net,CSOs' Capacity to Influence Policy Making,Civil Society,0.643
+whh_indikit_net,Infant and Young Child Feeding Index (ICFI),Nutrition,0.788
+whh_indikit_net,Ability to Cover Basic Needs,Cash and Voucher Assistance,0.758
+whh_indikit_net,Diversified Income,Environment,0.642
+whh_indikit_net,#ms06: Income,Market Development,0.566
+whh_indikit_net,Level of interest in TVET offer,Education and Skills Development,0.489
+whh_indikit_net,Job creation,Education and Skills Development,0.572
+whh_indikit_net,Market Linkages,Education and Skills Development,0.543
+whh_indikit_net,Mentoring and Post-training support,Education and Skills Development,0.532
+whh_indikit_net,#ms07: Skills - Trainees working in relevant occupations,Market Development,0.604
+whh_indikit_net,Life Skills,Education and Skills Development,0.499
+whh_indikit_net,(Youth) Engagement and Contribution,Education and Skills Development,0.704
+whh_indikit_net,#ms10: Women in Decision-Making,Gender,0.634
+whh_indikit_net,#ms04: Drinking Water,WASH,0.701
+whh_indikit_net,#ms03: Nutrition Diversity (MDD-W),Gender,0.727
+whh_indikit_net,#ms01: Food Access (MAHFP),Food Security,0.631
+whh_indikit_net,Women's Participation in a Union,Gender,0.684
+whh_indikit_net,Number of Firms or Individuals gaining Access to a Value Chain,Market Development,0.573
+whh_indikit_net,Number of full-time (equivalent) jobs created,Market Development,0.757
+whh_indikit_net,Change in Income,Market Development,0.595
+whh_indikit_net,"Open Defecation, ODF",WASH,0.499
+whh_indikit_net,Household water treatment and safe storage (HWTS),WASH,0.655
+whh_indikit_net,Functionality of Water Supply Systems,WASH,0.7
+whh_indikit_net,District Coordination on WASH,WASH,0.473
+whh_indikit_net,Participation in Community Decisions,Civil Society,0.738
+whh_indikit_net,Capacity Strengthening of Civil Society Organizations,Civil Society,0.588
+whh_indikit_net,Development Plans and Policies in Favor of Marginalized People,Civil Society,0.546
+whh_indikit_net,Ability to Cope with Future Shocks and Stresses,Civil Society,0.639
+whh_indikit_net,Partnership Quality in Multi Actors Settings,Civil Society,0.534
+whh_indikit_net,#ms11: Project Participants' Satisfaction,Protection Mainstreaming,0.637
+whh_indikit_net,#ms02: Households with acceptable Food Consumption Score (FCS),Food Security,0.781
+whh_indikit_net,#ms08: Agriculture - Households using the Promoted Practices,Agriculture and NRM,0.581
+whh_indikit_net,#ms09 Climate Resilience - Households using the Promoted Measures,Environment,0.588
+helvetas_indikit_net,BED 2.1.3  Supported actors in basic education,Partners,0.61
+helvetas_indikit_net,BED 2.1.4 Initatives to strengthen policies for basic education,Frame Condition,0.553
+helvetas_indikit_net,T 004	Sucessfull Initatives,Frame Condition,0.586
+helvetas_indikit_net,T 005 People benefiting from successful initatives,Frame Condition,0.586
+helvetas_indikit_net,"CDR 1.3.1 Awareness raising activities on natural resource management, climate change & DRR",People,0.504
+helvetas_indikit_net,CDR 1.3.2	Persons trained in natural resource management climate change & DRR,People,0.436
+helvetas_indikit_net,CDR 1.3.3  Number of people covered by new measures in the field of disaster/climate risk,People,0.678
+helvetas_indikit_net,CDR 1.3.4	Area under climate resilience and/or biodiversity measures,People,0.513
+helvetas_indikit_net,CDR 1.3.5	Actors supported to promote climate resilient development and improved ecosystems and/or biodiversity,Partners,0.577
+helvetas_indikit_net,CDR 1.3.6	Initiatives to strengthen policies in climate change adaptation and disaster risk management,Frame Condition,0.607
+helvetas_indikit_net,CTR 3.2.1 People capacitated to prevent and/or reduce conflict,People,0.518
+helvetas_indikit_net,CTR 3.2.2 Supported actors enaging to prevent and/or reduce conflicts,Partners,0.611
+helvetas_indikit_net,CTR 3.2.3 Initatives to strengthen policies that prevent or reduce conflicts for more social cohesion,Frame Condition,0.608
+helvetas_indikit_net,"FAN 1.2.1 Sustainable production, processing, and/or trade practices",People,0.575
+helvetas_indikit_net,FAN 1.2.2 	Awareness about healthy diets,People,0.547
+helvetas_indikit_net,"FAN 1.2.3 Supported actors to apply environmental, social and climate safeguards",Partners,0.63
+helvetas_indikit_net,"FAN 1.2.4 Initatives to strengthen policies to foster agroecology, climate resilience and biodiversity",Frame Condition,0.515
+helvetas_indikit_net,GCS 3.1.1 People capacitated to influence public services/decision making,People,0.582
+helvetas_indikit_net,GCS 3.1.2 Supported actors to promote good governance,Partners,0.617
+helvetas_indikit_net,GCS 3.1.3 Initatives to strengthen policies for enhance inclusive policy,Frame Condition,0.592
+helvetas_indikit_net,SJI 2.1 Number of people with increased income,People,0.533
+helvetas_indikit_net,MIG 3.3.1 People affected by migration capacitated to know their rights,People,0.479
+helvetas_indikit_net,MIG 3.3.2 Supported actors to to enhance the effectiveness of their services to migrants,Partners,0.586
+helvetas_indikit_net,MIG 3.3.3 Initatives to strengthen inclusive policy and/or services for migrants,Frame Condition,0.576
+helvetas_indikit_net,PSD 2.3.1 Businesses making use of financial products and services,People,0.475
+helvetas_indikit_net,PSD 2.3.2 Supported actors who provide financial and non-financial service,Partners,0.551
+helvetas_indikit_net,PSD 2.3.3 Initatives to decrease business constraints in the field of PSD,Frame Condition,0.54
+helvetas_indikit_net,VSD 2.2.1  People enrolled in vocational skills development,People,0.6
+helvetas_indikit_net,VSD 2.2.2 People who completed vocational skills development,People,0.612
+helvetas_indikit_net,VSD 2.2.3 Supported actors who deliver vocational skills development,Partners,0.617
+helvetas_indikit_net,VSD 2.2.4	Initatives to support policies in the field of VET,Frame Condition,0.539
+helvetas_indikit_net,"BAR 1.4.1 Access to markets, schools, and health centres through roads or bridges",People,0.523
+helvetas_indikit_net,WSG 1.1.1 People who have gained access to (at least) basic drinking water,People,0.616
+helvetas_indikit_net,WSG 1.1.2 Schools and/or health care facilities with access to drinking water,Entity,0.552
+helvetas_indikit_net,WSG 1.1.3	Water supply systems constructed/rehabilitated,Entity,0.555
+helvetas_indikit_net,WSG 1.1.4 Access to basic sanitation services,People,0.62
+helvetas_indikit_net,WSG 1.1.5 Schools and health care facilities with access to basic sanitation,Entity,0.597
+helvetas_indikit_net,WSG 1.1.6 People reached with (a) hygiene promotion including (b) menstrual hygiene,People,0.55
+helvetas_indikit_net,WSG 1.1.7  Supported actors to increase capacities for WASH,Partner,0.544
+helvetas_indikit_net,WSG 1.1.8	Supported actors to increase capacities for more integrated water resource management,Partner,0.494
+helvetas_indikit_net,WSG 1.1.9 Initatives to strengthen policies for integrated natural resources governance,Frame Condition,0.494
+helvetas_indikit_net,SJI 2.2 Businesses with increased profit,People,0.495
+helvetas_indikit_net,BAR 1.4.2 People who benfited from bridges or roads constructed by supported institutions,People,0.508
+helvetas_indikit_net,SJI 2.3 Persons having new or better employment,People,0.486
+helvetas_indikit_net,SJI 2.4 Jobs created,People,0.378
+helvetas_indikit_net,SJI 2.5 People completed a basic education programme,People,0.565
+helvetas_indikit_net,SJI 2.6 People transitioned to TVET/formal school/work,People,0.536
+helvetas_indikit_net,VIC 3.1 People benefit from better services,People,0.609
+helvetas_indikit_net,VIC 3.2 People with confidence in local governance,People,0.612
+helvetas_indikit_net,VIC 3.3 Improvement in social cohesion,People,0.549
+helvetas_indikit_net,VIC 3.4 People who are better informed and have more say,People,0.545
+helvetas_indikit_net,VIC 3.5 People take action to prevent conflicts,People,0.557
+helvetas_indikit_net,"BAR 1.4.3  Roads constructed, rehabilitated, or upgraded",Bridges and Roads,0.473
+helvetas_indikit_net,WFC 1.1 Household Water Insecurity Experiences (HWISE),People,0.579
+helvetas_indikit_net,WFC 1.10 People more resilient to the adverse effects of climate change,People,0.691
+helvetas_indikit_net,WFC 1.11 Food insecurity Experience Scale (FIES),People,0.643
+helvetas_indikit_net,WFC 1.12 Minimum dietary diversity score for women,People,0.735
+helvetas_indikit_net,"WFC 1.13 Reduced travel time to markets, schools, and health centers",People,0.568
+helvetas_indikit_net,WFC 1.2 People using (at least) basic drinking water services,People,0.655
+helvetas_indikit_net,WFC 1.3 People using (at least) basic sanitation services,People,0.653
+helvetas_indikit_net,WFC 1.5 People benefiting from integrated water resources management,People,0.611
+helvetas_indikit_net,WFC 1.6 Smallholders with increased water use efficiency,People,0.59
+helvetas_indikit_net,"BAR 1.4.4 Bridges constructed, rehabilitated, or upgraded",Bridges and Roads,0.463
+helvetas_indikit_net,WFC 1.7 Smallholders implementing climate-resilient practices and/or Voluntary Sustainability Standards,People,0.573
+helvetas_indikit_net,WFC 1.8 Smallholders with increased net productivity per hectare,People,0.626
+helvetas_indikit_net,WFC 1.9 People with rights over natural resources,People,0.53
+helvetas_indikit_net,HUM 001 Basic needs covered by cash or in-kind assistance,Output,0.643
+helvetas_indikit_net,HUM 002 Humanitarian assistance provided corresponded needs,Outcome,0.568
+helvetas_indikit_net,HUM 004 Percentage of costs transferred through cash/voucher modality,Output,0.641
+helvetas_indikit_net,HUM 005 People with access to basic and safe shelters solutions,Output,0.721
+helvetas_indikit_net,HUM 006 People provided with resources to rebuild livelihood assets,Output,0.55
+helvetas_indikit_net,HUM 007 Access to a sufficient quantity of safe water (humanitarian),Output,0.69
+helvetas_indikit_net,BED 2.1.1 Teachers and/or education personnel capacity building,People,0.501
+helvetas_indikit_net,HUM 008 Secure access to a adequate toilets (humanitarian),Output,0.557
+helvetas_indikit_net,HUM 009 People with increased Self-Reliance score,Outcome,0.47
+helvetas_indikit_net,CRM 001 Functional Feedback and Complaints Response Mechanism,Tag,0.533
+helvetas_indikit_net,ST 001 Urban engagement,Tag,0.573
+helvetas_indikit_net,REACH 001 Number of primary stakeholders,General Indicator,0.63
+helvetas_indikit_net,REACH 002 Number of indirect stakeholders,General Indicator,0.528
+helvetas_indikit_net,T 001	Degree of integration of gender and social equity,Developement,0.53
+helvetas_indikit_net,ST 003 Degree of integration of climate and disaster resilience (mainstreaming),Developement,0.525
+helvetas_indikit_net,T 002 Presence of an innovative component in the project,Tag,0.425
+helvetas_indikit_net,BED 2.1.2 People who participated in a basic education,People,0.521
+helvetas_indikit_net,A002 Project involves Private Sector Engagement (PSE),Tag,0.485
+helvetas_indikit_net,ST 002  Project involves ICT4D,Tag,0.327
+tdh_indikit_net,Support to Learning spaces,Education & Employability of C&Y,0.57
+tdh_indikit_net,Innovative solution for livelihood,Education & Employability of C&Y,0.498
+tdh_indikit_net,"Migration standards, policies, and procedures",Migration Policy & Advocacy,0.475
+tdh_indikit_net,Migration Advocacy actions,Migration Policy & Advocacy,0.641
+tdh_indikit_net,Migration partners in advocacy,Migration Policy & Advocacy,0.577
+tdh_indikit_net,Migration networks engaged in advocacy,Migration Policy & Advocacy,0.509
+tdh_indikit_net,Births assisted by skilled birth attendants (%),Perinatal Health,0.669
+tdh_indikit_net,Births assisted by skilled birth attendants (#),Perinatal Health,0.669
+tdh_indikit_net,ANC - Ante Natal Care consultations,Perinatal Health,0.713
+tdh_indikit_net,Skilled birth attendants trained on perinatal health,Perinatal Health,0.551
+tdh_indikit_net,Improved understanding on CYM rights and migration contexts,Knowledge & Information on Migration,0.432
+tdh_indikit_net,PNC - Post Natal Care consultations newborns,Perinatal Health,0.714
+tdh_indikit_net,PNC - Post Natal Care consultations mothers,Perinatal Health,0.727
+tdh_indikit_net,Digital MNCH consultations,Digital Health,0.444
+tdh_indikit_net,MNCH consultations with electronic clinical decision support system,Digital Health,0.436
+tdh_indikit_net,Justice procedural safeguards for children,Justice Procedural Safeguards,0.5
+tdh_indikit_net,Non-custodial measures,Justice Procedural Safeguards,0.469
+tdh_indikit_net,Child Justice specialized capacity development,Justice Procedural Safeguards,0.473
+tdh_indikit_net,Reintegration of children in contact with the law,Justice Procedural Safeguards,0.472
+tdh_indikit_net,Child rights awareness-raising campaigns and initiatives,Social Cohesion,0.497
+tdh_indikit_net,Justice normative change,Justice Regulatory Development - Policy & Advocacy,0.446
+tdh_indikit_net,Technical contribution to legal review & law enforcement,Justice Regulatory Development - Policy & Advocacy,0.414
+tdh_indikit_net,Policy and advocacy actions on child-centred justice,Justice Regulatory Development - Policy & Advocacy,0.523
+tdh_indikit_net,Child & youth justice advisory boards,Justice Regulatory Development - Policy & Advocacy,0.551
+tdh_indikit_net,Improved WASH services reported by users,WASH Services & Governance,0.785
+tdh_indikit_net,Wash service level in Institutions,WASH Services & Governance,0.712
+tdh_indikit_net,Access improved Wash services (#),WASH Services & Governance,0.722
+tdh_indikit_net,WASH policies participatory management,WASH Services & Governance,0.578
+tdh_indikit_net,WASH infrastructures maintenance training,WASH Services & Governance,0.642
+tdh_indikit_net,Perception of Social cohesion,Social Cohesion,0.532
+tdh_indikit_net,Ability to meet basic needs through Cash or In-kind assistance,Livelihood (Cash & NFI),0.678
+tdh_indikit_net,Cash / NFI delivery,Livelihood (Cash & NFI),0.584
+tdh_indikit_net,Capacity response climate change,Climate Change & Environment,0.598
+tdh_indikit_net,People trained climate change,Climate Change & Environment,0.522
+tdh_indikit_net,Youth led advocacy climate,Climate Change & Environment,0.645
+tdh_indikit_net,Health facilities using digital tools,Digital Health,0.458
+tdh_indikit_net,Health workers trained on digital tools,Digital Health,0.389
+tdh_indikit_net,Health facilities WHO building blocks,Digital Health,0.518
+tdh_indikit_net,Health districts with a digital surveillance system,Digital Health,0.504
+tdh_indikit_net,Health workers trained on health crisis protocols,Digital Health,0.481
+tdh_indikit_net,Improved children psychosocial wellbeing,Wellbeing & Mental Health of C&Y and Caregivers,0.6
+tdh_indikit_net,Outpatients' consultations,Child Health & Nutrition,0.496
+tdh_indikit_net,Health facilities with a referral system for undernutrition,Child Health & Nutrition,0.627
+tdh_indikit_net,GAM/SAM recovery,Child Health & Nutrition,0.678
+tdh_indikit_net,Infant and Young Child Feeding Prevention,Child Health & Nutrition,0.513
+tdh_indikit_net,MHPSS services for Children,Wellbeing & Mental Health of C&Y and Caregivers,0.557
+tdh_indikit_net,Case Management user satisfaction,Wellbeing & Mental Health of C&Y and Caregivers,0.512
+tdh_indikit_net,Case management services,Wellbeing & Mental Health of C&Y and Caregivers,0.48
+tdh_indikit_net,Child & youth participation outcome,Participation Empowerment of C&Y,0.59
+tdh_indikit_net,Skills for child & youth participation,Participation Empowerment of C&Y,0.566
+tdh_indikit_net,Children in participation activities,Participation Empowerment of C&Y,0.561
+tdh_indikit_net,Migration publications & guidances,Knowledge & Information on Migration,0.382
+tdh_indikit_net,Improved psychosocial wellbeing caregivers,CP Actors & Caregivers Strengthening,0.613
+tdh_indikit_net,Parents & caregivers' confidence to protect their children,CP Actors & Caregivers Strengthening,0.551
+tdh_indikit_net,MHPSS services for Caregivers,CP Actors & Caregivers Strengthening,0.468
+tdh_indikit_net,Improved practices of child protection actors,CP Actors & Caregivers Strengthening,0.531
+tdh_indikit_net,Actors engagement Violence Against Children (VAC),Child Protection System (Framework & Regulation),0.547
+tdh_indikit_net,Actors trained on child protection,CP Actors & Caregivers Strengthening,0.471
+tdh_indikit_net,Pre/in service education for social workforce,Child Protection System (Framework & Regulation),0.494
+tdh_indikit_net,Safeguarding and remediation systems,Child Protection System (Framework & Regulation),0.55
+tdh_indikit_net,Improved quality of Child Protection services,Child Protection System (Framework & Regulation),0.478
+tdh_indikit_net,Child Protection Standard operating Procedures/ Framework,Child Protection System (Framework & Regulation),0.484
+tdh_indikit_net,Information on migration risks and opportunities,Knowledge & Information on Migration,0.452
+tdh_indikit_net,Improved employability,Education & Employability of C&Y,0.545
+tdh_indikit_net,Access to formal & non formal education,Education & Employability of C&Y,0.638
+winrock_indikit_net,Access to safer migration,Addressing Root Causes,0.617
+winrock_indikit_net,Knowledge of human trafficking risks,Social Behavior Change,0.522
+winrock_indikit_net,Employment/ Self-employment obtained,Addressing Root Causes,0.697
+winrock_indikit_net,Sustainable employment/Self-employment,Addressing Root Causes,0.713
+winrock_indikit_net,Achieving desired skill set,Services and Service Providers,0.657
+winrock_indikit_net,Social media campaign reach,Advocacy and Policy,0.736
+winrock_indikit_net,Number of victims identified or referred to services,Identification and Referral,0.581
+winrock_indikit_net,Community identification knowledge,Identification and Referral,0.592
+winrock_indikit_net,Targeted support services,Services and Service Providers,0.673
+winrock_indikit_net,Individualised case management plans,Services and Service Providers,0.466
+winrock_indikit_net,Active local government committees,Government and Systems,0.595
+winrock_indikit_net,Private sector investment,Private Sector Engagement,0.408
+winrock_indikit_net,Compensation awarded to survivors,Prosecution/ Legal assistance/ Justice,0.472
+winrock_indikit_net,Participatory case management,Services and Service Providers,0.488
+winrock_indikit_net,Improved self-efficacy,Participation/ Empowerment,0.703
+winrock_indikit_net,GESI participants in project/ program,Cross-cutting Topics,0.634
+winrock_indikit_net,GESI participation in community level groups,Cross-cutting Topics,0.586
+winrock_indikit_net,"PS. 5.1-24 Capacity building, service providers",USG Standard Indicators,0.599
+winrock_indikit_net,PS. 5.1-25 Victims Receiving Services,USG Standard Indicators,0.519
+winrock_indikit_net,PS. 5.1-26 Referral Procedures,USG Standard Indicators,0.602
+winrock_indikit_net,PS. 5.3-16 Human trafficking awareness materials,USG Standard Indicators,0.515
+winrock_indikit_net,PS. 5.1-27 Sustainable employment/livelihoods,USG Standard Indicators,0.52
+winrock_indikit_net,PS. 5.2-22 Law enforcement capacity,USG Standard Indicators,0.487
+winrock_indikit_net,PS. 5.2-23 Anti-TIP Laws and Policies,USG Standard Indicators,0.518
+winrock_indikit_net,PS. 5.3-15 Training in human trafficking prevention,USG Standard Indicators,0.477
+winrock_indikit_net,PS.5.1-28 First responders trained on victim identification,USG Standard Indicators,0.502
+winrock_indikit_net,PS.5.1-29 Victim Referral,USG Standard Indicators,0.604
+winrock_indikit_net,Community referral knowledge,Identification and Referral,0.664
+winrock_indikit_net,Compensation received by survivors,Prosecution/ Legal assistance/ Justice,0.542
+winrock_indikit_net,Community trained in identification and referral,Identification and Referral,0.643
+winrock_indikit_net,Access to decent work,Cross-cutting Topics,0.635
+winrock_indikit_net,Advocacy events - Hosted,Advocacy and Policy,0.614
+winrock_indikit_net,Advocacy events - Attendees,Advocacy and Policy,0.701
+winrock_indikit_net,Government or Private Sector commitments made,Advocacy and Policy,0.673
+winrock_indikit_net,Community action groups formed,Social Behavior Change,0.682
+winrock_indikit_net,Community action group activities,Social Behavior Change,0.599
+winrock_indikit_net,Employment/Livelihoods program – Indirect beneficiaries,Services and Service Providers,0.516
+winrock_indikit_net,Business entity TIP risk assessments,Private Sector Engagement,0.611
+winrock_indikit_net,Business entity grievance mechanisms,Private Sector Engagement,0.532
+winrock_indikit_net,Grievance report monitoring,Private Sector Engagement,0.469
+winrock_indikit_net,Business entity public supplier lists,Private Sector Engagement,0.522

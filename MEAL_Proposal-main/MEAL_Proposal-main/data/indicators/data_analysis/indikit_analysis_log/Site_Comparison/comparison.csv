@@ -1,0 +1,304 @@
+unique_id,name,name_sim,wording_en_sim,wording_fr_sim,purpose_sim,section_match,sector_match,sub_sector_match
+5267,Adoption of Promoted Practices (1),1.0,1.0,1.0,0.997,True,True,True
+5260,Agricultural Productivity,1.0,1.0,1.0,1.0,True,True,True
+5424,Amount of Production,1.0,1.0,1.0,1.0,True,True,True
+5271,Area of Degraded Land Under Sustainable Management,1.0,1.0,1.0,1.0,True,False,False
+5491,Area of Land Under Improved Management,1.0,1.0,0.988,1.0,True,True,True
+5254,Farm Diversity Score,1.0,1.0,1.0,0.991,True,True,True
+5492,Fulfilment of Landscape Management Plans,1.0,1.0,1.0,1.0,True,False,False
+5201,Natural Resource Management,1.0,1.0,1.0,1.0,True,False,False
+5268,Soil Quality,1.0,1.0,1.0,1.0,True,True,True
+5450,Survival Rate,1.0,1.0,1.0,1.0,True,True,True
+5476,Use of Eco-Friendly Practices / Products,1.0,1.0,0.993,1.0,True,True,True
+5592,Water-Saving Measures,1.0,1.0,1.0,1.0,True,False,False
+5263,Animal Mortality,1.0,0.99,1.0,1.0,True,True,True
+5272,Extent of Soil Erosion,1.0,1.0,1.0,1.0,True,False,False
+5259,Reported Crop Yield Per Unit,1.0,0.991,1.0,0.988,True,True,True
+5255,Crop Production,1.0,1.0,1.0,1.0,True,True,True
+5256,Animal Raising,1.0,1.0,1.0,1.0,True,True,True
+5257,Cropping Area,1.0,0.989,1.0,1.0,True,True,True
+5261,Production Losses,1.0,1.0,1.0,1.0,True,True,True
+5494,Proportion of Surviving Seedlings,1.0,1.0,1.0,1.0,True,True,True
+5258,Reported Agricultural Output,1.0,1.0,1.0,0.998,True,True,True
+5262,Storage-Related Post-Harvest Losses,1.0,1.0,1.0,0.996,True,True,True
+5589,Use of Environmental Assessment Recommendations,1.0,1.0,1.0,1.0,True,True,True
+5567,People Benefiting,1.0,1.0,1.0,0.996,True,True,True
+5532,Accessing a Service,1.0,1.0,1.0,0.996,True,True,True
+5568,Adopted Recommendations,1.0,1.0,0.99,0.995,True,True,True
+5446,Public-Private Platforms,1.0,1.0,1.0,1.0,True,True,True
+5530,Active Participation in Activities,1.0,1.0,1.0,1.0,True,True,True
+5529,Awareness of How to Participate in Activities,1.0,1.0,1.0,1.0,True,True,True
+5488,Awareness of Promoted Practices,1.0,1.0,1.0,1.0,True,True,True
+5526,Engagement in Identifying Needs and Solutions,1.0,1.0,1.0,1.0,True,True,True
+5576,Engagement with Decision Makers,1.0,1.0,1.0,1.0,True,True,True
+5349,Favourable Attitude,1.0,1.0,1.0,0.996,True,True,True
+5577,People Reached,1.0,1.0,1.0,1.0,True,True,True
+5489,Perceived Effectiveness,1.0,1.0,1.0,0.933,True,True,True
+5582,Policy / Public Events,1.0,1.0,1.0,1.0,True,True,True
+5527,Sharing Data with Communities,1.0,1.0,1.0,1.0,True,True,True
+5454,Adoption of the Promoted Management Practices,1.0,1.0,1.0,0.997,True,True,True
+5455,Adoption of the Promoted Technologies,1.0,1.0,1.0,1.0,True,True,True
+5569,Budgetary Commitment,1.0,1.0,1.0,1.0,True,True,True
+5196,Self-Help Groups - Coverage,1.0,1.0,1.0,1.0,True,True,True
+5195,Self-Help Groups - Functionality,1.0,1.0,1.0,1.0,True,True,True
+5588,Adoption of Environmental Protection Practices,1.0,1.0,1.0,1.0,True,True,True
+5590,Energy-Saving Measures,1.0,1.0,1.0,1.0,True,True,True
+5591,Fuel-Efficient Cooking Practices,1.0,1.0,1.0,1.0,True,False,False
+5466,Awareness of Climate-Smart Energy Technologies,1.0,1.0,1.0,1.0,True,True,True
+5467,Awareness of How to Access Promoted Energy Technologies,1.0,1.0,1.0,1.0,True,True,True
+5595,Knowledge / Skills for Protecting Environment,1.0,1.0,1.0,1.0,True,True,True
+5361,Environmentally-Friendly Energy Technologies,1.0,1.0,1.0,0.998,True,True,True
+5328,Food Insecurity Experience Scale (FIES),1.0,1.0,0.958,0.998,True,True,True
+5604,Acute malnutrition,1.0,1.0,1.0,1.0,True,True,True
+5327,Household Food Insecurity Access Scale,1.0,1.0,0.972,0.853,True,True,True
+5326,Household Hunger Score,1.0,1.0,1.0,0.998,True,True,True
+5091,FSL: Coping Strategy Index,1.0,1.0,1.0,0.996,True,False,False
+5090,FSL: Food Consumption Score,1.0,1.0,1.0,1.0,True,False,False
+5089,Household Dietary Diversity Score,1.0,1.0,1.0,1.0,True,True,True
+5605,Household food production,1.0,1.0,1.0,1.0,True,True,True
+5083,Individual Dietary Diversity Score,1.0,1.0,1.0,1.0,True,True,True
+5092,Months of Adequate Household Food Provisioning,1.0,1.0,1.0,1.0,True,True,True
+5464,FSL: Reduced Coping Strategy Index,1.0,1.0,0.98,1.0,True,False,False
+5620,Food Consumption Score,1.0,1.0,1.0,1.0,True,True,True
+5161,Household Consumption,1.0,1.0,1.0,0.915,True,True,True
+5598,Livelihood Coping Strategy Index,1.0,1.0,1.0,1.0,True,True,True
+5099,Awareness of Appropriate Diet,1.0,1.0,1.0,0.997,True,True,True
+5317,Production of Nutrient-Rich Crops,1.0,1.0,1.0,0.995,True,True,True
+5158,Generation of Employment Opportunities,1.0,1.0,0.989,1.0,True,True,True
+5329,Living Below the Poverty Line,1.0,1.0,0.991,0.997,True,True,True
+5215,Access to Labour Market Information,1.0,1.0,1.0,0.995,True,True,True
+5606,Cash Spending,1.0,1.0,1.0,1.0,True,True,True
+5487,Diversified Income,1.0,1.0,1.0,1.0,True,True,True
+5250,Employment of Vulnerable Persons,1.0,1.0,1.0,1.0,True,True,False
+5432,Number of Jobs Created,1.0,1.0,1.0,1.0,True,True,True
+5486,Reduced Vulnerability,1.0,1.0,1.0,0.997,True,False,False
+5423,Value of Loans Accessed,1.0,1.0,1.0,1.0,True,True,True
+5420,Women’s Economic Decision-Making,0.969,1.0,1.0,1.0,True,True,True
+5159,Household Average Income,1.0,1.0,1.0,1.0,True,True,True
+5160,Household Expenditure,1.0,1.0,1.0,1.0,True,True,True
+5164,Income from Employment,1.0,1.0,1.0,1.0,True,True,True
+5165,Income of Supported Businesses,1.0,1.0,1.0,1.0,True,True,True
+5358,Increased Income,1.0,1.0,0.986,0.995,True,True,True
+5166,Savings - Existence and Levels,1.0,1.0,1.0,1.0,True,True,True
+5442,Security of Employment,1.0,1.0,1.0,0.997,True,True,True
+5167,Indebtedness - Existence and Levels,1.0,1.0,1.0,1.0,True,True,True
+5441,Labour Safety,1.0,1.0,1.0,1.0,True,True,True
+5157,Number of Products Sold,1.0,1.0,1.0,0.993,True,True,True
+5212,Participation in Work-Based Learning,1.0,1.0,1.0,1.0,True,True,True
+5346,Saving Groups – Average Savings,0.968,1.0,0.972,1.0,True,True,True
+5347,Saving and Loan Groups – Total Value of Provided Loans,0.981,1.0,0.987,0.992,True,True,True
+5448,Adoption of Business Environment Changes,1.0,1.0,0.986,0.998,True,True,True
+5155,Customer Satisfaction,1.0,1.0,1.0,0.992,True,True,True
+5459,Expected Sustainability of Supported Businesses,1.0,1.0,1.0,1.0,True,True,True
+5458,Investments into Promoted Business Practices / Models,1.0,1.0,1.0,1.0,True,True,True
+5456,Marketing Practices Leading to Higher Sales,1.0,1.0,1.0,1.0,True,True,True
+5451,Return on Investment,1.0,1.0,1.0,0.995,True,True,True
+5425,Sales Revenue,1.0,1.0,0.989,1.0,True,True,True
+5436,Women in Management,1.0,1.0,1.0,0.996,True,True,True
+5531,Awareness of How to Access a Service,1.0,1.0,1.0,1.0,True,True,True
+5151,Awareness of Where to Access Service,1.0,1.0,1.0,1.0,True,True,True
+5150,Awareness of Where to Purchase Product,1.0,1.0,1.0,1.0,True,True,True
+5427,Local Availability of Products / Services,1.0,1.0,1.0,1.0,True,True,True
+5148,Number of Service Providers,1.0,1.0,1.0,1.0,True,True,True
+5426,Stock Availability,1.0,1.0,1.0,0.996,True,True,True
+5153,Diversity of Products Sold,1.0,1.0,1.0,1.0,True,True,True
+5156,Number of Clients Served,1.0,1.0,1.0,0.943,True,True,True
+5147,Number of Selling Points,1.0,1.0,1.0,1.0,True,True,True
+5154,Quality of Provided Services,1.0,1.0,1.0,1.0,True,True,True
+5270,Sales to New Markets,1.0,1.0,1.0,0.997,True,True,True
+5422,Use of Financial Products / Services,1.0,1.0,1.0,1.0,True,True,True
+5152,Use of Promoted Products / Services,1.0,1.0,1.0,1.0,True,True,True
+5434,Cost-Effectiveness of Jobs Creation,1.0,1.0,1.0,1.0,True,True,True
+5204,Completion Rate in Vocational Education Training,1.0,1.0,0.982,1.0,True,True,True
+5203,Dropout Rate in Vocational Education Training,1.0,1.0,0.962,1.0,True,True,True
+5208,Market-Relevant Curriculum,1.0,0.991,0.992,0.998,True,True,True
+5205,Participation of Vulnerable Groups,1.0,1.0,0.987,1.0,True,True,True
+5213,VET Providers Offering Internships,1.0,1.0,1.0,0.997,True,True,True
+5206,Achievement of Vocational Education Training Competency Standards,1.0,1.0,0.978,0.998,True,True,True
+5437,Employers’ Use of Job Matching Services,0.974,1.0,0.993,0.997,True,True,True
+5214,Employment of Vocational Education Training Completers,1.0,1.0,0.991,0.996,True,True,True
+5385,Life Skills Learning,1.0,1.0,1.0,1.0,True,True,True
+5438,Job Seekers’ Awareness of Job Matching Services,0.979,1.0,1.0,1.0,True,True,True
+5209,Successfully Trained Teachers/ Trainers,1.0,1.0,0.989,1.0,True,True,True
+5187,Vulnerability and Capacity Assessment,1.0,1.0,1.0,1.0,True,True,True
+5265,Acquired Knowledge / Skills,1.0,1.0,1.0,1.0,True,True,True
+5210,Adequate Vocational Education Training Facilities,1.0,1.0,0.969,0.996,True,True,True
+5202,Enrolment in Vocational Education Training,1.0,1.0,0.979,1.0,True,True,True
+5439,Job Seekers’ Use of Job Matching Services,0.976,1.0,1.0,1.0,True,True,True
+5211,Trainee-Trainer Ratio,1.0,1.0,0.991,1.0,True,True,True
+5207,VET Quality Standards,1.0,1.0,0.981,1.0,True,True,True
+5656,Conflicts Addressed and Resolved by Different Actors,1.0,1.0,1.0,1.0,True,True,True
+5755,Trust in formal/informal justice provider,1.0,1.0,1.0,1.0,True,True,True
+5647,Satisfaction with Conflict Resolution,1.0,1.0,1.0,1.0,True,True,True
+5662,Acceptability of Gender-Based Violence,1.0,1.0,1.0,1.0,False,False,False
+5663,Awareness of Available Support for GBV survivors,1.0,1.0,1.0,1.0,False,False,False
+5661,Physical Violence Against Women,1.0,1.0,1.0,0.998,False,False,False
+5660,Sexual Violence Against Women,1.0,1.0,1.0,0.998,False,False,False
+5643,Land Tenure Security (Legal Documentation and Perception),1.0,1.0,1.0,1.0,True,True,True
+5713,Performance of Land Administration Services,1.0,1.0,1.0,1.0,True,True,True
+5667,Prevalence of Land Disputes,1.0,1.0,1.0,1.0,True,True,True
+5644,Land Conflict Resolution Rate through ADR,1.0,1.0,1.0,1.0,True,True,True
+5645,Number of Land Certificates or Title Deeds Issued,1.0,1.0,1.0,1.0,True,True,True
+5646,Women's Land Rights on Issued Land Certificates or Title Deeds,1.0,1.0,1.0,1.0,True,True,True
+5695,Access to Justice,1.0,1.0,1.0,1.0,True,True,True
+5653,People's Perception of Security,1.0,1.0,1.0,1.0,True,True,True
+5754,Prevalence of Conflicts,1.0,1.0,1.0,1.0,True,True,True
+5654,Violent Deaths per 100.000 People,1.0,1.0,1.0,1.0,True,True,True
+5756,Perceived Community Cohesion,1.0,1.0,1.0,1.0,True,True,True
+5655,Perception of Social Cohesion and Trust,1.0,1.0,1.0,1.0,True,True,True
+5658,Sense of Community,1.0,1.0,1.0,1.0,True,True,True
+5792,Trust,1.0,1.0,1.0,1.0,True,True,True
+5659,Well-Being Questionnaire (SRQ 20),1.0,1.0,1.0,1.0,True,True,True
+5244,Safe and Dignified Shelters,1.0,1.0,1.0,1.0,True,True,True
+5633,Shelter: Financial Access,1.0,1.0,1.0,1.0,True,False,False
+5631,Shelter: Non-Food Items,1.0,1.0,0.995,1.0,True,False,False
+5632,Shelter: Use of Quality Shelter,1.0,1.0,1.0,1.0,True,False,False
+5634,Shelter: Winterproof Shelter,1.0,1.0,1.0,1.0,True,False,False
+5180,Use of Cash/ Materials for Shelter (Re)Construction,1.0,1.0,0.983,1.0,True,True,True
+5179,Access to Adequate Shelter,1.0,1.0,1.0,1.0,True,True,True
+5182,Access to Non-Food Items,1.0,1.0,1.0,1.0,True,True,True
+5198,Access to Public Infrastructure / Services,1.0,1.0,1.0,1.0,True,True,True
+5313,Access to Shelter,1.0,1.0,0.993,1.0,True,True,True
+5223,Adequate School Infrastructure,1.0,1.0,1.0,1.0,True,True,True
+5189,Community-Led Disaster Risk Management,1.0,1.0,1.0,1.0,True,True,True
+5191,Disaster Preparedness Plan - Implementation,1.0,1.0,0.992,1.0,True,True,True
+5508,Implementation of Risk Mitigation Measures,1.0,1.0,0.994,1.0,True,True,True
+5485,Protection of Services / Infrastructure Against Hazards,1.0,1.0,0.993,0.996,True,True,True
+5314,Shelters with Hazard Mitigation Measures,1.0,1.0,0.989,1.0,True,True,True
+5184,Beneficiaries' Satisfaction,1.0,1.0,1.0,1.0,True,True,True
+5181,Local Participation in Shelter Construction,1.0,1.0,1.0,1.0,True,True,True
+5199,Shelter Protection,1.0,1.0,1.0,1.0,True,True,True
+5652,Acquired Knowledge / Skills,1.0,1.0,1.0,1.0,True,True,True
+5623,Protection Mainstreaming,1.0,1.0,0.994,1.0,True,False,False
+5242,Perception of WASH Needs,1.0,1.0,0.989,1.0,True,True,False
+5114,Prevalence of Diarrhoea Among Children,1.0,1.0,1.0,1.0,True,True,True
+5173,Awareness of the Causes and Prevention of Diarrhoea,1.0,1.0,0.992,1.0,True,True,False
+5144,Disposal of Child Faeces,1.0,1.0,0.976,1.0,True,True,False
+5136,Hand Washing Practice,1.0,1.0,0.993,1.0,True,True,True
+5142,Use of Improved Sanitation Facility,1.0,1.0,1.0,1.0,True,True,False
+5243,WASH Services in Facilities,1.0,1.0,1.0,0.983,True,True,False
+5178,Access to Hygiene Items,1.0,1.0,1.0,1.0,True,True,True
+5141,Adequate Menstrual Hygiene Facilities,1.0,1.0,1.0,1.0,True,True,True
+5118,Appropriate Treatment of Diarrhoea - Fluids,1.0,1.0,1.0,1.0,True,True,True
+5119,Appropriate Treatment of Diarrhoea - Food,1.0,1.0,1.0,1.0,True,True,True
+5117,Appropriate Treatment of Diarrhoea - ORS,1.0,1.0,1.0,1.0,True,True,True
+5120,Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,1.0,1.0,0.993,1.0,True,True,True
+5137,Availability of Soap,1.0,1.0,1.0,1.0,True,True,True
+5138,Handwashing Facilities With Soap and Water,1.0,1.0,1.0,1.0,True,True,False
+5140,Hygiene Education at Schools,1.0,1.0,1.0,1.0,True,True,True
+5139,WASH Promoters' Knowledge and Skills,1.0,1.0,1.0,1.0,True,True,False
+5637,WASH: Hygiene,1.0,1.0,0.98,1.0,True,False,False
+5135,Hand Washing Knowledge,1.0,1.0,1.0,1.0,True,True,True
+5651,Indicator 10b from the results framework water (IGG-DGIS),1.0,1.0,1.0,1.0,True,True,True
+5650,Indicator 10a from the results framework water (IGG-DGIS),1.0,1.0,1.0,1.0,True,True,True
+5648,Indicator 7 from the results framework water (IGG-DGIS),1.0,1.0,1.0,1.0,True,True,True
+5649,Indicator 8 from the results framework water (IGG-DGIS),1.0,1.0,1.0,1.0,True,True,True
+5490,Adoption of Promoted Practices (2),1.0,1.0,1.0,1.0,True,True,True
+5132,Functionality of the Water Management Groups,1.0,1.0,1.0,1.0,True,True,False
+5266,Testing of Promoted Practices,1.0,1.0,1.0,1.0,True,True,True
+5497,Coverage of Solid Waste Management System,1.0,1.0,1.0,0.988,True,True,True
+5145,Maintenance of Sanitation Facilities,1.0,1.0,1.0,1.0,True,True,True
+5176,Prevention of Groundwater Contamination by Faeces,1.0,1.0,1.0,1.0,True,True,False
+5496,Safe Solid Waste Disposal,1.0,1.0,1.0,1.0,True,True,True
+5174,Access to Bathing Facilities,1.0,1.0,1.0,1.0,True,True,True
+5175,Access to Excreta Disposal Facilities,1.0,1.0,1.0,1.0,True,True,True
+5143,Access to Sanitation Facilities at Institutions,1.0,1.0,0.986,1.0,True,True,True
+5357,Gender-Segregated Sanitation Facilities in Schools,1.0,1.0,0.983,0.997,True,True,True
+5146,Replication of Model Latrines,1.0,1.0,1.0,1.0,True,True,True
+5177,Solid Waste Management,1.0,1.0,1.0,0.988,True,True,True
+5121,Access to Drinking Water,1.0,1.0,1.0,1.0,True,True,True
+5123,Average Queuing Time at a Water Point,1.0,1.0,1.0,1.0,True,True,True
+5343,Distance to Water Source,1.0,1.0,0.97,1.0,True,True,True
+5130,Duration of Water Source Functionality,1.0,1.0,1.0,0.996,True,True,True
+5124,Number of People per Water Point,1.0,1.0,1.0,1.0,True,True,True
+5128,Safe Water Storage,1.0,1.0,0.986,1.0,True,True,True
+5127,Treatment of Drinking Water,1.0,1.0,1.0,1.0,True,True,True
+5340,Water Access Safety,1.0,1.0,0.971,0.991,True,True,True
+5134,Water Affordability,1.0,1.0,1.0,1.0,True,True,True
+5125,Water Quantity,1.0,1.0,1.0,1.0,True,True,True
+5129,Water Source Functionality,1.0,1.0,1.0,1.0,True,True,True
+5131,Water Source Repairs,1.0,1.0,1.0,1.0,True,True,True
+5133,Water Source Users' Satisfaction,1.0,1.0,1.0,1.0,True,True,True
+5311,Adequate WASH Services and Hygiene Practices,1.0,1.0,1.0,1.0,True,True,True
+5122,Access to Water at Institutions,1.0,1.0,0.97,1.0,True,True,True
+5636,WASH: Sanitation,1.0,1.0,0.995,1.0,True,False,False
+5635,WASH: Water supply,1.0,1.0,0.995,1.0,True,False,False
+5312,"Drinking Water Quality (fecal contamination, household level)",1.0,1.0,1.0,1.0,True,True,True
+5126,"Drinking Water Quality (fecal contamination, water point level)",1.0,1.0,1.0,1.0,True,True,True
+5330,Drinking Water Quality (residual chlorine),1.0,1.0,0.985,1.0,True,True,True
+5692,GCT Group Strengthening,1.0,1.0,1.0,1.0,True,True,True
+5691,GCT Increased Capacity to Plan and Implement,1.0,0.994,0.994,1.0,True,True,True
+5690,GCT Use,1.0,1.0,1.0,1.0,True,True,True
+5694,GCT Process - Protection Mainstreaming,1.0,1.0,1.0,1.0,True,True,True
+5693,Number of GCT Workshop Participants,1.0,1.0,1.0,1.0,True,True,True
+5689,Total GCT Amount Distributed,1.0,1.0,1.0,1.0,True,True,True
+5621,Basic Needs,1.0,1.0,1.0,1.0,True,True,True
+5622,Basic Needs (Alternative),1.0,1.0,1.0,1.0,True,True,True
+5624,Expenditure (1),1.0,1.0,1.0,1.0,True,True,True
+5625,Expenditure (2),1.0,1.0,1.0,1.0,True,True,True
+5638,Group Cash Transfer: Increased Resilience,1.0,1.0,1.0,1.0,True,True,True
+5628,Livelihood Coping Strategies Indicator for Essential Needs,1.0,1.0,0.995,0.997,True,True,True
+5627,Women's Decision Making: Frequency of Involvement,1.0,1.0,0.991,0.998,True,True,True
+5626,Women's Decision Making: Women's Involvement,1.0,1.0,0.992,0.998,True,True,True
+5414,Access to Markets,1.0,1.0,0.987,1.0,True,True,True
+5411,Awareness of Cash & Voucher Assistance Programme,1.0,1.0,0.991,1.0,True,True,True
+5461,Awareness of Community Feedback and Response Mechanism,1.0,1.0,1.0,1.0,True,True,True
+5418,Decision-Making Power,1.0,1.0,0.981,1.0,True,True,True
+5410,Delivery Mechanism Performance,1.0,1.0,0.991,1.0,True,True,True
+5413,Ease of Use,1.0,0.994,0.984,0.997,True,True,True
+5415,Incurred Travel Costs,1.0,0.987,0.984,0.997,True,True,True
+5240,Number of Cash for Work Projects,1.0,1.0,1.0,1.0,True,True,True
+5407,Number of Households Supported to Meet Basic Needs,1.0,1.0,1.0,0.967,True,True,True
+5462,Operation of the Community Feedback and Response Mechanism,1.0,1.0,1.0,1.0,True,True,True
+5642,Problems with Receiving CVA,1.0,1.0,1.0,1.0,True,True,True
+5641,Received Correct Amount of CVA,1.0,1.0,1.0,1.0,True,True,True
+5640,Timely Delivery of Cash,1.0,1.0,1.0,1.0,True,True,True
+5639,Total CVA Value Distributed,1.0,1.0,1.0,1.0,True,True,True
+5416,Unmet Demand,1.0,0.99,0.992,1.0,True,True,True
+5417,CVA-related Conflicts / Tensions,1.0,0.996,0.989,1.0,True,True,True
+5629,Education: Enrolment,1.0,1.0,0.955,1.0,True,True,True
+5630,Education: School Attendance,1.0,1.0,0.98,1.0,True,True,True
+5608,Climate Resilience in Evaluations,1.0,1.0,1.0,1.0,True,True,True
+5607,Use of EST tool,1.0,1.0,1.0,1.0,True,True,True
+5886,Acquired Knowledge / Skills,1.0,0.0,0.0,1.0,True,True,True
+5808,Adoption of Environmental Protection Practices,1.0,0.0,0.0,1.0,True,True,True
+5807,Adoption of Promoted Adaptation Measures,1.0,0.0,0.0,1.0,True,True,True
+5813,Adoption of Promoted Practices,1.0,0.0,0.0,1.0,True,True,True
+5809,Amount of Greenhouse Gas Emissions Saved,1.0,0.0,0.0,1.0,True,True,True
+5806,Amount of Resources Saved,1.0,0.0,0.0,1.0,True,True,True
+5814,Area of Land Under Improved Management,1.0,0.0,0.0,1.0,True,True,True
+5811,Awareness of Promoted Practices,1.0,0.0,0.0,1.0,True,True,True
+5188,Climate Risk Perception,1.0,1.0,1.0,1.0,True,True,True
+5888,Climate risk integration,1.0,1.0,1.0,1.0,True,True,True
+5887,EST Utilisation,1.0,1.0,0.975,1.0,True,True,True
+5810,Knowledge / Skills for Protecting Environment,1.0,0.0,0.0,1.0,True,True,True
+5238,Perception of Disaster Preparedness,1.0,1.0,1.0,0.997,True,True,True
+5444,Attitudes Towards Gender Equality,1.0,1.0,0.988,0.995,True,True,True
+5367,Attitudes Towards Women’s Political Participation,0.98,0.99,1.0,0.992,True,True,True
+5363,Household Decision-Making Index,1.0,1.0,0.982,0.992,True,True,True
+5364,Women’s Autonomy Index,0.955,0.977,0.961,0.994,True,True,True
+5368,Women’s Participation in Community Groups,0.976,1.0,1.0,0.996,True,True,True
+5369,Women’s Representation in Community Groups’ Management,0.963,1.0,1.0,0.994,True,True,True
+5366,Attitudes Towards Women’s Economic Participation,0.979,0.99,1.0,1.0,True,True,True
+5540,Implementation of Gender and Age Mainstreaming Measures,1.0,1.0,0.991,1.0,True,True,True
+5564,Implementation of Social Inclusion Mainstreaming Measures,1.0,1.0,0.99,1.0,True,True,True
+5542,Perception of Equal Opportunities,1.0,1.0,1.0,0.997,True,True,True
+5539,Use of Gender and Age Analysis,1.0,1.0,0.987,0.997,True,True,True
+5511,Assistance Delivery,1.0,1.0,1.0,1.0,True,True,True
+5543,Decisions About Assistance Provided,1.0,1.0,1.0,0.997,True,True,True
+5533,Key Barriers to Participation,1.0,1.0,1.0,0.997,True,True,True
+5615,GDI in Evaluations,1.0,1.0,1.0,1.0,True,True,True
+5614,"Use of a Gender, Inclusion or Power Analysis",1.0,1.0,1.0,1.0,True,True,True
+5252,Attitudes Towards Marginalized Groups,1.0,1.0,1.0,1.0,True,True,True
+5251,Awareness of Rights,1.0,1.0,1.0,1.0,True,True,True
+5253,Perceived Access to Basic Services,1.0,1.0,1.0,1.0,True,True,True
+5563,Staff Understanding of Mainstreaming Social Inclusion,1.0,1.0,1.0,1.0,True,True,True
+5547,Supportive Attitudes of Staff,1.0,1.0,1.0,0.997,True,True,True
+5546,Understanding of Gender and Age Mainstreaming,1.0,1.0,1.0,1.0,True,True,True
+5507,Understanding of Protection Mainstreaming,1.0,1.0,1.0,1.0,True,True,True
+5610,% of Country Budget to Local Partners,1.0,1.0,1.0,1.0,True,True,True
+5613,Cash Directly Received by Local Groups,1.0,1.0,1.0,1.0,True,True,True
+5612,Local Involvement in Project Design,1.0,1.0,1.0,1.0,True,True,True
+5611,Peace Nexus in Evaluations,1.0,1.0,1.0,1.0,True,True,True
+5609,Projects with a Peace/Conflict Indicator,1.0,1.0,1.0,1.0,True,True,True
+5657,Absence of Tensions or Conflicts due to Assistance Provided,1.0,1.0,1.0,1.0,True,True,True

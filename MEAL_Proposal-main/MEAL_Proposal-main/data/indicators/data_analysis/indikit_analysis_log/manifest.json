@@ -1,0 +1,244 @@
+{
+  "Taxonomy": {
+    "metrics": {
+      "indicators": 386,
+      "sectors": 9,
+      "sub_sectors": 32,
+      "sections": 2
+    },
+    "tables": {
+      "indicators_per_sector": {
+        "path": "Taxonomy/indicators_per_sector.csv",
+        "rows": 9
+      },
+      "indicators_per_sub_sector": {
+        "path": "Taxonomy/indicators_per_sub_sector.csv",
+        "rows": 32
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "updated": "2026-07-13T09:37:33"
+    }
+  },
+  "Data Quality": {
+    "metrics": {
+      "indicators": 386,
+      "valid_guidance_urls": 386,
+      "invalid_guidance_urls": 0
+    },
+    "tables": {
+      "missing_values": {
+        "path": "Data_Quality/missing_values.csv",
+        "rows": 4
+      },
+      "indicator_level_values": {
+        "path": "Data_Quality/indicator_level_values.csv",
+        "rows": 8
+      },
+      "language_coverage": {
+        "path": "Data_Quality/language_coverage.csv",
+        "rows": 4
+      },
+      "invalid_urls": {
+        "path": "Data_Quality/invalid_urls.csv",
+        "rows": 0
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "updated": "2026-07-13T09:37:11"
+    }
+  },
+  "Duplicates": {
+    "metrics": {
+      "embedding_method": "sentence-transformers (cached)",
+      "threshold": 0.9,
+      "pairs_above_threshold": 60,
+      "max_similarity": 1.0
+    },
+    "tables": {
+      "duplicate_pairs": {
+        "path": "Duplicates/duplicate_pairs.csv",
+        "rows": 60
+      },
+      "similarity_summary": {
+        "path": "Duplicates/similarity_summary.csv",
+        "rows": 8
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "updated": "2026-07-13T09:37:16"
+    }
+  },
+  "Semantic Map": {
+    "metrics": {
+      "indicators": 386,
+      "embedding_method": "sentence-transformers (cached)",
+      "projection_method": "UMAP"
+    },
+    "tables": {
+      "coordinates": {
+        "path": "Semantic_Map/coordinates.csv",
+        "rows": 386
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "coloured_by": "Sector",
+      "updated": "2026-07-13T09:37:21"
+    }
+  },
+  "Text Profile": {
+    "metrics": {
+      "indicators_with_english": 375,
+      "quantifier_matches": 281,
+      "median_words": 15.0
+    },
+    "tables": {
+      "length_summary": {
+        "path": "Text_Profile/length_summary.csv",
+        "rows": 8
+      },
+      "quantifier_patterns": {
+        "path": "Text_Profile/quantifier_patterns.csv",
+        "rows": 8
+      },
+      "top_unigrams": {
+        "path": "Text_Profile/top_unigrams.csv",
+        "rows": 25
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "ngram_view": "unigrams",
+      "updated": "2026-07-13T09:37:32"
+    }
+  },
+  "Coverage": {
+    "metrics": {
+      "empty_sector_level_cells": 18
+    },
+    "tables": {
+      "sector_x_level": {
+        "path": "Coverage/sector_x_level.csv",
+        "rows": 9
+      },
+      "sector_x_sub_sector": {
+        "path": "Coverage/sector_x_sub_sector.csv",
+        "rows": 9
+      },
+      "coverage_gaps": {
+        "path": "Coverage/coverage_gaps.csv",
+        "rows": 18
+      },
+      "level_mix_per_sector": {
+        "path": "Coverage/level_mix_per_sector.csv",
+        "rows": 27
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "updated": "2026-07-13T09:35:51"
+    }
+  },
+  "Overview": {
+    "metrics": {
+      "indicators_loaded": 386,
+      "active_after_filters": 386,
+      "sectors": 9
+    },
+    "tables": {
+      "filtered_indicators": {
+        "path": "Overview/filtered_indicators.csv",
+        "rows": 386
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "updated": "2026-07-13T09:35:36"
+    }
+  },
+  "Proposal Overview": {
+    "metrics": {
+      "proposals": 5,
+      "countries": 6,
+      "project_sites": 10,
+      "donors": 5
+    },
+    "tables": {
+      "proposals": {
+        "path": "Proposal_Overview/proposals.csv",
+        "rows": 5
+      },
+      "sites": {
+        "path": "Proposal_Overview/sites.csv",
+        "rows": 10
+      },
+      "countries": {
+        "path": "Proposal_Overview/countries.csv",
+        "rows": 6
+      }
+    },
+    "context": {
+      "source": "dummy (data/proposals_dummy.json)",
+      "updated": "2026-07-13T09:37:06"
+    }
+  },
+  "Site Comparison": {
+    "metrics": {
+      "csv_unique": 344,
+      "live_on_site": 303,
+      "removed_from_site": 41,
+      "site_only": 0,
+      "compared": 303,
+      "flagged_below_threshold": 10,
+      "avg_name_sim": 0.999,
+      "avg_wording_en_sim": 0.97,
+      "avg_wording_fr_sim": 0.967,
+      "avg_purpose_sim": 0.998,
+      "levels_missing_in_csv": 42,
+      "levels_site_can_fill": 0,
+      "levels_unknown_on_both": 42,
+      "levels_differ": 0
+    },
+    "tables": {
+      "comparison": {
+        "path": "Site_Comparison/comparison.csv",
+        "rows": 303
+      },
+      "coverage_summary": {
+        "path": "Site_Comparison/coverage_summary.csv",
+        "rows": 4
+      },
+      "level_comparison": {
+        "path": "Site_Comparison/level_comparison.csv",
+        "rows": 344
+      }
+    },
+    "context": {
+      "sections": "all",
+      "sectors": "all",
+      "levels": "all",
+      "scraped_at": "2026-07-06T09:14:24",
+      "threshold": 0.9,
+      "updated": "2026-07-06T15:21:11",
+      "levels_at": "2026-07-06T11:36:07"
+    }
+  }
+}

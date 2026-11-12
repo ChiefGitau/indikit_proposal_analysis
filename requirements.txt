@@ -1,0 +1,20 @@
+# Minimum versions chosen for compatibility with current httpx / huggingface_hub releases.
+# openai < 1.55.3 breaks with httpx >= 0.28 ("unexpected keyword argument 'proxies'").
+# sentence-transformers < 2.3 breaks with huggingface_hub >= 0.26 ("cannot import cached_download").
+pymupdf>=1.24
+python-docx>=0.8.11
+openai>=1.55.3
+pydantic>=2.5
+python-dotenv>=1.0
+pandas>=2.2
+rapidfuzz>=2.15
+# Embedding stack. fastembed runs all-MiniLM-L6-v2 through ONNX Runtime and needs no PyTorch, so it works on
+# Intel Macs (PyTorch stopped publishing macOS x86_64 wheels at 2.2.2, which is incompatible with numpy 2 and
+# transformers 5). extraction_utils tries fastembed first and falls back to sentence-transformers.
+fastembed>=0.7
+# Optional fallback backend; only install on machines with a working PyTorch >= 2.5:
+# sentence-transformers>=3.0,<6
+httpx>=0.28
+matplotlib>=3.8
+openpyxl>=3.1
+pytest>=7.4

@@ -1,0 +1,304 @@
+zoa_title,zoa_sector,adra,helvetas,savethechildren,irw,tdh,tearfund,whh,winrock,www,adoption
+Individual Dietary Diversity Score,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Household Dietary Diversity Score,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+FSL: Food Consumption Score,Sector specific results of CVA,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+FSL: Coping Strategy Index,Sector specific results of CVA,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Months of Adequate Household Food Provisioning,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of Appropriate Diet,Food Security,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Prevalence of Diarrhoea Among Children,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Appropriate Treatment of Diarrhoea - ORS,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Appropriate Treatment of Diarrhoea - Fluids,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Appropriate Treatment of Diarrhoea - Food,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Drinking Water,Water,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Access to Water at Institutions,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Average Queuing Time at a Water Point,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Number of People per Water Point,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Water Quantity,Water,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+"Drinking Water Quality (fecal contamination, water point level)",Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Treatment of Drinking Water,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Safe Water Storage,Water,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Water Source Functionality,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Duration of Water Source Functionality,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Water Source Repairs,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Functionality of the Water Management Groups,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Water Source Users' Satisfaction,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Water Affordability,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Hand Washing Knowledge,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Hand Washing Practice,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Availability of Soap,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Handwashing Facilities With Soap and Water,Water,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,5
+WASH Promoters' Knowledge and Skills,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Hygiene Education at Schools,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Adequate Menstrual Hygiene Facilities,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Use of Improved Sanitation Facility,Sanitation,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Access to Sanitation Facilities at Institutions,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Disposal of Child Faeces,Sanitation,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Maintenance of Sanitation Facilities,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Replication of Model Latrines,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Number of Selling Points,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Number of Service Providers,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Awareness of Where to Purchase Product,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of Where to Access Service,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Use of Promoted Products / Services,Market Development,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Diversity of Products Sold,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Quality of Provided Services,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Customer Satisfaction,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Number of Clients Served,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Number of Products Sold,Income and Employment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Generation of Employment Opportunities,Income and Employment,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1
+Household Average Income,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Household Expenditure,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Household Consumption,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Income from Employment,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Income of Supported Businesses,Income and Employment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Savings - Existence and Levels,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Indebtedness - Existence and Levels,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of the Causes and Prevention of Diarrhoea,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Bathing Facilities,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Excreta Disposal Facilities,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Prevention of Groundwater Contamination by Faeces,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Solid Waste Management,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Access to Hygiene Items,Hygiene,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Adequate Shelter,Shelter,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Use of Cash/ Materials for Shelter (Re)Construction,Shelter,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Local Participation in Shelter Construction,Shelter and mainstreaming,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Non-Food Items,Shelter,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Beneficiaries' Satisfaction,Shelter and mainstreaming,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3
+Vulnerability and Capacity Assessment,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Climate Risk Perception,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Community-Led Disaster Risk Management,Shelter and Disaster Risk Reduction,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Disaster Preparedness Plan - Implementation,Shelter and Disaster Risk Reduction,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Self-Help Groups - Functionality,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Self-Help Groups - Coverage,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Access to Public Infrastructure / Services,Shelter,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Shelter Protection,Shelter and mainstreaming,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Natural Resource Management,Integrated Water Resources Management,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3
+Enrolment in Vocational Education Training,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Dropout Rate in Vocational Education Training,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Completion Rate in Vocational Education Training,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Participation of Vulnerable Groups,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Achievement of Vocational Education Training Competency Standards,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+VET Quality Standards,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Market-Relevant Curriculum,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Successfully Trained Teachers/ Trainers,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Adequate Vocational Education Training Facilities,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Trainee-Trainer Ratio,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Participation in Work-Based Learning,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+VET Providers Offering Internships,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Employment of Vocational Education Training Completers,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Labour Market Information,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Adequate School Infrastructure,Shelter,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1
+Perception of Disaster Preparedness,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Number of Cash for Work Projects,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Perception of WASH Needs,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+WASH Services in Facilities,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Safe and Dignified Shelters,Shelter,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Employment of Vulnerable Persons,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of Rights,Social Inclusion and Protection,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Attitudes Towards Marginalized Groups,Social Inclusion and Protection,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Perceived Access to Basic Services,Social Inclusion and Protection,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Farm Diversity Score,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Crop Production,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Animal Raising,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Cropping Area,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Reported Agricultural Output,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Reported Crop Yield Per Unit,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Agricultural Productivity,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Production Losses,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Storage-Related Post-Harvest Losses,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Animal Mortality,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Acquired Knowledge / Skills,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Testing of Promoted Practices,Integrated Water Resources Management,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Adoption of Promoted Practices (1),Agriculture and Natural Resource Management,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1
+Soil Quality,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Sales to New Markets,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Area of Degraded Land Under Sustainable Management,Integrated Water Resources Management,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3
+Extent of Soil Erosion,Integrated Water Resources Management,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3
+Adequate WASH Services and Hygiene Practices,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+"Drinking Water Quality (fecal contamination, household level)",Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Shelter,Shelter,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Shelters with Hazard Mitigation Measures,Shelter and Disaster Risk Reduction,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Production of Nutrient-Rich Crops,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Household Hunger Score,Food Security,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Household Food Insecurity Access Scale,Food Security,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Food Insecurity Experience Scale (FIES),Food Security,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Living Below the Poverty Line,Income and Employment,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Drinking Water Quality (residual chlorine),Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Water Access Safety,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Distance to Water Source,Water,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Saving Groups – Average Savings,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Saving and Loan Groups – Total Value of Provided Loans,Income and Employment,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3
+Favourable Attitude,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Gender-Segregated Sanitation Facilities in Schools,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Increased Income,Income and Employment,1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,5
+Environmentally-Friendly Energy Technologies,Environment,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Household Decision-Making Index,Gender Equality,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Women’s Autonomy Index,Gender Equality,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Attitudes Towards Women’s Economic Participation,Gender Equality,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Attitudes Towards Women’s Political Participation,Gender Equality,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Women’s Participation in Community Groups,Gender Equality,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Women’s Representation in Community Groups’ Management,Gender Equality,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1
+Life Skills Learning,"Skills, Training and Employability",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1
+Number of Households Supported to Meet Basic Needs,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3
+Delivery Mechanism Performance,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of Cash & Voucher Assistance Programme,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Ease of Use,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Access to Markets,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Incurred Travel Costs,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Unmet Demand,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+CVA-related Conflicts / Tensions,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2
+Decision-Making Power,Process & quality management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Women’s Economic Decision-Making,Income and Employment,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Use of Financial Products / Services,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Value of Loans Accessed,Income and Employment,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,4
+Amount of Production,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Sales Revenue,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Stock Availability,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Local Availability of Products / Services,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Number of Jobs Created,Income and Employment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Cost-Effectiveness of Jobs Creation,"Skills, Training and Employability",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Women in Management,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Employers’ Use of Job Matching Services,"Skills, Training and Employability",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Job Seekers’ Awareness of Job Matching Services,"Skills, Training and Employability",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Job Seekers’ Use of Job Matching Services,"Skills, Training and Employability",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Labour Safety,Income and Employment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Security of Employment,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Attitudes Towards Gender Equality,Gender Equality,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Public-Private Platforms,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Adoption of Business Environment Changes,Market Development,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Survival Rate,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Return on Investment,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Adoption of the Promoted Management Practices,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Adoption of the Promoted Technologies,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Marketing Practices Leading to Higher Sales,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Investments into Promoted Business Practices / Models,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Expected Sustainability of Supported Businesses,Market Development,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Awareness of Community Feedback and Response Mechanism,Process & quality management,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Operation of the Community Feedback and Response Mechanism,Process & quality management,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+FSL: Reduced Coping Strategy Index,Sector specific results of CVA,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,5
+Awareness of Climate-Smart Energy Technologies,Environment,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Awareness of How to Access Promoted Energy Technologies,Environment,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Use of Eco-Friendly Practices / Products,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Protection of Services / Infrastructure Against Hazards,Shelter and Disaster Risk Reduction,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Reduced Vulnerability,Shelter and mainstreaming,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Diversified Income,Income and Employment,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3
+Awareness of Promoted Practices,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Perceived Effectiveness,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Adoption of Promoted Practices (2),Integrated Water Resources Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Area of Land Under Improved Management,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Fulfilment of Landscape Management Plans,Integrated Water Resources Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Proportion of Surviving Seedlings,Agriculture and Natural Resource Management,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Safe Solid Waste Disposal,Sanitation,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4
+Coverage of Solid Waste Management System,Sanitation,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Understanding of Protection Mainstreaming,"Staff Attitudes, Perceptions and Knowledge",1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,3
+Implementation of Risk Mitigation Measures,Shelter and Disaster Risk Reduction,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Assistance Delivery,"Gender, Age and Social Inclusion Mainstreaming",1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,5
+Engagement in Identifying Needs and Solutions,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Sharing Data with Communities,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Awareness of How to Participate in Activities,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Active Participation in Activities,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Awareness of How to Access a Service,Market Development,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3
+Accessing a Service,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Key Barriers to Participation,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Use of Gender and Age Analysis,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Implementation of Gender and Age Mainstreaming Measures,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Perception of Equal Opportunities,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Decisions About Assistance Provided,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Understanding of Gender and Age Mainstreaming,"Staff Attitudes, Perceptions and Knowledge",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Supportive Attitudes of Staff,"Staff Attitudes, Perceptions and Knowledge",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Staff Understanding of Mainstreaming Social Inclusion,"Staff Attitudes, Perceptions and Knowledge",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Implementation of Social Inclusion Mainstreaming Measures,"Gender, Age and Social Inclusion Mainstreaming",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+People Benefiting,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Adopted Recommendations,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Budgetary Commitment,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Engagement with Decision Makers,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+People Reached,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Policy / Public Events,"Community Engagement, Participation & Advocacy",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Adoption of Environmental Protection Practices,Environment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Use of Environmental Assessment Recommendations,Agriculture and Natural Resource Management,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1
+Energy-Saving Measures,Environment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Fuel-Efficient Cooking Practices,Shelter and environment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Water-Saving Measures,Water,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Knowledge / Skills for Protecting Environment,Environment,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Livelihood Coping Strategy Index,Food Security,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Acute malnutrition,Food Security,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Household food production,Food Security,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Cash Spending,Income and Employment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Use of EST tool,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Climate Resilience in Evaluations,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Projects with a Peace/Conflict Indicator,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+% of Country Budget to Local Partners,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Peace Nexus in Evaluations,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Local Involvement in Project Design,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Cash Directly Received by Local Groups,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+"Use of a Gender, Inclusion or Power Analysis",Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+GDI in Evaluations,Organisational level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Food Consumption Score,Food Security,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,6
+Basic Needs,Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Basic Needs (Alternative),Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1
+Protection Mainstreaming,Process & quality management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Expenditure (1),Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Expenditure (2),Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Women's Decision Making: Women's Involvement,Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Women's Decision Making: Frequency of Involvement,Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Livelihood Coping Strategies Indicator for Essential Needs,Multisectoral results related to CVA,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Education: Enrolment,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Education: School Attendance,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Shelter: Non-Food Items,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Shelter: Use of Quality Shelter,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Shelter: Financial Access,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Shelter: Winterproof Shelter,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+WASH: Water supply,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+WASH: Sanitation,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+WASH: Hygiene,Sector specific results of CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Group Cash Transfer: Increased Resilience,Multisectoral results related to CVA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Total CVA Value Distributed,Process & quality management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Timely Delivery of Cash,Process & quality management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Received Correct Amount of CVA,Process & quality management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Problems with Receiving CVA,Process & quality management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Land Tenure Security (Legal Documentation and Perception),Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Land Conflict Resolution Rate through ADR,Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Number of Land Certificates or Title Deeds Issued,Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Women's Land Rights on Issued Land Certificates or Title Deeds,Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Satisfaction with Conflict Resolution,Community based conflict prevention and resolution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Indicator 7 from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Indicator 8 from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Indicator 10a from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Indicator 10b from the results framework water (IGG-DGIS),Integrated Water Resources Management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Acquired Knowledge / Skills,Shelter and mainstreaming,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+People's Perception of Security,Peacebuilding - General,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Violent Deaths per 100.000 People,Peacebuilding - General,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Perception of Social Cohesion and Trust,Social cohesion and trust,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Conflicts Addressed and Resolved by Different Actors,Community based conflict prevention and resolution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Absence of Tensions or Conflicts due to Assistance Provided,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Sense of Community,Social cohesion and trust,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Well-Being Questionnaire (SRQ 20),Social cohesion and trust,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Sexual Violence Against Women,Gender-Based Violence,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Physical Violence Against Women,Gender-Based Violence,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Acceptability of Gender-Based Violence,Gender-Based Violence,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Awareness of Available Support for GBV survivors,Gender-Based Violence,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Prevalence of Land Disputes,Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Total GCT Amount Distributed,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+GCT Use,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+GCT Increased Capacity to Plan and Implement,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+GCT Group Strengthening,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Number of GCT Workshop Participants,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+GCT Process - Protection Mainstreaming,Group cash transfers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Access to Justice,Peacebuilding - General,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1
+Performance of Land Administration Services,Land Rights,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Prevalence of Conflicts,Peacebuilding - General,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Trust in formal/informal justice provider,Community based conflict prevention and resolution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Perceived Community Cohesion,Social cohesion and trust,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Trust,Social cohesion and trust,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1
+Amount of Resources Saved,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Adoption of Promoted Adaptation Measures,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Adoption of Environmental Protection Practices,Project level indicators,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Amount of Greenhouse Gas Emissions Saved,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Knowledge / Skills for Protecting Environment,Project level indicators,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2
+Awareness of Promoted Practices,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4
+Adoption of Promoted Practices,Project level indicators,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,5
+Area of Land Under Improved Management,Project level indicators,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3
+Acquired Knowledge / Skills,Project level indicators,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,4
+EST Utilisation,Project level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
+Climate risk integration,Project level indicators,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0

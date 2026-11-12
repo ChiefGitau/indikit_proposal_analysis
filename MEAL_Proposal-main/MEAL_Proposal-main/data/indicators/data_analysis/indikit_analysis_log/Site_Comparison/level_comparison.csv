@@ -1,0 +1,345 @@
+unique_id,name,sector,csv_level,site_level,status
+5470,Amount of Greenhouse Gas Emissions Saved,Food Security and Livelihoods,Impact,—,not on site
+5469,Amount of Resources Saved,Food Security and Livelihoods,Impact,—,not on site
+5396,Life Satisfaction Index,Food Security and Livelihoods,Impact,—,not on site
+5586,Resources Saved in Operations,Food Security and Livelihoods,Impact,—,not on site
+5535,Addressing Key Needs,Food Security and Livelihoods,Outcome,—,not on site
+5570,Financial Disbursement,Food Security and Livelihoods,Outcome,—,not on site
+5428,Gender Representation,Food Security and Livelihoods,Outcome,—,not on site
+5616,Gender and Age marks,Food Security and Livelihoods,Outcome,—,not on site
+5585,Greenhouse Gas Emissions Avoided in Operations,Food Security and Livelihoods,Outcome,—,not on site
+5619,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,Outcome,—,not on site
+5482,Perceived Effectiveness of Implemented Adaptation Measures,Food Security and Livelihoods,Outcome,—,not on site
+5429,Product / Services Perceived Contribution to Higher Production,Food Security and Livelihoods,Outcome,—,not on site
+5433,Proportion of Jobs Retained,Food Security and Livelihoods,Outcome,—,not on site
+5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,Outcome,—,not on site
+5594,Staff Understanding of Environmental Mainstreaming,Food Security and Livelihoods,Outcome,—,not on site
+5468,Use of Promoted Energy Technologies,Food Security and Livelihoods,Outcome,—,not on site
+5084,Women Dietary Diversity Score,Food Security and Livelihoods,Outcome,—,not on site
+5264,Animal Morbidity,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5269,Average Benefit Score,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5541,Disaggregation by Gender and Age,Food Security and Livelihoods,Output,—,not on site
+5617,Disaggregation by Gender and Age,Food Security and Livelihoods,Output,—,not on site
+5593,Environmentally-Friendly Construction Materials and Methods,Food Security and Livelihoods,Output,—,not on site
+5544,Gender Ratio in Activities,Food Security and Livelihoods,Output,—,not on site
+5618,Gender Ratio in Activities,Food Security and Livelihoods,Output,—,not on site
+5457,Gender-Sensitive Marketing Practices,Food Security and Livelihoods,Output,—,not on site
+5350,Intention to Adopt a Behaviour,Food Security and Livelihoods,Output,—,not on site
+5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,Output,—,not on site
+5465,Perceived Ease of Use,Food Security and Livelihoods,Output,—,not on site
+5480,Perceived Effectiveness of Promoted Adaptation Measures,Food Security and Livelihoods,Output,—,not on site
+5596,Staff Trained on Environmental Mainstreaming,Food Security and Livelihoods,Output,—,not on site
+5453,Adoption of Promoted Marketing Practices,Food Security and Livelihoods,Outcome | Output,—,not on site
+5360,Farmers Cooperation,Food Security and Livelihoods,Outcome | Output,—,not on site
+5435,Female Employment,Food Security and Livelihoods,Outcome | Output,—,not on site
+5587,Implementation of Environmental Mainstreaming Measures,Food Security and Livelihoods,Outcome | Output,—,not on site
+5421,Preference for Local Products,Food Security and Livelihoods,Outcome | Output,—,not on site
+5452,Provision of Embedded Services to Customers,Food Security and Livelihoods,Outcome | Output,—,not on site
+5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,Outcome,Outcome,match
+5260,Agricultural Productivity,Food Security and Livelihoods,Outcome,Outcome,match
+5424,Amount of Production,Food Security and Livelihoods,Outcome,Outcome,match
+5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,Outcome,Outcome,match
+5491,Area of Land Under Improved Management,Food Security and Livelihoods,Outcome,Outcome,match
+5254,Farm Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
+5492,Fulfilment of Landscape Management Plans,Food Security and Livelihoods,Outcome,Outcome,match
+5201,Natural Resource Management,Food Security and Livelihoods,Outcome,Outcome,match
+5268,Soil Quality,Food Security and Livelihoods,Outcome,Outcome,match
+5450,Survival Rate,Food Security and Livelihoods,Outcome,Outcome,match
+5476,Use of Eco-Friendly Practices / Products,Food Security and Livelihoods,Outcome,Outcome,match
+5592,Water-Saving Measures,Food Security and Livelihoods,Outcome,Outcome,match
+5263,Animal Mortality,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5272,Extent of Soil Erosion,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5259,Reported Crop Yield Per Unit,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5255,Crop Production,Food Security and Livelihoods,Output,Output,match
+5256,Animal Raising,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5257,Cropping Area,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5261,Production Losses,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5494,Proportion of Surviving Seedlings,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5258,Reported Agricultural Output,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5262,Storage-Related Post-Harvest Losses,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5589,Use of Environmental Assessment Recommendations,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5567,People Benefiting,Food Security and Livelihoods,Impact,Impact,match
+5532,Accessing a Service,Food Security and Livelihoods,Outcome,Outcome,match
+5568,Adopted Recommendations,Food Security and Livelihoods,Outcome,Outcome,match
+5446,Public-Private Platforms,Food Security and Livelihoods,Outcome,Outcome,match
+5530,Active Participation in Activities,Food Security and Livelihoods,Output,Output,match
+5529,Awareness of How to Participate in Activities,Food Security and Livelihoods,Output,Output,match
+5488,Awareness of Promoted Practices,Food Security and Livelihoods,Output,Output,match
+5526,Engagement in Identifying Needs and Solutions,Food Security and Livelihoods,Output,Output,match
+5576,Engagement with Decision Makers,Food Security and Livelihoods,Output,Output,match
+5349,Favourable Attitude,Food Security and Livelihoods,Output,Output,match
+5577,People Reached,Food Security and Livelihoods,Output,Output,match
+5489,Perceived Effectiveness,Food Security and Livelihoods,Output,Output,match
+5582,Policy / Public Events,Food Security and Livelihoods,Output,Output,match
+5527,Sharing Data with Communities,Food Security and Livelihoods,Output,Output,match
+5454,Adoption of the Promoted Management Practices,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5455,Adoption of the Promoted Technologies,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5569,Budgetary Commitment,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5196,Self-Help Groups - Coverage,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5195,Self-Help Groups - Functionality,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5588,Adoption of Environmental Protection Practices,Food Security and Livelihoods,Outcome,Outcome,match
+5590,Energy-Saving Measures,Food Security and Livelihoods,Outcome,Outcome,match
+5591,Fuel-Efficient Cooking Practices,Food Security and Livelihoods,Outcome,Outcome,match
+5466,Awareness of Climate-Smart Energy Technologies,Food Security and Livelihoods,Output,Output,match
+5467,Awareness of How to Access Promoted Energy Technologies,Food Security and Livelihoods,Output,Output,match
+5595,Knowledge / Skills for Protecting Environment,Food Security and Livelihoods,Output,Output,match
+5361,Environmentally-Friendly Energy Technologies,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5328,Food Insecurity Experience Scale (FIES),Food Security and Livelihoods,(missing),—,still unknown
+5604,Acute malnutrition,Food Security and Livelihoods,Impact,Impact,match
+5327,Household Food Insecurity Access Scale,Food Security and Livelihoods,Impact,Impact,match
+5326,Household Hunger Score,Food Security and Livelihoods,Impact,Impact,match
+5085,Minimum Dietary Diversity - Women,Food Security and Livelihoods,Impact,—,not on site
+5091,FSL: Coping Strategy Index,Food Security and Livelihoods,Outcome,Outcome,match
+5090,FSL: Food Consumption Score,Food Security and Livelihoods,Outcome,Outcome,match
+5089,Household Dietary Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
+5605,Household food production,Food Security and Livelihoods,Outcome,Outcome,match
+5083,Individual Dietary Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
+5092,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,Outcome,Outcome,match
+5464,FSL: Reduced Coping Strategy Index,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5620,Food Consumption Score,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5161,Household Consumption,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5598,Livelihood Coping Strategy Index,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5099,Awareness of Appropriate Diet,Food Security and Livelihoods,Output,Output,match
+5317,Production of Nutrient-Rich Crops,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5158,Generation of Employment Opportunities,Food Security and Livelihoods,(missing),—,still unknown
+5329,Living Below the Poverty Line,Food Security and Livelihoods,Impact,Impact,match
+5215,Access to Labour Market Information,Food Security and Livelihoods,Outcome,Outcome,match
+5606,Cash Spending,Food Security and Livelihoods,Outcome,Outcome,match
+5487,Diversified Income,Food Security and Livelihoods,Outcome,Outcome,match
+5250,Employment of Vulnerable Persons,Food Security and Livelihoods,Outcome,Outcome,match
+5432,Number of Jobs Created,Food Security and Livelihoods,Outcome,Outcome,match
+5486,Reduced Vulnerability,Food Security and Livelihoods,Outcome,Outcome,match
+5423,Value of Loans Accessed,Food Security and Livelihoods,Outcome,Outcome,match
+5420,Womens Economic Decision-Making,Food Security and Livelihoods,Outcome,Outcome,match
+5159,Household Average Income,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5160,Household Expenditure,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5164,Income from Employment,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5165,Income of Supported Businesses,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5358,Increased Income,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5166,Savings - Existence and Levels,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5442,Security of Employment,Food Security and Livelihoods,Output,Output,match
+5167,Indebtedness - Existence and Levels,Food Security and Livelihoods,Impact | Output,Impact | Output,match
+5441,Labour Safety,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5157,Number of Products Sold,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5212,Participation in Work-Based Learning,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5346,Saving Groups  Average Savings,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5347,Saving and Loan Groups  Total Value of Provided Loans,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5448,Adoption of Business Environment Changes,Food Security and Livelihoods,Outcome,Outcome,match
+5155,Customer Satisfaction,Food Security and Livelihoods,Outcome,Outcome,match
+5459,Expected Sustainability of Supported Businesses,Food Security and Livelihoods,Outcome,Outcome,match
+5458,Investments into Promoted Business Practices / Models,Food Security and Livelihoods,Outcome,Outcome,match
+5456,Marketing Practices Leading to Higher Sales,Food Security and Livelihoods,Outcome,Outcome,match
+5451,Return on Investment,Food Security and Livelihoods,Outcome,Outcome,match
+5425,Sales Revenue,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5436,Women in Management,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5531,Awareness of How to Access a Service,Food Security and Livelihoods,Output,Output,match
+5151,Awareness of Where to Access Service,Food Security and Livelihoods,Output,Output,match
+5150,Awareness of Where to Purchase Product,Food Security and Livelihoods,Output,Output,match
+5427,Local Availability of Products / Services,Food Security and Livelihoods,Output,Output,match
+5148,Number of Service Providers,Food Security and Livelihoods,Output,Output,match
+5426,Stock Availability,Food Security and Livelihoods,Output,Output,match
+5153,Diversity of Products Sold,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5156,Number of Clients Served,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5147,Number of Selling Points,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5154,Quality of Provided Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5270,Sales to New Markets,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5422,Use of Financial Products / Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5152,Use of Promoted Products / Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5434,Cost-Effectiveness of Jobs Creation,Food Security and Livelihoods,(missing),—,still unknown
+5204,Completion Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,Outcome,match
+5203,Dropout Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,Outcome,match
+5208,Market-Relevant Curriculum,Food Security and Livelihoods,Outcome,Outcome,match
+5205,Participation of Vulnerable Groups,Food Security and Livelihoods,Outcome,Outcome,match
+5213,VET Providers Offering Internships,Food Security and Livelihoods,Outcome,Outcome,match
+5206,Achievement of Vocational Education Training Competency Standards,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5437,Employers Use of Job Matching Services,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5214,Employment of Vocational Education Training Completers,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5385,Life Skills Learning,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5438,Job Seekers Awareness of Job Matching Services,Food Security and Livelihoods,Output,Output,match
+5209,Successfully Trained Teachers/ Trainers,Food Security and Livelihoods,Output,Output,match
+5187,Vulnerability and Capacity Assessment,Food Security and Livelihoods,Output,Output,match
+5265,Acquired Knowledge / Skills,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5210,Adequate Vocational Education Training Facilities,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5202,Enrolment in Vocational Education Training,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5439,Job Seekers Use of Job Matching Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5211,Trainee-Trainer Ratio,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5207,VET Quality Standards,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5656,Conflicts Addressed and Resolved by Different Actors,Peacebuilding,Outcome,Outcome,match
+5755,Trust in formal/informal justice provider,Peacebuilding,Outcome,Outcome,match
+5647,Satisfaction with Conflict Resolution,Peacebuilding,Outcome | Output,Outcome | Output,match
+5662,Acceptability of Gender-Based Violence,Peacebuilding,(missing),—,still unknown
+5663,Awareness of Available Support for GBV survivors,Peacebuilding,(missing),—,still unknown
+5661,Physical Violence Against Women,Peacebuilding,(missing),—,still unknown
+5660,Sexual Violence Against Women,Peacebuilding,(missing),—,still unknown
+5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,Outcome,Outcome,match
+5665,Level of Equal Rights to Land for Women and Men,Peacebuilding,Outcome,—,not on site
+5713,Performance of Land Administration Services,Peacebuilding,Outcome,Outcome,match
+5667,Prevalence of Land Disputes,Peacebuilding,Outcome,Outcome,match
+5644,Land Conflict Resolution Rate through ADR,Peacebuilding,Output,Output,match
+5645,Number of Land Certificates or Title Deeds Issued,Peacebuilding,Output,Output,match
+5646,Women's Land Rights on Issued Land Certificates or Title Deeds,Peacebuilding,Output,Output,match
+5695,Access to Justice,Peacebuilding,Outcome,Outcome,match
+5653,People's Perception of Security,Peacebuilding,Impact | Outcome,Impact | Outcome,match
+5754,Prevalence of Conflicts,Peacebuilding,Impact | Outcome,Impact | Outcome,match
+5654,Violent Deaths per 100.000 People,Peacebuilding,Impact | Outcome,Impact | Outcome,match
+5756,Perceived Community Cohesion,Peacebuilding,Outcome,Outcome,match
+5655,Perception of Social Cohesion and Trust,Peacebuilding,Outcome,Outcome,match
+5658,Sense of Community,Peacebuilding,Outcome,Outcome,match
+5792,Trust,Peacebuilding,Outcome,Outcome,match
+5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,Outcome,Outcome,match
+5244,Safe and Dignified Shelters,Shelter,Outcome,Outcome,match
+5633,Shelter: Financial Access,Shelter,Outcome,Outcome,match
+5631,Shelter: Non-Food Items,Shelter,Outcome,Outcome,match
+5632,Shelter: Use of Quality Shelter,Shelter,Outcome,Outcome,match
+5634,Shelter: Winterproof Shelter,Shelter,Outcome,Outcome,match
+5180,Use of Cash/ Materials for Shelter (Re)Construction,Shelter,Outcome,Outcome,match
+5179,Access to Adequate Shelter,Shelter,Output,Output,match
+5182,Access to Non-Food Items,Shelter,Output,Output,match
+5198,Access to Public Infrastructure / Services,Shelter,Output,Output,match
+5313,Access to Shelter,Shelter,Output,Output,match
+5223,Adequate School Infrastructure,Shelter,Output,Output,match
+5189,Community-Led Disaster Risk Management,Shelter,Output,Output,match
+5191,Disaster Preparedness Plan - Implementation,Shelter,Output,Output,match
+5508,Implementation of Risk Mitigation Measures,Shelter,Output,Output,match
+5485,Protection of Services / Infrastructure Against Hazards,Shelter,Output,Output,match
+5314,Shelters with Hazard Mitigation Measures,Shelter,Output,Output,match
+5184,Beneficiaries' Satisfaction,Shelter,Outcome,Outcome,match
+5181,Local Participation in Shelter Construction,Shelter,Output,Output,match
+5199,Shelter Protection,Shelter,Output,Output,match
+5652,Acquired Knowledge / Skills,Shelter,Outcome | Output,Outcome | Output,match
+5623,Protection Mainstreaming,Shelter,Outcome | Output,Outcome | Output,match
+5242,Perception of WASH Needs,"Water, Sanitation and Hygiene",(missing),—,still unknown
+5114,Prevalence of Diarrhoea Among Children,"Water, Sanitation and Hygiene",Impact,Impact,match
+5173,Awareness of the Causes and Prevention of Diarrhoea,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5144,Disposal of Child Faeces,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5136,Hand Washing Practice,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5142,Use of Improved Sanitation Facility,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5243,WASH Services in Facilities,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5178,Access to Hygiene Items,"Water, Sanitation and Hygiene",Output,Output,match
+5141,Adequate Menstrual Hygiene Facilities,"Water, Sanitation and Hygiene",Output,Output,match
+5118,Appropriate Treatment of Diarrhoea - Fluids,"Water, Sanitation and Hygiene",Output,Output,match
+5119,Appropriate Treatment of Diarrhoea - Food,"Water, Sanitation and Hygiene",Output,Output,match
+5117,Appropriate Treatment of Diarrhoea - ORS,"Water, Sanitation and Hygiene",Output,Output,match
+5120,Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,"Water, Sanitation and Hygiene",Output,Output,match
+5137,Availability of Soap,"Water, Sanitation and Hygiene",Output,Output,match
+5138,Handwashing Facilities With Soap and Water,"Water, Sanitation and Hygiene",Output,Output,match
+5140,Hygiene Education at Schools,"Water, Sanitation and Hygiene",Output,Output,match
+5139,WASH Promoters' Knowledge and Skills,"Water, Sanitation and Hygiene",Output,Output,match
+5637,WASH: Hygiene,"Water, Sanitation and Hygiene",Output,Output,match
+5135,Hand Washing Knowledge,"Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5651,Indicator 10b from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",(missing),—,still unknown
+5650,Indicator 10a from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",Impact,Impact,match
+5648,Indicator 7 from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",Impact,Impact,match
+5649,Indicator 8 from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",Impact,Impact,match
+5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",Impact | Outcome,Impact | Outcome,match
+5132,Functionality of the Water Management Groups,"Water, Sanitation and Hygiene",Impact | Outcome,Impact | Outcome,match
+5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5497,Coverage of Solid Waste Management System,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5145,Maintenance of Sanitation Facilities,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5176,Prevention of Groundwater Contamination by Faeces,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5496,Safe Solid Waste Disposal,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5174,Access to Bathing Facilities,"Water, Sanitation and Hygiene",Output,Output,match
+5175,Access to Excreta Disposal Facilities,"Water, Sanitation and Hygiene",Output,Output,match
+5143,Access to Sanitation Facilities at Institutions,"Water, Sanitation and Hygiene",Output,Output,match
+5357,Gender-Segregated Sanitation Facilities in Schools,"Water, Sanitation and Hygiene",Output,Output,match
+5146,Replication of Model Latrines,"Water, Sanitation and Hygiene",Output,Output,match
+5177,Solid Waste Management,"Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5121,Access to Drinking Water,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5123,Average Queuing Time at a Water Point,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5343,Distance to Water Source,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5130,Duration of Water Source Functionality,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5124,Number of People per Water Point,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5128,Safe Water Storage,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5127,Treatment of Drinking Water,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5340,Water Access Safety,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5134,Water Affordability,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5125,Water Quantity,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5129,Water Source Functionality,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5131,Water Source Repairs,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5133,Water Source Users' Satisfaction,"Water, Sanitation and Hygiene",Outcome,Outcome,match
+5311,Adequate WASH Services and Hygiene Practices,"Water, Sanitation and Hygiene",Impact | Outcome,Impact | Outcome,match
+5122,Access to Water at Institutions,"Water, Sanitation and Hygiene",Output,Output,match
+5636,WASH: Sanitation,"Water, Sanitation and Hygiene",Output,Output,match
+5635,WASH: Water supply,"Water, Sanitation and Hygiene",Output,Output,match
+5312,"Drinking Water Quality (fecal contamination, household level)","Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5126,"Drinking Water Quality (fecal contamination, water point level)","Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5330,Drinking Water Quality (residual chlorine),"Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5692,GCT Group Strengthening,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5691,GCT Increased Capacity to Plan and Implement,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5690,GCT Use,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5694,GCT Process - Protection Mainstreaming,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5693,Number of GCT Workshop Participants,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5689,Total GCT Amount Distributed,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5624,Expenditure (1),cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5625,Expenditure (2),cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5638,Group Cash Transfer: Increased Resilience,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5628,Livelihood Coping Strategies Indicator for Essential Needs,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5627,Women's Decision Making: Frequency of Involvement,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5626,Women's Decision Making: Women's Involvement,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5414,Access to Markets,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5411,Awareness of Cash & Voucher Assistance Programme,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5461,Awareness of Community Feedback and Response Mechanism,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5418,Decision-Making Power,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5410,Delivery Mechanism Performance,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5413,Ease of Use,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5415,Incurred Travel Costs,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5240,Number of Cash for Work Projects,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5407,Number of Households Supported to Meet Basic Needs,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5462,Operation of the Community Feedback and Response Mechanism,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5642,Problems with Receiving CVA,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5641,Received Correct Amount of CVA,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5640,Timely Delivery of Cash,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5639,Total CVA Value Distributed,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5416,Unmet Demand,cross-cutting: Cash and Voucher Assistance,Output,Output,match
+5417,CVA-related Conflicts / Tensions,cross-cutting: Cash and Voucher Assistance,Outcome | Output,Outcome | Output,match
+5629,Education: Enrolment,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5630,Education: School Attendance,cross-cutting: Cash and Voucher Assistance,Outcome,Outcome,match
+5608,Climate Resilience in Evaluations,Climate Resilience,Organisational level,Organisational level,match
+5607,Use of EST tool,Climate Resilience,Organisational level,Organisational level,match
+5885,Acquired Climate Resilience Knowledge / Skills,Climate Resilience,(missing),—,still unknown
+5886,Acquired Knowledge / Skills,Climate Resilience,(missing),—,still unknown
+5808,Adoption of Environmental Protection Practices,Climate Resilience,(missing),—,still unknown
+5807,Adoption of Promoted Adaptation Measures,Climate Resilience,(missing),—,still unknown
+5813,Adoption of Promoted Practices,Climate Resilience,(missing),—,still unknown
+5809,Amount of Greenhouse Gas Emissions Saved,Climate Resilience,(missing),—,still unknown
+5806,Amount of Resources Saved,Climate Resilience,(missing),—,still unknown
+5814,Area of Land Under Improved Management,Climate Resilience,(missing),—,still unknown
+5811,Awareness of Promoted Practices,Climate Resilience,(missing),—,still unknown
+5188,Climate Risk Perception,Climate Resilience,(missing),—,still unknown
+5888,Climate risk integration,Climate Resilience,(missing),—,still unknown
+5887,EST Utilisation,Climate Resilience,(missing),—,still unknown
+5810,Knowledge / Skills for Protecting Environment,Climate Resilience,(missing),—,still unknown
+5812,Perceived Effectiveness,Climate Resilience,(missing),—,still unknown
+5238,Perception of Disaster Preparedness,Climate Resilience,(missing),—,still unknown
+5444,Attitudes Towards Gender Equality,Gender Diversity & Inclusion,(missing),—,still unknown
+5367,Attitudes Towards Womens Political Participation,Gender Diversity & Inclusion,(missing),—,still unknown
+5363,Household Decision-Making Index,Gender Diversity & Inclusion,(missing),—,still unknown
+5364,Womens Autonomy Index,Gender Diversity & Inclusion,(missing),—,still unknown
+5368,Womens Participation in Community Groups,Gender Diversity & Inclusion,(missing),—,still unknown
+5369,Womens Representation in Community Groups Management,Gender Diversity & Inclusion,(missing),—,still unknown
+5366,Attitudes Towards Womens Economic Participation,Gender Diversity & Inclusion,Outcome | Output,Outcome | Output,match
+5540,Implementation of Gender and Age Mainstreaming Measures,Gender Diversity & Inclusion,(missing),—,still unknown
+5564,Implementation of Social Inclusion Mainstreaming Measures,Gender Diversity & Inclusion,(missing),—,still unknown
+5542,Perception of Equal Opportunities,Gender Diversity & Inclusion,(missing),—,still unknown
+5539,Use of Gender and Age Analysis,Gender Diversity & Inclusion,(missing),—,still unknown
+5511,Assistance Delivery,Gender Diversity & Inclusion,Outcome,Outcome,match
+5543,Decisions About Assistance Provided,Gender Diversity & Inclusion,Outcome,Outcome,match
+5533,Key Barriers to Participation,Gender Diversity & Inclusion,Output,Output,match
+5615,GDI in Evaluations,Gender Diversity & Inclusion,Organisational level,Organisational level,match
+5614,"Use of a Gender, Inclusion or Power Analysis",Gender Diversity & Inclusion,Organisational level,Organisational level,match
+5419,Awareness of Product / Service,Gender Diversity & Inclusion,Output,—,not on site
+5252,Attitudes Towards Marginalized Groups,Gender Diversity & Inclusion,(missing),—,still unknown
+5251,Awareness of Rights,Gender Diversity & Inclusion,(missing),—,still unknown
+5253,Perceived Access to Basic Services,Gender Diversity & Inclusion,(missing),—,still unknown
+5563,Staff Understanding of Mainstreaming Social Inclusion,Gender Diversity & Inclusion,(missing),—,still unknown
+5547,Supportive Attitudes of Staff,Gender Diversity & Inclusion,(missing),—,still unknown
+5546,Understanding of Gender and Age Mainstreaming,Gender Diversity & Inclusion,(missing),—,still unknown
+5507,Understanding of Protection Mainstreaming,Gender Diversity & Inclusion,(missing),—,still unknown
+5610,% of Country Budget to Local Partners,Localisation,Organisational level,Organisational level,match
+5613,Cash Directly Received by Local Groups,Localisation,Organisational level,Organisational level,match
+5612,Local Involvement in Project Design,Localisation,Organisational level,Organisational level,match
+5611,Peace Nexus in Evaluations,Peace Nexus,Organisational level,Organisational level,match
+5609,Projects with a Peace/Conflict Indicator,Peace Nexus,Organisational level,Organisational level,match
+5657,Absence of Tensions or Conflicts due to Assistance Provided,Peace Nexus,(missing),—,still unknown

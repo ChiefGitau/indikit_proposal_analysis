@@ -1,0 +1,304 @@
+zoa_title,match_title,match_domain,similarity,mutual,zoa_sector,match_sector
+Physical Violence Against Women,Physical Violence Against Women,irw_indikit_net,1.0,True,Gender-Based Violence,Gender-Based Violence Indicators
+WASH Promoters' Knowledge and Skills,WASH Promoters' Knowledge and Skills,irw_indikit_net,1.0,True,Water,Hygiene Indicators
+Hygiene Education at Schools,Hygiene Education at Schools,irw_indikit_net,1.0,True,Hygiene,Hygiene Indicators
+Solid Waste Management,Solid Waste Management,irw_indikit_net,1.0,True,Sanitation,Solid Waste Management Indicators
+Number of Selling Points,Number of Selling Points,irw_indikit_net,1.0,True,Market Development,Climate-Smart Energy Indicators
+Number of Service Providers,Number of Service Providers,irw_indikit_net,1.0,True,Market Development,Sustainable Consumption and Production Indicators
+Proportion of Surviving Seedlings,Proportion of Surviving Seedlings,irw_indikit_net,1.0,True,Agriculture and Natural Resource Management,Landscape Management Indicators
+Shelters with Hazard Mitigation Measures,Shelters with Hazard Mitigation Measures,irw_indikit_net,1.0,True,Shelter and Disaster Risk Reduction,Shelter and NFI
+Successfully Trained Teachers/ Trainers,Successfully Trained Teachers/ Trainers,irw_indikit_net,1.0,True,"Skills, Training and Employability",VET Quality and Relevance Indicators
+Self-Help Groups - Functionality,Self-Help Groups - Functionality,irw_indikit_net,1.0,True,"Community Engagement, Participation & Advocacy",Social Protection and Inclusion
+Shelter Protection,Shelter Protection,irw_indikit_net,1.0,True,Shelter and mainstreaming,Disaster Risk Reduction and Resilience
+Natural Resource Management,Natural Resource Management,irw_indikit_net,1.0,True,Integrated Water Resources Management,Disaster Risk Reduction and Resilience
+Use of Eco-Friendly Practices / Products,Use of Eco-Friendly Practices / Products,irw_indikit_net,1.0,True,Agriculture and Natural Resource Management,Sustainable Consumption and Production Indicators
+Protection of Services / Infrastructure Against Hazards,Protection of Services / Infrastructure Against Hazards,irw_indikit_net,1.0,True,Shelter and Disaster Risk Reduction,Climate Resilience and Adaptation Indicators
+Trainee-Trainer Ratio,Trainee-Trainer Ratio,irw_indikit_net,1.0,True,"Skills, Training and Employability",VET Quality and Relevance Indicators
+VET Providers Offering Internships,VET Providers Offering Internships,irw_indikit_net,1.0,True,"Skills, Training and Employability",Placement and Employment
+Participation of Vulnerable Groups,Participation of Vulnerable Groups,irw_indikit_net,1.0,True,"Skills, Training and Employability",Participation and Completion Indicators
+VET Quality Standards,VET Quality Standards,irw_indikit_net,1.0,True,"Skills, Training and Employability",VET Quality and Relevance Indicators
+Market-Relevant Curriculum,Market-Relevant Curriculum,irw_indikit_net,1.0,True,"Skills, Training and Employability",VET Quality and Relevance Indicators
+Perceived Effectiveness,Perceived Effectiveness,irw_indikit_net,1.0,True,"Community Engagement, Participation & Advocacy",Landscape Management Indicators
+Local Availability of Products / Services,Local Availability of Products / Services,irw_indikit_net,1.0,True,Market Development,Climate-Smart Energy Indicators
+Women’s Economic Decision-Making,Women’s Economic Decision-Making,irw_indikit_net,1.0,True,Income and Employment,Gender Equality & Women Empowerment Indicators
+Women’s Autonomy Index,Women’s Autonomy Index,irw_indikit_net,1.0,True,Gender Equality,Gender Equality & Women Empowerment Indicators
+Women’s Representation in Community Groups’ Management,Women’s Representation in Community Groups’ Management,irw_indikit_net,1.0,True,Gender Equality,CCCM
+Perception of WASH Needs,Perception of WASH Needs,irw_indikit_net,1.0,True,Water,Hygiene Indicators
+Perceived Access to Basic Services,Perceived Access to Basic Services,irw_indikit_net,1.0,True,Social Inclusion and Protection,Social Protection and Inclusion
+Farm Diversity Score,Farm Diversity Score,irw_indikit_net,1.0,True,Agriculture and Natural Resource Management,Nutrition-Sensitive Diet Indicators
+Delivery Mechanism Performance,Delivery Mechanism Performance,irw_indikit_net,1.0,True,Process & quality management,Quality Management Indicators
+Unmet Demand,Unmet Demand,irw_indikit_net,1.0,True,Process & quality management,Quality Management Indicators
+Hand Washing Knowledge,Hand Washing Knowledge,irw_indikit_net,1.0,True,Hygiene,Hygiene Indicators
+Local Participation in Shelter Construction,Local Participation in Shelter Construction,irw_indikit_net,1.0,True,Shelter and mainstreaming,Shelter and NFI
+Diversified Income,Diversified Income,irw_indikit_net,0.999,True,Income and Employment,Climate Resilience and Adaptation Indicators
+Life Skills Learning,Life Skills Learning,irw_indikit_net,0.999,True,"Skills, Training and Employability",Student Learning Outcomes Indicators
+Storage-Related Post-Harvest Losses,Storage-Related Post-Harvest Losses,whh_indikit_net,0.997,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Safe Solid Waste Disposal,Safe Solid Waste Disposal,irw_indikit_net,0.997,True,Sanitation,Pollution Management Indicators
+Sales to New Markets,Sales to New Markets,whh_indikit_net,0.995,True,Market Development,Market Development
+Replication of Model Latrines,Replication of Model Latrines,irw_indikit_net,0.995,True,Sanitation,Sanitation Indicators
+Agricultural Productivity,Agricultural Productivity,whh_indikit_net,0.995,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Awareness of How to Access Promoted Energy Technologies,Awareness of How to Access Promoted Energy Technologies,whh_indikit_net,0.994,True,Environment,Environment
+Production Losses,Production Losses,whh_indikit_net,0.993,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Soil Quality,Soil Quality,whh_indikit_net,0.993,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Cropping Area,Cropping Area,whh_indikit_net,0.993,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Access to Non-Food Items,Access to Non-Food Items,whh_indikit_net,0.992,True,Shelter,Shelter and NFI
+Coverage of Solid Waste Management System,Coverage of Solid Waste Management System,whh_indikit_net,0.992,True,Sanitation,Environment
+Reported Crop Yield Per Unit,Reported Crop Yield Per Unit,whh_indikit_net,0.992,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Adoption of Promoted Practices (1),Adoption of Promoted Practices,whh_indikit_net,0.991,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Use of Promoted Products / Services,Use of Promoted Products / Services,whh_indikit_net,0.99,True,Market Development,Agriculture and NRM
+Reduced Vulnerability,Reduced Vulnerability,whh_indikit_net,0.99,True,Shelter and mainstreaming,Environment
+Reported Agricultural Output,Reported Agricultural Output,whh_indikit_net,0.99,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Awareness of Promoted Practices,Awareness of Promoted Practices,whh_indikit_net,0.99,True,"Community Engagement, Participation & Advocacy",Environment
+Sales Revenue,Sales Revenue,whh_indikit_net,0.989,True,Market Development,Market Development
+Crop Production,Crop Production,whh_indikit_net,0.985,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Access to Shelter,Access to Shelter,whh_indikit_net,0.985,True,Shelter,Shelter and NFI
+Participation in Work-Based Learning,Participation in Work-Based Learning,irw_indikit_net,0.984,True,Income and Employment,Placement and Employment
+Value of Loans Accessed,Value of Loans Accessed,whh_indikit_net,0.983,True,Income and Employment,Market Development
+Animal Raising,Animal Raising,whh_indikit_net,0.982,True,Agriculture and Natural Resource Management,Agriculture and NRM
+Handwashing Facilities With Soap and Water,Handwashing Facilities With Soap and Water,whh_indikit_net,0.982,True,Water,WASH
+Adequate WASH Services and Hygiene Practices,Adequate WASH Services and Hygiene Practices,adra_indikit_net,0.98,True,Water,Hygiene Indicators
+Disposal of Child Faeces,Disposal of Child Faeces,irw_indikit_net,0.978,True,Sanitation,Sanitation Indicators
+Understanding of Protection Mainstreaming,Understanding of Protection Mainstreaming,whh_indikit_net,0.978,True,"Staff Attitudes, Perceptions and Knowledge",Protection Mainstreaming
+Women’s Participation in Community Groups,Women’s Participation in Community Groups,irw_indikit_net,0.974,True,Gender Equality,Gender Equality & Women Empowerment Indicators
+Adequate Menstrual Hygiene Facilities,Menstrual Hygiene Facilities,whh_indikit_net,0.971,True,Hygiene,WASH
+Enrolment in Vocational Education Training,Enrolment in VET,irw_indikit_net,0.968,True,"Skills, Training and Employability",Participation and Completion Indicators
+Average Queuing Time at a Water Point,Average Queuing Time at a Water Point,irw_indikit_net,0.967,True,Water,Water Indicators
+Ease of Use,Ease of Use,irw_indikit_net,0.967,True,Process & quality management,Quality Management Indicators
+Adoption of Promoted Adaptation Measures,Adoption of Promoted Adaptation Measures,adra_indikit_net,0.966,True,Project level indicators,Climate Resilience and Adaptation Indicators
+Acceptability of Gender-Based Violence,Acceptability of Gender-Based Violence,irw_indikit_net,0.965,True,Gender-Based Violence,Gender-Based Violence Indicators
+Access to Adequate Shelter,Access to Adequate Shelter,whh_indikit_net,0.965,True,Shelter,Shelter and NFI
+Individual Dietary Diversity Score,Individual Dietary Diversity Score (IDDS),irw_indikit_net,0.964,True,Food Security,Nutrition-Sensitive Diet Indicators
+Water Access Safety,Water Access Safety,irw_indikit_net,0.963,True,Water,Global Results Framework
+Gender-Segregated Sanitation Facilities in Schools,Gender-Segregated Sanitation Facilities,irw_indikit_net,0.959,True,Sanitation,Sanitation Indicators
+Household Food Insecurity Access Scale,Household Food Insecurity Access Scale,tearfund_indikit_net,0.959,True,Food Security,Livelihoods & Agriculture
+Number of Cash for Work Projects,Number of Cash for Work Projects,irw_indikit_net,0.957,True,Process & quality management,Results Indicators
+Acquired Knowledge / Skills,Acquired Knowledge / Skills,whh_indikit_net,0.956,True,"Skills, Training and Employability",Food Security
+Safe Water Storage,Safe Water Storage,irw_indikit_net,0.956,True,Water,Water Indicators
+Water Source Functionality,Water Source Functionality,irw_indikit_net,0.956,True,Water,Global Results Framework
+Incurred Travel Costs,Incurred Travel Costs,irw_indikit_net,0.956,True,Process & quality management,Quality Management Indicators
+Acquired Knowledge / Skills,Acquired Knowledge / Skills,whh_indikit_net,0.956,False,Shelter and mainstreaming,Food Security
+Community-Led Disaster Risk Management,Community-Led Disaster Risk Management,irw_indikit_net,0.956,True,Shelter and Disaster Risk Reduction,Disaster Risk Reduction and Resilience
+Living Below the Poverty Line,Living Below the Poverty Line,adra_indikit_net,0.956,True,Income and Employment,INCOME AND ASSETS-RELATED INDICATORS
+Generation of Employment Opportunities,Generation of Employment Opportunities,irw_indikit_net,0.955,True,Income and Employment,Restored livelihoods
+Availability of Soap,Availability of Soap,irw_indikit_net,0.954,True,Hygiene,Hygiene Indicators
+Number of Households Supported to Meet Basic Needs,Number of Households Receiving Cash-Based Assistance,irw_indikit_net,0.954,True,Process & quality management,Results Indicators
+Security of Employment,Security of Employment,irw_indikit_net,0.953,True,Income and Employment,Other results areas
+Adequate School Infrastructure,Adequate School Infrastructure,irw_indikit_net,0.953,True,Shelter,Global Results Framework
+Assistance Delivery,Mainstreaming Protection in Assistance Delivery,whh_indikit_net,0.953,True,"Gender, Age and Social Inclusion Mainstreaming",Protection Mainstreaming
+Staff Understanding of Mainstreaming Social Inclusion,Staff Understanding of Mainstreaming Social Inclusion,adra_indikit_net,0.953,True,"Staff Attitudes, Perceptions and Knowledge",Social Inclusion Mainstreaming
+Household Decision-Making Index,Household Decision-Making Index,irw_indikit_net,0.952,True,Gender Equality,Global Results Framework
+"Drinking Water Quality (fecal contamination, water point level)","Drinking Water Quality (fecal contamination, water point level)",irw_indikit_net,0.951,True,Water,Water Indicators
+Favourable Attitude,Favourable Attitude,irw_indikit_net,0.95,True,"Community Engagement, Participation & Advocacy",Behaviour Change Indicators
+Awareness of Climate-Smart Energy Technologies,Awareness of Climate-Smart Energy Technologies,adra_indikit_net,0.95,True,Environment,Climate-Smart Energy Indicators
+Sharing Data with Communities,Sharing Data with Communities,adra_indikit_net,0.949,True,"Community Engagement, Participation & Advocacy",Engaging People
+Amount of Greenhouse Gas Emissions Saved,Amount of Greenhouse Gas Emissions Saved,adra_indikit_net,0.948,True,Project level indicators,Environmental Mainstreaming in Project Activities
+Safe and Dignified Shelters,Safe and Dignified Shelters,adra_indikit_net,0.948,True,Shelter,Shelter and NFI
+Job Seekers’ Awareness of Job Matching Services,Job Seekers’ Awareness of Job Matching Services,www_indikit_net,0.948,True,"Skills, Training and Employability",Placement and Employment
+Area of Land Under Improved Management,Area of Land Under Improved Management,adra_indikit_net,0.947,True,Project level indicators,Landscape Management Indicators
+Prevalence of Diarrhoea Among Children,Prevalence of Diarrhoea Among Children,irw_indikit_net,0.947,True,Hygiene,Health
+Indebtedness - Existence and Levels,Indebtedness - Existence and Levels,irw_indikit_net,0.946,True,Income and Employment,Reduced Poverty
+Household Expenditure,*Household Average Expenditure,irw_indikit_net,0.945,True,Income and Employment,Reduced Poverty
+Area of Degraded Land Under Sustainable Management,Area of Degraded Land Under Sustainable Management,tearfund_indikit_net,0.945,True,Integrated Water Resources Management,Environment and Climate Change
+Prevention of Groundwater Contamination by Faeces,Prevention of Groundwater Contamination by Faeces,adra_indikit_net,0.944,True,Water,Sanitation Indicators
+Diversity of Products Sold,Diversity of Products Sold,whh_indikit_net,0.943,True,Market Development,Market Development
+Savings - Existence and Levels,Savings - Existence and Levels,irw_indikit_net,0.943,True,Income and Employment,Improved income
+Access to Sanitation Facilities at Institutions,Access to Sanitation Facilities at Institutions,irw_indikit_net,0.943,True,Sanitation,Sanitation Indicators
+Access to Drinking Water,Access to Drinking Water,irw_indikit_net,0.943,True,Water,Water Indicators
+Cost-Effectiveness of Jobs Creation,Cost-Effectiveness of Jobs Creation,irw_indikit_net,0.943,True,"Skills, Training and Employability",Restored livelihoods
+Functionality of the Water Management Groups,Functionality of the Water Management Groups,adra_indikit_net,0.942,True,Water,Water Indicators
+Treatment of Drinking Water,Treatment of Drinking Water,irw_indikit_net,0.941,True,Water,Water Indicators
+Extent of Soil Erosion,Extent of Soil Erosion,adra_indikit_net,0.941,True,Integrated Water Resources Management,Natural Resources Management (NRM) Indicators
+Awareness of Appropriate Diet,Awareness of Appropriate Diet,irw_indikit_net,0.941,True,Food Security,Nutrition-Sensitive Diet Indicators
+Income from Employment,Income from Employment,irw_indikit_net,0.94,True,Income and Employment,Improved income
+Women in Management,Women in Management,adra_indikit_net,0.939,True,Market Development,EMPLOYMENT-RELATED INDICATORS
+Water Quantity,Water Quantity,whh_indikit_net,0.939,True,Water,WASH
+Sexual Violence Against Women,Sexual Violence Against Women,irw_indikit_net,0.939,True,Gender-Based Violence,Global Results Framework
+Area of Land Under Improved Management,Area of Land Under Improved Management,irw_indikit_net,0.938,True,Agriculture and Natural Resource Management,Agriculture & Animal Husbandry
+WASH Services in Facilities,WASH Services in Facilities,adra_indikit_net,0.937,True,Water,Hygiene Indicators
+FSL: Coping Strategy Index,Coping Strategy Index (CSI),irw_indikit_net,0.937,True,Sector specific results of CVA,Results Indicators
+Saving Groups – Average Savings,Saving Groups – Average Savings,irw_indikit_net,0.937,True,Income and Employment,Improved income
+Customer Satisfaction,Customer Satisfaction,irw_indikit_net,0.937,True,Market Development,Other results areas
+Maintenance of Sanitation Facilities,Maintenance of Sanitation Facilities,irw_indikit_net,0.937,True,Sanitation,Sanitation Indicators
+Water Source Repairs,Water Source Repairs,irw_indikit_net,0.937,True,Water,Global Results Framework
+"Drinking Water Quality (fecal contamination, household level)","Drinking Water Quality (fecal contamination, HH level)",irw_indikit_net,0.936,True,Water,Water Indicators
+Achievement of Vocational Education Training Competency Standards,Achievement of Vocational Education Training Competency Standards,adra_indikit_net,0.936,True,"Skills, Training and Employability",Quality and Relevance of Vocational Education
+Hand Washing Practice,Hand Washing Practice,irw_indikit_net,0.934,True,Hygiene,Global Results Framework
+Food Consumption Score,Food Consumption Score (FCS),irw_indikit_net,0.934,True,Food Security,Global Results Framework
+Knowledge / Skills for Protecting Environment,Knowledge / Skills for Protecting Environment,adra_indikit_net,0.934,True,Project level indicators,Capacities for Environmental Mainstreaming
+Energy-Saving Measures,Energy-Saving Measures,adra_indikit_net,0.934,True,Environment,Environmental Mainstreaming in Project Activities
+Appropriate Treatment of Diarrhoea - Food,Appropriate Treatment of Diarrhoea - Food,adra_indikit_net,0.934,True,Hygiene,Child Diarrhoea Indicators
+Use of Cash/ Materials for Shelter (Re)Construction,Use of Cash/ Materials for Shelter (Re)Construction,adra_indikit_net,0.934,True,Shelter,Shelter and NFI
+Access to Public Infrastructure / Services,Access to Public Infrastructure/ Services,irw_indikit_net,0.933,True,Shelter,Disaster Risk Reduction and Resilience
+Use of Improved Sanitation Facility,Use of Improved Sanitation Facility,irw_indikit_net,0.933,True,Sanitation,Sanitation Indicators
+Public-Private Platforms,Public-Private Platforms,adra_indikit_net,0.932,True,"Community Engagement, Participation & Advocacy",Business Environment Indicators
+Operation of the Community Feedback and Response Mechanism,Operation of the Community Feedback and Response Mechanism,adra_indikit_net,0.931,True,Process & quality management,Community Feedback
+Household Average Income,*Household Average Income,irw_indikit_net,0.931,True,Income and Employment,Improved income
+Awareness of Where to Access Service,Awareness of Where to Access Service,adra_indikit_net,0.93,True,Market Development,Agricultural Extension Indicators
+Months of Adequate Household Food Provisioning,Months of Adequate Household Food Provisioning,adra_indikit_net,0.93,True,Food Security,Nutrition-Sensitive Agriculture Indicators
+Duration of Water Source Functionality,Duration of Water Source Functionality,adra_indikit_net,0.929,True,Water,Water Indicators
+Survival Rate,Survival Rate,www_indikit_net,0.929,True,Agriculture and Natural Resource Management,Business Development Indicators
+Livelihood Coping Strategy Index,Livelihood Coping Strategy Index,adra_indikit_net,0.929,True,Food Security,DRR and Resilience
+Water Affordability,Water Affordability,irw_indikit_net,0.929,True,Water,Water Indicators
+Access to Bathing Facilities,Access to Bathing Facilities,irw_indikit_net,0.929,True,Sanitation,Water Indicators
+Knowledge / Skills for Protecting Environment,Knowledge / Skills for Protecting Environment,adra_indikit_net,0.928,False,Environment,Capacities for Environmental Mainstreaming
+Amount of Production,Amount of Production,irw_indikit_net,0.927,True,Agriculture and Natural Resource Management,Other results areas
+Awareness of Rights,Awareness of Rights,irw_indikit_net,0.927,True,Social Inclusion and Protection,Social Protection and Inclusion
+Attitudes Towards Women’s Economic Participation,Attitudes Towards Women’s Economic Participation,irw_indikit_net,0.927,True,Gender Equality,Gender Equality & Women Empowerment Indicators
+Dropout Rate in Vocational Education Training,Dropout Rate in VET,irw_indikit_net,0.927,True,"Skills, Training and Employability",Participation and Completion Indicators
+Adoption of Promoted Practices (2),Adoption of Promoted Practices,adra_indikit_net,0.927,True,Integrated Water Resources Management,Natural Resources Management (NRM) Indicators
+Number of People per Water Point,Number of People per Water Point,irw_indikit_net,0.927,True,Water,Water Indicators
+Appropriate Treatment of Diarrhoea - Fluids,Appropriate Treatment of Diarrhoea - Fluids,adra_indikit_net,0.927,True,Hygiene,Child Diarrhoea Indicators
+Awareness of Where to Purchase Product,Awareness of Where to Purchase Product,irw_indikit_net,0.926,True,Market Development,Other results areas
+Implementation of Risk Mitigation Measures,Implementation of Risk Mitigation Measures,adra_indikit_net,0.925,True,Shelter and Disaster Risk Reduction,Protection Mainstreaming
+FSL: Reduced Coping Strategy Index,Reduced Coping Strategy Index,adra_indikit_net,0.925,True,Sector specific results of CVA,Results Indicators
+Household Dietary Diversity Score,Household Dietary Diversity Score,adra_indikit_net,0.925,True,Food Security,Crop and Livestock Production Indicators
+Production of Nutrient-Rich Crops,Production of Nutrient-Rich Crops,irw_indikit_net,0.924,True,Food Security,Agriculture & Animal Husbandry
+Access to Labour Market Information,Access to Labour Market Information,irw_indikit_net,0.924,True,Income and Employment,Placement and Employment
+Implementation of Social Inclusion Mainstreaming Measures,Implementation of Social Inclusion Mainstreaming Measures,adra_indikit_net,0.923,True,"Gender, Age and Social Inclusion Mainstreaming",Social Inclusion Mainstreaming
+Adoption of the Promoted Management Practices,Adoption of the Promoted Management Practices,adra_indikit_net,0.923,True,"Community Engagement, Participation & Advocacy",Business Development Indicators
+Disaster Preparedness Plan - Implementation,Disaster Preparedness Plan - Implementation,irw_indikit_net,0.922,True,Shelter and Disaster Risk Reduction,Disaster Risk Reduction and Resilience
+Job Seekers’ Use of Job Matching Services,Job Seekers’ Use of Job Matching Services,www_indikit_net,0.922,True,"Skills, Training and Employability",Placement and Employment
+Adoption of the Promoted Technologies,Adoption of the Promoted Technologies,irw_indikit_net,0.921,True,"Community Engagement, Participation & Advocacy",Business & Vocational Skills
+Attitudes Towards Women’s Political Participation,Attitudes Towards Women’s Political Participation,irw_indikit_net,0.921,True,Gender Equality,Gender Equality & Women Empowerment Indicators
+Drinking Water Quality (residual chlorine),Drinking Water Quality (residual chlorine),irw_indikit_net,0.921,True,Water,Water Indicators
+Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,adra_indikit_net,0.92,True,Hygiene,Child Diarrhoea Indicators
+Employment of Vocational Education Training Completers,Employment of Vocational Education Training Completers,adra_indikit_net,0.92,True,"Skills, Training and Employability",Placement and Employment
+Distance to Water Source,Distance to Water Source,irw_indikit_net,0.919,True,Water,Water Indicators
+Water Source Users' Satisfaction,Water Source Users' Satisfaction,irw_indikit_net,0.919,True,Water,Water Indicators
+Quality of Provided Services,Quality of Provided Services,www_indikit_net,0.918,True,Market Development,Agricultural Extension Indicators
+Fulfilment of Landscape Management Plans,Fulfilment of Landscape Management Plans,adra_indikit_net,0.918,True,Integrated Water Resources Management,Landscape Management Indicators
+Investments into Promoted Business Practices / Models,Investments into Promoted Business Practices / Models,adra_indikit_net,0.917,True,Market Development,Business Development Indicators
+Adequate Vocational Education Training Facilities,Adequate Vocational Education Training Facilities,adra_indikit_net,0.917,True,"Skills, Training and Employability",Quality and Relevance of Vocational Education
+Completion Rate in Vocational Education Training,Completion Rate in VET,irw_indikit_net,0.915,True,"Skills, Training and Employability",Participation and Completion Indicators
+Increased Income,Increased Income,irw_indikit_net,0.913,True,Income and Employment,Improved income
+Access to Hygiene Items,Access to Hygiene Items,irw_indikit_net,0.913,True,Hygiene,Hygiene Indicators
+Policy / Public Events,Policy / Public Events,adra_indikit_net,0.913,True,"Community Engagement, Participation & Advocacy",Stakeholders' Engagement in Advocacy
+Amount of Resources Saved,Amount of Resources Saved,adra_indikit_net,0.912,True,Project level indicators,Climate-Smart Energy Indicators
+Use of Environmental Assessment Recommendations,Use of Environmental Assessment Recommendations,adra_indikit_net,0.912,True,Agriculture and Natural Resource Management,Environmental Mainstreaming in Project Activities
+Employers’ Use of Job Matching Services,Employers’ Use of Job Matching Services,adra_indikit_net,0.911,True,"Skills, Training and Employability",Placement and Employment
+Awareness of Community Feedback and Response Mechanism,Awareness of Community Feedback and Response Mechanism,adra_indikit_net,0.911,True,Process & quality management,Community Feedback
+Household Hunger Score,Household Hunger Score,adra_indikit_net,0.911,True,Food Security,ACCESS TO FOOD INDICATORS
+Household Consumption,Household Consumption,irw_indikit_net,0.91,True,Food Security,Reduced Poverty
+Environmentally-Friendly Energy Technologies,Environmentally-Friendly Energy Technologies,adra_indikit_net,0.909,True,Environment,Natural Resources Management (NRM) Indicators
+Testing of Promoted Practices,Testing of Promoted Practices,adra_indikit_net,0.909,True,Integrated Water Resources Management,Natural Resources Management (NRM) Indicators
+Understanding of Gender and Age Mainstreaming,Understanding of Gender and Age Mainstreaming,adra_indikit_net,0.908,True,"Staff Attitudes, Perceptions and Knowledge",Organizational Indicators
+Access to Excreta Disposal Facilities,Access to Excreta Disposal Facilities,irw_indikit_net,0.908,True,Sanitation,Sanitation Indicators
+Adoption of Business Environment Changes,Adoption of Business Environment Changes,irw_indikit_net,0.907,True,Market Development,Other results areas
+Adoption of Environmental Protection Practices,Adoption of Environmental Protection Practices,adra_indikit_net,0.906,True,Project level indicators,Environmental Mainstreaming in Operations
+Attitudes Towards Gender Equality,Attitudes Towards Gender Equality,irw_indikit_net,0.906,True,Gender Equality,Gender Equality & Women Empowerment Indicators
+Awareness of Promoted Practices,Awareness of Promoted Practices,adra_indikit_net,0.904,False,Project level indicators,Landscape Management Indicators
+Employment of Vulnerable Persons,Employment of Vulnerable Persons,irw_indikit_net,0.904,True,"Skills, Training and Employability",Social Protection and Inclusion
+Key Barriers to Participation,Key Barriers to Participation,adra_indikit_net,0.904,True,"Gender, Age and Social Inclusion Mainstreaming",Social Inclusion Mainstreaming
+Awareness of the Causes and Prevention of Diarrhoea,Awareness of the Causes and Prevention of Diarrhoea,irw_indikit_net,0.903,True,Water,Diarrhoea Indicators
+CVA-related Conflicts / Tensions,CBA-related Conflicts / Tensions,irw_indikit_net,0.903,True,Process & quality management,Quality Management Indicators
+People Benefiting,People Benefiting,www_indikit_net,0.902,True,"Community Engagement, Participation & Advocacy",Results of Advocacy Strategies
+Access to Water at Institutions,Access to Water at Institutions,irw_indikit_net,0.901,True,Water,Water Indicators
+Engagement in Identifying Needs and Solutions,Engagement in Identifying Needs and Solutions,adra_indikit_net,0.901,True,"Community Engagement, Participation & Advocacy",Engaging People
+Appropriate Treatment of Diarrhoea - ORS,Appropriate Treatment of Diarrhoea - ORS,adra_indikit_net,0.9,True,Hygiene,Child Diarrhoea Indicators
+Budgetary Commitment,Budgetary Commitment,adra_indikit_net,0.9,True,"Community Engagement, Participation & Advocacy",Results of Advocacy Strategies
+Water-Saving Measures,Water-Saving Measures,adra_indikit_net,0.9,True,Water,Environmental Mainstreaming in Project Activities
+Beneficiaries' Satisfaction,Beneficiaries' Satisfaction,irw_indikit_net,0.899,True,Shelter and mainstreaming,Health
+Implementation of Gender and Age Mainstreaming Measures,Implementation of Gender and Age Mainstreaming Measures,adra_indikit_net,0.898,True,"Gender, Age and Social Inclusion Mainstreaming",Programme Indicators
+Marketing Practices Leading to Higher Sales,Marketing Practices Leading to Higher Sales,adra_indikit_net,0.897,True,Market Development,Business Development Indicators
+Engagement with Decision Makers,Engagement with Decision Makers,adra_indikit_net,0.896,True,"Community Engagement, Participation & Advocacy",Stakeholders' Engagement in Advocacy
+Saving and Loan Groups – Total Value of Provided Loans,Saving and Loan Groups – Total Value of Provided Loans,adra_indikit_net,0.896,True,Income and Employment,INCOME AND ASSETS-RELATED INDICATORS
+Income of Supported Businesses,Income of Supported Businesses,adra_indikit_net,0.894,True,Income and Employment,INCOME AND ASSETS-RELATED INDICATORS
+Acquired Knowledge / Skills,Acquired Knowledge / Skills,adra_indikit_net,0.893,False,Project level indicators,Capacities for Effective Advocacy
+Perception of Equal Opportunities,Perception of Equal Opportunities,adra_indikit_net,0.89,True,"Gender, Age and Social Inclusion Mainstreaming",Programme Indicators
+Animal Mortality,Animal Mortality,adra_indikit_net,0.889,True,Agriculture and Natural Resource Management,Crop and Livestock Production Indicators
+Adopted Recommendations,Adopted Recommendations,adra_indikit_net,0.889,True,"Community Engagement, Participation & Advocacy",Results of Advocacy Strategies
+Active Participation in Activities,Active Participation in Activities,adra_indikit_net,0.889,True,"Community Engagement, Participation & Advocacy",Ensuring Participation
+Self-Help Groups - Coverage,Self-Help Groups - Coverage,adra_indikit_net,0.885,True,"Community Engagement, Participation & Advocacy",Social Protection and Inclusion
+Perception of Disaster Preparedness,Perception of Disaster Preparedness,irw_indikit_net,0.884,True,Project level indicators,Disaster Risk Reduction and Resilience
+Expected Sustainability of Supported Businesses,Expected Sustainability of Supported Businesses,adra_indikit_net,0.883,True,Market Development,Business Development Indicators
+Stock Availability,Stock Availability,adra_indikit_net,0.883,True,Market Development,Market Supply-Related Indicators
+Food Insecurity Experience Scale (FIES),Food Insecurity Experience Scale (FIES),irw_indikit_net,0.881,True,Food Security,Global Results Framework
+Use of Gender and Age Analysis,Use of Gender and Age Analysis,adra_indikit_net,0.88,True,"Gender, Age and Social Inclusion Mainstreaming",Programme Indicators
+Vulnerability and Capacity Assessment,Vulnerability and Capacity Assessment,adra_indikit_net,0.879,True,"Skills, Training and Employability",DRR and Resilience
+Fuel-Efficient Cooking Practices,Fuel-Efficient Cooking Practices,adra_indikit_net,0.878,True,Shelter and environment,Sustainable Consumption and Production Indicators
+Decisions About Assistance Provided,Decisions About Assistance Provided,adra_indikit_net,0.878,True,"Gender, Age and Social Inclusion Mainstreaming",Programme Indicators
+Awareness of How to Participate in Activities,Awareness of How to Participate in Activities,adra_indikit_net,0.878,True,"Community Engagement, Participation & Advocacy",Ensuring Participation
+FSL: Food Consumption Score,Food Consumption Score (FCS),irw_indikit_net,0.874,False,Sector specific results of CVA,Global Results Framework
+Attitudes Towards Marginalized Groups,Attitudes Towards Marginalized Groups,adra_indikit_net,0.871,True,Social Inclusion and Protection,Social Protection and Inclusion
+Return on Investment,Return on Investment,adra_indikit_net,0.871,True,Market Development,Business Development Indicators
+Adoption of Environmental Protection Practices,Adoption of Environmental Protection Practices,adra_indikit_net,0.868,False,Environment,Environmental Mainstreaming in Operations
+Trust,V6: Trust,tearfund_indikit_net,0.867,True,Social cohesion and trust,Gender-based violence (GBV) and psychosocial support (PSS)
+Labour Safety,Labour Safety,www_indikit_net,0.862,True,Income and Employment,EMPLOYMENT-RELATED INDICATORS
+Awareness of Cash & Voucher Assistance Programme,Awareness of Cash-Based Assistance Programme,adra_indikit_net,0.861,True,Process & quality management,Quality Management Indicators
+Supportive Attitudes of Staff,Supportive Attitudes of Staff,adra_indikit_net,0.852,True,"Staff Attitudes, Perceptions and Knowledge",Organizational Indicators
+Climate Risk Perception,Risk Perception,irw_indikit_net,0.851,True,Project level indicators,Disaster Risk Reduction and Resilience
+Number of Jobs Created,Number of Jobs Created,adra_indikit_net,0.848,True,Income and Employment,EMPLOYMENT-RELATED INDICATORS
+Protection Mainstreaming,Mainstreaming Protection in Assistance Delivery,whh_indikit_net,0.848,False,Process & quality management,Protection Mainstreaming
+Awareness of Available Support for GBV survivors,Awareness of Available Support,irw_indikit_net,0.844,True,Gender-Based Violence,Gender-Based Violence Indicators
+Access to Markets,Ease of Use,irw_indikit_net,0.844,False,Process & quality management,Quality Management Indicators
+Absence of Tensions or Conflicts due to Assistance Provided,Absence of Tensions or Conflicts,adra_indikit_net,0.841,True,Project level indicators,Protection Mainstreaming
+Use of Financial Products / Services,Use of Financial Products / Services,adra_indikit_net,0.838,True,Market Development,Market Demand-Related Indicators
+Livelihood Coping Strategies Indicator for Essential Needs,Livelihood Coping Strategies – Essential Needs (LCS-EN),www_indikit_net,0.834,True,Multisectoral results related to CVA,Results Indicators
+Accessing a Service,Accessing a Service,adra_indikit_net,0.829,True,"Community Engagement, Participation & Advocacy",Ensuring Participation
+Number of Clients Served,Number of Clients Served,adra_indikit_net,0.824,True,Market Development,Agricultural Extension Indicators
+People Reached,People Reached,adra_indikit_net,0.823,True,"Community Engagement, Participation & Advocacy",Stakeholders' Engagement in Advocacy
+Awareness of How to Access a Service,Awareness of How to Access a Service,adra_indikit_net,0.822,True,Market Development,Ensuring Participation
+Climate Resilience in Evaluations,Implementation of climate resilience projects,tearfund_indikit_net,0.817,True,Organisational level indicators,Environment and Climate Change
+Decision-Making Power,Decision-Making Power,irw_indikit_net,0.81,True,Process & quality management,Quality Management Indicators
+Number of Products Sold,Number of Products Sold,adra_indikit_net,0.8,True,Income and Employment,Market Supply-Related Indicators
+Women's Decision Making: Women's Involvement,Shared decision making on cash transfer use,whh_indikit_net,0.796,True,Multisectoral results related to CVA,Cash and Voucher Assistance
+Adoption of Promoted Practices,Adoption of Promoted Practices,adra_indikit_net,0.794,False,Project level indicators,Natural Resources Management (NRM) Indicators
+Women's Decision Making: Frequency of Involvement,Shared decision making on cash transfer use,whh_indikit_net,0.789,False,Multisectoral results related to CVA,Cash and Voucher Assistance
+WASH: Water supply,Water - HH collect from improved source,tearfund_indikit_net,0.786,True,Sector specific results of CVA,"Water, sanitation and hygiene (WASH)"
+Shelter: Use of Quality Shelter,Adequate Shelter - Safety,irw_indikit_net,0.761,True,Sector specific results of CVA,Global Results Framework
+Basic Needs (Alternative),Perceived Ability to Meet Basic Needs,tearfund_indikit_net,0.76,True,Multisectoral results related to CVA,Disaster Response
+Education: School Attendance,Student Attendance Rate,irw_indikit_net,0.753,True,Sector specific results of CVA,Access and Inclusion Indicators
+WASH: Sanitation,#ms05: Sanitation,whh_indikit_net,0.749,False,Sector specific results of CVA,WASH
+WASH: Hygiene,Handwashing Facilities With Soap and Water,whh_indikit_net,0.748,False,Sector specific results of CVA,WASH
+Satisfaction with Conflict Resolution,Satisfaction with Community Conflict Resolution Mechanisms,irw_indikit_net,0.746,True,Community based conflict prevention and resolution,Global Results Framework
+Climate risk integration,Implementation of climate resilience projects,tearfund_indikit_net,0.745,False,Project level indicators,Environment and Climate Change
+Acute malnutrition,"Prevalence of Acute Malnutrition (WfH, oedema)",whh_indikit_net,0.742,True,Food Security,Food Security
+Basic Needs,Perceived Ability to Meet Basic Needs,tearfund_indikit_net,0.737,False,Multisectoral results related to CVA,Disaster Response
+Trust in formal/informal justice provider,V6: Trust,tearfund_indikit_net,0.733,False,Community based conflict prevention and resolution,Gender-based violence (GBV) and psychosocial support (PSS)
+Well-Being Questionnaire (SRQ 20),Improved subjective wellbeing (MHPSS),indicators_savethechildren_net,0.724,True,Social cohesion and trust,Improved mental health and/or psychosocial wellbeing (MHPSS)
+Prevalence of Conflicts,V7: Physical violence,tearfund_indikit_net,0.721,True,Peacebuilding - General,Gender-based violence (GBV) and psychosocial support (PSS)
+Indicator 10a from the results framework water (IGG-DGIS),Water safety plans in use,tearfund_indikit_net,0.716,False,Integrated Water Resources Management,"Water, sanitation and hygiene (WASH)"
+Indicator 10b from the results framework water (IGG-DGIS),Water safety plans in use,tearfund_indikit_net,0.716,False,Integrated Water Resources Management,"Water, sanitation and hygiene (WASH)"
+Perception of Social Cohesion and Trust,V6: Trust,tearfund_indikit_net,0.715,False,Social cohesion and trust,Gender-based violence (GBV) and psychosocial support (PSS)
+People's Perception of Security,Number of People Receiving Social Protection Services,irw_indikit_net,0.709,True,Peacebuilding - General,Social Protection and Inclusion
+Indicator 8 from the results framework water (IGG-DGIS),Water safety plans in use,tearfund_indikit_net,0.698,False,Integrated Water Resources Management,"Water, sanitation and hygiene (WASH)"
+Timely Delivery of Cash,Delivery Mechanism Performance,irw_indikit_net,0.696,False,Process & quality management,Quality Management Indicators
+Indicator 7 from the results framework water (IGG-DGIS),Water safety plans in use,tearfund_indikit_net,0.685,False,Integrated Water Resources Management,"Water, sanitation and hygiene (WASH)"
+Household food production,Reported Agricultural Output,whh_indikit_net,0.683,False,Food Security,Agriculture and NRM
+Shelter: Winterproof Shelter,Adequate Shelter - Safety,irw_indikit_net,0.681,False,Sector specific results of CVA,Global Results Framework
+Shelter: Financial Access,Adequate Shelter - Safety,irw_indikit_net,0.679,False,Sector specific results of CVA,Global Results Framework
+"Use of a Gender, Inclusion or Power Analysis",Use of Gender and Age Analysis,adra_indikit_net,0.674,False,Organisational level indicators,Programme Indicators
+Expenditure (2),*Household Average Expenditure,irw_indikit_net,0.664,False,Multisectoral results related to CVA,Reduced Poverty
+Cash Spending,Ability to Cover Basic Needs,whh_indikit_net,0.663,False,Income and Employment,Cash and Voucher Assistance
+Problems with Receiving CVA,Ease of Use,irw_indikit_net,0.659,False,Process & quality management,Quality Management Indicators
+Education: Enrolment,Student Enrolment,irw_indikit_net,0.655,True,Sector specific results of CVA,Access and Inclusion Indicators
+Access to Justice,Use of Conflict Resolution Services,irw_indikit_net,0.654,False,Peacebuilding - General,Global Results Framework
+Conflicts Addressed and Resolved by Different Actors,Perception of Community Conflict Resolution Mechanisms,irw_indikit_net,0.652,False,Community based conflict prevention and resolution,Global Results Framework
+Received Correct Amount of CVA,Number of Cash Transfer Recipients,irw_indikit_net,0.65,False,Process & quality management,Results Indicators
+Performance of Land Administration Services,Satisfaction with Local Authorities' Services,whh_indikit_net,0.649,False,Land Rights,Civil Society
+Cash Directly Received by Local Groups,Participatory Budgeting,irw_indikit_net,0.639,False,Organisational level indicators,Social Protection and Inclusion
+Shelter: Non-Food Items,Adequate Shelter - Minimum Shelter Area,irw_indikit_net,0.634,False,Sector specific results of CVA,Shelter and NFI
+Perceived Community Cohesion,Number of Social Cohesion Activities,irw_indikit_net,0.632,True,Social cohesion and trust,Social Cohesion
+Expenditure (1),Minimum Expenditure Basket,irw_indikit_net,0.629,False,Multisectoral results related to CVA,Improved income
+% of Country Budget to Local Partners,Participatory Spending,irw_indikit_net,0.628,True,Organisational level indicators,Social Protection and Inclusion
+EST Utilisation,Use of Eco-Friendly Practices / Products,irw_indikit_net,0.623,False,Project level indicators,Sustainable Consumption and Production Indicators
+GCT Process - Protection Mainstreaming,Access to Markets,irw_indikit_net,0.596,False,Group cash transfers,Quality Management Indicators
+Projects with a Peace/Conflict Indicator,O1.2: Church - peacebuilding,tearfund_indikit_net,0.595,True,Organisational level indicators,Peacebuilding
+Group Cash Transfer: Increased Resilience,Adoption of Resilience Strengthening Measures,tearfund_indikit_net,0.593,False,Multisectoral results related to CVA,"Disaster Preparedness, Anticipation and Resilience"
+GCT Group Strengthening,Number of Active Group Members,tearfund_indikit_net,0.586,False,Group cash transfers,Livelihoods & Agriculture
+Local Involvement in Project Design,Participatory Spending,irw_indikit_net,0.581,False,Organisational level indicators,Social Protection and Inclusion
+Sense of Community,V2: Trusting communities,tearfund_indikit_net,0.578,False,Social cohesion and trust,Gender-based violence (GBV) and psychosocial support (PSS)
+Use of EST tool,Implementation of climate resilience projects,tearfund_indikit_net,0.573,False,Organisational level indicators,Environment and Climate Change
+GCT Use,Delivery Mechanism Performance,irw_indikit_net,0.572,False,Group cash transfers,Quality Management Indicators
+Total GCT Amount Distributed,Incurred Travel Costs,irw_indikit_net,0.568,False,Group cash transfers,Quality Management Indicators
+Prevalence of Land Disputes,Use of Conflict Resolution Services,irw_indikit_net,0.564,False,Land Rights,Global Results Framework
+Land Tenure Security (Legal Documentation and Perception),Security of Employment,irw_indikit_net,0.559,False,Land Rights,Other results areas
+Violent Deaths per 100.000 People,Number of Affected People,irw_indikit_net,0.554,False,Peacebuilding - General,Disaster Risk Reduction and Resilience
+Total CVA Value Distributed,Delivery Mechanism Performance,irw_indikit_net,0.546,False,Process & quality management,Quality Management Indicators
+GCT Increased Capacity to Plan and Implement,Understanding of Written Communication,irw_indikit_net,0.538,False,Group cash transfers,Communication with Communities Indicators
+Peace Nexus in Evaluations,O1.2: Church - peacebuilding,tearfund_indikit_net,0.531,False,Organisational level indicators,Peacebuilding
+GDI in Evaluations,Use of Gender and Age Analysis,adra_indikit_net,0.525,False,Organisational level indicators,Programme Indicators
+Number of GCT Workshop Participants,G5: Participants,tearfund_indikit_net,0.522,False,Group cash transfers,Peacebuilding
+Land Conflict Resolution Rate through ADR,Use of Conflict Resolution Services,irw_indikit_net,0.513,False,Land Rights,Global Results Framework
+Women's Land Rights on Issued Land Certificates or Title Deeds,Women’s Autonomy Index,irw_indikit_net,0.51,False,Land Rights,Gender Equality & Women Empowerment Indicators
+Number of Land Certificates or Title Deeds Issued,Number of Damaged Houses,irw_indikit_net,0.501,False,Land Rights,Disaster Risk Reduction and Resilience

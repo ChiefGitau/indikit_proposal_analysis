@@ -1,0 +1,10 @@
+,indicators,template,identical,modified,added,omitted,base_covered_pct,own_additions_pct
+adra,507,clone,435,36,36,55,89.4,7.1
+irw,480,clone,242,73,165,219,57.7,34.4
+zoa,303,clone,179,37,87,314,39.4,28.7
+tearfund,230,clone,3,44,183,478,7.7,79.6
+savethechildren,179,custom,0,10,169,508,1.9,94.4
+whh,122,clone,59,21,42,439,15.3,34.4
+helvetas,87,custom,0,2,85,516,0.4,97.7
+tdh,65,custom,0,0,65,518,0.0,100.0
+winrock,42,clone,0,1,41,517,0.2,97.6

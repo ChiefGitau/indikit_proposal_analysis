@@ -1,0 +1,30 @@
+# Core — the app runs fully on these (semantic pages fall back to TF-IDF + PCA).
+streamlit>=1.36
+pandas
+plotly
+scikit-learn
+# Site Comparison page: scrape the live IndiKit site (requests ships with the
+# stack; beautifulsoup4 parses the server-rendered HTML).
+requests
+beautifulsoup4
+# numpy: pinned <2 so it stays compatible with torch 2.2.2 (see ML extras below).
+numpy==1.26.4
+
+# Optional — real semantic embeddings + UMAP for the Semantic Map / Duplicates.
+# These versions are a known-good set for Intel macOS / Python 3.12, where:
+#   * PyTorch has no wheels after 2.2.2 (so torch is capped there),
+#   * torch 2.2.2 needs numpy<2,
+#   * numba needs numpy>=1.24,<2.4  → numpy 1.26.4 satisfies both,
+#   * transformers 5.x is incompatible with torch 2.2.2 → pin <5.
+# Upgrade pip first (`pip install --upgrade pip`) so llvmlite/numba install as
+# prebuilt wheels instead of compiling from source.
+# sentence-transformers==3.4.1
+# transformers==4.46.3
+# tokenizers==0.20.3
+# torch==2.2.2
+# umap-learn==0.5.12
+# numba==0.62.1
+# llvmlite==0.45.1
+
+# Optional — word cloud on the Text Profile page.
+# wordcloud==1.9.6

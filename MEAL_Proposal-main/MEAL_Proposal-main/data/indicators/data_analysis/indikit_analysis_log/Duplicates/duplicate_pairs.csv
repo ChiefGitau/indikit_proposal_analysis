@@ -1,0 +1,61 @@
+similarity,Indicator A,ID A,Sector A,Indicator B,ID B,Sector B
+1.0,Months of Adequate Household Food Provisioning,5619,Food Security and Livelihoods,Months of Adequate Household Food Provisioning,5092,Food Security and Livelihoods
+1.0,Use of Promoted Energy Technologies,5468,Food Security and Livelihoods,Use of Promoted Energy Technologies,5468,"Water, Sanitation and Hygiene"
+1.0,Disaggregation by Gender and Age,5541,Food Security and Livelihoods,Disaggregation by Gender and Age,5617,Food Security and Livelihoods
+1.0,Environmentally-Friendly Construction Materials and Methods ,5593,Food Security and Livelihoods,Environmentally-Friendly Construction Materials and Methods ,5593,Shelter
+1.0,Fulfilment of Landscape Management Plans,5492,Food Security and Livelihoods,Fulfilment of Landscape Management Plans,5492,"Water, Sanitation and Hygiene"
+1.0,Gender Ratio in Activities,5544,Food Security and Livelihoods,Gender Ratio in Activities,5618,Food Security and Livelihoods
+1.0,Number of Cash Transfer Recipients,5239,Food Security and Livelihoods,Number of Cash Transfer Recipients,5239,cross-cutting: Cash and Voucher Assistance
+1.0,Area of Degraded Land Under Sustainable Management,5271,Food Security and Livelihoods,Area of Degraded Land Under Sustainable Management,5271,"Water, Sanitation and Hygiene"
+1.0,Water-Saving Measures,5592,Food Security and Livelihoods,Water-Saving Measures,5592,"Water, Sanitation and Hygiene"
+1.0,Natural Resource Management,5201,Food Security and Livelihoods,Natural Resource Management,5201,"Water, Sanitation and Hygiene"
+1.0,Extent of Soil Erosion,5272,Food Security and Livelihoods,Extent of Soil Erosion,5272,"Water, Sanitation and Hygiene"
+1.0,Fuel-Efficient Cooking Practices,5591,Food Security and Livelihoods,Fuel-Efficient Cooking Practices,5591,Shelter
+1.0,Awareness of Available Support for GBV survivors,5663,Peacebuilding,Awareness of Available Support for GBV survivors,5663,Gender Diversity & Inclusion
+1.0,FSL: Coping Strategy Index,5091,Food Security and Livelihoods,FSL: Coping Strategy Index,5091,cross-cutting: Cash and Voucher Assistance
+1.0,FSL: Food Consumption Score,5090,Food Security and Livelihoods,Food Consumption Score,5620,Food Security and Livelihoods
+1.0,FSL: Food Consumption Score,5090,Food Security and Livelihoods,FSL: Food Consumption Score,5090,cross-cutting: Cash and Voucher Assistance
+1.0,Food Consumption Score,5620,Food Security and Livelihoods,FSL: Food Consumption Score,5090,cross-cutting: Cash and Voucher Assistance
+1.0,FSL: Reduced Coping Strategy Index,5464,Food Security and Livelihoods,FSL: Reduced Coping Strategy Index,5464,cross-cutting: Cash and Voucher Assistance
+1.0,Employment of Vulnerable Persons,5250,Food Security and Livelihoods,Employment of Vulnerable Persons,5250,Food Security and Livelihoods
+1.0,Household Consumption,5161,Food Security and Livelihoods,Household Consumption,5161,Food Security and Livelihoods
+1.0,Physical Violence Against Women,5661,Peacebuilding,Physical Violence Against Women,5661,Gender Diversity & Inclusion
+1.0,Acceptability of Gender-Based Violence,5662,Peacebuilding,Acceptability of Gender-Based Violence,5662,Gender Diversity & Inclusion
+1.0,Reduced Vulnerability,5486,Food Security and Livelihoods,Reduced Vulnerability,5486,Shelter
+1.0,Acquired Knowledge / Skills,5265,Food Security and Livelihoods,Acquired Knowledge / Skills,5652,Shelter
+1.0,Shelter: Non-Food Items,5631,Shelter,Shelter: Non-Food Items,5631,cross-cutting: Cash and Voucher Assistance
+1.0,Shelter: Financial Access,5633,Shelter,Shelter: Financial Access,5633,cross-cutting: Cash and Voucher Assistance
+1.0,Perception of Social Cohesion and Trust,5655,Peacebuilding,Perception of Social Cohesion and Trust,5655,Peace Nexus
+1.0,Sexual Violence Against Women,5660,Peacebuilding,Sexual Violence Against Women,5660,Gender Diversity & Inclusion
+1.0,Handwashing Facilities With Soap and Water,5138,"Water, Sanitation and Hygiene",Handwashing Facilities With Soap and Water,5138,"Water, Sanitation and Hygiene"
+1.0,WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene",WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene"
+1.0,WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene",WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene"
+1.0,WASH: Hygiene,5637,"Water, Sanitation and Hygiene",WASH: Hygiene,5637,cross-cutting: Cash and Voucher Assistance
+1.0,Shelter: Use of Quality Shelter,5632,Shelter,Shelter: Use of Quality Shelter,5632,cross-cutting: Cash and Voucher Assistance
+1.0,Shelter: Winterproof Shelter,5634,Shelter,Shelter: Winterproof Shelter,5634,cross-cutting: Cash and Voucher Assistance
+1.0,Protection Mainstreaming,5623,Shelter,Protection Mainstreaming,5623,cross-cutting: Cash and Voucher Assistance
+1.0,Protection Mainstreaming,5623,Shelter,Protection Mainstreaming,5623,Gender Diversity & Inclusion
+1.0,Perception of WASH Needs,5242,"Water, Sanitation and Hygiene",Perception of WASH Needs,5242,"Water, Sanitation and Hygiene"
+1.0,Perception of WASH Needs,5242,"Water, Sanitation and Hygiene",Perception of WASH Needs,5242,"Water, Sanitation and Hygiene"
+1.0,Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene",Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene"
+1.0,Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene",Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene"
+1.0,Disposal of Child Faeces,5144,"Water, Sanitation and Hygiene",Disposal of Child Faeces,5144,"Water, Sanitation and Hygiene"
+1.0,Use of Improved Sanitation Facility,5142,"Water, Sanitation and Hygiene",Use of Improved Sanitation Facility,5142,"Water, Sanitation and Hygiene"
+1.0,WASH Services in Facilities,5243,"Water, Sanitation and Hygiene",WASH Services in Facilities,5243,"Water, Sanitation and Hygiene"
+1.0,WASH Services in Facilities,5243,"Water, Sanitation and Hygiene",WASH Services in Facilities,5243,"Water, Sanitation and Hygiene"
+1.0,Prevention of Groundwater Contamination by Faeces,5176,"Water, Sanitation and Hygiene",Prevention of Groundwater Contamination by Faeces,5176,"Water, Sanitation and Hygiene"
+1.0,WASH Services in Facilities,5243,"Water, Sanitation and Hygiene",WASH Services in Facilities,5243,"Water, Sanitation and Hygiene"
+1.0,WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene",WASH Promoters' Knowledge and Skills,5139,"Water, Sanitation and Hygiene"
+1.0,WASH: Sanitation,5636,"Water, Sanitation and Hygiene",WASH: Sanitation,5636,cross-cutting: Cash and Voucher Assistance
+1.0,Functionality of the Water Management Groups,5132,"Water, Sanitation and Hygiene",Functionality of the Water Management Groups,5132,"Water, Sanitation and Hygiene"
+1.0,Perception of WASH Needs,5242,"Water, Sanitation and Hygiene",Perception of WASH Needs,5242,"Water, Sanitation and Hygiene"
+1.0,Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene",Awareness of the Causes and Prevention of Diarrhoea,5173,"Water, Sanitation and Hygiene"
+1.0,Coverage of Solid Waste Management System,5497,"Water, Sanitation and Hygiene",Solid Waste Management,5177,"Water, Sanitation and Hygiene"
+1.0,WASH: Water supply,5635,"Water, Sanitation and Hygiene",WASH: Water supply,5635,cross-cutting: Cash and Voucher Assistance
+1.0,Protection Mainstreaming,5623,cross-cutting: Cash and Voucher Assistance,Protection Mainstreaming,5623,Gender Diversity & Inclusion
+0.939,Completion Rate in Vocational Education Training,5204,Food Security and Livelihoods,Dropout Rate in Vocational Education Training,5203,Food Security and Livelihoods
+0.933,Perceived Effectiveness of Implemented Adaptation Measures,5482,Food Security and Livelihoods,Perceived Effectiveness of Promoted Adaptation Measures,5480,Food Security and Livelihoods
+0.921,Adoption of Environmental Protection Practices,5588,Food Security and Livelihoods,Knowledge / Skills for Protecting Environment,5595,Food Security and Livelihoods
+0.908,Household Dietary Diversity Score,5089,Food Security and Livelihoods,Individual Dietary Diversity Score,5083,Food Security and Livelihoods
+0.906,Basic Needs,5621,cross-cutting: Cash and Voucher Assistance,Basic Needs (Alternative),5622,cross-cutting: Cash and Voucher Assistance
+0.903,Women's Decision Making: Frequency of Involvement,5627,cross-cutting: Cash and Voucher Assistance,Women's Decision Making: Women's Involvement,5626,cross-cutting: Cash and Voucher Assistance
