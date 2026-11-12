@@ -13,23 +13,21 @@ def test_package_imports_and_cli_lists_subcommands():
 
     assert cfg.REPO_ROOT.joinpath("pipeline").is_dir()
     help_text = build_parser().format_help()
-    for name in ("build-metadata", "validate-gold", "build-kb", "query", "run-experiments"):
+    for name in ("build-metadata", "validate-gold", "build-kb", "build-baseline-kb", "score-pairs", "retrieve", "kb-report", "query", "run-experiments"):
         assert name in help_text
     assert pipeline.__doc__
 
 
 def test_phase_stubs_raise_not_implemented():
-    from pipeline.agent import retrieve
-    from pipeline.preprocess import knowledge_base, outline, parse_docx, parse_pdf, parse_xlsx, references
+    from pipeline.agent import answer, novel_pass
     from pipeline.run import main
 
-    for fn, arg in ((parse_pdf.parse_pdf, "x"), (parse_docx.parse_docx, "x"), (parse_xlsx.parse_xlsx, "x"), (outline.build_outline, []), (references.detect_references, []), (knowledge_base.build_knowledge_base, "x")):
-        with pytest.raises(NotImplementedError, match="Phase 2"):
-            fn(arg) if fn is not knowledge_base.build_knowledge_base else fn(arg, "y")
     with pytest.raises(NotImplementedError, match="Phase 3"):
-        retrieve.build_query(None)
-    with pytest.raises(NotImplementedError, match="Phase 2"):
-        main(["build-kb"])
+        answer.answer_indicator()
+    with pytest.raises(NotImplementedError, match="Phase 3"):
+        novel_pass.run_novel_pass()
+    with pytest.raises(NotImplementedError, match="Phase 3"):
+        main(["query"])
 
 
 def test_shim_reexports_and_forwards_settings():

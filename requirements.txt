@@ -1,8 +1,8 @@
 # Minimum versions chosen for compatibility with current httpx / huggingface_hub releases.
 # openai < 1.55.3 breaks with httpx >= 0.28 ("unexpected keyword argument 'proxies'").
 # sentence-transformers < 2.3 breaks with huggingface_hub >= 0.26 ("cannot import cached_download").
-pymupdf>=1.24
-python-docx>=0.8.11
+pymupdf>=1.24,<2          # Phase 2: page.find_tables() needs >= 1.23
+python-docx>=1.1
 openai>=1.55.3
 pydantic>=2.5
 python-dotenv>=1.0
@@ -12,8 +12,9 @@ rapidfuzz>=2.15
 # Intel Macs (PyTorch stopped publishing macOS x86_64 wheels at 2.2.2, which is incompatible with numpy 2 and
 # transformers 5). extraction_utils tries fastembed first and falls back to sentence-transformers.
 fastembed>=0.7
-# Optional fallback backend; only install on machines with a working PyTorch >= 2.5:
-# sentence-transformers>=3.0,<6
+# sentence-transformers backend for embeddings / cross-encoders (needs a working PyTorch; on Intel Macs fastembed is used instead):
+sentence-transformers>=3.0,<6
+numpy>=1.26
 httpx>=0.28
 matplotlib>=3.8
 openpyxl>=3.1
@@ -22,6 +23,11 @@ pytest>=7.4
 pyyaml>=6.0
 requests>=2.31
 beautifulsoup4>=4.12
-# Phase 2 (preprocessing) will add: faiss-cpu, pdfplumber (table-aware PDF parsing), pytesseract (OCR fallback),
-#   a multilingual embedding model (e.g. paraphrase-multilingual-MiniLM-L12-v2 or bge-m3)
-# Phase 3 (agent) will add: a cross-encoder re-ranker (e.g. bge-reranker-v2-m3)
+# Phase 2 (preprocessing): layout-aware parsing and the knowledge bases
+pdfplumber>=0.11            # table fallback for PDF pages where PyMuPDF finds none
+openpyxl>=3.1               # xlsx logframes (already above, kept for clarity)
+# Optional extras (the code works without them):
+#   faiss-cpu>=1.8           faster vector index (NumPy brute force is used otherwise)
+#   pyarrow>=15              pair_scores.parquet instead of .csv
+#   pytesseract>=0.3         OCR for scanned PDF pages (also needs the tesseract binary); --ocr flag
+# Phase 3 (agent) will add nothing new for retrieval: re-rankers run through fastembed (ONNX) or sentence-transformers

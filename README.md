@@ -13,15 +13,15 @@ match. The method follows *ESGReveal* (Zou et al., 2023, arXiv:2312.17264), adap
 | Module | Package | What it holds | Status |
 |---|---|---|---|
 | **Metadata** (paper 3.2) | `pipeline/metadata/` | every IndiKit indicator as `<Aspect, KPI, Topic, Quantity>` plus `<Knowledge>` and `<SearchTerm>`; `indikit_metadata.jsonl` | **Phase 1, done** |
-| **Preprocessing** (paper 3.3) | `pipeline/preprocess/` | layout-aware parsers (PDF, docx, xlsx), outline, reference detection, text / outline / table knowledge bases + vector index | Phase 2 (stubs) |
-| **LLM agent** (paper 3.4) | `pipeline/agent/` | retrieval + re-ranking, five-part prompt, `DisclosureAnswer` schema, novel-indicator pass | Phase 3 (prompt template and LLM plumbing exist) |
+| **Preprocessing** (paper 3.3) | `pipeline/preprocess/` | layout-aware parsers (PDF, docx, xlsx), outline, logframe detection, reference detection, text / outline / table knowledge bases + vector index, plain-RAG baseline | **Phase 2, done** |
+| **LLM agent** (paper 3.4) | `pipeline/agent/` | retrieval + re-ranking (done in Phase 2), five-part prompt, `DisclosureAnswer` schema, novel-indicator pass | Phase 3 (answering loop and novel pass) |
 | **Evaluation** (paper 5.1) | `pipeline/eval/` | gold-set format + validator, metrics (Acc_DC, Acc_DE, precision/recall, match-type, reference detection), experiment runner | Phase 1 scaffold; experiments in Phase 3 |
 
 | Phase | Scope | Status |
 |---|---|---|
 | 1 — Foundation | repo clean-up, `pipeline/` skeleton, metadata module, evaluation scaffold | done (`docs/phase_1_report.md`) |
-| 2 — Preprocessing | parsers, outline, references, knowledge bases, retrieval | next |
-| 3 — Agent & evaluation | prompt + answering, novel pass, benchmark + ablations, full run, Streamlit | later |
+| 2 — Preprocessing | parsers, outline, references, knowledge bases, retrieval, baseline index | done (`docs/phase_2_report.md`) |
+| 3 — Agent & evaluation | prompt + answering, novel pass, benchmark + ablations, full run, Streamlit | next |
 
 `extraction_utils.py` is now a thin compatibility shim over `pipeline/`; the notebook
 `proposal_indicator_analysis.ipynb` still runs the legacy extraction and (deprecated) matching v1.
@@ -58,6 +58,37 @@ python -m pipeline.run validate-gold --file pipeline/eval/gold/_example.csv
 pytest -q
 ```
 
+## Phase 2 — preprocessing, knowledge bases, retrieval
+
+Everything here is offline (no LLM). Real models are loaded only by the CLI; tests use a deterministic hashing
+embedder and a lexical re-ranker.
+
+```bash
+python -m pipeline.run build-kb --all                 # parse + index every document (incremental; --force to redo)
+python -m pipeline.run build-kb --doc "proposals/africa/uganda/large/Hope/Copy of Logframe HOPE project - final.xlsx"
+python -m pipeline.run build-baseline-kb --all        # plain-RAG baseline (fixed chunks, all-MiniLM-L6-v2)
+python -m pipeline.run score-pairs --all --no-rerank  # best vector score per document x indicator -> outputs/kb/pair_scores.*
+python -m pipeline.run score-pairs --limit 5          # with the cross-encoder (slow: ~13 pairs/s on CPU)
+python -m pipeline.run retrieve --doc Tigray --indicator 5138          # inspect the evidence for one pair
+python -m pipeline.run retrieve --doc Tigray --indicator 5138 --baseline --top-k 4
+python -m pipeline.run kb-report                      # outputs/kb/preprocess_report.md
+pytest -m integration                                 # sanity checks on the template documents with the real models
+```
+
+Knowledge-base folder (`outputs/kb/<doc_id>/`, git-ignored): `blocks.jsonl`, `tables.jsonl`, `rows.jsonl`,
+`outline.json`, `references.json`, `kb_text.jsonl`, `kb_outline.jsonl`, `kb_table.jsonl`, `index_<type>.npy` +
+`.ids.json`, `kb_meta.json`. `outputs/kb/manifest.csv` lists every document with its parse status, language,
+logframe / reference counts and build time; `outputs/kb/_cache/embeddings.sqlite` memoises embeddings by text hash.
+
+Models: embeddings `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` and the re-ranker
+`jinaai/jina-reranker-v2-base-multilingual`, both through fastembed (ONNX; the Intel-Mac PyTorch build is too old
+for `BAAI/bge-reranker-v2-m3`, which is selectable as `--reranker st:BAAI/bge-reranker-v2-m3` where PyTorch works).
+The interfaces Phase 3 uses are documented in `docs/interfaces.md`.
+
+Known limitations: scanned PDF pages are only read with `--ocr` (needs `pytesseract` and the `tesseract` binary;
+otherwise the document is marked `partial`); heavily merged or nested tables may lose cell alignment; PDF heading
+levels are inferred from font sizes and can nest wrongly; the language heuristic is stop-word based.
+
 ## Data sources and their quirks
 
 All raw IndiKit files live under `MEAL_Proposal-main/MEAL_Proposal-main/` and are read-only; derived files go
@@ -83,7 +114,7 @@ docs/                plan.md (ESGReveal transformation plan), phase_1.md (brief)
                      plan_v1_roadmap.md, archive/plan_2026-08/ (earlier plans)
 tests/               pytest suites (conftest blocks network access)
 proposals/           115 project documents (75 docx, 33 pdf, 7 xlsx)
-outputs/             api_cache/ (legacy extraction cache, git-ignored), metadata/, figures/, result CSVs
+outputs/             api_cache/ (legacy cache), kb/ and kb_baseline/ (Phase 2, git-ignored), metadata/, figures/, result CSVs
 extraction_utils.py  compatibility shim re-exporting the moved functions
 ```
 
