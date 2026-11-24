@@ -50,7 +50,7 @@ st.plotly_chart(africa_project_map(countries, sites, title="Documents per countr
 if not demo:
     st.subheader("Share of document indicators matched to IndiKit")
     by_country = props.assign(total=pd.to_numeric(props["total_indicators"], errors="coerce").fillna(0), matched=matched).groupby("country_name")[["total", "matched"]].sum()
-    by_country["share matched %"] = (100 * by_country["matched"] / by_country["total"].replace(0, pd.NA)).round(1)
+    by_country["share matched %"] = (100 * by_country["matched"] / by_country["total"].where(by_country["total"] > 0)).round(1)
     by_country["documents"] = props.groupby("country_name").size()
     st.dataframe(by_country.reset_index().sort_values("documents", ascending=False), width="stretch", hide_index=True)
 

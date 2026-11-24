@@ -324,14 +324,20 @@ def seed_records(urls: Iterable[str] = config.PIP_SEED_URLS, sector: str = confi
 
 
 def combine_site_sources(scraped: dict[str, dict], site_csv: dict[str, dict], supplement: dict[str, dict]) -> dict[str, dict]:
-    """One cleaned site record per ID: scraped.json first, gaps filled from the site CSV; supplement records added."""
+    """One cleaned site record per ID: scraped.json first, gaps filled from the site CSV; supplement records added.
+
+    The site CSV is an older snapshot of the site: it only fills empty fields of indicators the scrape (or the
+    supplement) found live. It never adds an indicator on its own, so a page that has since been removed from the
+    site does not come back as ``on_site``."""
     keys = ("url", "name", "section", "sector", "sub_sector", "wording_en", "wording_fr", "purpose", "how_to_collect", "disaggregate", "important_comments")
     combined: dict[str, dict] = {}
     for uid, rec in list(scraped.items()) + list(supplement.items()):
         combined[uid] = {k: clean_text(rec.get(k)) for k in keys}
         combined[uid]["unique_id"] = uid
     for uid, rec in site_csv.items():
-        tgt = combined.setdefault(uid, {k: "" for k in keys} | {"unique_id": uid})
+        tgt = combined.get(uid)
+        if tgt is None:
+            continue
         for k in keys:
             if not tgt.get(k) and rec.get(k):
                 tgt[k] = clean_text(rec[k])

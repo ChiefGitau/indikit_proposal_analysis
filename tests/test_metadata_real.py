@@ -23,8 +23,10 @@ def test_counts_and_unique_ids(real_build):
     assert len(ids) == len(set(ids))
     assert res.stats.export_unique_ids == 344
     assert res.stats.export_rows == 386
-    assert res.stats.site_records == 303
-    assert res.stats.export_only == 41
+    # site state of 2026-11-24: 207 indicator pages respond (the November 2026 scrape had 303; ~100 Food Security and
+    # Livelihoods pages were removed from the site between 16 and 24 November 2026)
+    assert res.stats.site_records == 207
+    assert res.stats.export_only == 144
     assert res.stats.site_only + res.stats.seed_only == 7  # PIP indicators, fetched or seeded
     assert len(ids) == 344 + 7
 

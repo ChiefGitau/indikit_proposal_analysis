@@ -10,6 +10,7 @@ is configured (config.LLM_PROVIDER / env LLM_PROVIDER). ``estimate`` and ``selec
 from __future__ import annotations
 
 import argparse
+import time
 import logging
 import sys
 from pathlib import Path
@@ -353,9 +354,17 @@ def cmd_run(args: argparse.Namespace) -> int:
     runner.cfg.mode = mode
     if mode == "full" and not args.confirm_full_run:
         raise SystemExit("a full run over all documents requires --confirm-full-run (use --pilot or --docs otherwise)")
-    results, stop = runner.run(doc_ids, confirm_full_run=args.confirm_full_run)
-    n_all = sum(1 for r in manifest.values() if r.region != "template" and r.parse_status != "failed")
-    out = runner.finalize(copy_to_latest=(mode == "full" and stop is None) or args.copy_latest, extrapolate_to=n_all if mode != "full" else None)
+    from pipeline.agent.orchestrate import RunLock
+
+    try:
+        with RunLock(runner.run_dir):
+            results, stop = runner.run(doc_ids, confirm_full_run=args.confirm_full_run)
+            n_all = sum(1 for r in manifest.values() if r.region != "template" and r.parse_status != "failed")
+            out = runner.finalize(copy_to_latest=(mode == "full" and stop is None) or args.copy_latest, extrapolate_to=n_all if mode != "full" else None)
+    except RuntimeError as exc:
+        if "already running" in str(exc):
+            raise SystemExit(str(exc))
+        raise
     info = out["info"]
     print(f"run {run_id}: {info['documents']} documents ({info['documents_skipped']} skipped), {info['pairs_asked']} pairs asked, {info['pairs_present']} present, {info['unsupported_dropped']} unsupported dropped, "
           f"{info['usage']['calls']} calls, ${info['usage']['cost_usd']:.4f}, {info['runtime_seconds']}s -> {runner.run_dir}")
@@ -405,6 +414,66 @@ def cmd_consolidate(args: argparse.Namespace) -> int:
         print(f"{doc_id}: {len(r.consolidated)} indicators, reverse check {r.reverse_stats}")
     out = runner.finalize(copy_to_latest=args.copy_latest)
     print(f"wrote {', '.join(str(p) for p in out['paths'].values())}")
+    return 0
+
+
+def cmd_export_powerbi(args: argparse.Namespace) -> int:
+    """Write a BI-ready folder (default outputs/powerbi/) from a run: the standard output CSVs for the documents whose
+    answering completed, plus indikit_indicators.csv as the IndiKit dimension table. Reads only; safe while a run goes on."""
+    from pipeline.agent.models import DocumentResult
+    from pipeline.agent.outputs import clean_results, indikit_table, write_run_outputs
+
+    run_id = _latest_run_id(args)
+    docs_dir = config.RUNS_DIR / run_id / "docs"
+    if not docs_dir.exists():
+        raise SystemExit(f"{docs_dir} not found")
+    results = []
+    for p in sorted(docs_dir.glob("*.json")):
+        try:
+            results.append(DocumentResult.model_validate_json(p.read_text(encoding="utf-8")))
+        except Exception:
+            continue
+    keep = clean_results(results) if not args.all_documents else results
+    out_dir = Path(args.out) if args.out else config.OUTPUTS_DIR / "powerbi"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    metadata = _metadata_map()
+    paths = write_run_outputs(keep, metadata, out_dir, note=f"interim export from {run_id}: {len(keep)} of {len(results)} documents")
+    indikit_table(metadata).to_csv(out_dir / "indikit_indicators.csv", index=False)
+    (out_dir / "EXPORT_INFO.txt").write_text(f"run_id: {run_id}\ndocuments exported: {len(keep)} of {len(results)} (answering completed)\n", encoding="utf-8")
+    n_proc = sum(1 for r in keep if not r.skipped_reason)
+    print(f"{out_dir}: {len(keep)} documents ({n_proc} processed, {len(keep) - n_proc} skipped) of {len(results)} in run {run_id}; "
+          f"{sum(len(r.consolidated) for r in keep)} document indicators; files: {', '.join(sorted(p.name for p in out_dir.iterdir()))}")
+    return 0
+
+
+def cmd_refresh_site(args: argparse.Namespace) -> int:
+    """After a re-scrape of zoa.indikit.net (scraped.json): rebuild the metadata (on_site flags, names, levels), rewrite the
+    metadata-dependent output files of the latest run from its stored per-document results, copy them to outputs/latest
+    and re-export the Power BI folder. No LLM call; the answers and the novel clusters stay as they are."""
+    from pipeline.agent.outputs import copy_latest, refresh_metadata_dependent_outputs
+    from pipeline.metadata.build_metadata import build
+
+    result = build(enrich=False)
+    st = result.stats
+    print(f"metadata: {st.total} records, {st.both + st.site_only} on the site, {st.export_only} export-only -> {config.METADATA_JSONL}")
+    run_id = _latest_run_id(args)
+    run_dir = config.RUNS_DIR / run_id
+    if not (run_dir / "docs").exists():
+        raise SystemExit(f"{run_dir / 'docs'} not found")
+    metadata = _metadata_map()
+    marker = config.LATEST_DIR / "LATEST_RUN.txt"
+    is_latest = marker.exists() and marker.read_text(encoding="utf-8").splitlines()[0].strip() == run_id
+    paths = refresh_metadata_dependent_outputs(run_dir, metadata, note=f"outputs refreshed against the IndiKit site state of {time.strftime('%Y-%m-%d')}")
+    print(f"run {run_id}: rewrote {', '.join(p.name for p in paths.values())}")
+    if is_latest or args.copy_latest:
+        copy_latest(run_dir)
+        print(f"copied to {config.LATEST_DIR}")
+    if not args.no_powerbi:
+        cmd_export_powerbi(argparse.Namespace(run_id=run_id, out=None, all_documents=False))
+    import pandas as pd
+    di = pd.read_csv(run_dir / "document_indicators.csv", dtype=str, keep_default_na=False)
+    used_off_site = sorted({i for i, e in zip(di["indikit_id"], di["export_only"]) if i and e == "True"})
+    print(f"matches to indicators not on the site: {int((di['export_only'] == 'True').sum())} ({len(used_off_site)} indicators)")
     return 0
 
 
@@ -569,6 +638,18 @@ def add_phase3_parsers(sub) -> None:
     _add_agent_options(p)
     p.add_argument("--copy-latest", action="store_true")
     p.set_defaults(func=cmd_consolidate)
+
+    p = sub.add_parser("export-powerbi", help="write outputs/powerbi/ (standard CSVs for completed documents + indikit_indicators.csv) from a run; safe while the run continues")
+    p.add_argument("--run-id", default=None, help="default: the latest run")
+    p.add_argument("--out", default=None, help="target folder (default outputs/powerbi)")
+    p.add_argument("--all-documents", action="store_true", help="include documents whose answering failed or is unfinished")
+    p.set_defaults(func=cmd_export_powerbi)
+
+    p = sub.add_parser("refresh-site", help="after a re-scrape of the IndiKit site: rebuild the metadata, rewrite the metadata-dependent output files of the latest run, copy to outputs/latest, re-export Power BI (no LLM call)")
+    p.add_argument("--run-id", default=None, help="default: the latest run")
+    p.add_argument("--copy-latest", action="store_true", help="copy to outputs/latest even when --run-id is not the latest run")
+    p.add_argument("--no-powerbi", action="store_true")
+    p.set_defaults(func=cmd_refresh_site)
 
     p = sub.add_parser("report", help="print one document's three-column table (document indicator | IndiKit indicator (ID) | match)")
     p.add_argument("--doc", required=True, help="doc_id or unique path fragment")

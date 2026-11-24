@@ -10,6 +10,7 @@ import csv
 import hashlib
 import json
 import logging
+import threading
 import time
 from pathlib import Path
 from typing import Iterable, Optional
@@ -88,27 +89,31 @@ class Retriever:
         self.queries_dir = Path(queries_dir)
         self._kbs: dict[str, KnowledgeBase] = {}
         self._stores: dict[bool, QueryStore] = {}
+        self._lock = threading.RLock()   # the answering step shares one Retriever between worker threads
 
     @property
     def reranker(self) -> Reranker:
-        if self._reranker is None:
-            self._reranker = get_reranker(self.cfg.reranker) if self.cfg.use_rerank else LexicalReranker()
-        return self._reranker
+        with self._lock:
+            if self._reranker is None:
+                self._reranker = get_reranker(self.cfg.reranker) if self.cfg.use_rerank else LexicalReranker()
+            return self._reranker
 
     def kb(self, doc_id: str) -> KnowledgeBase:
-        if doc_id not in self._kbs:
-            kb = load_kb(doc_id, self.kb_dir)
-            if kb.embedding_model and kb.embedding_model != self.embedder.name:
-                raise ValueError(f"KB {doc_id} was built with '{kb.embedding_model}' but the retriever uses '{self.embedder.name}'")
-            if len(self._kbs) > 8:
-                self._kbs.pop(next(iter(self._kbs)))
-            self._kbs[doc_id] = kb
-        return self._kbs[doc_id]
+        with self._lock:
+            if doc_id not in self._kbs:
+                kb = load_kb(doc_id, self.kb_dir)
+                if kb.embedding_model and kb.embedding_model != self.embedder.name:
+                    raise ValueError(f"KB {doc_id} was built with '{kb.embedding_model}' but the retriever uses '{self.embedder.name}'")
+                if len(self._kbs) > 8:
+                    self._kbs.pop(next(iter(self._kbs)))
+                self._kbs[doc_id] = kb
+            return self._kbs[doc_id]
 
     def query_vector(self, indicator: IndicatorMetadata, use_search_terms: bool) -> np.ndarray:
-        if use_search_terms not in self._stores:
-            self._stores[use_search_terms] = QueryStore(self.embedder, use_search_terms, self.queries_dir, self.cache)
-        return self._stores[use_search_terms].vector(indicator)
+        with self._lock:
+            if use_search_terms not in self._stores:
+                self._stores[use_search_terms] = QueryStore(self.embedder, use_search_terms, self.queries_dir, self.cache)
+            return self._stores[use_search_terms].vector(indicator)
 
     def retrieve(self, doc_id: str, indicator: IndicatorMetadata, *, top_n: Optional[int] = None, top_k: Optional[int] = None, kb_types: Optional[tuple[str, ...]] = None,
                  use_search_terms: Optional[bool] = None, use_rerank: Optional[bool] = None) -> RetrievalResult:

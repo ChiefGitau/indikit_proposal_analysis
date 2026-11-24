@@ -16,6 +16,7 @@ import hashlib
 import json
 import re
 import sqlite3
+import threading
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Iterable, Optional, Sequence
@@ -85,7 +86,7 @@ class FastembedEmbedder(Embedder):
 
         self.name = model_name
         self.batch_size = batch_size
-        self._model = TextEmbedding(model_name)
+        self._model = TextEmbedding(model_name, threads=config.ONNX_THREADS, enable_cpu_mem_arena=config.ONNX_CPU_MEM_ARENA)
         self.dim = int(self._embed(["dimension probe"]).shape[1])
 
     def _embed(self, texts: Sequence[str]) -> np.ndarray:
@@ -129,14 +130,18 @@ def get_embedder(spec: Optional[str] = None) -> Embedder:
 # Embedding cache
 # --------------------------------------------------------------------------- #
 class EmbeddingCache:
-    """SQLite-backed (model, sha256(text)) -> vector cache. ``None`` path disables caching."""
+    """SQLite-backed (model, sha256(text)) -> vector cache. ``None`` path disables caching.
+
+    Thread-safe: the answering step calls it from several worker threads, so the connection is opened with
+    ``check_same_thread=False`` and every lookup / insert runs under one lock."""
 
     def __init__(self, path: Optional[Path] = config.EMBEDDING_CACHE_DB):
         self.path = Path(path) if path else None
         self._conn: Optional[sqlite3.Connection] = None
+        self._lock = threading.Lock()
         if self.path:
             self.path.parent.mkdir(parents=True, exist_ok=True)
-            self._conn = sqlite3.connect(str(self.path))
+            self._conn = sqlite3.connect(str(self.path), check_same_thread=False)
             self._conn.execute("CREATE TABLE IF NOT EXISTS vectors (model TEXT, sha TEXT, dim INTEGER, vec BLOB, PRIMARY KEY (model, sha))")
             self._conn.commit()
 
@@ -150,26 +155,28 @@ class EmbeddingCache:
             return np.zeros((0, embedder.dim), dtype="float32")
         if self._conn is None:
             return embedder.embed(texts)
-        shas = [self._sha(t) for t in texts]
-        rows = {}
-        for i in range(0, len(shas), 500):
-            chunk = shas[i : i + 500]
-            q = f"SELECT sha, dim, vec FROM vectors WHERE model=? AND sha IN ({','.join('?' * len(chunk))})"
-            for sha, dim, vec in self._conn.execute(q, [embedder.name, *chunk]):
-                rows[sha] = np.frombuffer(vec, dtype="float32").reshape(dim)
-        missing = [i for i, s in enumerate(shas) if s not in rows]
-        if missing:
-            new = embedder.embed([texts[i] for i in missing])
-            for i, vec in zip(missing, new):
-                rows[shas[i]] = vec
-                self._conn.execute("INSERT OR REPLACE INTO vectors VALUES (?,?,?,?)", (embedder.name, shas[i], int(vec.shape[0]), vec.astype("float32").tobytes()))
-            self._conn.commit()
-        return l2_normalise(np.vstack([rows[s] for s in shas]))
+        with self._lock:
+            shas = [self._sha(t) for t in texts]
+            rows = {}
+            for i in range(0, len(shas), 500):
+                chunk = shas[i : i + 500]
+                q = f"SELECT sha, dim, vec FROM vectors WHERE model=? AND sha IN ({','.join('?' * len(chunk))})"
+                for sha, dim, vec in self._conn.execute(q, [embedder.name, *chunk]):
+                    rows[sha] = np.frombuffer(vec, dtype="float32").reshape(dim)
+            missing = [i for i, s in enumerate(shas) if s not in rows]
+            if missing:
+                new = embedder.embed([texts[i] for i in missing])
+                for i, vec in zip(missing, new):
+                    rows[shas[i]] = vec
+                    self._conn.execute("INSERT OR REPLACE INTO vectors VALUES (?,?,?,?)", (embedder.name, shas[i], int(vec.shape[0]), vec.astype("float32").tobytes()))
+                self._conn.commit()
+            return l2_normalise(np.vstack([rows[s] for s in shas]))
 
     def close(self) -> None:
-        if self._conn is not None:
-            self._conn.close()
-            self._conn = None
+        with self._lock:
+            if self._conn is not None:
+                self._conn.close()
+                self._conn = None
 
 
 # --------------------------------------------------------------------------- #

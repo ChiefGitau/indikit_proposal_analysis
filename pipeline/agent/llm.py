@@ -452,15 +452,20 @@ class OpenAIProvider(LLMProvider):
             return {"type": "json_schema", "json_schema": {"name": schema.__name__, "schema": strict_json_schema(schema), "strict": True}}
         return {"type": "json_object"}
 
+    _sampling_params: dict = {"temperature": 0, "seed": 0}   # dropped once a model rejects them (reasoning models such as GPT-6)
+
     def _call(self, messages: list[dict], model: str, schema: type[BaseModel]) -> tuple[str, int, int]:
         def _do():
-            return self.client.chat.completions.create(model=model, messages=messages, temperature=0, seed=0, response_format=self._response_format(schema), max_completion_tokens=self.max_completion_tokens)
+            return self.client.chat.completions.create(model=model, messages=messages, response_format=self._response_format(schema), max_completion_tokens=self.max_completion_tokens, **self._sampling_params)
 
         try:
             resp = _do()
         except Exception as exc:
             msg = str(exc).lower()
-            if self._schema_mode == "json_schema" and ("response_format" in msg or "json_schema" in msg or "strict" in msg or "unsupported" in msg):
+            if self._sampling_params and ("temperature" in msg or "seed" in msg):
+                self._sampling_params = {}
+                resp = _do()
+            elif self._schema_mode == "json_schema" and ("response_format" in msg or "json_schema" in msg or "strict" in msg or "unsupported" in msg):
                 self._schema_mode = "json_object"
                 resp = _do()
             else:

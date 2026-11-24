@@ -6,6 +6,7 @@ client at call time (``pipeline.agent.answer``).
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 # --------------------------------------------------------------------------- #
@@ -73,8 +74,9 @@ GOLD_INDEX_CSV: Path = GOLD_DIR / "index.csv"
 # --------------------------------------------------------------------------- #
 # Provider for the legacy extraction client and the metadata enrichment call.
 # "openai" | "azure" | "ollama" (see pipeline.agent.answer.configure_llm).
-DEFAULT_LLM_PROVIDER: str = "ollama"
-DEFAULT_MODEL_NAME: str = "llama3.2"
+# Default since 2026-11-15: OpenAI GPT-6 (gpt-4o / gpt-4.1 retire on 2027-01-14, gpt-5 on 2026-12-11).
+DEFAULT_LLM_PROVIDER: str = "openai"
+DEFAULT_MODEL_NAME: str = "gpt-6.1-terra"
 OLLAMA_BASE_URL: str = "http://localhost:11434/v1"
 LEGACY_CACHE_MODEL: str = "gpt-4o-mini"   # model that produced the pre-existing outputs/api_cache entries
 
@@ -119,6 +121,16 @@ TEST_EMBEDDING_MODEL: str = "hashing"
 RERANKER_MODEL: str = "jinaai/jina-reranker-v2-base-multilingual"
 RERANKER_MODEL_FAST: str = "Xenova/ms-marco-MiniLM-L-6-v2"   # small English-only alternative for quick runs
 TEST_RERANKER_MODEL: str = "lexical"
+# ONNX runtime settings for the fastembed models (embedder + re-ranker). The CPU memory arena never shrinks and grows with
+# every new input shape; with thousands of variable-length re-rank calls it reached tens of GB in a full run (2026-11-16),
+# so it is disabled. Threads per session are capped so LLM_MAX_WORKERS concurrent calls do not oversubscribe the CPU.
+ONNX_CPU_MEM_ARENA: bool = False
+ONNX_THREADS: int = max(2, (os.cpu_count() or 2))   # re-rank calls are serialised, so one call may use every core
+# Cross-encoder memory is batch x sequence^2: 30 passages of ~1 000 tokens in one batch peaked at several GB per call, and
+# LLM_MAX_WORKERS concurrent calls multiplied that (18 GB on 2026-11-16). Small batches, a passage cap for scoring (the
+# full passage still goes to the LLM) and one re-rank call at a time keep the peak under 1 GB.
+RERANK_BATCH_SIZE: int = 8
+RERANK_MAX_PASSAGE_CHARS: int = 2000     # ~500 tokens; the re-ranker scores the first part of a long table / chunk
 
 # Parsing limits (warn, never silently truncate)
 MAX_CELL_CHARS: int = 4000
@@ -148,10 +160,11 @@ LOGFRAME_BOOST: float = 0.05      # added to the vector score of logframe eviden
 # (local, OpenAI-compatible) | "mock" (tests only). An empty provider means "not configured": the CLI then
 # refuses every live call (docs/phase_3.md Section 2 and 3). Keys are read from the environment / .env at call
 # time only (pipeline.agent.llm); nothing here reads .env.
-LLM_PROVIDER: str = ""                                   # owner decision: which service may process ZOA documents
-ANSWER_MODEL: str = DEFAULT_MODEL_NAME                   # disclosure answering (default: the repository's existing default model)
-STRONG_MODEL: str = ""                                   # model comparison (owner fills in, e.g. "gpt-4o")
-EXTRACTION_MODEL: str = DEFAULT_MODEL_NAME               # novel-indicator pass (text sections, unmapped tables)
+# Owner decision (2026-11-15): OpenAI with the GPT-6 family. Set LLM_PROVIDER = "" to block live calls again.
+LLM_PROVIDER: str = "openai"                             # which service may process ZOA documents
+ANSWER_MODEL: str = "gpt-6.1-terra"                      # disclosure answering ($1 / $5 per 1M tokens)
+STRONG_MODEL: str = "gpt-6.1-sol"                        # model comparison experiment only ($2 / $10)
+EXTRACTION_MODEL: str = "gpt-6-luna"                     # novel-indicator pass (text sections, unmapped tables; $0.10 / $0.50)
 AZURE_OPENAI_API_VERSION_DEFAULT: str = "2024-10-21"
 
 # Budget (enforced in code by pipeline.agent.llm.UsageTracker). Conservative defaults; the owner raises them.
@@ -159,6 +172,12 @@ MAX_CALLS_PER_RUN: int = 1500
 MAX_COST_USD_PER_RUN: float = 5.0
 # USD per 1M tokens (prompt, completion). Unknown models are priced at the most expensive entry (fail safe).
 MODEL_PRICES_USD_PER_M: dict[str, tuple[float, float]] = {
+    # OpenAI GPT-6 family (developers.openai.com/api/docs/models, 2026-11-15)
+    "gpt-6-astra": (10.00, 50.00),
+    "gpt-6.1-sol": (2.00, 10.00),
+    "gpt-6.1-terra": (1.00, 5.00),
+    "gpt-6-luna": (0.10, 0.50),
+    # Older OpenAI models, kept for the legacy cache and the price tests; all retire by 2027-01-14
     "gpt-4o-mini": (0.15, 0.60),
     "gpt-4o": (2.50, 10.00),
     "gpt-4.1-mini": (0.40, 1.60),

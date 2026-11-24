@@ -1,6 +1,116 @@
-id,title,donor,sector,location,budget,timeframe,partners,beneficiaries,summary
-COD21264,Transition for Inclusive Development in Eastern DRC (TRIDE),Embassy of the Kingdom of the Netherlands (Kigali),Food Security & IWRM / Livelihoods,"South Kivu, Eastern DRC",—,2021–2025,ZOA Great Lakes Program (consortium),"Smallholder farmers, market actors, public authorities","Five-year transition programme in eastern DRC strengthening inclusive economic development for smallholder farmers, market actors and public authorities through integrated water resource management and food security."
-ETH-GMILL,"Grinding Mill business development — Itang & Terkidi refugee camp, Gambella",ZOA (private / institutional — NL),Livelihoods & Food Security,"Itang Special Woreda, Gambella","€145,000",Oct 2022 – Sep 2024,ZBA Ethiopia,"300 direct · 45,800 total (refugees + host community)","Strengthen the livelihoods and self-reliance of refugees and host communities in Itang woreda, Gambella, by developing grinding-mill businesses."
-COD2501,Emergency WASH and Cash support for war-affected populations,Humanitarian pooled fund (cluster),WASH & Multi-Purpose Cash,"Goma, North Kivu","USD 300,000",Apr 2025 – Jul 2025,Local partner: AVUDS,"800 households (cash) · 5,000 households / 30,000 people (water)","Three-month emergency response delivering multi-purpose cash assistance and improved access to drinking water and hygiene for conflict-affected populations around Goma, North Kivu."
-ETH-TIGRAY-BHA,Lifesaving Emergency Shelter/NFI and WASH assistance for IDPs in Tigray,USAID — Bureau for Humanitarian Assistance (BHA),Shelter & Settlements / WASH,"Shire / Adigrat, Tigray","USD 2,700,000",Aug 2021 – May 2022 (9 months),Stichting ZOA,"63,000 targeted · 56,700 IDPs","Nine-month emergency intervention addressing the basic needs of conflict-induced IDPs and host communities in Tigray through integrated, gender-sensitive shelter, NFI and WASH assistance."
-WAA-POV,We are able! — Co-creating inclusive governance for access to basic resources,Dutch Ministry of Foreign Affairs (Power of Voices),Inclusive Governance / Food Security / Advocacy,"Makamba & Cibitoke, Burundi; Eastern DRC; Oromia / Addis Abeba, Ethiopia; Jonglei State, South Sudan; Gedaref State, Sudan; West-Nile & Acholi, Uganda",—,2021–2025,Power of Voices Partnership (consortium),"Persons with disabilities, women, IDPs, ultra-poor, youth","Multi-country civil-society programme co-creating inclusive governance for access to basic resources, leaving no one behind — with a focus on persons with disabilities and food security."
+title,country_name,language,parse_status,total_indicators,verbatim,close,none,pct_matched,indicators_elsewhere,referenced_documents,note,pairs_asked,llm_calls
+africa/Burkina/small/ANNEX 1 Project Proposal Ouahigouya BFA2501_DEF.pdf,Burkina Faso,en,ok,0,0,0,0,,False,,,60,60
+africa/Burkina/small/BFA2601 Project Proposal PARECO2_1st february.docx,Burkina Faso,en,ok,7,0,3,4,42.9,False,,,60,60
+africa/burundi/large/Parcelle_enabel/Copy of Annexe C - Cadre Logique PARCELLE (final).xlsx,Burundi,fr,ok,12,0,4,8,33.3,False,,,60,60
+africa/burundi/large/Parcelle_enabel/PARCELLE Full Proposal (final version).docx,Burundi,fr,ok,1,0,1,0,100.0,False,tableau de suivi des indicateurs,indicators also in another document: tableau de suivi des indicateurs,60,60
+africa/burundi/large/Proposal Land @ Scale Burundi (05-11-2021) - À EDITER POUR SCALING.docx,Burundi,en,ok,4,0,3,1,75.0,False,,,60,60
+africa/burundi/large/ZOA-we-are-able-full-proposal-v6.pdf,Burundi,en,partial,39,1,5,33,15.4,False,indicator database,indicators also in another document: indicator database,60,60
+africa/burundi/medium/31032023 Contract ZOA 2023_signed SNV and ZOA.pdf,Burundi,fr,ok,16,0,2,14,12.5,False,Indicator tracker,indicators also in another document: Indicator tracker,60,60
+africa/burundi/medium/Addendum proposal for Cafetaria model 2 schools Bururi (final version).docx,Burundi,en,ok,5,0,2,3,40.0,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/burundi/medium/Kinanira_RESILIENCE_Proposal.docx,Burundi,en,ok,14,3,6,5,64.3,False,,,74,74
+africa/burundi/medium/RESILIENCE/Logframe for Ruyigi projects.docx,Burundi,en,ok,11,0,4,7,36.4,False,,,60,60
+africa/burundi/medium/RESILIENCE/ZBA_Ruyigi_RESILIENCE_Proposal (modified proposal January 2025).docx,Burundi,en,ok,12,0,5,7,41.7,False,,,60,60
+africa/burundi/small/Addendum proposal for the Empowering Women in Smallholder Coffee Project (ZOA).docx,Burundi,en,ok,3,0,1,2,33.3,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/burundi/small/CREATE_Proposal_Full_Proposal_Final_29.08.2025.docx,Burundi,en,ok,3,0,2,1,66.7,False,,,60,60
+africa/burundi/small/Koppert Foundation Proposal (adjusted).docx,Burundi,en,ok,10,0,8,2,80.0,False,,,60,60
+africa/burundi/small/Modified proposal chicken project Burundi (HatchTech) April 2025.docx,Burundi,en,ok,7,0,4,3,57.1,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/burundi/small/Proposal for ZBA project in Rumonge (final).docx,Burundi,en,ok,14,0,1,13,7.1,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/DRC/large/2022_03_21_FNS_IWRM_Revised version_ TRIDE.docx,Democratic Republic of the Congo,en,ok,0,0,0,0,,True,annex 3 (log frame,indicators are in another document: annex 3 (log frame,0,0
+africa/DRC/large/COD21264 FS-IWRM_full proposal_final.pdf,Democratic Republic of the Congo,en,ok,0,0,0,0,,True,annex 5 (log frame,indicators are in another document: annex 5 (log frame,0,0
+africa/DRC/large/Raise/20250613 LogFrame.docx,Democratic Republic of the Congo,en,ok,83,3,16,64,22.9,False,,,93,93
+africa/DRC/large/Raise/COD2404 Narrative Proposal SAS-P.docx,Democratic Republic of the Congo,en,ok,5,1,3,1,80.0,False,Annex 3 (indicators,indicators also in another document: Annex 3 (indicators,60,60
+africa/DRC/large/ZOA-we-are-able-full-proposal-v6.pdf,Democratic Republic of the Congo,en,partial,38,1,4,33,13.2,False,indicator database,indicators also in another document: indicator database,60,60
+africa/DRC/small/Emergency Relief Minembwe_Project Proposal.docx,Democratic Republic of the Congo,en,ok,0,0,0,0,,False,,,60,60
+africa/DRC/small/Projet Assistance ZOA AVUDS Goma_Project Proposal in English.docx,Democratic Republic of the Congo,en,ok,0,0,0,0,,False,,,60,60
+africa/DRC/small/selfrise/20240911 Log Frame SelfRise.docx,Democratic Republic of the Congo,en,ok,66,3,7,56,15.2,False,,,66,66
+africa/DRC/small/selfrise/(ENGLISH version) 2024 Project proposal SelfRise - Congo - NL ZBA.pdf,Democratic Republic of the Congo,en,partial,0,0,0,0,,False,,,60,60
+africa/Ethiopia/Large/Annex A2. Grant application form-Full application res (en) - ZOA draft .docx,Ethiopia,en,ok,0,0,0,0,,False,,,60,60
+africa/Ethiopia/Large/EU_Basic_Services/Annex 1 Description of the Action_rev - Clean Version.docx,Ethiopia,en,ok,0,0,0,0,,False,IPTT; Indicator Performance Tracking Table,indicators also in another document: IPTT; Indicator Performance Tracking Table,60,60
+africa/Ethiopia/Large/EU_Basic_Services/Copy of EU project logframe.xlsx,Ethiopia,en,ok,58,0,10,48,17.2,False,,,60,60
+africa/Ethiopia/Large/EUTF_Top_up/Annex C_Log Frame .docx,Ethiopia,en,ok,18,1,6,11,38.9,False,,,60,60
+africa/Ethiopia/Large/EUTF_Top_up/T05-EUTF-HOA-ET-77-02 DOA - Dec 31 2024_sw.docx,Ethiopia,en,ok,16,0,6,10,37.5,False,Annex C (Logical Framework; IPTT,indicators also in another document: Annex C (Logical Framework; IPTT,60,60
+africa/Ethiopia/Large/Final Full Proposal.pdf,Ethiopia,en,ok,27,4,4,19,29.6,False,Indicator Performance Tracking Table,indicators also in another document: Indicator Performance Tracking Table,82,82
+africa/Ethiopia/Large/TEAR reviewed and last.docx,Ethiopia,en,ok,31,0,4,27,12.9,False,IPTT,indicators also in another document: IPTT,76,76
+"africa/Ethiopia/Large/ZOA Revised Proposal Tigray Emergency Response 2021-07-27, BHA.pdf",Ethiopia,en,ok,16,2,8,6,62.5,False,Annex O: Indicator Tracking Table,indicators also in another document: Annex O: Indicator Tracking Table,62,62
+africa/Ethiopia/Large/ZOA-we-are-able-full-proposal-v6.pdf,Ethiopia,en,partial,38,1,3,34,10.5,False,indicator database,indicators also in another document: indicator database,60,60
+africa/Ethiopia/small/ETH2315 FoCo Proposal 2024.docx,Ethiopia,en,ok,4,0,2,2,50.0,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/Ethiopia/small/Grinding Mill Development Proposal.docx,Ethiopia,en,ok,2,0,1,1,50.0,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+africa/south_sudan/large/Annex I - ARFSA Project proposal - AFSRiSS final .docx,South Sudan,en,ok,0,0,0,0,,True,Annex VII (indicators,indicators are in another document: Annex VII (indicators,0,0
+africa/south_sudan/large/Aweil East Emergency project narrative Pharus Final.docx,South Sudan,en,ok,2,0,2,0,100.0,False,,,60,60
+africa/south_sudan/large/SSD2602 Project Document.docx,South Sudan,en,ok,47,3,14,30,36.2,False,IPTT; Indicator Performance Tracking Table,indicators also in another document: IPTT; Indicator Performance Tracking Table,104,104
+africa/south_sudan/large/Tonj SSJR 2024-2026_DRA Narrative_DAI.docx,South Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/south_sudan/large/ZOA-we-are-able-full-proposal-v6.pdf,South Sudan,en,partial,38,0,4,34,10.5,False,indicator database,indicators also in another document: indicator database,60,60
+africa/south_sudan/small/Accelerating Community Livelihoods through sustainable Agri-food Production and Market Linkages for Smallholder Farmers in Baidit- FV.docx,South Sudan,en,ok,0,0,0,0,,True,indicator tracking table,indicators are in another document: indicator tracking table,0,0
+africa/south_sudan/small/AN-ADP Narrative Proposal.docx,South Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/south_sudan/small/Channah Foundation Top Up -Year 4 proposal.docx,South Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/south_sudan/small/Emergency Shelter Assistance Concept Note June 2024 final.pdf,South Sudan,en,ok,1,0,1,0,100.0,False,,,60,60
+africa/south_sudan/small/ENA project-Strengthening the resilience pathway in Bor.pdf,South Sudan,en,ok,8,1,3,4,50.0,False,indicator tracking table,indicators also in another document: indicator tracking table,60,60
+africa/south_sudan/small/EWASH Proposal for EO Metterdaad.docx,South Sudan,en,ok,1,0,1,0,100.0,False,,,60,60
+africa/south_sudan/small/Flourish Proposal Narrative_Bor South County_FY2024-26 _PGM-DOP.docx,South Sudan,en,ok,10,0,3,7,30.0,False,,,60,60
+africa/south_sudan/small/HDP Nexus Proposal FV.docx,South Sudan,en,ok,15,0,7,8,46.7,False,,,85,85
+africa/south_sudan/small/Pibor Rapid Response Project Proposal - ZOA Dorcas South Sudan.docx,South Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/south_sudan/small/Project Agreement Template - CURRENT .docx.pdf,South Sudan,en,ok,12,0,7,5,58.3,False,,,82,82
+africa/south_sudan/small/Revised YEW Project Proposal Y3 Narrative - Clean.docx,South Sudan,en,ok,2,0,2,0,100.0,False,,,60,60
+africa/south_sudan/small/South Sudan Emergency Response Project_Aweil.docx,South Sudan,en,ok,1,0,1,0,100.0,False,,,60,60
+africa/south_sudan/small/SSD2405 - Project proposal Pharus - Resilience in South Sudan Y5.docx,South Sudan,en,ok,3,1,2,0,100.0,False,,,60,60
+africa/south_sudan/small/SSD2511 Final Narrative Report - ZOA Dorcas.docx,South Sudan,en,ok,4,1,1,2,50.0,False,,,60,60
+africa/south_sudan/small/SSD2516 Ecosystem Restoration Proposal- FV-approved by Dorcas (1).pdf,South Sudan,en,ok,14,0,4,10,28.6,False,,,87,87
+africa/sudan/large/1. Sudan_PCM 2024 2026_DRA JR_Narrative_to submit.docx,Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/sudan/large/Application Form SIPRA.pdf,Sudan,en,ok,0,0,0,0,,True,Annex F (Results Framework; Appendix 4 (indicators; annex F (indicators,indicators are in another document: Annex F (Results Framework; Appendix 4 (indicators; annex F (indicators,0,0
+africa/sudan/large/EU_Integrated FSL/2.1 Annex I_Description of the Action_451054_ZOA (5).docx,Sudan,en,ok,0,0,0,0,,False,Annex 1.1 (Logical framework; Annex C (log frame; IPTT,indicators also in another document: Annex 1.1 (Logical framework; Annex C (log frame; IPTT,60,60
+africa/sudan/large/EU_Integrated FSL/2.2 Annex I_Logical Framework Matrix_451054_ZOA (2).docx,Sudan,en,ok,38,1,7,30,21.1,False,Annex I.1: Logical framework and Activity matrix,indicators also in another document: Annex I.1: Logical framework and Activity matrix,75,75
+africa/sudan/large/Food assisitance of war affected IDPS/3350 ZOA Sudan Proposal PMF_Approved.docx,Sudan,en,ok,23,1,7,15,34.8,False,,,75,75
+africa/sudan/large/Food assisitance of war affected IDPS/3350 ZOA Sudan Proposal_ Approved.docx,Sudan,en,ok,1,1,0,0,100.0,False,,,60,60
+africa/sudan/large/ZOA-we-are-able-full-proposal-v6.pdf,Sudan,en,partial,38,1,4,33,13.2,False,indicator database,indicators also in another document: indicator database,60,60
+africa/sudan/small/250826_ZOA project-proposal_gizcomments+ZOA updates.docx,Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/sudan/small/Annex_A_Project-Description_Revised 30 Nov.docx,Sudan,en,ok,21,0,2,19,9.5,False,,,60,60
+africa/sudan/small/CBPF-SUD-23-R-INGO - SHF Proposal Narrative - East Darfur_LM.docx,Sudan,en,ok,1,0,1,0,100.0,False,,,60,60
+africa/sudan/small/CBPF-SUD-23-R-INGO - SHF Proposal Narrative - South Darfur - Template.docx,Sudan,en,ok,6,0,0,6,0.0,False,,,60,60
+africa/sudan/small/Concept Note Format - Emergency Response - Tents distribution IOM - 24.05.2026.docx,Sudan,en,ok,0,0,0,0,,False,,,60,60
+"africa/sudan/small/Economic Empowerment, Social & Mental Well being for Vulnerable People_Clean Version.docx",Sudan,en,ok,10,1,0,9,10.0,False,,,60,60
+africa/sudan/small/FoCo Proposal to for Khartoum Office Support 3 March 26.docx,Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/sudan/small/FoCo Proposal to Support El Fasher IDPs in Tawila 1.docx,Sudan,en,ok,0,0,0,0,,False,,,60,60
+africa/sudan/small/Khartoum Responses_FoCo Proposal_Revised 2026.docx,Sudan,en,ok,2,0,1,1,50.0,False,,,60,60
+africa/sudan/small/TearSDN1019_Proposal_clean.docx,Sudan,en,ok,0,0,0,0,,False,Annex 1 (Logframe,indicators also in another document: Annex 1 (Logframe,60,60
+africa/uganda/large/290903_A-GRIP_improved_fullproposal excerpts for CD partners.pdf,Uganda,en,ok,44,0,4,40,9.1,False,Annex 8 (indicators; annex 5 (indicators,indicators also in another document: Annex 8 (indicators; annex 5 (indicators,106,106
+africa/uganda/large/ARFSA-Annex-I-Final Narrative Proposal.pdf,Uganda,en,ok,0,0,0,0,,True,Annex to (logframe,indicators are in another document: Annex to (logframe,0,0
+africa/uganda/large/Hope/Copy of Logframe HOPE project - final.xlsx,Uganda,en,ok,9,2,7,0,100.0,False,,,106,106
+africa/uganda/large/Hope/HOPE  Proposal - Oct 2025.docx,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/large/LIFT Full Proposal_June 2024_DRAFT.pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/large/ZOA-we-are-able-full-proposal-v6.pdf,Uganda,en,partial,39,1,5,33,15.4,False,indicator database,indicators also in another document: indicator database,60,60
+africa/uganda/small/BRIGHT_Rhino Camp_EiE.docx,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/DRIESTAR  Westnile Proposal Final.pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/EBOLA PREPAREDNESS AND RESPONSE PROPOSAL JUNE 2026.docx,Uganda,en,ok,1,0,1,0,100.0,False,,,60,60
+africa/uganda/small/Education Phase II Proposal.pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/Final UNICEF_CFEI_CEF_UGA_20260721_ZOA Submission.docx,Uganda,en,ok,13,0,4,9,30.8,False,,,60,60
+africa/uganda/small/Florys-Prevenzo Project Proposal.pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/FoCo WN Land Rights Revised 24012024 (Omugo).pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/Kiryandongo RNA and Rapid Response Proposal_January 2025.docx,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/Madi Okollo Concept Note GIZ FINAL.docx,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/Revised Concept Note_NOURISH_17.12.2024.pdf,Uganda,en,ok,2,0,2,0,100.0,False,,,60,60
+africa/uganda/small/UGD2507 ZBA Proposal Final.pdf,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/Year 3 BRAVE Narrative Proposal 2025_December 12.docx,Uganda,en,ok,0,0,0,0,,False,,,60,60
+africa/uganda/small/ZBA Concept Note FINAL.pdf,Uganda,en,partial,0,0,0,0,,False,,,60,60
+Asia/syria/large/allepo/2023_00217_MR_01_01_18-Jan-2024.pdf,Syria,en,ok,8,3,5,0,100.0,False,Annexed (MEAL plan,indicators also in another document: Annexed (MEAL plan,47,47
+Asia/syria/large/allepo/Copy of Annex_14_MEAL_Plan_ECHO.xlsx,Syria,en,ok,10,6,3,1,90.0,False,,,68,68
+Asia/syria/large/earthquake-aftermath/FoCo Earthquake Response - Resilience funding.docx,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/syria/large/earthquake-aftermath/Logframe-FoCo fund.docx,Syria,en,ok,28,5,8,15,46.4,False,,,101,101
+Asia/syria/large/earthquake/Copy of SYR2028 activity overview.xlsx,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/syria/large/earthquake/SYR2028 Earthquake response appeal - DRAFT - Incl track-changes.docx,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/syria/large/joint_response/231031 PCM_SJR_2024-2026_Final_Narrative.docx,Syria,en,ok,0,0,0,0,,True,indicator tracking table,indicators are in another document: indicator tracking table,0,0
+Asia/syria/large/joint_response/Syria Joint Response 2024-2026 ZOA - Annex II Logframe.pdf,Syria,en,ok,29,3,7,19,34.5,False,,,73,73
+Asia/syria/large/joint_response/Syria Joint Response 2024-2026 ZOA - Annex II Logframe b sheet.pdf,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/syria/large/multi-sectoral/CBPF-SYR-24-S-INGO-33359 - Revised proposal 31 March 2026.pdf,Syria,en,ok,7,2,2,3,57.1,False,,,101,101
+Asia/syria/large/multi-sectoral/Copy of 20240919-153607_20240919_BoQs multi-sectoral in As-Sweida-Revised V3.xlsx,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/syria/small/CBPF-SYR-24-S-INGO-33280 Revision submitted.pdf,Syria,en,ok,16,4,4,8,50.0,False,,,60,60
+Asia/syria/small/Proposal Van Manen Quneitra FSA EN.docx,Syria,en,ok,0,0,0,0,,False,,,60,60
+Asia/yemen/large/joint-response/Copy of PCM2024-2026_Logframe SDF + ZOA 05 Oct 2023.xlsx,Yemen,en,ok,130,9,24,97,25.4,False,,,146,146
+Asia/yemen/large/Lift/Annex A2. Grant application form-Full Application ZOA.docx,Yemen,en,ok,0,0,0,0,,False,Indicator Performance Tracking Table,indicators also in another document: Indicator Performance Tracking Table,60,60
+Asia/yemen/large/Lift/Annex C-Logical Framework.docx,Yemen,en,ok,17,0,5,12,29.4,False,Annex C: Logical framework and Activity matrix,indicators also in another document: Annex C: Logical framework and Activity matrix,60,60
+Asia/yemen/large/ZOA-230724-YJR 2024-2026 Narrative 05 Oct 2023.docx,Yemen,en,ok,0,0,0,0,,False,,,60,60
+Asia/yemen/small/451772 - Annex A (2)- Full proposal Updated- 2025.pdf,Yemen,en,ok,0,0,0,0,,False,Annex C (logical framework; Indicator Performance Tracking Table,indicators also in another document: Annex C (logical framework; Indicator Performance Tracking Table,60,60
+Asia/yemen/small/CBPF-YEM-25-S-INGO-37789 YEM2507 final proposal.docx,Yemen,en,ok,4,2,2,0,100.0,False,,,60,60
+Asia/yemen/small/YEM2405_ Desalination Proposal.docx,Yemen,en,ok,5,1,3,1,80.0,False,Annex 1: Logical framework; indicator performance tracking table,indicators also in another document: Annex 1: Logical framework; indicator performance tracking table,60,60
+Asia/yemen/small/YEM2500_ GCTs in Taiz Governorate.docx,Yemen,en,ok,4,2,0,2,50.0,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+Asia/yemen/small/YEM2603 Support for IDPs in Aden City.docx,Yemen,en,ok,6,2,3,1,83.3,False,Annex 1: Logical framework,indicators also in another document: Annex 1: Logical framework,60,60
+"Asia/yemen/small/ZOA - Group Cash Transfers, Taiz, Yemen - Project proposal-Tearfund Template.docx",Yemen,en,ok,6,0,1,5,16.7,False,,,67,67

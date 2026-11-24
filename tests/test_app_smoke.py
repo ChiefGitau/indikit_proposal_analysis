@@ -95,6 +95,7 @@ def test_proposal_pages_with_pipeline_results(app_env, tmp_path):
     app_env(latest)
     _run("8_Proposal_Overview.py")
     _run("10_Indicator_Matching.py")
+    _run("11_IndiKit_Analysis.py")
     import src.proposals as props
     import src.results as res
 

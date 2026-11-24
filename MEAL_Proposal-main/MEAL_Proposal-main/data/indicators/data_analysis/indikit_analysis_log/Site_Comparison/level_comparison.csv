@@ -11,7 +11,7 @@ unique_id,name,sector,csv_level,site_level,status
 5619,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,Outcome,—,not on site
 5482,Perceived Effectiveness of Implemented Adaptation Measures,Food Security and Livelihoods,Outcome,—,not on site
 5429,Product / Services Perceived Contribution to Higher Production,Food Security and Livelihoods,Outcome,—,not on site
-5433,Proportion of Jobs Retained,Food Security and Livelihoods,Outcome,—,not on site
+5433,Proportion of Jobs Retained,Food Security and Livelihoods,Outcome,Outcome,match
 5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,Outcome,—,not on site
 5594,Staff Understanding of Environmental Mainstreaming,Food Security and Livelihoods,Outcome,—,not on site
 5468,Use of Promoted Energy Technologies,Food Security and Livelihoods,Outcome,—,not on site
@@ -37,133 +37,133 @@ unique_id,name,sector,csv_level,site_level,status
 5452,Provision of Embedded Services to Customers,Food Security and Livelihoods,Outcome | Output,—,not on site
 5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,Outcome,Outcome,match
 5260,Agricultural Productivity,Food Security and Livelihoods,Outcome,Outcome,match
-5424,Amount of Production,Food Security and Livelihoods,Outcome,Outcome,match
+5424,Amount of Production,Food Security and Livelihoods,Outcome,—,not on site
 5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,Outcome,Outcome,match
 5491,Area of Land Under Improved Management,Food Security and Livelihoods,Outcome,Outcome,match
-5254,Farm Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
+5254,Farm Diversity Score,Food Security and Livelihoods,Outcome,—,not on site
 5492,Fulfilment of Landscape Management Plans,Food Security and Livelihoods,Outcome,Outcome,match
 5201,Natural Resource Management,Food Security and Livelihoods,Outcome,Outcome,match
-5268,Soil Quality,Food Security and Livelihoods,Outcome,Outcome,match
-5450,Survival Rate,Food Security and Livelihoods,Outcome,Outcome,match
+5268,Soil Quality,Food Security and Livelihoods,Outcome,—,not on site
+5450,Survival Rate,Food Security and Livelihoods,Outcome,—,not on site
 5476,Use of Eco-Friendly Practices / Products,Food Security and Livelihoods,Outcome,Outcome,match
 5592,Water-Saving Measures,Food Security and Livelihoods,Outcome,Outcome,match
-5263,Animal Mortality,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5272,Extent of Soil Erosion,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5259,Reported Crop Yield Per Unit,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5255,Crop Production,Food Security and Livelihoods,Output,Output,match
-5256,Animal Raising,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5257,Cropping Area,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5261,Production Losses,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5494,Proportion of Surviving Seedlings,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5258,Reported Agricultural Output,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5262,Storage-Related Post-Harvest Losses,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5589,Use of Environmental Assessment Recommendations,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5567,People Benefiting,Food Security and Livelihoods,Impact,Impact,match
-5532,Accessing a Service,Food Security and Livelihoods,Outcome,Outcome,match
-5568,Adopted Recommendations,Food Security and Livelihoods,Outcome,Outcome,match
-5446,Public-Private Platforms,Food Security and Livelihoods,Outcome,Outcome,match
-5530,Active Participation in Activities,Food Security and Livelihoods,Output,Output,match
-5529,Awareness of How to Participate in Activities,Food Security and Livelihoods,Output,Output,match
-5488,Awareness of Promoted Practices,Food Security and Livelihoods,Output,Output,match
-5526,Engagement in Identifying Needs and Solutions,Food Security and Livelihoods,Output,Output,match
+5263,Animal Mortality,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5272,Extent of Soil Erosion,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5259,Reported Crop Yield Per Unit,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5255,Crop Production,Food Security and Livelihoods,Output,—,not on site
+5256,Animal Raising,Food Security and Livelihoods,Outcome | Output,—,not on site
+5257,Cropping Area,Food Security and Livelihoods,Outcome | Output,—,not on site
+5261,Production Losses,Food Security and Livelihoods,Outcome | Output,—,not on site
+5494,Proportion of Surviving Seedlings,Food Security and Livelihoods,Outcome | Output,—,not on site
+5258,Reported Agricultural Output,Food Security and Livelihoods,Outcome | Output,—,not on site
+5262,Storage-Related Post-Harvest Losses,Food Security and Livelihoods,Outcome | Output,—,not on site
+5589,Use of Environmental Assessment Recommendations,Food Security and Livelihoods,Outcome | Output,—,not on site
+5567,People Benefiting,Food Security and Livelihoods,Impact,—,not on site
+5532,Accessing a Service,Food Security and Livelihoods,Outcome,—,not on site
+5568,Adopted Recommendations,Food Security and Livelihoods,Outcome,—,not on site
+5446,Public-Private Platforms,Food Security and Livelihoods,Outcome,—,not on site
+5530,Active Participation in Activities,Food Security and Livelihoods,Output,—,not on site
+5529,Awareness of How to Participate in Activities,Food Security and Livelihoods,Output,—,not on site
+5488,Awareness of Promoted Practices,Food Security and Livelihoods,Output,—,not on site
+5526,Engagement in Identifying Needs and Solutions,Food Security and Livelihoods,Output,—,not on site
 5576,Engagement with Decision Makers,Food Security and Livelihoods,Output,Output,match
-5349,Favourable Attitude,Food Security and Livelihoods,Output,Output,match
-5577,People Reached,Food Security and Livelihoods,Output,Output,match
-5489,Perceived Effectiveness,Food Security and Livelihoods,Output,Output,match
-5582,Policy / Public Events,Food Security and Livelihoods,Output,Output,match
-5527,Sharing Data with Communities,Food Security and Livelihoods,Output,Output,match
-5454,Adoption of the Promoted Management Practices,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5455,Adoption of the Promoted Technologies,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5569,Budgetary Commitment,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5349,Favourable Attitude,Food Security and Livelihoods,Output,—,not on site
+5577,People Reached,Food Security and Livelihoods,Output,—,not on site
+5489,Perceived Effectiveness,Food Security and Livelihoods,Output,—,not on site
+5582,Policy / Public Events,Food Security and Livelihoods,Output,—,not on site
+5527,Sharing Data with Communities,Food Security and Livelihoods,Output,—,not on site
+5454,Adoption of the Promoted Management Practices,Food Security and Livelihoods,Outcome | Output,—,not on site
+5455,Adoption of the Promoted Technologies,Food Security and Livelihoods,Outcome | Output,—,not on site
+5569,Budgetary Commitment,Food Security and Livelihoods,Outcome | Output,—,not on site
 5196,Self-Help Groups - Coverage,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
 5195,Self-Help Groups - Functionality,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5588,Adoption of Environmental Protection Practices,Food Security and Livelihoods,Outcome,Outcome,match
-5590,Energy-Saving Measures,Food Security and Livelihoods,Outcome,Outcome,match
+5588,Adoption of Environmental Protection Practices,Food Security and Livelihoods,Outcome,—,not on site
+5590,Energy-Saving Measures,Food Security and Livelihoods,Outcome,—,not on site
 5591,Fuel-Efficient Cooking Practices,Food Security and Livelihoods,Outcome,Outcome,match
-5466,Awareness of Climate-Smart Energy Technologies,Food Security and Livelihoods,Output,Output,match
-5467,Awareness of How to Access Promoted Energy Technologies,Food Security and Livelihoods,Output,Output,match
-5595,Knowledge / Skills for Protecting Environment,Food Security and Livelihoods,Output,Output,match
-5361,Environmentally-Friendly Energy Technologies,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5466,Awareness of Climate-Smart Energy Technologies,Food Security and Livelihoods,Output,—,not on site
+5467,Awareness of How to Access Promoted Energy Technologies,Food Security and Livelihoods,Output,—,not on site
+5595,Knowledge / Skills for Protecting Environment,Food Security and Livelihoods,Output,—,not on site
+5361,Environmentally-Friendly Energy Technologies,Food Security and Livelihoods,Outcome | Output,—,not on site
 5328,Food Insecurity Experience Scale (FIES),Food Security and Livelihoods,(missing),—,still unknown
-5604,Acute malnutrition,Food Security and Livelihoods,Impact,Impact,match
-5327,Household Food Insecurity Access Scale,Food Security and Livelihoods,Impact,Impact,match
-5326,Household Hunger Score,Food Security and Livelihoods,Impact,Impact,match
+5604,Acute malnutrition,Food Security and Livelihoods,Impact,—,not on site
+5327,Household Food Insecurity Access Scale,Food Security and Livelihoods,Impact,—,not on site
+5326,Household Hunger Score,Food Security and Livelihoods,Impact,—,not on site
 5085,Minimum Dietary Diversity - Women,Food Security and Livelihoods,Impact,—,not on site
 5091,FSL: Coping Strategy Index,Food Security and Livelihoods,Outcome,Outcome,match
 5090,FSL: Food Consumption Score,Food Security and Livelihoods,Outcome,Outcome,match
 5089,Household Dietary Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
-5605,Household food production,Food Security and Livelihoods,Outcome,Outcome,match
+5605,Household food production,Food Security and Livelihoods,Outcome,—,not on site
 5083,Individual Dietary Diversity Score,Food Security and Livelihoods,Outcome,Outcome,match
-5092,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,Outcome,Outcome,match
+5092,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,Outcome,—,not on site
 5464,FSL: Reduced Coping Strategy Index,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
 5620,Food Consumption Score,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5161,Household Consumption,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5161,Household Consumption,Food Security and Livelihoods,Impact | Outcome,—,not on site
 5598,Livelihood Coping Strategy Index,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5099,Awareness of Appropriate Diet,Food Security and Livelihoods,Output,Output,match
-5317,Production of Nutrient-Rich Crops,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5099,Awareness of Appropriate Diet,Food Security and Livelihoods,Output,—,not on site
+5317,Production of Nutrient-Rich Crops,Food Security and Livelihoods,Outcome | Output,—,not on site
 5158,Generation of Employment Opportunities,Food Security and Livelihoods,(missing),—,still unknown
-5329,Living Below the Poverty Line,Food Security and Livelihoods,Impact,Impact,match
-5215,Access to Labour Market Information,Food Security and Livelihoods,Outcome,Outcome,match
-5606,Cash Spending,Food Security and Livelihoods,Outcome,Outcome,match
+5329,Living Below the Poverty Line,Food Security and Livelihoods,Impact,—,not on site
+5215,Access to Labour Market Information,Food Security and Livelihoods,Outcome,—,not on site
+5606,Cash Spending,Food Security and Livelihoods,Outcome,—,not on site
 5487,Diversified Income,Food Security and Livelihoods,Outcome,Outcome,match
 5250,Employment of Vulnerable Persons,Food Security and Livelihoods,Outcome,Outcome,match
 5432,Number of Jobs Created,Food Security and Livelihoods,Outcome,Outcome,match
-5486,Reduced Vulnerability,Food Security and Livelihoods,Outcome,Outcome,match
-5423,Value of Loans Accessed,Food Security and Livelihoods,Outcome,Outcome,match
-5420,Womens Economic Decision-Making,Food Security and Livelihoods,Outcome,Outcome,match
-5159,Household Average Income,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5160,Household Expenditure,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5164,Income from Employment,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5165,Income of Supported Businesses,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
+5486,Reduced Vulnerability,Food Security and Livelihoods,Outcome,—,not on site
+5423,Value of Loans Accessed,Food Security and Livelihoods,Outcome,—,not on site
+5420,Womens Economic Decision-Making,Food Security and Livelihoods,Outcome,—,not on site
+5159,Household Average Income,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5160,Household Expenditure,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5164,Income from Employment,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5165,Income of Supported Businesses,Food Security and Livelihoods,Impact | Outcome,—,not on site
 5358,Increased Income,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5166,Savings - Existence and Levels,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5442,Security of Employment,Food Security and Livelihoods,Output,Output,match
-5167,Indebtedness - Existence and Levels,Food Security and Livelihoods,Impact | Output,Impact | Output,match
-5441,Labour Safety,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5157,Number of Products Sold,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5212,Participation in Work-Based Learning,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5166,Savings - Existence and Levels,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5442,Security of Employment,Food Security and Livelihoods,Output,—,not on site
+5167,Indebtedness - Existence and Levels,Food Security and Livelihoods,Impact | Output,—,not on site
+5441,Labour Safety,Food Security and Livelihoods,Outcome | Output,—,not on site
+5157,Number of Products Sold,Food Security and Livelihoods,Outcome | Output,—,not on site
+5212,Participation in Work-Based Learning,Food Security and Livelihoods,Outcome | Output,—,not on site
 5346,Saving Groups  Average Savings,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5347,Saving and Loan Groups  Total Value of Provided Loans,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5448,Adoption of Business Environment Changes,Food Security and Livelihoods,Outcome,Outcome,match
-5155,Customer Satisfaction,Food Security and Livelihoods,Outcome,Outcome,match
-5459,Expected Sustainability of Supported Businesses,Food Security and Livelihoods,Outcome,Outcome,match
-5458,Investments into Promoted Business Practices / Models,Food Security and Livelihoods,Outcome,Outcome,match
-5456,Marketing Practices Leading to Higher Sales,Food Security and Livelihoods,Outcome,Outcome,match
-5451,Return on Investment,Food Security and Livelihoods,Outcome,Outcome,match
-5425,Sales Revenue,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5436,Women in Management,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5531,Awareness of How to Access a Service,Food Security and Livelihoods,Output,Output,match
-5151,Awareness of Where to Access Service,Food Security and Livelihoods,Output,Output,match
-5150,Awareness of Where to Purchase Product,Food Security and Livelihoods,Output,Output,match
-5427,Local Availability of Products / Services,Food Security and Livelihoods,Output,Output,match
-5148,Number of Service Providers,Food Security and Livelihoods,Output,Output,match
-5426,Stock Availability,Food Security and Livelihoods,Output,Output,match
-5153,Diversity of Products Sold,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5156,Number of Clients Served,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5147,Number of Selling Points,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5154,Quality of Provided Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5270,Sales to New Markets,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5422,Use of Financial Products / Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5152,Use of Promoted Products / Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5347,Saving and Loan Groups  Total Value of Provided Loans,Food Security and Livelihoods,Outcome | Output,—,not on site
+5448,Adoption of Business Environment Changes,Food Security and Livelihoods,Outcome,—,not on site
+5155,Customer Satisfaction,Food Security and Livelihoods,Outcome,—,not on site
+5459,Expected Sustainability of Supported Businesses,Food Security and Livelihoods,Outcome,—,not on site
+5458,Investments into Promoted Business Practices / Models,Food Security and Livelihoods,Outcome,—,not on site
+5456,Marketing Practices Leading to Higher Sales,Food Security and Livelihoods,Outcome,—,not on site
+5451,Return on Investment,Food Security and Livelihoods,Outcome,—,not on site
+5425,Sales Revenue,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5436,Women in Management,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5531,Awareness of How to Access a Service,Food Security and Livelihoods,Output,—,not on site
+5151,Awareness of Where to Access Service,Food Security and Livelihoods,Output,—,not on site
+5150,Awareness of Where to Purchase Product,Food Security and Livelihoods,Output,—,not on site
+5427,Local Availability of Products / Services,Food Security and Livelihoods,Output,—,not on site
+5148,Number of Service Providers,Food Security and Livelihoods,Output,—,not on site
+5426,Stock Availability,Food Security and Livelihoods,Output,—,not on site
+5153,Diversity of Products Sold,Food Security and Livelihoods,Outcome | Output,—,not on site
+5156,Number of Clients Served,Food Security and Livelihoods,Outcome | Output,—,not on site
+5147,Number of Selling Points,Food Security and Livelihoods,Outcome | Output,—,not on site
+5154,Quality of Provided Services,Food Security and Livelihoods,Outcome | Output,—,not on site
+5270,Sales to New Markets,Food Security and Livelihoods,Outcome | Output,—,not on site
+5422,Use of Financial Products / Services,Food Security and Livelihoods,Outcome | Output,—,not on site
+5152,Use of Promoted Products / Services,Food Security and Livelihoods,Outcome | Output,—,not on site
 5434,Cost-Effectiveness of Jobs Creation,Food Security and Livelihoods,(missing),—,still unknown
-5204,Completion Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,Outcome,match
-5203,Dropout Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,Outcome,match
-5208,Market-Relevant Curriculum,Food Security and Livelihoods,Outcome,Outcome,match
-5205,Participation of Vulnerable Groups,Food Security and Livelihoods,Outcome,Outcome,match
-5213,VET Providers Offering Internships,Food Security and Livelihoods,Outcome,Outcome,match
-5206,Achievement of Vocational Education Training Competency Standards,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5437,Employers Use of Job Matching Services,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5214,Employment of Vocational Education Training Completers,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5385,Life Skills Learning,Food Security and Livelihoods,Impact | Outcome,Impact | Outcome,match
-5438,Job Seekers Awareness of Job Matching Services,Food Security and Livelihoods,Output,Output,match
-5209,Successfully Trained Teachers/ Trainers,Food Security and Livelihoods,Output,Output,match
-5187,Vulnerability and Capacity Assessment,Food Security and Livelihoods,Output,Output,match
-5265,Acquired Knowledge / Skills,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5210,Adequate Vocational Education Training Facilities,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5202,Enrolment in Vocational Education Training,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5439,Job Seekers Use of Job Matching Services,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5211,Trainee-Trainer Ratio,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
-5207,VET Quality Standards,Food Security and Livelihoods,Outcome | Output,Outcome | Output,match
+5204,Completion Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,—,not on site
+5203,Dropout Rate in Vocational Education Training,Food Security and Livelihoods,Outcome,—,not on site
+5208,Market-Relevant Curriculum,Food Security and Livelihoods,Outcome,—,not on site
+5205,Participation of Vulnerable Groups,Food Security and Livelihoods,Outcome,—,not on site
+5213,VET Providers Offering Internships,Food Security and Livelihoods,Outcome,—,not on site
+5206,Achievement of Vocational Education Training Competency Standards,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5437,Employers Use of Job Matching Services,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5214,Employment of Vocational Education Training Completers,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5385,Life Skills Learning,Food Security and Livelihoods,Impact | Outcome,—,not on site
+5438,Job Seekers Awareness of Job Matching Services,Food Security and Livelihoods,Output,—,not on site
+5209,Successfully Trained Teachers/ Trainers,Food Security and Livelihoods,Output,—,not on site
+5187,Vulnerability and Capacity Assessment,Food Security and Livelihoods,Output,—,not on site
+5265,Acquired Knowledge / Skills,Food Security and Livelihoods,Outcome | Output,—,not on site
+5210,Adequate Vocational Education Training Facilities,Food Security and Livelihoods,Outcome | Output,—,not on site
+5202,Enrolment in Vocational Education Training,Food Security and Livelihoods,Outcome | Output,—,not on site
+5439,Job Seekers Use of Job Matching Services,Food Security and Livelihoods,Outcome | Output,—,not on site
+5211,Trainee-Trainer Ratio,Food Security and Livelihoods,Outcome | Output,—,not on site
+5207,VET Quality Standards,Food Security and Livelihoods,Outcome | Output,—,not on site
 5656,Conflicts Addressed and Resolved by Different Actors,Peacebuilding,Outcome,Outcome,match
 5755,Trust in formal/informal justice provider,Peacebuilding,Outcome,Outcome,match
 5647,Satisfaction with Conflict Resolution,Peacebuilding,Outcome | Output,Outcome | Output,match
@@ -233,7 +233,7 @@ unique_id,name,sector,csv_level,site_level,status
 5649,Indicator 8 from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",Impact,Impact,match
 5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",Impact | Outcome,Impact | Outcome,match
 5132,Functionality of the Water Management Groups,"Water, Sanitation and Hygiene",Impact | Outcome,Impact | Outcome,match
-5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",Outcome | Output,Outcome | Output,match
+5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",Outcome | Output,—,not on site
 5497,Coverage of Solid Waste Management System,"Water, Sanitation and Hygiene",Outcome,Outcome,match
 5145,Maintenance of Sanitation Facilities,"Water, Sanitation and Hygiene",Outcome,Outcome,match
 5176,Prevention of Groundwater Contamination by Faeces,"Water, Sanitation and Hygiene",Outcome,Outcome,match

@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import math
 import re
+import threading
 from abc import ABC, abstractmethod
 from typing import Optional, Sequence
 
@@ -51,17 +52,22 @@ class LexicalReranker(Reranker):
 
 
 class FastembedReranker(Reranker):
-    def __init__(self, model_name: str = config.RERANKER_MODEL, batch_size: int = 32):
+    def __init__(self, model_name: str = config.RERANKER_MODEL, batch_size: int = config.RERANK_BATCH_SIZE):
         from fastembed.rerank.cross_encoder import TextCrossEncoder
 
         self.name = model_name
         self.batch_size = batch_size
-        self._model = TextCrossEncoder(model_name)
+        self._lock = threading.Lock()   # one ONNX call at a time: bounds peak memory when several workers retrieve
+        # arena off + capped threads: see config.ONNX_CPU_MEM_ARENA / ONNX_THREADS (memory growth in long runs)
+        self._model = TextCrossEncoder(model_name, threads=config.ONNX_THREADS, enable_cpu_mem_arena=config.ONNX_CPU_MEM_ARENA)
 
     def score(self, query: str, passages: Sequence[str]) -> list[float]:
         if not passages:
             return []
-        return [float(s) for s in self._model.rerank(query, list(passages), batch_size=self.batch_size)]
+        cut = config.RERANK_MAX_PASSAGE_CHARS
+        passages = [p[:cut] if cut and len(p) > cut else p for p in passages]
+        with self._lock:
+            return [float(s) for s in self._model.rerank(query, list(passages), batch_size=self.batch_size)]
 
 
 class CrossEncoderReranker(Reranker):

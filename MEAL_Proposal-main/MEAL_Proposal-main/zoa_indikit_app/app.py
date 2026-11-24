@@ -38,9 +38,10 @@ c2.metric("Active after filters", len(filtered))
 c3.metric("Sectors", df["Sector"].nunique())
 
 st.caption(
-    "Use the pages in the sidebar to explore the taxonomy, coverage, text "
-    "profile, semantic map, near-duplicates, and data quality. Filters on the "
-    "left apply everywhere."
+    "Use the pages in the sidebar: Proposal Overview and Indicator Matching show "
+    "the pipeline results per document, Analysis IndiKit shows which live IndiKit "
+    "indicators the proposals never use, Site Comparison checks the export against "
+    "the live site. Filters on the left apply everywhere."
 )
 
 st.dataframe(filtered, width="stretch", hide_index=True)

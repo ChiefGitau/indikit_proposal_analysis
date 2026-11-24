@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import time
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
@@ -62,6 +63,45 @@ class RunConfig:
     def fingerprint(self) -> str:
         d = {k: v for k, v in asdict(self).items() if k not in ("run_id", "workers", "max_calls", "max_cost_usd", "force", "mode", "watermark")}
         return hashlib.sha256(json.dumps(d, sort_keys=True, default=str).encode()).hexdigest()[:12]
+
+
+class RunLock:
+    """``RUNNING.pid`` in the run directory: refuses to start a run id that another live process is already working on
+    (two processes on one run id write the same files and starve each other for CPU)."""
+
+    def __init__(self, run_dir: Path):
+        self.path = Path(run_dir) / "RUNNING.pid"
+
+    @staticmethod
+    def _alive(pid: int) -> bool:
+        try:
+            os.kill(pid, 0)
+        except ProcessLookupError:
+            return False
+        except PermissionError:
+            return True
+        return True
+
+    def __enter__(self):
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        if self.path.exists():
+            try:
+                pid = int(self.path.read_text().strip() or 0)
+            except ValueError:
+                pid = 0
+            if pid and pid != os.getpid() and self._alive(pid):
+                raise RuntimeError(f"run '{self.path.parent.name}' is already running in process {pid} (see {self.path}); stop it first "
+                                   f"or wait for it - do not start the same run id twice")
+        self.path.write_text(str(os.getpid()), encoding="utf-8")
+        return self
+
+    def __exit__(self, *exc):
+        try:
+            if self.path.exists() and self.path.read_text().strip() == str(os.getpid()):
+                self.path.unlink()
+        except OSError:
+            pass
+        return False
 
 
 def run_dir_for(run_id: str, runs_dir: Path = config.RUNS_DIR) -> Path:
@@ -288,7 +328,9 @@ class Runner:
             raise BudgetExceeded(f"estimate exceeds the run limits ({est['calls']} calls / ${est['cost_usd']:.2f} vs {est['max_calls']} / ${est['max_cost_usd']}); reduce the selection or raise the limits in config")
         by_doc = {d: g["indikit_id"].tolist() for d, g in sel.selected.groupby("doc_id")} if len(sel.selected) else {}
         skipped = dict(sel.skipped_documents)
-        done = {r.doc_id for r in self.load_results()} if not self.cfg.force else set()
+        # finished documents are skipped on resume, except those with failed pairs or a document-level failure:
+        # they are processed again (successful answers, novel-pass and reverse-check calls come from the caches)
+        done = {r.doc_id for r in self.load_results() if r.skipped_reason or (r.pairs_failed == 0 and not any(e.startswith("document failed") for e in r.errors))} if not self.cfg.force else set()
         results: list[DocumentResult] = []
         stop_reason: Optional[str] = None
         for i, doc_id in enumerate(doc_ids, start=1):

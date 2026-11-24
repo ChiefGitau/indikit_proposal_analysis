@@ -46,6 +46,20 @@ def test_hashing_embedder_and_index_roundtrip(tmp_path: Path):
     cache.close()
 
 
+def test_embedding_cache_is_usable_from_worker_threads(tmp_path: Path):
+    """The answering step shares one cache between threads; sqlite must not raise 'created in a thread'."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    emb = HashingEmbedder(64)
+    cache = EmbeddingCache(tmp_path / "c.sqlite")       # opened in the main thread
+    cache.embed(emb, ["seed"])
+    texts = [f"t{i}" for i in range(40)]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        vecs = list(pool.map(lambda t: cache.embed(emb, [t, "seed"]), texts))
+    assert all(v.shape == (2, 64) for v in vecs) and np.allclose(vecs[0][1], vecs[-1][1])
+    cache.close()
+
+
 def test_text_chunking_is_section_aware():
     def para(i, text, path):
         return Block(block_id=f"d:b{i}", doc_id="d", kind="paragraph", text=text, order=i, heading_path=path, page=1)

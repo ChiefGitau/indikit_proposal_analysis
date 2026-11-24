@@ -51,7 +51,7 @@
       "sections": "all",
       "sectors": "all",
       "levels": "all",
-      "updated": "2026-07-13T09:37:11"
+      "updated": "2026-11-24T01:01:45"
     }
   },
   "Duplicates": {
@@ -81,8 +81,8 @@
   "Semantic Map": {
     "metrics": {
       "indicators": 386,
-      "embedding_method": "sentence-transformers (cached)",
-      "projection_method": "UMAP"
+      "embedding_method": "embeddings (cached)",
+      "projection_method": "PCA (umap not installed)"
     },
     "tables": {
       "coordinates": {
@@ -95,7 +95,7 @@
       "sectors": "all",
       "levels": "all",
       "coloured_by": "Sector",
-      "updated": "2026-07-13T09:37:21"
+      "updated": "2026-11-16T11:18:26"
     }
   },
   "Text Profile": {
@@ -171,47 +171,47 @@
       "sections": "all",
       "sectors": "all",
       "levels": "all",
-      "updated": "2026-07-13T09:35:36"
+      "updated": "2026-11-24T01:03:12"
     }
   },
   "Proposal Overview": {
     "metrics": {
-      "proposals": 5,
-      "countries": 6,
-      "project_sites": 10,
-      "donors": 5
+      "proposals": 115,
+      "countries": 9,
+      "project_sites": 0,
+      "donors": 1
     },
     "tables": {
       "proposals": {
         "path": "Proposal_Overview/proposals.csv",
-        "rows": 5
+        "rows": 115
       },
       "sites": {
         "path": "Proposal_Overview/sites.csv",
-        "rows": 10
+        "rows": 0
       },
       "countries": {
         "path": "Proposal_Overview/countries.csv",
-        "rows": 6
+        "rows": 9
       }
     },
     "context": {
-      "source": "dummy (data/proposals_dummy.json)",
-      "updated": "2026-07-13T09:37:06"
+      "source": "pipeline outputs/latest (run-20261115-233434)",
+      "updated": "2026-11-24T08:43:18"
     }
   },
   "Site Comparison": {
     "metrics": {
       "csv_unique": 344,
-      "live_on_site": 303,
-      "removed_from_site": 41,
-      "site_only": 0,
-      "compared": 303,
-      "flagged_below_threshold": 10,
+      "live_on_site": 214,
+      "removed_from_site": 137,
+      "site_only": 7,
+      "compared": 200,
+      "flagged_below_threshold": 200,
       "avg_name_sim": 0.999,
-      "avg_wording_en_sim": 0.97,
-      "avg_wording_fr_sim": 0.967,
-      "avg_purpose_sim": 0.998,
+      "avg_wording_en_sim": 0.0,
+      "avg_wording_fr_sim": 0.0,
+      "avg_purpose_sim": 0.999,
       "levels_missing_in_csv": 42,
       "levels_site_can_fill": 0,
       "levels_unknown_on_both": 42,
@@ -220,7 +220,7 @@
     "tables": {
       "comparison": {
         "path": "Site_Comparison/comparison.csv",
-        "rows": 303
+        "rows": 200
       },
       "coverage_summary": {
         "path": "Site_Comparison/coverage_summary.csv",
@@ -235,10 +235,64 @@
       "sections": "all",
       "sectors": "all",
       "levels": "all",
-      "scraped_at": "2026-07-06T09:14:24",
+      "scraped_at": "2026-11-24T09:06:22",
       "threshold": 0.9,
-      "updated": "2026-07-06T15:21:11",
-      "levels_at": "2026-07-06T11:36:07"
+      "updated": "2026-11-24T09:08:05",
+      "levels_at": "2026-11-24T09:05:25"
+    }
+  },
+  "Indicator Matching": {
+    "metrics": {
+      "documents": 115,
+      "document_indicators": 1236,
+      "verbatim": 73,
+      "close": 289,
+      "none": 874
+    },
+    "tables": {
+      "per_document_summary": {
+        "path": "Indicator_Matching/per_document_summary.csv",
+        "rows": 115
+      },
+      "disclosure_matrix": {
+        "path": "Indicator_Matching/disclosure_matrix.csv",
+        "rows": 432
+      }
+    },
+    "context": {
+      "run": "run-20261115-233434",
+      "countries": "all",
+      "sectors": "all",
+      "match_types": "all",
+      "updated": "2026-11-24T09:08:01",
+      "sector": "(all sectors)"
+    }
+  },
+  "Analysis IndiKit": {
+    "metrics": {
+      "indikit_indicators": 310,
+      "used": 134,
+      "never_used": 176,
+      "there_under_another_name": 78,
+      "not_measured": 98,
+      "export_only_excluded": 41,
+      "similarity_floor": 0.6
+    },
+    "tables": {
+      "per_sector": {
+        "path": "Analysis_IndiKit/per_sector.csv",
+        "rows": 9
+      },
+      "per_sub_sector": {
+        "path": "Analysis_IndiKit/per_sub_sector.csv",
+        "rows": 34
+      }
+    },
+    "context": {
+      "run": "run-20261115-233434",
+      "countries": "all",
+      "sectors": "all",
+      "updated": "2026-11-24T09:08:12"
     }
   }
 }

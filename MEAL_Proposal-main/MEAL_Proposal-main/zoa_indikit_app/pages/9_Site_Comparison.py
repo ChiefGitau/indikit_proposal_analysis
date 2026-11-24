@@ -14,11 +14,16 @@ The crawl is cached to disk, so you only pay the ~5-minute full scrape once;
 every rerun reads the cache.
 """
 
+import subprocess
+import sys
+
 import pandas as pd
 import streamlit as st
 
 from src.analysis_log import log_section
+from src.config import PIPELINE_ROOT
 from src.scraper import (
+    BASE_URL,
     build_comparison,
     build_level_comparison,
     crawl,
@@ -38,6 +43,30 @@ st.caption(
 
 full, df = get_data()
 show_active_count(df, full)
+
+
+
+def refresh_pipeline_data() -> None:
+    """Run ``python -m pipeline.run refresh-site`` in the pipeline repository: rebuild the IndiKit metadata from the new
+    scrape, rewrite the metadata-dependent output files of the latest run, copy them to outputs/latest and re-export
+    Power BI. No LLM call. Then clear the app caches so every page picks the new data up."""
+    cmd = [sys.executable, "-m", "pipeline.run", "refresh-site"]
+    with st.spinner("Refreshing the pipeline data (metadata, run outputs, Power BI) …"):
+        try:
+            proc = subprocess.run(cmd, cwd=str(PIPELINE_ROOT), capture_output=True, text=True, timeout=900)
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            st.error(f"Could not run the refresh: {exc}")
+            return
+    st.cache_data.clear()
+    if proc.returncode == 0:
+        st.success("Pipeline data refreshed. The other pages now reflect the current state of the site.")
+        with st.expander("What was refreshed"):
+            st.code(proc.stdout.strip() or "(no output)", language=None)
+    else:
+        st.error("The refresh failed; the other pages still show the previous state.")
+        st.code((proc.stdout + "\n" + proc.stderr).strip()[-4000:], language=None)
+    st.session_state["pipeline_refreshed_at"] = load_cache().get("scraped_at", "")
+
 
 # --------------------------------------------------------------------------- #
 # 1. Scrape controls
@@ -69,6 +98,12 @@ with c2:
     sample_n = 0
     if mode == "A small sample":
         sample_n = st.slider("Sample size", 5, 100, 20, step=5)
+    full_rescrape = mode == "Everything (re-scrape all)"
+    if full_rescrape:
+        st.caption("A full re-scrape also visits every indicator of the CSV export that is not in the sitemap, so pages that were removed from the site are recorded as gone.")
+    read_levels = st.checkbox("Also re-read the indicator levels from the sector pages", value=full_rescrape, disabled=mode == "A small sample")
+    do_refresh = st.checkbox("Afterwards refresh the pipeline data so all other pages reflect the new state", value=full_rescrape, disabled=mode == "A small sample",
+                             help="Rebuilds the IndiKit metadata, rewrites the output files of the latest run, copies them to outputs/latest and re-exports Power BI. No LLM calls.")
 
     if st.button("🔎 Fetch sitemap & scrape", type="primary"):
         with st.spinner("Fetching sitemap…"):
@@ -85,7 +120,10 @@ with c2:
             elif mode == "A small sample":
                 todo = dict(list(id_url.items())[:sample_n])
             else:
-                todo = id_url
+                todo = dict(id_url)
+                for uid in full["Unique ID"].astype(str):
+                    if uid not in todo:
+                        todo[uid] = records.get(uid, {}).get("url") or f"{BASE_URL}/indicator/{uid}"
 
             if not todo:
                 st.success("Everything in the sitemap is already cached.")
@@ -97,9 +135,26 @@ with c2:
 
                 cache = crawl(todo, progress=_tick)
                 bar.empty()
-                st.success(f"Scraped {len(todo)} pages. Cache updated.")
                 records = cache.get("records", {})
                 ok_records = {uid: r for uid, r in records.items() if r.get("ok")}
+                gone = sum(1 for uid in todo if not records.get(uid, {}).get("ok"))
+                st.success(f"Scraped {len(todo)} pages: {len(todo) - gone} live, {gone} not found. Cache updated.")
+                if read_levels and mode != "A small sample":
+                    lbar = st.progress(0.0, text="Reading indicator levels from the sector pages…")
+                    try:
+                        fetch_site_levels(progress=lambda d, t, m: lbar.progress(d / max(t, 1), text=m))
+                        cache = load_cache()
+                    except Exception as exc:  # noqa: BLE001
+                        st.warning(f"Levels not refreshed: {exc}")
+                    lbar.empty()
+                if do_refresh and mode != "A small sample":
+                    refresh_pipeline_data()
+
+if cache.get("scraped_at"):
+    rc1, rc2 = st.columns([3, 2])
+    rc1.caption("Scraped elsewhere, or skipped the refresh above? Push the cached scrape through the pipeline so the other pages (Indicator Matching, Analysis IndiKit, Proposal Overview) and the Power BI export reflect it.")
+    if rc2.button("🔄 Refresh pipeline data from the cached scrape"):
+        refresh_pipeline_data()
 
 # Live id list for coverage: freshly fetched sitemap (session) → cache → fallback.
 sitemap_ids = st.session_state.get("sitemap_ids") or cache.get("live_ids")

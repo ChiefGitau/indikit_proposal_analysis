@@ -49,7 +49,7 @@ python -m pipeline.run build-metadata
 #   -> outputs/metadata/build_report.md, outputs/metadata/merge_conflicts.csv
 
 # Optional LLM enrichment of Knowledge / SearchTerm (makes API calls, cached under outputs/cache/metadata/):
-python -m pipeline.run build-metadata --enrich --model gpt-4o-mini
+python -m pipeline.run build-metadata --enrich --model gpt-6-luna
 
 # Fetch indicator pages that are missing from the local site data (network; writes pipeline/metadata/site_supplement.json):
 python -m pipeline.metadata.fetch_missing
@@ -108,22 +108,36 @@ python -m pipeline.run report --doc "Annex C-Logical Framework"   # 7. one docum
 python -m pipeline.run export-review                         # 8. outputs/latest/review.xlsx for MEAL staff
 python -m pipeline.run import-review --file outputs/latest/review.xlsx --export-gold   # 9. apply decisions, propose overrides, grow the gold set
 python -m pipeline.run experiments --split dev               # 10. benchmark / ablations / models / gate / reverse check (needs verified gold)
-cd MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app && streamlit run app.py      # 11. pages 8 and 10 show outputs/latest
+python -m pipeline.run refresh-site                         # 11. after a re-scrape of zoa.indikit.net: rebuild metadata (on_site), rewrite the run outputs, Power BI (no LLM)
+cd MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app && streamlit run app.py      # 12. Proposal Overview, Site Comparison, Indicator Matching, Analysis IndiKit
 ```
+
+The Streamlit sidebar shows four pages; the older exploratory pages (taxonomy, coverage, text profile, semantic map,
+duplicates, data quality, analysis log) live in `zoa_indikit_app/pages_hidden/` and reappear when moved back into
+`pages/`. A **full re-scrape** on the Site Comparison page visits every library indicator (sitemap + export), re-reads
+the levels and then runs `refresh-site`, so the other pages, `outputs/latest/` and `outputs/powerbi/` follow the
+current state of the website. The site lost 97 indicator pages between 16 and 24 November 2026 (`docs/findings.md`,
+Section 2a); the previous scrape is kept as `site_scrape/scraped_2026-11-16.json`.
 
 Step-only commands: `answer` (disclosure step of a run), `novel-pass [--no-llm]`, `consolidate`. Every `run`
 prints the estimate first and refuses to start when it exceeds `MAX_CALLS_PER_RUN` / `MAX_COST_USD_PER_RUN`.
 
 ### Configuring the LLM (owner decision)
 
-Nothing calls a model until `LLM_PROVIDER` is set, in `pipeline/config.py` or the environment / `.env`:
+The default since 15 Nov 2026 is **OpenAI with the GPT-6 family** (`pipeline/config.py`): `gpt-6.1-terra` for
+answering, `gpt-6-luna` for the novel-indicator extraction and `gpt-6.1-sol` as the strong model for the comparison
+experiment. Only `OPENAI_API_KEY` in `.env` is needed to run. The environment / `.env` overrides the config:
 
 | Setting | Where | Meaning |
 |---|---|---|
-| `LLM_PROVIDER` | config / env | `openai`, `azure` (Azure OpenAI) or `ollama` (local, OpenAI-compatible). Empty = no live calls. |
+| `LLM_PROVIDER` | config / env | `openai` (default), `azure` (Azure OpenAI) or `ollama` (local, OpenAI-compatible). Empty = no live calls. |
 | `OPENAI_API_KEY` / `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_API_VERSION` | `.env` only | read at call time, never logged or cached |
 | `ANSWER_MODEL`, `STRONG_MODEL`, `EXTRACTION_MODEL` | config / env | model roles (Azure: deployment names); `STRONG_MODEL` only for the model comparison |
 | `MAX_CALLS_PER_RUN`, `MAX_COST_USD_PER_RUN`, `MODEL_PRICES_USD_PER_M` | config | enforced in code (`UsageTracker`); unknown models are priced at the most expensive entry |
+
+GPT-6 prices (per 1M prompt / completion tokens): astra $10 / $50, 6.1-sol $2 / $10, 6.1-terra $1 / $5, luna $0.10 / $0.50.
+The older gpt-4o / gpt-4.1 entries retire on 14 Jan 2027 and gpt-5 on 11 Dec 2026 (OpenAI deprecations page); do not start new runs on them.
+A full run on `gpt-6.1-terra` costs roughly $20, so raise the caps on the command line: `--max-calls 9000 --max-cost 25`.
 | `LLM_MAX_WORKERS`, `LLM_RATE_LIMIT_PER_MIN` | config | bounded concurrency and rate limiting |
 | `GATE_TAU` / `GATE_TAU_PERCENTILE`, `GATE_TOP_M`, `ROUTE_SECTORS`, `INCLUDE_EXPORT_ONLY` | config / flags | pair selection |
 
@@ -192,7 +206,7 @@ extraction_utils.py  compatibility shim re-exporting the moved functions
 
 Configured through `pipeline.agent.answer.configure_llm` (also reachable as `extraction_utils.configure_llm`):
 
-- `openai`: `OPENAI_API_KEY` in `.env`. The cached extraction responses in `outputs/api_cache` were produced with `gpt-4o-mini`.
+- `openai` (default): `OPENAI_API_KEY` in `.env`; default model `gpt-6.1-terra`. The cached extraction responses in `outputs/api_cache` were produced with `gpt-4o-mini`.
 - `ollama`: a local model through Ollama's OpenAI-compatible endpoint (`ollama pull llama3.2`, server at `http://localhost:11434`).
 - `azure`: `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_API_KEY`, optional `AZURE_OPENAI_API_VERSION`; the model name is the *deployment name*.
 

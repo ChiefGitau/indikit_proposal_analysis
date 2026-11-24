@@ -208,6 +208,26 @@ def write_portfolio_summary(tables: dict[str, pd.DataFrame], run_dir: Path, *, n
     return p
 
 
+def clean_results(results: Sequence[DocumentResult]) -> list[DocumentResult]:
+    """Documents whose answering step completed: skipped documents (reported, not queried) and documents with no failed pair
+    and no document-level failure. Used for interim exports while a run is still going."""
+    return [r for r in results if r.skipped_reason or (r.pairs_failed == 0 and not any(e.startswith("document failed") for e in r.errors))]
+
+
+INDIKIT_COLUMNS = ["indikit_id", "name", "sector", "sub_sector", "section", "levels", "quantity", "topic", "kpi_wording_en", "kpi_wording_fr", "on_site", "in_export", "url"]
+
+
+def indikit_table(metadata: dict[str, IndicatorMetadata]) -> pd.DataFrame:
+    """One row per IndiKit indicator (dimension table for BI tools); the first aspect gives sector / sub-sector / section."""
+    rows = []
+    for iid, m in sorted(metadata.items()):
+        a = m.aspect[0] if m.aspect else None
+        rows.append({"indikit_id": iid, "name": m.name, "sector": m.primary_sector or "(unknown)", "sub_sector": a.sub_sector if a else "", "section": a.section if a else "",
+                     "levels": "; ".join(m.levels), "quantity": getattr(m.quantity, "value", str(m.quantity)), "topic": m.topic or "", "kpi_wording_en": m.kpi_wording_en,
+                     "kpi_wording_fr": m.kpi_wording_fr or "", "on_site": m.on_site, "in_export": m.in_export, "url": m.url or ""})
+    return pd.DataFrame(rows, columns=INDIKIT_COLUMNS)
+
+
 def write_run_outputs(results: Sequence[DocumentResult], metadata: dict[str, IndicatorMetadata], run_dir: Path, *, embed_fn=None, note: str = "") -> dict[str, Path]:
     run_dir = Path(run_dir)
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -256,6 +276,37 @@ def write_run_report(run_dir: Path, info: dict) -> Path:
     p.write_text("\n".join(md), encoding="utf-8")
     (run_dir / "run_info.json").write_text(json.dumps(info, indent=1, default=str), encoding="utf-8")
     return p
+
+
+def refresh_metadata_dependent_outputs(run_dir: Path, metadata: dict[str, IndicatorMetadata], *, note: str = "") -> dict[str, Path]:
+    """Rewrite the output files of a finished run that depend on the IndiKit metadata (``on_site`` / ``export_only``,
+    names, sectors) from the per-document results in ``run_dir/docs``, without any LLM call and without touching the
+    answers. ``novel_indicators.csv`` is kept as it is (its clusters do not depend on the metadata) and only re-created
+    when it is missing. Used after a re-scrape of the IndiKit site."""
+    run_dir = Path(run_dir)
+    results = []
+    for p in sorted((run_dir / "docs").glob("*.json")):
+        try:
+            results.append(DocumentResult.model_validate_json(p.read_text(encoding="utf-8")))
+        except Exception:
+            continue
+    if not results:
+        raise FileNotFoundError(f"no document results in {run_dir / 'docs'}")
+    doc_ind = document_indicator_rows(results, metadata)
+    matrix = disclosure_matrix_rows(results, metadata)
+    summary = document_summary_rows(results)
+    novel_path = run_dir / "novel_indicators.csv"
+    novel = pd.read_csv(novel_path, dtype={"doc_id": str, "doc_indicator_id": str, "nearest_indikit_ids": str, "nearest_similarities": str}, keep_default_na=False) if novel_path.exists() else novel_rows(results, None)
+    if "cluster_id" in novel.columns:
+        novel["cluster_id"] = pd.to_numeric(novel["cluster_id"], errors="coerce").fillna(-1).astype(int)
+    paths = {}
+    for name, df in (("document_indicators", doc_ind), ("disclosure_matrix", matrix), ("novel_indicators", novel), ("document_summary", summary)):
+        p = run_dir / f"{name}.csv"
+        df.to_csv(p, index=False)
+        paths[name] = p
+    tables = portfolio_tables(doc_ind, matrix, novel, summary, metadata)
+    paths["portfolio_summary"] = write_portfolio_summary(tables, run_dir, note=note)
+    return paths
 
 
 def copy_latest(run_dir: Path, latest_dir: Path = config.LATEST_DIR) -> Path:

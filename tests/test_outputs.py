@@ -148,3 +148,57 @@ def test_budget_stop_is_clean_and_resumable(fx, tmp_path: Path):
         assert sm.iloc[0]["note"].startswith("indicators are in another document: Annex O")
     finally:
         fx.manifest[fx.pdf_id] = fx.manifest[fx.pdf_id].model_copy(update={"indicators_elsewhere": False, "n_logframe_tables": 1})
+
+
+def test_run_lock_refuses_second_process(tmp_path: Path):
+    import os
+
+    from pipeline.agent.orchestrate import RunLock
+
+    with RunLock(tmp_path):
+        assert (tmp_path / "RUNNING.pid").read_text() == str(os.getpid())
+        with RunLock(tmp_path):      # same process may re-enter
+            pass
+    assert not (tmp_path / "RUNNING.pid").exists()
+    (tmp_path / "RUNNING.pid").write_text("999999999")   # a dead pid is ignored
+    with RunLock(tmp_path):
+        pass
+    (tmp_path / "RUNNING.pid").write_text(str(os.getppid()))   # a live foreign pid blocks
+    with pytest.raises(RuntimeError, match="already running"):
+        with RunLock(tmp_path):
+            pass
+
+
+def test_clean_results_and_indikit_table():
+    from pipeline.agent.models import DocumentResult
+    from pipeline.agent.outputs import INDIKIT_COLUMNS, clean_results, indikit_table
+
+    ok = DocumentResult(doc_id="a", pairs_failed=0)
+    failed = DocumentResult(doc_id="b", pairs_failed=3)
+    crashed = DocumentResult(doc_id="c", errors=["document failed: boom"])
+    skipped = DocumentResult(doc_id="d", skipped_reason="indicators in another document")
+    assert [r.doc_id for r in clean_results([ok, failed, crashed, skipped])] == ["a", "d"]
+    df = indikit_table(METADATA)
+    assert list(df.columns) == INDIKIT_COLUMNS and len(df) == len(METADATA) and df["indikit_id"].is_unique
+
+
+def test_refresh_metadata_dependent_outputs_rewrites_on_site_flags(tmp_path: Path):
+    """After a re-scrape the on_site / export_only columns follow the new metadata; answers and novel clusters are untouched."""
+    from pipeline.agent.outputs import refresh_metadata_dependent_outputs
+
+    verb = LinkedMatch(indikit_id="5138", indikit_name="Handwashing", match_type="verbatim", rerank_score=0.9, text_similarity=95.0)
+    results = [DocumentResult(doc_id="d1", country="testland", region="africa", relative_path="p/a.docx", consolidated=[_ci("D001", "% of hh with soap", [verb]), _ci("D003", "Average km migrated by zebra herds", nearest=[("9000", 0.4)])], pairs_selected=2, pairs_asked=2, pairs_present=1)]
+    run_dir = tmp_path / "run"
+    (run_dir / "docs").mkdir(parents=True)
+    (run_dir / "docs" / "d1.json").write_text(results[0].model_dump_json(), encoding="utf-8")
+    first = write_run_outputs(results, METADATA, run_dir)
+    assert pd.read_csv(first["document_indicators"], dtype=str).loc[0, "export_only"] == "False"
+    novel_before = (run_dir / "novel_indicators.csv").read_text(encoding="utf-8")
+    gone = {k: (v.model_copy(update={"on_site": False}) if k == "5138" else v) for k, v in METADATA.items()}
+    paths = refresh_metadata_dependent_outputs(run_dir, gone, note="refreshed")
+    di = pd.read_csv(paths["document_indicators"], dtype=str)
+    assert di.loc[di["doc_indicator_id"] == "D001", "export_only"].iloc[0] == "True" and di.loc[di["doc_indicator_id"] == "D001", "match_type"].iloc[0] == "verbatim"
+    mx = pd.read_csv(paths["disclosure_matrix"], dtype=str)
+    assert mx.loc[mx["indikit_id"] == "5138", "on_site"].iloc[0] == "False"
+    assert (run_dir / "novel_indicators.csv").read_text(encoding="utf-8") == novel_before
+    assert "refreshed" in (run_dir / "portfolio_summary.md").read_text(encoding="utf-8")

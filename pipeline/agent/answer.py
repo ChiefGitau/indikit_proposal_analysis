@@ -351,20 +351,26 @@ def answer_pair(
 # Batch with progress file (resumable)
 # --------------------------------------------------------------------------- #
 class ProgressFile:
-    """Append-only JSONL of finished pairs; a resumed run skips the pairs already present."""
+    """Append-only JSONL of finished pairs; a resumed run skips the pairs already present. Pairs whose last
+    recorded attempt failed (``disclosure == "failed"``) are *not* treated as done, so a resume retries them."""
 
     def __init__(self, path: Path):
         self.path = Path(path)
         self._lock = threading.Lock()
         self.done: dict[tuple[str, str], PairAnswer] = {}
+        self.retried: int = 0
         if self.path.exists():
             for line in self.path.read_text(encoding="utf-8").splitlines():
                 if line.strip():
                     try:
                         pa = PairAnswer.model_validate_json(line)
-                        self.done[(pa.doc_id, pa.indikit_id)] = pa
                     except Exception:
                         continue
+                    if pa.disclosure == "failed":
+                        self.done.pop((pa.doc_id, pa.indikit_id), None)
+                        self.retried += 1
+                    else:
+                        self.done[(pa.doc_id, pa.indikit_id)] = pa
 
     def add(self, pa: PairAnswer) -> None:
         with self._lock:

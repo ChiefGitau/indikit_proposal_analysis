@@ -94,3 +94,15 @@ def test_answer_pairs_progress_file_resumes_and_budget_stops(fx, tmp_path: Path)
     out2, stop2 = answer_pairs(pairs, provider=provider2, progress=progress2, workers=2, retriever=fx.retriever, cache=None, model="m", kb_dir=fx.kb_dir)
     assert stop2 is None and len(out2) == 4 and usage2.calls == 2
     assert evidence_fingerprint([]) == evidence_fingerprint([])
+
+
+def test_progress_file_retries_failed_pairs(tmp_path: Path):
+    from pipeline.agent.models import PairAnswer
+
+    p = ProgressFile(tmp_path / "answers.jsonl")
+    p.add(PairAnswer(doc_id="d", indikit_id="1", disclosure="absent"))
+    p.add(PairAnswer(doc_id="d", indikit_id="2", disclosure="failed", error="ProgrammingError: SQLite objects created in a thread ..."))
+    p.add(PairAnswer(doc_id="d", indikit_id="3", disclosure="failed", error="boom"))
+    p.add(PairAnswer(doc_id="d", indikit_id="3", disclosure="present"))   # retried later and succeeded
+    p2 = ProgressFile(tmp_path / "answers.jsonl")
+    assert set(p2.done) == {("d", "1"), ("d", "3")} and p2.retried == 2 and p2.done[("d", "3")].disclosure == "present"
