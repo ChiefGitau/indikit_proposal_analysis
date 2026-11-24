@@ -12,6 +12,10 @@ snapshot. Surfaces three things:
 
 The crawl is cached to disk, so you only pay the ~5-minute full scrape once;
 every rerun reads the cache.
+
+By default the page is read-only: it compares against the scrape committed to the
+repository and makes no requests. The scrape and refresh controls only appear when
+``ZOA_LOCAL_MODE=1`` is set (see ``src/config.py``).
 """
 
 import subprocess
@@ -21,7 +25,7 @@ import pandas as pd
 import streamlit as st
 
 from src.analysis_log import log_section
-from src.config import PIPELINE_ROOT
+from src.config import LOCAL_MODE, PIPELINE_ROOT
 from src.scraper import (
     BASE_URL,
     build_comparison,
@@ -71,90 +75,100 @@ def refresh_pipeline_data() -> None:
 # --------------------------------------------------------------------------- #
 # 1. Scrape controls
 # --------------------------------------------------------------------------- #
-st.subheader("1 · Scrape the live site")
+st.subheader("1 · Scrape the live site" if LOCAL_MODE else "1 · Stored scrape")
 
 cache = load_cache()
 records = cache.get("records", {})
 ok_records = {uid: r for uid, r in records.items() if r.get("ok")}
 
-c1, c2 = st.columns([2, 3])
-with c1:
+if not LOCAL_MODE:
+    # Read-only (the deployed app): compare against the scrape committed to the repository, no live requests.
     if cache.get("scraped_at"):
-        st.metric("Cached pages", len(records), help="Loaded from a previous scrape.")
-        st.caption(f"Last scraped: **{cache['scraped_at']}**")
+        st.caption(
+            f"Showing the scrape stored in the repository: **{len(records)}** pages, last scraped **{cache['scraped_at']}**. "
+            "This app is read-only. To update it, re-scrape on a local machine with `ZOA_LOCAL_MODE=1` and push the result."
+        )
     else:
-        st.info("No scrape cached yet. Fetch the sitemap and scrape to compare.")
+        st.info("No scrape is stored in the repository yet.")
+else:
+    c1, c2 = st.columns([2, 3])
+    with c1:
+        if cache.get("scraped_at"):
+            st.metric("Cached pages", len(records), help="Loaded from a previous scrape.")
+            st.caption(f"Last scraped: **{cache['scraped_at']}**")
+        else:
+            st.info("No scrape cached yet. Fetch the sitemap and scrape to compare.")
 
-with c2:
-    st.caption(
-        "The site asks for ≤ 1 request/second, so a full crawl of ~300 pages "
-        "takes about 5 minutes. Results are cached — you only do this once."
-    )
-    mode = st.radio(
-        "What to scrape",
-        ["Only missing / not-yet-cached", "Everything (re-scrape all)", "A small sample"],
-        horizontal=False,
-    )
-    sample_n = 0
-    if mode == "A small sample":
-        sample_n = st.slider("Sample size", 5, 100, 20, step=5)
-    full_rescrape = mode == "Everything (re-scrape all)"
-    if full_rescrape:
-        st.caption("A full re-scrape also visits every indicator of the CSV export that is not in the sitemap, so pages that were removed from the site are recorded as gone.")
-    read_levels = st.checkbox("Also re-read the indicator levels from the sector pages", value=full_rescrape, disabled=mode == "A small sample")
-    do_refresh = st.checkbox("Afterwards refresh the pipeline data so all other pages reflect the new state", value=full_rescrape, disabled=mode == "A small sample",
-                             help="Rebuilds the IndiKit metadata, rewrites the output files of the latest run, copies them to outputs/latest and re-exports Power BI. No LLM calls.")
+    with c2:
+        st.caption(
+            "The site asks for ≤ 1 request/second, so a full crawl of ~300 pages "
+            "takes about 5 minutes. Results are cached — you only do this once."
+        )
+        mode = st.radio(
+            "What to scrape",
+            ["Only missing / not-yet-cached", "Everything (re-scrape all)", "A small sample"],
+            horizontal=False,
+        )
+        sample_n = 0
+        if mode == "A small sample":
+            sample_n = st.slider("Sample size", 5, 100, 20, step=5)
+        full_rescrape = mode == "Everything (re-scrape all)"
+        if full_rescrape:
+            st.caption("A full re-scrape also visits every indicator of the CSV export that is not in the sitemap, so pages that were removed from the site are recorded as gone.")
+        read_levels = st.checkbox("Also re-read the indicator levels from the sector pages", value=full_rescrape, disabled=mode == "A small sample")
+        do_refresh = st.checkbox("Afterwards refresh the pipeline data so all other pages reflect the new state", value=full_rescrape, disabled=mode == "A small sample",
+                                 help="Rebuilds the IndiKit metadata, rewrites the output files of the latest run, copies them to outputs/latest and re-exports Power BI. No LLM calls.")
 
-    if st.button("🔎 Fetch sitemap & scrape", type="primary"):
-        with st.spinner("Fetching sitemap…"):
-            try:
-                id_url = fetch_sitemap_ids()
-            except Exception as exc:  # noqa: BLE001 — surface any network error
-                st.error(f"Could not fetch sitemap: {exc}")
-                id_url = {}
-        if id_url:
-            st.session_state["sitemap_ids"] = list(id_url)
-            cache = store_live_ids(id_url)  # persist for accurate coverage on reload
-            if mode == "Only missing / not-yet-cached":
-                todo = {u: url for u, url in id_url.items() if u not in ok_records}
-            elif mode == "A small sample":
-                todo = dict(list(id_url.items())[:sample_n])
-            else:
-                todo = dict(id_url)
-                for uid in full["Unique ID"].astype(str):
-                    if uid not in todo:
-                        todo[uid] = records.get(uid, {}).get("url") or f"{BASE_URL}/indicator/{uid}"
+        if st.button("🔎 Fetch sitemap & scrape", type="primary"):
+            with st.spinner("Fetching sitemap…"):
+                try:
+                    id_url = fetch_sitemap_ids()
+                except Exception as exc:  # noqa: BLE001 — surface any network error
+                    st.error(f"Could not fetch sitemap: {exc}")
+                    id_url = {}
+            if id_url:
+                st.session_state["sitemap_ids"] = list(id_url)
+                cache = store_live_ids(id_url)  # persist for accurate coverage on reload
+                if mode == "Only missing / not-yet-cached":
+                    todo = {u: url for u, url in id_url.items() if u not in ok_records}
+                elif mode == "A small sample":
+                    todo = dict(list(id_url.items())[:sample_n])
+                else:
+                    todo = dict(id_url)
+                    for uid in full["Unique ID"].astype(str):
+                        if uid not in todo:
+                            todo[uid] = records.get(uid, {}).get("url") or f"{BASE_URL}/indicator/{uid}"
 
-            if not todo:
-                st.success("Everything in the sitemap is already cached.")
-            else:
-                bar = st.progress(0.0, text=f"Scraping {len(todo)} pages…")
+                if not todo:
+                    st.success("Everything in the sitemap is already cached.")
+                else:
+                    bar = st.progress(0.0, text=f"Scraping {len(todo)} pages…")
 
-                def _tick(done, total, uid):
-                    bar.progress(done / total, text=f"Scraping {done}/{total} — id {uid}")
+                    def _tick(done, total, uid):
+                        bar.progress(done / total, text=f"Scraping {done}/{total} — id {uid}")
 
-                cache = crawl(todo, progress=_tick)
-                bar.empty()
-                records = cache.get("records", {})
-                ok_records = {uid: r for uid, r in records.items() if r.get("ok")}
-                gone = sum(1 for uid in todo if not records.get(uid, {}).get("ok"))
-                st.success(f"Scraped {len(todo)} pages: {len(todo) - gone} live, {gone} not found. Cache updated.")
-                if read_levels and mode != "A small sample":
-                    lbar = st.progress(0.0, text="Reading indicator levels from the sector pages…")
-                    try:
-                        fetch_site_levels(progress=lambda d, t, m: lbar.progress(d / max(t, 1), text=m))
-                        cache = load_cache()
-                    except Exception as exc:  # noqa: BLE001
-                        st.warning(f"Levels not refreshed: {exc}")
-                    lbar.empty()
-                if do_refresh and mode != "A small sample":
-                    refresh_pipeline_data()
+                    cache = crawl(todo, progress=_tick)
+                    bar.empty()
+                    records = cache.get("records", {})
+                    ok_records = {uid: r for uid, r in records.items() if r.get("ok")}
+                    gone = sum(1 for uid in todo if not records.get(uid, {}).get("ok"))
+                    st.success(f"Scraped {len(todo)} pages: {len(todo) - gone} live, {gone} not found. Cache updated.")
+                    if read_levels and mode != "A small sample":
+                        lbar = st.progress(0.0, text="Reading indicator levels from the sector pages…")
+                        try:
+                            fetch_site_levels(progress=lambda d, t, m: lbar.progress(d / max(t, 1), text=m))
+                            cache = load_cache()
+                        except Exception as exc:  # noqa: BLE001
+                            st.warning(f"Levels not refreshed: {exc}")
+                        lbar.empty()
+                    if do_refresh and mode != "A small sample":
+                        refresh_pipeline_data()
 
-if cache.get("scraped_at"):
-    rc1, rc2 = st.columns([3, 2])
-    rc1.caption("Scraped elsewhere, or skipped the refresh above? Push the cached scrape through the pipeline so the other pages (Indicator Matching, Analysis IndiKit, Proposal Overview) and the Power BI export reflect it.")
-    if rc2.button("🔄 Refresh pipeline data from the cached scrape"):
-        refresh_pipeline_data()
+    if cache.get("scraped_at"):
+        rc1, rc2 = st.columns([3, 2])
+        rc1.caption("Scraped elsewhere, or skipped the refresh above? Push the cached scrape through the pipeline so the other pages (Indicator Matching, Analysis IndiKit, Proposal Overview) and the Power BI export reflect it.")
+        if rc2.button("🔄 Refresh pipeline data from the cached scrape"):
+            refresh_pipeline_data()
 
 # Live id list for coverage: freshly fetched sitemap (session) → cache → fallback.
 sitemap_ids = st.session_state.get("sitemap_ids") or cache.get("live_ids")
@@ -278,32 +292,35 @@ st.caption(
 )
 
 levels = cache.get("levels", {})
-lc1, lc2 = st.columns([2, 3])
-with lc1:
-    if cache.get("levels_at"):
-        st.metric("Indicators with a site level", len(levels))
-        st.caption(f"Levels read: **{cache['levels_at']}**")
-    else:
-        st.info("Levels not fetched yet.")
-with lc2:
-    st.caption(
-        "Reads all 9 sector pages × each level filter (~30 requests at 1 req/s, "
-        "≈1 minute). Cached like the main scrape."
-    )
-    if st.button("🏷️ Fetch indicator levels from site"):
-        bar = st.progress(0.0, text="Reading level filters…")
+if LOCAL_MODE:
+    lc1, lc2 = st.columns([2, 3])
+    with lc1:
+        if cache.get("levels_at"):
+            st.metric("Indicators with a site level", len(levels))
+            st.caption(f"Levels read: **{cache['levels_at']}**")
+        else:
+            st.info("Levels not fetched yet.")
+    with lc2:
+        st.caption(
+            "Reads all 9 sector pages × each level filter (~30 requests at 1 req/s, "
+            "≈1 minute). Cached like the main scrape."
+        )
+        if st.button("🏷️ Fetch indicator levels from site"):
+            bar = st.progress(0.0, text="Reading level filters…")
 
-        def _ltick(done, total, msg):
-            bar.progress(done / total, text=f"{done}/{total} — {msg}")
+            def _ltick(done, total, msg):
+                bar.progress(done / total, text=f"{done}/{total} — {msg}")
 
-        levels = fetch_site_levels(progress=_ltick)
-        bar.empty()
-        cache = load_cache()
-        st.success(f"Read levels for {len(levels)} indicators.")
+            levels = fetch_site_levels(progress=_ltick)
+            bar.empty()
+            cache = load_cache()
+            st.success(f"Read levels for {len(levels)} indicators.")
+elif cache.get("levels_at"):
+    st.caption(f"Levels read from the site on **{cache['levels_at']}**: **{len(levels)}** indicators with a site level.")
 
 level_comp = pd.DataFrame()
 if not levels:
-    st.info("Fetch levels above to see whether the site can fill the CSV's gaps.")
+    st.info("Fetch levels above to see whether the site can fill the CSV's gaps." if LOCAL_MODE else "No indicator levels are stored in the repository's scrape.")
 else:
     level_comp = build_level_comparison(df, levels)  # honours the active filter
 

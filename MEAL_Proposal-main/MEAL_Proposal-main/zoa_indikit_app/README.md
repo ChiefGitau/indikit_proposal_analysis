@@ -37,6 +37,12 @@ to reset.
 
 ### Site comparison (live scrape)
 
+> **Read-only by default.** The scrape and refresh controls below, and the analysis-log writes above, only run
+> when the environment variable `ZOA_LOCAL_MODE=1` is set (`ZOA_LOCAL_MODE=1 streamlit run app.py`). Without it,
+> which is how the deployed app runs, every page only reads the files committed to the repository and the Site
+> Comparison page compares against the committed scrape. See "Deploying the Streamlit app" in the repository's
+> root README.
+
 The **Site Comparison** page fetches the live site's sitemap and scrapes each
 `/indicator/` page with BeautifulSoup, honouring the site's `Crawl-Delay: 1`
 (so a full ~300-page crawl takes ≈5 minutes). Results are cached to

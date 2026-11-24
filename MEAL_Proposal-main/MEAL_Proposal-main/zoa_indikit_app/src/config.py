@@ -10,3 +10,8 @@ LATEST_DIR = Path(os.environ.get("ZOA_PIPELINE_LATEST") or PIPELINE_ROOT / "outp
 METADATA_JSONL = Path(os.environ.get("ZOA_PIPELINE_METADATA") or PIPELINE_ROOT / "pipeline" / "metadata" / "indikit_metadata.jsonl")
 PROPOSALS_PREFIX = "proposals/"
 INDIKIT_URL = "https://zoa.indikit.net/indicator/"
+
+# Read-only by default, which is how the deployed app runs: every page reads the files committed to the repository,
+# makes no live requests and writes nothing. Set ZOA_LOCAL_MODE=1 on your own machine to get back the live scrape and
+# pipeline refresh on the Site Comparison page and the analysis-log writes.
+LOCAL_MODE = os.environ.get("ZOA_LOCAL_MODE", "").strip().lower() in {"1", "true", "yes"}

@@ -1,0 +1,206 @@
+indikit_id,indikit_name,sector,on_site
+5089,Household Dietary Diversity Score,Food Security and Livelihoods,True
+5092,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,False
+5099,Awareness of Appropriate Diet,Food Security and Livelihoods,False
+5114,Prevalence of Diarrhoea Among Children,"Water, Sanitation and Hygiene",True
+5117,Appropriate Treatment of Diarrhoea - ORS,"Water, Sanitation and Hygiene",True
+5118,Appropriate Treatment of Diarrhoea - Fluids,"Water, Sanitation and Hygiene",True
+5119,Appropriate Treatment of Diarrhoea - Food,"Water, Sanitation and Hygiene",True
+5120,Appropriate Treatment of Diarrhoea - Recognition of Warning Signs,"Water, Sanitation and Hygiene",True
+5122,Access to Water at Institutions,"Water, Sanitation and Hygiene",True
+5123,Average Queuing Time at a Water Point,"Water, Sanitation and Hygiene",True
+5124,Number of People per Water Point,"Water, Sanitation and Hygiene",True
+5126,"Drinking Water Quality (fecal contamination, water point level)","Water, Sanitation and Hygiene",True
+5127,Treatment of Drinking Water,"Water, Sanitation and Hygiene",True
+5128,Safe Water Storage,"Water, Sanitation and Hygiene",True
+5130,Duration of Water Source Functionality,"Water, Sanitation and Hygiene",True
+5132,Functionality of the Water Management Groups,"Water, Sanitation and Hygiene",True
+5133,Water Source Users' Satisfaction,"Water, Sanitation and Hygiene",True
+5134,Water Affordability,"Water, Sanitation and Hygiene",True
+5135,Hand Washing Knowledge,"Water, Sanitation and Hygiene",True
+5139,WASH Promoters' Knowledge and Skills,"Water, Sanitation and Hygiene",True
+5141,Adequate Menstrual Hygiene Facilities,"Water, Sanitation and Hygiene",True
+5143,Access to Sanitation Facilities at Institutions,"Water, Sanitation and Hygiene",True
+5144,Disposal of Child Faeces,"Water, Sanitation and Hygiene",True
+5145,Maintenance of Sanitation Facilities,"Water, Sanitation and Hygiene",True
+5146,Replication of Model Latrines,"Water, Sanitation and Hygiene",True
+5147,Number of Selling Points,Food Security and Livelihoods,False
+5150,Awareness of Where to Purchase Product,Food Security and Livelihoods,False
+5151,Awareness of Where to Access Service,Food Security and Livelihoods,False
+5153,Diversity of Products Sold,Food Security and Livelihoods,False
+5155,Customer Satisfaction,Food Security and Livelihoods,False
+5157,Number of Products Sold,Food Security and Livelihoods,False
+5159,Household Average Income,Food Security and Livelihoods,False
+5160,Household Expenditure,Food Security and Livelihoods,False
+5161,Household Consumption,Food Security and Livelihoods,False
+5164,Income from Employment,Food Security and Livelihoods,False
+5165,Income of Supported Businesses,Food Security and Livelihoods,False
+5166,Savings - Existence and Levels,Food Security and Livelihoods,False
+5167,Indebtedness - Existence and Levels,Food Security and Livelihoods,False
+5173,Awareness of the Causes and Prevention of Diarrhoea,"Water, Sanitation and Hygiene",True
+5176,Prevention of Groundwater Contamination by Faeces,"Water, Sanitation and Hygiene",True
+5180,Use of Cash/ Materials for Shelter (Re)Construction,Shelter,True
+5187,Vulnerability and Capacity Assessment,Food Security and Livelihoods,False
+5191,Disaster Preparedness Plan - Implementation,Shelter,True
+5195,Self-Help Groups - Functionality,Food Security and Livelihoods,True
+5198,Access to Public Infrastructure / Services,Shelter,True
+5199,Shelter Protection,Shelter,True
+5201,Natural Resource Management,Food Security and Livelihoods,True
+5203,Dropout Rate in Vocational Education Training,Food Security and Livelihoods,False
+5207,VET Quality Standards,Food Security and Livelihoods,False
+5208,Market-Relevant Curriculum,Food Security and Livelihoods,False
+5210,Adequate Vocational Education Training Facilities,Food Security and Livelihoods,False
+5211,Trainee-Trainer Ratio,Food Security and Livelihoods,False
+5212,Participation in Work-Based Learning,Food Security and Livelihoods,False
+5213,VET Providers Offering Internships,Food Security and Livelihoods,False
+5214,Employment of Vocational Education Training Completers,Food Security and Livelihoods,False
+5215,Access to Labour Market Information,Food Security and Livelihoods,False
+5240,Number of Cash for Work Projects,cross-cutting: Cash and Voucher Assistance,True
+5243,WASH Services in Facilities,"Water, Sanitation and Hygiene",True
+5250,Employment of Vulnerable Persons,Food Security and Livelihoods,True
+5252,Attitudes Towards Marginalized Groups,Gender Diversity & Inclusion,True
+5253,Perceived Access to Basic Services,Gender Diversity & Inclusion,True
+5254,Farm Diversity Score,Food Security and Livelihoods,False
+5256,Animal Raising,Food Security and Livelihoods,False
+5258,Reported Agricultural Output,Food Security and Livelihoods,False
+5261,Production Losses,Food Security and Livelihoods,False
+5262,Storage-Related Post-Harvest Losses,Food Security and Livelihoods,False
+5264,Animal Morbidity,Food Security and Livelihoods,False
+5268,Soil Quality,Food Security and Livelihoods,False
+5269,Average Benefit Score,Food Security and Livelihoods,False
+5270,Sales to New Markets,Food Security and Livelihoods,False
+5272,Extent of Soil Erosion,Food Security and Livelihoods,False
+5312,"Drinking Water Quality (fecal contamination, household level)","Water, Sanitation and Hygiene",True
+5314,Shelters with Hazard Mitigation Measures,Shelter,True
+5317,Production of Nutrient-Rich Crops,Food Security and Livelihoods,False
+5326,Household Hunger Score,Food Security and Livelihoods,False
+5327,Household Food Insecurity Access Scale,Food Security and Livelihoods,False
+5340,Water Access Safety,"Water, Sanitation and Hygiene",True
+5343,Distance to Water Source,"Water, Sanitation and Hygiene",True
+5346,Saving Groups – Average Savings,Food Security and Livelihoods,True
+5347,Saving and Loan Groups – Total Value of Provided Loans,Food Security and Livelihoods,False
+5349,Favourable Attitude,Food Security and Livelihoods,False
+5350,Intention to Adopt a Behaviour,Food Security and Livelihoods,False
+5357,Gender-Segregated Sanitation Facilities in Schools,"Water, Sanitation and Hygiene",True
+5364,Women’s Autonomy Index,Gender Diversity & Inclusion,True
+5367,Attitudes Towards Women’s Political Participation,Gender Diversity & Inclusion,True
+5369,Women’s Representation in Community Groups’ Management,Gender Diversity & Inclusion,True
+5385,Life Skills Learning,Food Security and Livelihoods,False
+5396,Life Satisfaction Index,Food Security and Livelihoods,False
+5407,Number of Households Supported to Meet Basic Needs,cross-cutting: Cash and Voucher Assistance,True
+5410,Delivery Mechanism Performance,cross-cutting: Cash and Voucher Assistance,True
+5413,Ease of Use,cross-cutting: Cash and Voucher Assistance,True
+5414,Access to Markets,cross-cutting: Cash and Voucher Assistance,True
+5415,Incurred Travel Costs,cross-cutting: Cash and Voucher Assistance,True
+5416,Unmet Demand,cross-cutting: Cash and Voucher Assistance,True
+5417,CVA-related Conflicts / Tensions,cross-cutting: Cash and Voucher Assistance,True
+5418,Decision-Making Power,cross-cutting: Cash and Voucher Assistance,True
+5421,Preference for Local Products,Food Security and Livelihoods,False
+5425,Sales Revenue,Food Security and Livelihoods,False
+5426,Stock Availability,Food Security and Livelihoods,False
+5427,Local Availability of Products / Services,Food Security and Livelihoods,False
+5432,Number of Jobs Created,Food Security and Livelihoods,True
+5433,Proportion of Jobs Retained,Food Security and Livelihoods,True
+5434,Cost-Effectiveness of Jobs Creation,Food Security and Livelihoods,False
+5435,Female Employment,Food Security and Livelihoods,False
+5436,Women in Management,Food Security and Livelihoods,False
+5437,Employers’ Use of Job Matching Services,Food Security and Livelihoods,False
+5438,Job Seekers’ Awareness of Job Matching Services,Food Security and Livelihoods,False
+5439,Job Seekers’ Use of Job Matching Services,Food Security and Livelihoods,False
+5441,Labour Safety,Food Security and Livelihoods,False
+5442,Security of Employment,Food Security and Livelihoods,False
+5446,Public-Private Platforms,Food Security and Livelihoods,False
+5448,Adoption of Business Environment Changes,Food Security and Livelihoods,False
+5451,Return on Investment,Food Security and Livelihoods,False
+5452,Provision of Embedded Services to Customers,Food Security and Livelihoods,False
+5453,Adoption of Promoted Marketing Practices,Food Security and Livelihoods,False
+5455,Adoption of the Promoted Technologies,Food Security and Livelihoods,False
+5456,Marketing Practices Leading to Higher Sales,Food Security and Livelihoods,False
+5457,Gender-Sensitive Marketing Practices,Food Security and Livelihoods,False
+5458,Investments into Promoted Business Practices / Models,Food Security and Livelihoods,False
+5459,Expected Sustainability of Supported Businesses,Food Security and Livelihoods,False
+5462,Operation of the Community Feedback and Response Mechanism,cross-cutting: Cash and Voucher Assistance,True
+5465,Perceived Ease of Use,Food Security and Livelihoods,False
+5466,Awareness of Climate-Smart Energy Technologies,Food Security and Livelihoods,False
+5467,Awareness of How to Access Promoted Energy Technologies,Food Security and Livelihoods,False
+5468,Use of Promoted Energy Technologies,Food Security and Livelihoods,False
+5469,Amount of Resources Saved,Food Security and Livelihoods,False
+5470,Amount of Greenhouse Gas Emissions Saved,Food Security and Livelihoods,False
+5480,Perceived Effectiveness of Promoted Adaptation Measures,Food Security and Livelihoods,False
+5482,Perceived Effectiveness of Implemented Adaptation Measures,Food Security and Livelihoods,False
+5488,Awareness of Promoted Practices,Food Security and Livelihoods,False
+5489,Perceived Effectiveness,Food Security and Livelihoods,False
+5494,Proportion of Surviving Seedlings,Food Security and Livelihoods,False
+5496,Safe Solid Waste Disposal,"Water, Sanitation and Hygiene",True
+5507,Understanding of Protection Mainstreaming,Gender Diversity & Inclusion,True
+5508,Implementation of Risk Mitigation Measures,Shelter,True
+5527,Sharing Data with Communities,Food Security and Livelihoods,False
+5529,Awareness of How to Participate in Activities,Food Security and Livelihoods,False
+5533,Key Barriers to Participation,Gender Diversity & Inclusion,True
+5535,Addressing Key Needs,Food Security and Livelihoods,False
+5539,Use of Gender and Age Analysis,Gender Diversity & Inclusion,True
+5540,Implementation of Gender and Age Mainstreaming Measures,Gender Diversity & Inclusion,True
+5541,Disaggregation by Gender and Age,Food Security and Livelihoods,False
+5542,Perception of Equal Opportunities,Gender Diversity & Inclusion,True
+5543,Decisions About Assistance Provided,Gender Diversity & Inclusion,True
+5546,Understanding of Gender and Age Mainstreaming,Gender Diversity & Inclusion,True
+5547,Supportive Attitudes of Staff,Gender Diversity & Inclusion,True
+5563,Staff Understanding of Mainstreaming Social Inclusion,Gender Diversity & Inclusion,True
+5564,Implementation of Social Inclusion Mainstreaming Measures,Gender Diversity & Inclusion,True
+5567,People Benefiting,Food Security and Livelihoods,False
+5568,Adopted Recommendations,Food Security and Livelihoods,False
+5569,Budgetary Commitment,Food Security and Livelihoods,False
+5570,Financial Disbursement,Food Security and Livelihoods,False
+5582,Policy / Public Events,Food Security and Livelihoods,False
+5585,Greenhouse Gas Emissions Avoided in Operations,Food Security and Livelihoods,False
+5586,Resources Saved in Operations,Food Security and Livelihoods,False
+5587,Implementation of Environmental Mainstreaming Measures,Food Security and Livelihoods,False
+5589,Use of Environmental Assessment Recommendations,Food Security and Livelihoods,False
+5591,Fuel-Efficient Cooking Practices,Food Security and Livelihoods,True
+5592,Water-Saving Measures,Food Security and Livelihoods,True
+5593,Environmentally-Friendly Construction Materials and Methods,Food Security and Livelihoods,False
+5594,Staff Understanding of Environmental Mainstreaming,Food Security and Livelihoods,False
+5595,Knowledge / Skills for Protecting Environment,Food Security and Livelihoods,False
+5596,Staff Trained on Environmental Mainstreaming,Food Security and Livelihoods,False
+5604,Acute malnutrition,Food Security and Livelihoods,False
+5607,Use of EST tool,Climate Resilience,True
+5608,Climate Resilience in Evaluations,Climate Resilience,True
+5609,Projects with a Peace/Conflict Indicator,Peace Nexus,True
+5611,Peace Nexus in Evaluations,Peace Nexus,True
+5612,Local Involvement in Project Design,Localisation,True
+5613,Cash Directly Received by Local Groups,Localisation,True
+5614,"Use of a Gender, Inclusion or Power Analysis",Gender Diversity & Inclusion,True
+5615,GDI in Evaluations,Gender Diversity & Inclusion,True
+5617,Disaggregation by Gender and Age,Food Security and Livelihoods,False
+5619,Months of Adequate Household Food Provisioning,Food Security and Livelihoods,False
+5624,Expenditure (1),cross-cutting: Cash and Voucher Assistance,True
+5627,Women's Decision Making: Frequency of Involvement,cross-cutting: Cash and Voucher Assistance,True
+5633,Shelter: Financial Access,Shelter,True
+5634,Shelter: Winterproof Shelter,Shelter,True
+5636,WASH: Sanitation,"Water, Sanitation and Hygiene",True
+5642,Problems with Receiving CVA,cross-cutting: Cash and Voucher Assistance,True
+5645,Number of Land Certificates or Title Deeds Issued,Peacebuilding,True
+5646,Women's Land Rights on Issued Land Certificates or Title Deeds,Peacebuilding,True
+5648,Indicator 7 from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",True
+5649,Indicator 8 from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",True
+5650,Indicator 10a from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",True
+5651,Indicator 10b from the results framework water (IGG-DGIS),"Water, Sanitation and Hygiene",True
+5658,Sense of Community,Peacebuilding,True
+5660,Sexual Violence Against Women,Peacebuilding,True
+5661,Physical Violence Against Women,Peacebuilding,True
+5662,Acceptability of Gender-Based Violence,Peacebuilding,True
+5663,Awareness of Available Support for GBV survivors,Peacebuilding,True
+5665,Level of Equal Rights to Land for Women and Men,Peacebuilding,False
+5667,Prevalence of Land Disputes,Peacebuilding,True
+5690,GCT Use,cross-cutting: Cash and Voucher Assistance,True
+5692,GCT Group Strengthening,cross-cutting: Cash and Voucher Assistance,True
+5695,Access to Justice,Peacebuilding,True
+5755,Trust in formal/informal justice provider,Peacebuilding,True
+5808,Adoption of Environmental Protection Practices,Climate Resilience,True
+5809,Amount of Greenhouse Gas Emissions Saved,Climate Resilience,True
+5810,Knowledge / Skills for Protecting Environment,Climate Resilience,True
+5811,Awareness of Promoted Practices,Climate Resilience,True
+5812,Perceived Effectiveness,Climate Resilience,False
+5887,EST Utilisation,Climate Resilience,True
+5894,PIP: # of community members participating in collective activities in the community as defined in the village plan,Food Security and Livelihoods,True
+5895,PIP: Farm productivity,Food Security and Livelihoods,True

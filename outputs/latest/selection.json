@@ -1,0 +1,45 @@
+{
+ "tau": 0.61998,
+ "top_m": 60,
+ "score_kind": "vector",
+ "route_sectors": false,
+ "sector_tau": 0.556213,
+ "include_export_only": true,
+ "documents": 108,
+ "pairs_selected": 7016,
+ "pairs_candidates": 37908,
+ "skipped_documents": 7,
+ "export_only_pairs": 719,
+ "mean_pairs_per_document": 65.0,
+ "skipped": [
+  [
+   "proposals-africa-drc-large-2022-03-21-fns-iwrm-revised-version-tride-59f9a321",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-africa-drc-large-cod21264-fs-iwrm-full-proposal-final-ac75c361",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-africa-south-sudan-large-annex-i-arfsa-project-proposal-afsriss-final-00be2095",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-africa-south-sudan-small-accelerating-community-livelihoods-through-su-c82b619d",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-africa-sudan-large-application-form-sipra-da4d0b8b",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-africa-uganda-large-arfsa-annex-i-final-narrative-proposal-943e4a8e",
+   "indicators in another document (reported, not queried)"
+  ],
+  [
+   "proposals-asia-syria-large-joint-response-231031-pcm-sjr-2024-2026-final-narrati-96960515",
+   "indicators in another document (reported, not queried)"
+  ]
+ ],
+ "routed_sectors": {}
+}

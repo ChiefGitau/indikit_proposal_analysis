@@ -1,0 +1,606 @@
+cluster_id,size,documents,countries,example,nearest_indikit
+16,18,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"# of advocacy initiatives carried out by CSOs, for, by or with their membership/ constituency",5567; 5530; 5577; 5454; 5529; 5691; 5576; 5526; 5455; 5196
+21,12,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,Indicator on local ownership and/ or representation of marginalized groups. # of organizations with improved links to constituencies,5252; 5658; 5756; 5251; 5655; 5532; 5533; 5531; 5369; 5563
+23,12,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,The percentage of surveyed women and girls say they have improved social inclusion in their communities.,5658; 5564; 5756; 5368; 5655; 5252; 5369; 5367; 5542; 5366
+13,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"Number of concrete or significant changes in laws, policies and/ or norms/attitudes and standards that are blocked, adopted, or improved as a result of the influence of CSOs and DPOs in the targeted countries.",5482; 5448; 5480; 5567; 5587; 5540; 5691; 5508; 5533; 5429
+14,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,Number of times L&A targets include CSOs in the decision-making process + number of times L&A targets react upon the positions of the CSOs by adopting their argumentation and terminology + number of times L&A targets react upon the positions of CSOs by putting their issues on the agenda.,5437; 5607; 5691; 5492; 5429; 5147; 5156; 5530; 5132; 5576
+15,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,Number of advocacy initiatives carried out. This will include a narrative that will explain how CSOs activate and educate citizens and how they mobilize support and create networks.,5567; 5526; 5455; 5691; 5454; 5576; 5187; 5813; 5811; 5530
+17,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,This includes both first and second tier organizations with increased L&A capacities. It will include an explanation of the capacities and expertise developed for performing political roles and implementing advocacy strategies. If relevant it will also describe cases where CSOs were unable to increase capacities.,5691; 5692; 5657; 5656; 5454; 5532; 5530; 5195; 5535; 5531
+18,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of CSOs with increased L&A capacities,5432; 5691; 5452; 5692; 5586; 5437; 5410; 5607; 5156; 5887
+19,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"This includes both first and second tier partners. This will include a narrative in which it is described what types of partners are involved (e.g. ‘Think tanks’, CBO’s, Social Movements, Service delivery NGOs, see Table 5 on page 3 of the Strengthening Civil Society Results Framework).",5656; 5894; 5526; 5691; 5612; 5535; 5576; 5755; 5889; 5532
+20,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"This indicator will be measured by further unpacking trustworthiness, responsiveness, and downward accountability by the organizations.",5419; 5531; 5411; 5658; 5187; 5691; 5692; 5349; 5655; 5529
+22,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,‘Improved social inclusion’ refers to the opportunity to participate fully in attending school; community social and political gatherings; accessing health care; accessing employment / income generation opportunities; attending places of worship – compared with previous year. Values for this indicator will be measured by the Participation Scale (P-Scale)],5564; 5252; 5655; 5542; 5658; 5563; 5756; 5533; 5894; 5530
+24,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"This indicator will follow the measurement methodology of the World Food Program. It will show a trend of the years of implementation and if possible, a comparison between the different targeted area of the program.",5605; 5090; 5099; 5620; 5482; 5617; 5541; 5619; 5092; 5589
+25,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# percentage of PWDs (f/m) who feel represented by the government structures SCS1,5532; 5653; 5623; 5531; 5636; 5418; 5690; 5691; 5543; 5428
+26,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of consultation processes undertaken to ensure active involvement of women and men with disabilities SCS3,5628; 5196; 5543; 5663; 5526; 5195; 5369; 5576; 5205; 5659
+27,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"# of couples that have participated in the first two days of training on the PIP, which include discussion on how decision making and income generating are distributed among household members and especially women and girls with disability other",5891; 5889; 5892; 5543; 5893; 5894; 5890; 5214; 5204; 5385
+28,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of policy papers on disability concerns produced at state level SCS2,5623; 5535; 5643; 5645; 5621; 5253; 5622; 5543; 5196; 5628
+29,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of DPOs and CSOs participating in policy formulation on Disability inclusion SCS2,5564; 5418; 5623; 5543; 5196; 5540; 5253; 5534; 5452; 5535
+30,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,#of disability inclusion facilitators trained for Disability Inclusion Academy SCS8,5205; 5196; 5623; 5659; 5563; 5385; 5564; 5202; 5511; 5526
+31,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of Regional/National Networks of CSOs and DPOs formed SCS6,5148; 5446; 5452; 5485; 5691; 5437; 5526; 5198; 5532; 5132
+32,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"# of DPOs/CSOs (international, national, local) that have strengthened capacity against their individual plans (resulting from WAA inputs) against a set of scales describing core capacity areas that can enable community mobilisation and powerholder engagement on food security (Means of Verification: Three Circles)",5691; 5531; 5187; 5532; 5132; 5638; 5649; 5586; 5651; 5692
+33,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# institutions adopting disability inclusive governance SCS1,5623; 5564; 5532; 5526; 5540; 5143; 5253; 5563; 5196; 5251
+34,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of trainings and coaching conducted with extension service providers. other,5454; 5209; 5213; 5214; 5266; 5148; 5210; 5204; 5202; 5596
+35,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of grassroot groups of persons with disabilities that start up saving and loan activities WAA5,5196; 5195; 5250; 5638; 5567; 5205; 5347; 5532; 5346; 5187
+36,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of meetings of District Councils for Disability that have access to land and food security on the agenda WAA6,5526; 5894; 5535; 5532; 5187; 5531; 5890; 5527; 5814; 5196
+37,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"# of laws, policies and norms/attitudes, blocked, adopted, improved for sustainable and inclusive development",5491; 5587; 5271; 5476; 5349; 5564; 5588; 5586; 5459; 5454
+38,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,"# of times that CSOs succeed in creating space for CSO demands and positions through agenda setting, influencing the debate and/or creating space to engage.",5446; 5691; 5530; 5576; 5417; 5754; 5607; 5529; 5454; 5533
+39,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,# of CSOs included in Strategic Partner’s programs,5691; 5148; 5156; 5607; 5693; 5531; 5530; 5454; 5576; 5889
+40,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,Reduced percentage households with a Food Consumption Score (WFP-indicator) < 35 in households with persons with disabilities,5620; 5090; 5089; 5617; 5541; 5083; 5631; 5326; 5085; 5892
+41,6,6,DRC; Ethiopia; burundi; south_sudan; sudan; uganda,Number of FNS relevant public authorities that perform better,5148; 5485; 5691; 5143; 5154; 5198; 5207; 5755; 5532; 5446
+94,5,1,DRC,-Number of sessions organized -Number of participants (disaggregated by gender and age group: young people under 35/adults over 35),5618; 5544; 5541; 5617; 5539; 5693; 5530; 5369; 5196; 5659
+95,4,2,DRC,Number of monitors selected,5641; 5156; 5432; 5407; 5693; 5158; 5433; 5239; 5213; 5313
+111,4,2,DRC,Number of VSLA trainers selected and trained,5209; 5211; 5210; 5202; 5205; 5266; 5206; 5214; 5596; 5385
+125,4,2,DRC,Number of sessions organized to reinforce capacities,5691; 5692; 5195; 5531; 5465; 5693; 5657; 5529; 5535; 5532
+341,4,2,south_sudan; sudan,1310.1 # and % of women and marginalized group members on community advisory committees who report feeling confident to participate in project decision-making,5369; 5368; 5529; 5367; 5530; 5658; 5419; 5534; 5251; 5618
+533,4,1,yemen,% of budget spent on capacity strengthening of national an local actors,5691; 5610; 5692; 5613; 5569; 5690; 5181; 5429; 5260; 5358
+86,3,1,burundi,"Means: training facilities, training materials, ZOA staff, contributions from cooperative members who can share their experiences, consultant for training on business plan",5691; 5693; 5212; 5529; 5526; 5690; 5531; 5692; 5563; 5596
+92,3,1,DRC,"Ind 1.3: % of PIP farmers who have diversified their farm production (Disaggregated by sex & age group (youth or adult), village)",5895; 5891; 5255; 5317; 5893; 5267; 5256; 5360; 5266; 5260
+123,3,1,DRC,Number of lease contracts prepared Area covered by lease contracts,5645; 5646; 5257; 5271; 5643; 5667; 5314; 5612; 5452; 5491
+138,3,1,DRC,Number of CBST facilitators selected,5532; 5148; 5205; 5693; 5576; 5156; 5209; 5418; 5535; 5691
+228,3,2,Ethiopia,"People's perception on stability and peace in the targeted areas disaggregated by group, sex and age",5653; 5655; 5754; 5654; 5252; 5251; 5658; 5756; 5695; 5444
+231,3,2,Ethiopia,"Number of people participating in conflict prevention and peace building activities disaggregated by group, sex and age",5654; 5754; 5657; 5656; 5655; 5623; 5660; 5653; 5533; 5369
+457,3,1,uganda,"OI 2.3 80% of the 2,604 officials at sub county and parish level develop skills to implement land mechanisms and procedures related to CCO registration",5713; 5643; 5268; 5645; 5646; 5489; 5491; 5488; 5418; 5814
+470,3,3,syria; yemen,Number of people provided with resources to protect and start rebuilding livelihood assets,5890; 5180; 5250; 5806; 5892; 5166; 5469; 5181; 5487; 5586
+493,3,2,syria; yemen,Number of children that received support specified to their needs,5196; 5407; 5535; 5543; 5144; 5534; 5630; 5629; 5622; 5621
+529,3,1,yemen,Maternal mortality (within 30 days from delivery or abortion) target 0%,5263; 5264; 5441; 5450; 5085; 5494; 5604; 5099; 5654; 5114
+591,3,1,yemen,"# of CSOs who have received grants to support implementing women and girls’ economic empowerment, awareness raising, and protection-related activities",5567; 5435; 5366; 5663; 5369; 5428; 5623; 5540; 5367; 5196
+64,2,2,burundi,Reduction in poverty-related prostitution/survival sex in the Nyarumanga village 70% of targeted households report a reduction in temporary (seasonal) migration to Tanzania to obtain income,5623; 5329; 5250; 5435; 5660; 5428; 5511; 5604; 5618; 5544
+65,2,2,burundi,Targeted households testify that improved housing has a positive impact on their dignity and self-esteem.,5632; 5658; 5188; 5480; 5659; 5349; 5567; 5482; 5628; 5487
+66,2,2,burundi,70% of households that benefit from clean water provided testify of improved wellbeing and positive impact on their lives. Travelling distance to obtain good drinking water is reduced from X to Y),5592; 5125; 5127; 5134; 5121; 5128; 5312; 5133; 5242; 5650
+67,2,2,burundi,70% of targeted returning households have testified that the project contributed to improving their social reintegration by the end of the project.,5638; 5658; 5567; 5807; 5659; 5806; 5692; 5532; 5691; 5480
+68,2,2,burundi,At least 15 VSLAs are supported.,5650; 5691; 5648; 5535; 5651; 5347; 5532; 5649; 5692; 5690
+69,2,2,burundi,100 IGAs created and supported.,5361; 5450; 5691; 5650; 5187; 5432; 5468; 5586; 5182; 5526
+70,2,2,burundi,1 village development plan/vision collinaire created by the end of the project.,5894; 5492; 5612; 5187; 5191; 5893; 5526; 5889; 5567; 5240
+79,2,1,burundi,"% of the populations of the villages where the targeted cooperatives are located, who testify that the project has contributed to an improvement of their economic and social development",5567; 5658; 5756; 5691; 5360; 5480; 5894; 5542; 5655; 5482
+89,2,2,DRC,"Ind 2: % of participating households with an average score of at least 3 in each of the three asset categories (productive, housing, non-productive) (Disaggregated by sex & age group of the head of HH (youth or adult), village)",5618; 5544; 5543; 5636; 5264; 5263; 5541; 5617; 5625; 5635
+101,2,2,DRC,Number of villages visions defined,5492; 5191; 5894; 5187; 5257; 5612; 5147; 5526; 5313; 5189
+104,2,2,DRC,Number of business plans for collective micro-projects via PIP groups (Innovative farmer and other generations) developed,5894; 5893; 5889; 5891; 5895; 5890; 5526; 5691; 5360; 5612
+109,2,2,DRC,Number of staff (monitors and facilitator) participating in the training on the VSLA approach,5596; 5205; 5594; 5212; 5209; 5210; 5691; 5214; 5213; 5507
+110,2,1,DRC,-Number of VSLA groups selected -Number of members (disaggregated by gender and age group: young people under 35/adults over 35),5618; 5544; 5541; 5617; 5369; 5539; 5368; 5196; 5533; 5532
+114,2,1,DRC,"Ind 2.2.1: % of VSLA members who start a new IGA (Disaggregated by sex & age group (youth or adult), village)",5539; 5540; 5205; 5544; 5618; 5660; 5629; 5541; 5617; 5182
+116,2,2,DRC; Ethiopia,Number of workshops,5693; 5210; 5266; 5209; 5156; 5148; 5213; 5208; 5202; 5240
+136,2,1,DRC,Ind 0.1: % of community members who report that the project has never create voluntary or involuntary a kind of conflict in the project action area,5657; 5529; 5530; 5612; 5567; 5658; 5542; 5526; 5511; 5656
+140,2,2,DRC; Ethiopia,Number of meetings organised,5691; 5693; 5526; 5656; 5530; 5196; 5195; 5529; 5532; 5657
+144,2,2,DRC; Ethiopia,Number of supervisions carried out,5454; 5209; 5596; 5543; 5148; 5691; 5266; 5210; 5576; 5436
+146,2,1,DRC,# of vulnerable households identified according to vulnerability criteria.,5187; 5199; 5486; 5250; 5188; 5485; 5633; 5314; 5251; 5313
+154,2,1,DRC,Number of champions selected,5209; 5156; 5206; 5205; 5202; 5693; 5544; 5618; 5204; 5577
+158,2,1,DRC,Number of groups facilitated,5691; 5195; 5692; 5196; 5533; 5690; 5526; 5124; 5532; 5689
+160,2,2,DRC; south_sudan,% of households whose livelihood became more resilient to shocks,5188; 5806; 5598; 5250; 5638; 5450; 5812; 5238; 5892; 5807
+166,2,1,DRC,Number of second-generation PIP farmers,5895; 5891; 5893; 5890; 5892; 5889; 5255; 5267; 5266; 5270
+176,2,1,DRC,Number of kits,5182; 5153; 5432; 5211; 5693; 5156; 5179; 5689; 5157; 5208
+199,2,2,Ethiopia; south_sudan,OP. 1.2.2: Number of school hygiene clubs established and supported by the project,5140; 5357; 5141; 5311; 5143; 5142; 5138; 5178; 5145; 5243
+200,2,1,Ethiopia,OP. 2.1.1. Number of camp facilities with renovation and rehabilitation works supported by the project.,5314; 5180; 5181; 5313; 5508; 5806; 5271; 5187; 5492; 5632
+216,2,1,Ethiopia,OP. 2.3.3. Number of health facilities integrated into the referral system,5148; 5143; 5175; 5174; 5253; 5156; 5122; 5532; 5142; 5121
+226,2,2,Ethiopia,"Number of conflict incidences in the targeted areas disaggregated by group, sex, age, and type of incidence",5754; 5657; 5656; 5667; 5660; 5661; 5644; 5417; 5654; 5695
+245,2,1,Ethiopia,SO1.2 Provide multi-purpose cash support to GBV survivors and other vulnerable women & girls,5663; 5638; 5623; 5694; 5411; 5464; 5639; 5250; 5418; 5347
+248,2,2,Ethiopia; yemen,Protection,5199; 5508; 5643; 5507; 5485; 5808; 5653; 5314; 5251; 5588
+256,2,2,Ethiopia; syria,Cluster,5656; 5894; 5691; 5132; 5690; 5638; 5347; 5530; 5692; 5756
+280,2,1,Ethiopia,Number of staff attended Gender Diversity Inclusion sessions,5369; 5547; 5368; 5546; 5428; 5563; 5435; 5663; 5618; 5544
+288,2,2,Ethiopia; south_sudan,# of disabled people and households (with a disabled person) members that have participated in the CBST group sessions SCS4,5532; 5196; 5535; 5534; 5531; 5195; 5205; 5659; 5251; 5530
+299,2,2,south_sudan; sudan,"# of model farmers trained on Agribusiness (Gender, Age, Disability,)",5266; 5267; 5490; 5891; 5488; 5489; 5255; 5260; 5256; 5261
+315,2,2,south_sudan,# of peace committees established/ strengthened,5656; 5654; 5647; 5692; 5657; 5609; 5691; 5534; 5251; 5530
+335,2,2,south_sudan; sudan,# households receiving starter herd livestock,5264; 5256; 5263; 5893; 5895; 5891; 5258; 5605; 5360; 5892
+338,2,2,south_sudan; sudan,1300.2 Extent of involvement in important decisions on community advisory committee,5576; 5462; 5526; 5461; 5691; 5418; 5530; 5543; 5658; 5594
+353,2,2,south_sudan; sudan,Evaluation,5615; 5589; 5611; 5614; 5413; 5269; 5650; 5464; 5543; 5349
+356,2,1,sudan,"2.1 Number of groups/persons with businesses trained on value addition and business development disaggregated by sex, age, disability, migratory status, and location.",5158; 5203; 5204; 5542; 5419; 5202; 5433; 5358; 5214; 5617
+357,2,1,sudan,"2.2 Number of groups with businesses supported/sustained by the action through competitive grants disaggregated by sex, age, disability, migratory status and location.",5623; 5196; 5542; 5511; 5567; 5250; 5158; 5205; 5544; 5618
+384,2,1,sudan,(In-kind and commodity voucher projects) 1111.1 Total quantity (by type) of food distributed,5090; 5527; 5182; 5605; 5895; 5153; 5617; 5541; 5258; 5426
+396,2,2,sudan; yemen,# of youth and women trained on market-based business management and entrepreneurship,5458; 5454; 5436; 5158; 5457; 5453; 5266; 5435; 5419; 5891
+398,2,2,sudan,# of farmers trained on good agricultural practices,5266; 5267; 5489; 5488; 5490; 5891; 5255; 5260; 5360; 5256
+400,2,2,sudan; syria,# of farmers who received agricultural inputs # of agricultural tools distributed # or KG of improved seeds distributed,5255; 5260; 5258; 5259; 5267; 5254; 5266; 5490; 5317; 5360
+409,2,2,sudan; syria,# of community support project(s),5894; 5526; 5567; 5196; 5691; 5638; 5658; 5577; 5187; 5195
+435,2,1,uganda,"policy frameworks in the land sector to clarify roles,",5491; 5271; 5814; 5272; 5649; 5268; 5646; 5645; 5492; 5667
+486,2,2,syria; yemen,Number of people enabled to meet their basic food needs,5182; 5089; 5083; 5527; 5090; 5619; 5092; 5620; 5605; 5891
+490,2,2,syria; yemen,Number of persons who receive an appropriate response,5462; 5511; 5156; 5641; 5534; 5695; 5577; 5543; 5461; 5535
+491,2,1,syria,"Hama: GOPA-DERD - Year one : Distribution of 1000 dignity kits for women and girls(630 women, 370 Girls) Year two : Another 1000 dignity kits will be distributed for different women and girls (630 women, 370 Girls) Year three : Another 1000 dignity kits will be distributed for different women and girls (630 women, 370 Girls) Rural Damascus EPDC - Year three Distribution of family hygiene kits to 1000 households (1228 women, 1525 men, 1301 girls, 946 boys) PSS activities 600 individuals (148 women, 183 men, 156 girls, 113 boys ) (Partially overlapped with family hygiene kits distribution ) Aleppo SSSD- Year two PSS activities for 600 individuals (148 women, 183 men, 156 girls, 113 boys ) (partly overlapped with irrigation canals rehabilitated by ZOA) SSSD- Year three PSS activities for 600 individuals (148 women, 183 men, 156 girls, 113 boys )",5357; 5141; 5311; 5637; 5623; 5636; 5178; 5428; 5539; 5540
+495,2,2,syria; yemen,% local partners reporting that they have been involved in decisionmaking within the JR,5612; 5543; 5576; 5691; 5418; 5690; 5610; 5462; 5530; 5694
+500,2,2,syria; yemen,"Number of adaptations in the design and/or implementation of the JR, as a result of the input from beneficiaries.",5482; 5480; 5418; 5567; 5691; 5568; 5490; 5205; 5807; 5158
+504,2,1,syria,Means of Verification: Comments : ZOA will collect the data by conducting individual post-distribution monitoring interviews with a representative sample of the cash recipients who live with their spouse.,5641; 5411; 5640; 5627; 5694; 5642; 5418; 5690; 5626; 5417
+507,2,1,syria,Output 1.1 Activities,5432; 5434; 5624; 5410; 5269; 5258; 5469; 5464; 5424; 5240
+532,2,1,yemen,Number of pregnant or lactating women admitted for treatment of Severe or Moderate Acute Malnutrition,5604; 5085; 5084; 5119; 5099; 5120; 5117; 5114; 5118; 5428
+558,2,1,yemen,"Number of boys and girls that access safe, quality learning opportunities (formal education)",5629; 5630; 5357; 5141; 5223; 5205; 5202; 5140; 5210; 5206
+592,2,1,yemen,# of women and girls who have completed advocacy training or participated in advocacy conferences under the action,5369; 5567; 5367; 5577; 5366; 5530; 5368; 5205; 5196; 5576
+600,2,2,yemen,# of formed groups provided with resources to protect and rebuild community assets,5894; 5638; 5691; 5526; 5196; 5347; 5532; 5692; 5346; 5195
+601,2,2,yemen,# of rehabilitated/ constructed community or productive assets,5180; 5638; 5586; 5469; 5271; 5491; 5691; 5487; 5187; 5692
+603,2,1,yemen,% of households reporting improved access to essential goods and services,5621; 5622; 5414; 5253; 5152; 5641; 5632; 5527; 5142; 5543
+0,1,1,Burkina,Number of infrastructures completed.,5223; 5240; 5586; 5180; 5485; 5432; 5257; 5691; 5204; 5607
+1,1,1,Burkina,"Number of women trained in soap making and entrepreneurship, provided with kits and inputs;",5457; 5266; 5209; 5435; 5428; 5436; 5139; 5369; 5137; 5158
+2,1,1,Burkina,Number of households made aware of responsible environmental management ;,5476; 5588; 5587; 5595; 5592; 5145; 5142; 5594; 5808; 5125
+3,1,1,Burkina,Percentage of trained women who have initiated income‑generating activities.,5435; 5428; 5420; 5204; 5214; 5436; 5212; 5099; 5366; 5626
+4,1,1,burundi,"La capacité du BV de Nyamagana à faire face, à résister ou à se remettre des perturbations causées par le changement climatique.",5807; 5812; 5806; 5813; 5808; 5810; 5811; 5809; 5885; 5886
+5,1,1,burundi,Réduction du taux d’érosion moyen du BV de la rivière Nyamagana % de ménages agricoles qui continuent de mettre en oeuvre et de maintenir les mesure de lutte antiérosive sur leur exploitations agricoles à la fin du projet,5592; 5259; 5271; 5261; 5125; 5262; 5895; 5317; 5176; 5489
+6,1,1,burundi,"Taux de mise en œuvre des plans élaborés (PDC, PCDC,POS) pour gérer et restaurer le bassin versant de Nyamagana.",5492; 5131; 5649; 5191; 5648; 5132; 5651; 5814; 5271; 5691
+7,1,1,burundi,"Nombre de périmètres de protection rapprochée (PPR) de l’eau potable installés et fonctionnels, grâce à l’Action (en complémentarité et cohérence avec composante 3)",5592; 5132; 5128; 5176; 5131; 5125; 5127; 5129; 5330; 5122
+8,1,1,burundi,Nombre de GGF redynamisés,5692; 5691; 5689; 5690; 5694; 5317; 5615; 5638; 5358; 5259
+9,1,1,burundi,"Nombre d’outils d’aménagement (plans, schémas) pour soutenir la gestion et la restauration des bassins versants, élaborés/actualisés de manière participative",5649; 5648; 5651; 5131; 5271; 5492; 5592; 5650; 5132; 5814
+10,1,1,burundi,Nombre de CGSBV mis en place et soutenus par l’action,5691; 5692; 5690; 5694; 5530; 5663; 5418; 5191; 5417; 5656
+11,1,1,burundi,"Pour R1.1.: 1.1.1. Conduire des analyses participatives des problématiques liées à l’inclusion, au genre et aux conflits fonciers dans la Nyamagana 1.1.2. Mener des campagnes de sensibilisation et d’animation communautaires sur les facteurs de dégradation des terres, l’érosion hydrique et la valeur ajoutée de la biodiversité 1.1.3: Formations sur les techniques et mesures de lutte antiérosive 1.1.4: Produire et distribuer de plantes fixatrices et d’espèces forestières, agroforestières et fruitières Pour R1.2.: 1.2.1: Identifier et sélectionner les sites pour la mise en place des haies vives agroforestiers, terrasses progressives et zones tampons des rivières 1.2.2: Mettre en place 300 hectares de haies vives agroforestières 1.2.3 : Mettre en place 550 hectares de de Terrasses Progressives 1.2.4: Créer 100 Kilomètres de Zones Tampons le Long des Rivières 1.2.5 : Planter 300 hectares de Boisement de Protection 1.2.6 : Planter 350 hectares de bois village 1.2.7: Surveillance et entretien des nouvelles des boisements Pour R1.3.: 1.3.1: Délimitation et zonage des périmètres de protection rapprochée 1.3.2: Aménager 500 hectares autour des périmètres de protection rapprochée des captages de l’eau 1.3.3: Surveiller et entretenir les périmètres de protection Pour R2.1.: 2.1.1 : Redynamiser les GGF dans les 8 collines bordant le Parc National de Kibira (PNK) 2.1.2 : Renforcer des capacités des GGF 2.1.3 : Développer et mettre en œuvre des Plans d’Aménagement et de Gestion (PAG) 2.1.4 : Suivre et évaluer du respect de l'accord tripartite et pérennisation des GGF Pour R2.2.: 2.2.1 : Renforcer les Capacités Techniques des Autorités Locales sur la lutte antiérosive, la protection de l’environnement et gestion du BV de la Nyamagana 2.2.2 : Actualiser ou élaborer 22 Plans de Développement Collinaires (PDC) (qui incluent aussi les Plan d’Occupation du Sol) 2.2.3 : Actualiser 2 Plans Communaux de Développement Communautaire (PCDC) Pour R2.3.: 2.3.1: Mettre en place et renforcer les capacités de 36 CGSBV 2.3.2: Elaborer et mettre en œuvre un plan de gestion des sous-bassins versants et d’un plan d’aménagement du BV de la Nyamagana",5271; 5649; 5492; 5272; 5491; 5187; 5814; 5268; 5648; 5890
+12,1,1,burundi,Establishment of tested and agreed guidelines for participatory budgeting process. Perception of service delivery by the commune among the population.,5543; 5569; 5410; 5610; 5526; 5690; 5606; 5691; 5894; 5414
+42,1,1,burundi,Number of HHF that have increased agricultural production of Value chain,5895; 5317; 5605; 5258; 5429; 5256; 5260; 5270; 5360; 5262
+43,1,1,burundi,Number of functionning VSLAs with value chain involvement,5132; 5156; 5410; 5347; 5452; 5692; 5690; 5154; 5148; 5530
+44,1,1,burundi,Number of VSLA groups linked to IMF,5532; 5196; 5690; 5347; 5182; 5693; 5535; 5195; 5638; 5657
+45,1,1,burundi,Number of OPA/PIC at pre-coop phase,5432; 5410; 5314; 5641; 5639; 5470; 5130; 5693; 5180; 5607
+46,1,1,burundi,Number of OPA/PIC members trained on organization management,5158; 5596; 5209; 5205; 5594; 5530; 5212; 5529; 5210; 5531
+47,1,1,burundi,Number of WRA applying 5 stars/fingers for nutrition in their daily meals,5182; 5090; 5620; 5326; 5605; 5089; 5083; 5619; 5631; 5092
+48,1,1,burundi,Number of VICOBAs developped by youth coaches,5209; 5202; 5266; 5140; 5158; 5205; 5629; 5385; 5210; 5211
+49,1,1,burundi,"Number of households applying hygiene concepts (tippy tap, latrines, waste management, hygiene for food products)",5311; 5142; 5138; 5637; 5178; 5140; 5145; 5242; 5312; 5243
+50,1,1,burundi,Number of HHs that apply the reve de diamant tool,5635; 5636; 5146; 5637; 5607; 5887; 5180; 5470; 5207; 5211
+51,1,1,burundi,Number of people that complete the climate smart cultivation practices and natural resource management training/bio-pesticide,5596; 5266; 5490; 5595; 5476; 5810; 5891; 5267; 5489; 5808
+52,1,1,burundi,Member of Comité Collinaire and Production actors,5429; 5612; 5529; 5693; 5614; 5139; 5691; 5530; 5576; 5360
+53,1,1,burundi,Number nursery group that are professional,5209; 5210; 5213; 5202; 5208; 5211; 5214; 5205; 5148; 5266
+54,1,1,burundi,"Professional= land, seedlings, connected to market and generating income",5895; 5255; 5891; 5260; 5256; 5158; 5267; 5360; 5489; 5890
+55,1,1,burundi,Distance of contour line established and stabilised,5268; 5410; 5252; 5272; 5814; 5492; 5271; 5343; 5609; 5130
+56,1,1,burundi,"level of engagement and participation demonstrated by the directors, teachers, parents, and pupil representatives in the planning and implementing the school improvement plan. % of decisions made related to the school improvement plan that involved pupils.",5630; 5629; 5658; 5576; 5223; 5691; 5567; 5543; 5612; 5564
+57,1,1,burundi,# Identified priority hardware needs that are included in the project budget. # of school improvement plan and vision prepared by the schools,5223; 5607; 5568; 5889; 5535; 5621; 5492; 5508; 5582; 5622
+58,1,1,burundi,"% of pupils, teachers, and parents who perceived that the infrastructure improvements have positively impacted the learning experience in their school.",5223; 5480; 5482; 5567; 5658; 5629; 5630; 5455; 5489; 5756
+59,1,1,burundi,Number of people using water from improved water sources,5125; 5121; 5124; 5650; 5592; 5651; 5122; 5127; 5312; 5133
+60,1,1,burundi,Natural springs are protected to provide water to the population of Kinanira (including Kinanira primary school),5176; 5648; 5124; 5890; 5201; 5268; 5649; 5650; 5271; 5651
+61,1,1,burundi,300 Farming Households Trained in PIP and Agroecological Practices,5891; 5895; 5266; 5267; 5890; 5490; 5893; 5255; 5488; 5489
+62,1,1,burundi,Farmers are organised into the Village Savings and Loan Association (VSLA),5360; 5891; 5895; 5267; 5488; 5489; 5490; 5256; 5266; 5255
+63,1,1,burundi,The most vulnerable and landless returning households have established income-generating activities (IGAs),5892; 5487; 5166; 5250; 5895; 5890; 5806; 5329; 5187; 5317
+71,1,1,burundi,"% of targeted women who apply the acquired economic capacities promoted by the project to improve their livelihoods [increased / diversified income, better covering of basic needs]",5435; 5366; 5428; 5420; 5358; 5436; 5367; 5626; 5542; 5614
+72,1,1,burundi,# of existing VSLAs strengthened through training # of VSLAs that are evaluated as “mature” at the end of the training cycle [using the VSLA evaluation criteria] # of profitable IGAs run by women/girls # of CSCs created,5206; 5202; 5204; 5214; 5266; 5209; 5210; 5385; 5410; 5692
+73,1,1,burundi,"4 cooperatives established and formally registered (2 per village). • 2 hangars constructed and operational, managed by cooperatives. • At least 200 cooperative members trained in governance, financial literacy, and business planning",5360; 5526; 5894; 5691; 5756; 5187; 5693; 5533; 5530; 5240
+74,1,1,burundi,"% of targeted smallholder farmers who report a decrease in their reliance on external support and aid, as well as an increase in their ability to cope with environmental and climate-related shocks and stresses.",5261; 5489; 5262; 5488; 5256; 5267; 5360; 5490; 5266; 5255
+75,1,1,burundi,Number of Visions Collinaires established and implemented,5492; 5612; 5191; 5576; 5691; 5526; 5187; 5893; 5432; 5568
+76,1,1,burundi,% Smallholder farmers in the poultry sector who improved their progress out of Poverty Index score at the end of the project broken down by age and gender. (See PPI for the measurement of this indicator),5261; 5256; 5895; 5891; 5255; 5262; 5489; 5317; 5260; 5329
+77,1,1,burundi,"Number of smallholder farmers who purchased and used types and age-adapted quality feed for poultry production broken down by age and gender. Number of professional feed mills supported to provide enough quality chicken food for affordable prices in the targeted area. Number of smallholder farmers who accessed poultry healthcare services (including veterinarian farm visits, technical support to maintain general hygiene, diagnosis and control diseases, and vaccination) broken down by age and gender. Number of government veterinarians supported providing the poultry healthcare services needed.",5490; 5266; 5099; 5085; 5267; 5084; 5541; 5617; 5254; 5891
+78,1,1,burundi,Number of mother units strengthened at the end of the project. Number of importers of day-old chicks supported.,5494; 5360; 5317; 5202; 5146; 5262; 5267; 5260; 5256; 5255
+80,1,1,burundi,The selection was done on clearly defined and transparent selection criteria. The business opportunities identified are based on clearly laid out plans and priorities of the cooperatives themselves.,5410; 5459; 5426; 5576; 5568; 5458; 5542; 5438; 5437; 5419
+81,1,1,burundi,Each cooperative has agreed on a sound business plan before the chosen business opportunity will be implemented,5459; 5448; 5526; 5576; 5612; 5691; 5535; 5410; 5529; 5191
+82,1,1,burundi,80% of the business plans implemented with project support are showing signs of success after one year,5458; 5691; 5459; 5609; 5534; 5489; 5450; 5448; 5158; 5454
+83,1,1,burundi,"Means: Consultant, enumerators, data collections tools for assessing 43 cooperatives",5526; 5196; 5691; 5187; 5690; 5531; 5693; 5532; 5576; 5527
+84,1,1,burundi,"Means: Consultant, enumerators, data collections tools for assessing",5576; 5526; 5414; 5651; 5887; 5607; 5568; 5589; 5543; 5419
+85,1,1,burundi,"Means: Consultant, ZOA staff for elaborating a business plan format according to the potential value chains",5410; 5690; 5691; 5459; 5458; 5612; 5429; 5576; 5614; 5454
+87,1,1,burundi,Means: financials and equipment’s facilities,5422; 5452; 5180; 5410; 5485; 5624; 5143; 5148; 5459; 5154
+88,1,1,burundi,Means: exchange visits,5415; 5639; 5694; 5239; 5640; 5417; 5414; 5690; 5641; 5511
+90,1,1,DRC,"Ind 3: % participants stating that relations within their households have improved (Disaggregated by sex & age group (youth or adult), village)",5658; 5655; 5756; 5618; 5544; 5543; 5567; 5152; 5349; 5659
+91,1,1,DRC,"Ind 1.1: % of PIP households having developed resilience capacities, enabling them to be able to cope with an urgent and unforeseen expense (of at least 100 USD) without resorting to the sale of their productive assets (Disaggregated by sex & age group of the head of HH (youth or adult), village)",5892; 5638; 5890; 5250; 5806; 5893; 5812; 5895; 5894; 5809
+93,1,1,DRC,"Ind 1.4: % of PIP households supported by the project whose productivity increased by at least 20% (Disaggregated by sex & age group of the head of HH (youth or adult), village)",5892; 5358; 5893; 5889; 5317; 5895; 5894; 5691; 5152; 5606
+96,1,1,DRC,Number of PIs supported,5148; 5450; 5156; 5641; 5432; 5452; 5407; 5691; 5180; 5690
+97,1,1,DRC,Number of PIP sites supported,5889; 5148; 5893; 5894; 5890; 5156; 5892; 5240; 5210; 5691
+98,1,1,DRC,"Ind 1.3.1: % of households who know at least 3 good nutrition practices (3 on the 10 promoted by the project (Disaggregated by sex & age group of the head of HH (youth or adult), village)",5099; 5617; 5541; 5090; 5317; 5605; 5620; 5085; 5182; 5636
+99,1,1,DRC,List of gaps identified,5147; 5622; 5407; 5437; 5329; 5438; 5533; 5262; 5621; 5261
+100,1,1,DRC,"Ind 1.4.1: % participants attesting that specific needs and ideas of vulnerable groups have been taken into account in developing their village vision (Disaggregated by sex & age group (youth or adult), village)",5187; 5251; 5658; 5205; 5567; 5238; 5533; 5529; 5526; 5659
+102,1,1,DRC,Number of community micro-projects related to village visions supported,5894; 5526; 5187; 5191; 5612; 5691; 5567; 5189; 5527; 5658
+103,1,1,DRC,Ind 1.5.1: # youth PIP groups functional (see operational definition of functionality in the MEAL Framework),5893; 5894; 5889; 5892; 5891; 5617; 5541; 5895; 5089; 5083
+105,1,1,DRC,Number of PIP groups business plans facilitated,5894; 5691; 5889; 5690; 5893; 5890; 5196; 5576; 5240; 5535
+106,1,1,DRC,Number of exchange visits organized Number of participants to visits,5156; 5693; 5690; 5415; 5239; 5414; 5639; 5689; 5532; 5694
+107,1,1,DRC,"Ind 2.2: % of participants who are members of VSLAs and have diversified their source of income (and have at least one non-agricultural income) (Disaggregated by sex & age group (youth or adult), village)",5542; 5487; 5623; 5358; 5541; 5617; 5618; 5544; 5428; 5205
+108,1,1,DRC,Ind 2.1.2: % of groups with a dropout rate of less than 3% of their members.,5203; 5465; 5692; 5413; 5690; 5691; 5530; 5544; 5618; 5694
+112,1,1,DRC,Number of Kits distributed to VSLA groups,5182; 5689; 5690; 5156; 5153; 5693; 5148; 5452; 5691; 5196
+113,1,1,DRC,Number of Kits distributed to VSLA trainers,5211; 5182; 5210; 5693; 5205; 5209; 5202; 5213; 5208; 5156
+115,1,1,DRC,Number of monitoring visits organized,5156; 5531; 5691; 5313; 5213; 5151; 5253; 5695; 5532; 5690
+117,1,1,DRC,"Ind. 3.1: % participants stating that their access to land has increased due to the project intervention (Disaggregated by sex & age group (youth or adult), socio-professional category, village)",5567; 5713; 5667; 5623; 5542; 5358; 5691; 5540; 5539; 5658
+118,1,1,DRC,"Ind. 3.2: % participants stating that land related conflicts have decreased due to the project intervention (Disaggregated by sex & age group (youth or adult), socio-professional category, village)",5667; 5754; 5657; 5644; 5567; 5540; 5658; 5623; 5539; 5533
+119,1,1,DRC,"Ind 3.1.1: # of smallholder farmers who have signed contracts with concessionaires for at least three years (Disaggregated by sex & age group (youth or adult), socio-professional category , village)",5267; 5360; 5270; 5255; 5490; 5266; 5891; 5489; 5645; 5488
+120,1,1,DRC,Number of concessions identified Area of the identified concessions,5689; 5147; 5645; 5452; 5690; 5314; 5469; 5586; 5187; 5262
+121,1,1,DRC,Number of landless farmers identified Number of farmer unions structured,5360; 5266; 5255; 5257; 5254; 5267; 5261; 5260; 5490; 5488
+122,1,1,DRC,Number of dialogue sessions organized Number of concessions Number of farmers,5360; 5266; 5267; 5270; 5490; 5576; 5257; 5891; 5693; 5261
+124,1,1,DRC,Number of land conflict resolution structures identified and land conflicts mapped in the communities,5644; 5656; 5754; 5667; 5814; 5609; 5272; 5271; 5526; 5491
+126,1,1,DRC,Number of kits distributed to the local structures,5182; 5181; 5497; 5153; 5689; 5179; 5177; 5198; 5223; 5240
+127,1,1,DRC,Number of dialogues and mediations sessions around conflicts organised,5656; 5754; 5657; 5695; 5417; 5644; 5647; 5654; 5609; 5576
+128,1,1,DRC,Ind. 4.3: Reduction of cases of traditional practices that are unfavourable to gender (girls and women),5428; 5540; 5457; 5539; 5662; 5660; 5444; 5617; 5541; 5369
+129,1,1,DRC,"Ind.4.1.1: % target group members (religious leaders, gender champions, men and women) having carried out at least one public act in favour of positive masculinity (Disaggregated by sex & age group (youth or adult), socio-professional profile/category of leader, village)",5369; 5618; 5544; 5428; 5367; 5540; 5368; 5251; 5539; 5366
+130,1,1,DRC,Profile of selected leaders,5436; 5594; 5532; 5454; 5132; 5369; 5692; 5507; 5530; 5563
+131,1,1,DRC,Profile of selected gender champions,5428; 5369; 5618; 5544; 5367; 5457; 5435; 5436; 5366; 5616
+132,1,1,DRC,Number of kits distributed Number of participants (disaggregated by type of leaders),5182; 5693; 5691; 5369; 5530; 5156; 5544; 5618; 5533; 5623
+133,1,1,DRC,"Ind.4.2.1: # of participants in community dialogues who commit to change or to act as a change agent (Disaggregated by sex & age group (youth or adult), village)",5658; 5894; 5540; 5461; 5369; 5533; 5567; 5526; 5756; 5539
+134,1,1,DRC,Number of mixed sex groups discussions organized Number of participants (disaggregated by gender and age group: young people under 35/adults over 35),5539; 5540; 5618; 5544; 5541; 5617; 5369; 5368; 5660; 5252
+135,1,1,DRC,Type of support provided,5196; 5452; 5691; 5535; 5450; 5195; 5154; 5622; 5534; 5621
+137,1,1,DRC,Number of local village leaders reached,5894; 5658; 5124; 5577; 5526; 5181; 5360; 5533; 5756; 5691
+139,1,1,DRC,Number of facilitators trained,5209; 5205; 5210; 5202; 5596; 5214; 5266; 5204; 5211; 5206
+141,1,1,DRC,"% of participants in CBST sessions who indicate that the sessions addressed issues related to social cohesion, safety and trust",5658; 5531; 5655; 5532; 5755; 5792; 5529; 5251; 5530; 5657
+142,1,1,DRC,Number of participants reached by CBST,5577; 5532; 5205; 5530; 5658; 5534; 5693; 5156; 5535; 5182
+143,1,1,DRC,Number of CBST cycles organized Number of people who have completed the cycles,5146; 5432; 5270; 5619; 5450; 5433; 5092; 5156; 5693; 5214
+145,1,1,DRC,Number of weaning events organised,5691; 5582; 5894; 5567; 5577; 5530; 5654; 5533; 5693; 5191
+147,1,1,DRC,# of VSLA groups with a drop-out rate of less than (3%) of their members.,5692; 5465; 5690; 5203; 5132; 5532; 5694; 5691; 5530; 5531
+148,1,1,DRC,# of VSLA kits distributed,5182; 5689; 5148; 5156; 5639; 5452; 5147; 5693; 5153; 5497
+149,1,1,DRC,# of meetings with community/project stakeholders,5526; 5894; 5529; 5530; 5691; 5576; 5658; 5532; 5567; 5656
+150,1,1,DRC,Number of influential people in the community made aware of positive masculinity,5369; 5567; 5428; 5658; 5419; 5618; 5544; 5457; 5368; 5444
+151,1,1,DRC,Number of religious leaders selected,5792; 5576; 5124; 5568; 5532; 5533; 5577; 5645; 5369; 5196
+152,1,1,DRC,Number of religious leaders trained in positive masculinity,5428; 5369; 5547; 5209; 5544; 5618; 5444; 5546; 5792; 5662
+153,1,1,DRC,Number of awareness campaigns organised by religious leaders,5577; 5567; 5529; 5454; 5453; 5531; 5419; 5488; 5267; 5196
+155,1,1,DRC,Number of community awareness campaigns,5577; 5567; 5461; 5529; 5526; 5658; 5196; 5455; 5811; 5527
+156,1,1,DRC,"# applied initiatives between men, women, authorities and members of civil society concerning positive masculinity in the social interactions within the community and households.",5369; 5368; 5564; 5444; 5540; 5618; 5544; 5567; 5367; 5539
+157,1,1,DRC,Number of discussion groups created,5196; 5656; 5691; 5195; 5576; 5526; 5568; 5577; 5657; 5530
+159,1,1,DRC,Number of dialogue group ceremonies held,5656; 5693; 5582; 5689; 5576; 5657; 5691; 5654; 5446; 5695
+161,1,1,DRC,Number of awareness-raising sessions Number of innovative farmers (PIs) selected through participatory processes,5488; 5266; 5267; 5489; 5891; 5490; 5360; 5454; 5567; 5270
+162,1,1,DRC,Number of trainings organised for the 2 monitors (in days),5212; 5214; 5210; 5209; 5204; 5208; 5596; 5432; 5266; 5213
+163,1,1,DRC,Number of training sessions for the creation of PIPs organised for IPs Number of selected PIs participating in the trainings,5210; 5214; 5202; 5891; 5209; 5204; 5212; 5889; 5596; 5693
+164,1,1,DRC,Number of IPP training sessions,5210; 5214; 5204; 5203; 5209; 5202; 5385; 5206; 5205; 5266
+165,1,1,DRC,Number of IPP coaching sessions per season # of PIs participating in the coaching sessions,5209; 5156; 5148; 5693; 5454; 5214; 5596; 5204; 5385; 5211
+167,1,1,DRC,Number of field days organised per season on IPP plots,5619; 5092; 5270; 5130; 5268; 5261; 5147; 5258; 5259; 5257
+168,1,1,DRC,# of villages that have developed their vision with the support of the project through the PIP approach,5894; 5889; 5893; 5890; 5526; 5187; 5658; 5567; 5891; 5756
+169,1,1,DRC,Number of visibility sites with at least 2 restoration practices.,5143; 5314; 5485; 5271; 5808; 5813; 5806; 5887; 5446; 5811
+170,1,1,DRC,"Number of farmers and representatives of state structures who took part in awareness-raising sessions, disaggregated by gender",5369; 5488; 5360; 5428; 5266; 5267; 5891; 5490; 5489; 5256
+171,1,1,DRC,Number of sites with development plans incorporating integrated practices,5576; 5492; 5612; 5526; 5568; 5454; 5691; 5609; 5607; 5448
+172,1,1,DRC,Number of training courses on hot spot protection techniques,5205; 5210; 5508; 5596; 5485; 5886; 5811; 5813; 5209; 5885
+173,1,1,DRC,Number of visits organised per season Number of participants in visits disaggregated by gender,5618; 5544; 5541; 5617; 5369; 5084; 5623; 5543; 5182; 5156
+174,1,1,DRC,Number of microprojects supported by the project,5612; 5691; 5187; 5148; 5508; 5240; 5526; 5806; 5693; 5485
+175,1,1,DRC,% of innovative farmers by generation with access to individual and collective microprojects # VSLAs with a drop-out rate of less than (3%) of effective members. IGA with a high growth rate of 10% compared to the start.,5489; 5360; 5490; 5255; 5267; 5256; 5266; 5317; 5261; 5895
+177,1,1,DRC,Number of meetings with VSLAs,5691; 5156; 5693; 5532; 5690; 5417; 5535; 5657; 5692; 5148
+178,1,1,DRC,Number of VSLA follow-ups,5146; 5641; 5437; 5156; 5585; 5470; 5693; 5450; 5207; 5691
+179,1,1,Ethiopia,1.00.1: Percentage of households with acceptable WASH facilities available (proxy to OPSYS core indicator/GERF1.31/ SDG 6.2.1),5637; 5636; 5635; 5125; 5142; 5243; 5121; 5145; 5242; 5311
+180,1,1,Ethiopia,1.00.2: Percentage of refugees with a healthcare registration number in a local health service unit,5623; 5511; 5174; 5313; 5641; 5205; 5433; 5182; 5124; 5532
+181,1,1,Ethiopia,1.00.4: Index of assets per household for host community and refugees,5166; 5892; 5639; 5263; 5631; 5313; 5159; 5089; 5326; 5264
+182,1,1,Ethiopia,I.S01.1: Prevalence rate of water born disease in the targeted population,5125; 5312; 5126; 5650; 5121; 5122; 5124; 5651; 5592; 5648
+183,1,1,Ethiopia,LSO. 1.4: Percentage of people targeted by the hygiene promotion program who report using a latrine the last time they defecated.,5636; 5140; 5175; 5144; 5637; 5242; 5141; 5114; 5142; 5311
+184,1,1,Ethiopia,"Percentage of Health Facilities (HFs) in host and refugee communities providing essential services on reproductive, maternal, newborn, child, and youth health (RMNCYH services).",5623; 5632; 5636; 5511; 5313; 5635; 5144; 5532; 5090; 5637
+185,1,1,Ethiopia,Percentage of the targeted population living within 5 km of a HF (OPSYS core indicator 551 ).,5182; 5091; 5450; 5636; 5090; 5188; 5313; 5263; 5635; 5653
+186,1,1,Ethiopia,Percentage of project supported CHF integrated in the referral pathway.,5690; 5612; 5532; 5418; 5691; 5694; 5607; 5529; 5615; 5531
+187,1,1,Ethiopia,Percentage of households with moderate and severe scores in the HHS-Household Hunger Scale,5326; 5090; 5892; 5620; 5605; 5089; 5327; 5091; 5264; 5598
+188,1,1,Ethiopia,targeted areas,5271; 5268; 5147; 5187; 5143; 5244; 5435; 5508; 5492; 5314
+189,1,1,Ethiopia,"Number of refugees and host communities' members benefitting from subsistence agriculture and animal production.activities, with project support (disaggregated, by sex and migration status)",5623; 5511; 5567; 5205; 5360; 5894; 5428; 5182; 5526; 5250
+190,1,1,Ethiopia,OP. 1.1.1: Number of WASH facilities installed:,5243; 5145; 5143; 5138; 5311; 5637; 5636; 5142; 5635; 5139
+191,1,1,Ethiopia,safe water scheme constructed and rehabilitated (Hund dug well and Solar energy),5648; 5649; 5651; 5592; 5131; 5650; 5128; 5806; 5808; 5814
+192,1,1,Ethiopia,latrines constructed,5146; 5176; 5492; 5593; 5271; 5268; 5424; 5147; 5180; 5257
+193,1,1,Ethiopia,waste disposal pits,5496; 5497; 5177; 5175; 5143; 5271; 5145; 5142; 5144; 5176
+194,1,1,Ethiopia,OP. 1.1.2: Number of wash committee established and trained,5139; 5132; 5131; 5136; 5242; 5311; 5243; 5635; 5135; 5651
+195,1,1,Ethiopia,OP. 1.2.1: Number of people addressed through direct hygiene promotion campaign (disaggregated,5137; 5311; 5140; 5139; 5142; 5490; 5454; 5577; 5136; 5453
+196,1,1,Ethiopia,by sex),5660; 5428; 5544; 5618; 5616; 5627; 5617; 5541; 5662; 5614
+197,1,1,Ethiopia,· Refugees,5511; 5623; 5250; 5654; 5205; 5244; 5181; 5567; 5238; 5653
+198,1,1,Ethiopia,· Host Communities members,5526; 5894; 5658; 5532; 5530; 5656; 5531; 5756; 5461; 5529
+201,1,1,Ethiopia,OP. 2.1.3: Number of Information Education Communication (IEC) material disseminated in the camps,5607; 5508; 5205; 5314; 5485; 5215; 5187; 5629; 5210; 5202
+202,1,1,Ethiopia,OP. 2.2.1: Number of Health Development Army (HDAs) leaders trained on selected Health topics. (Disaggregated by sex),5546; 5539; 5540; 5596; 5623; 5205; 5266; 5419; 5436; 5541
+203,1,1,Ethiopia,OP. 2.2.2: Number of awareness campaigns/Health bazars conducted,5453; 5454; 5577; 5151; 5456; 5419; 5455; 5476; 5467; 5529
+204,1,1,Ethiopia,OP. 2.2.3: Number of community members receiving health IEC messages on selected health topics (disaggregated by sex),5182; 5533; 5527; 5623; 5178; 5541; 5617; 5369; 5419; 5618
+205,1,1,Ethiopia,OP. 2.2.4: Number of health workers /health extension workers (HWs/HEWs) having acquired project provided additional capacity or skills on (disaggregated by sex):,5158; 5437; 5214; 5433; 5614; 5546; 5441; 5205; 5212; 5204
+206,1,1,Ethiopia,Integrated Management of Newborn and Childhood Illnesses (IMNCI),5604; 5114; 5144; 5118; 5120; 5119; 5117; 5311; 5142; 5623
+207,1,1,Ethiopia,basic emergency obstetric and newborn care (BEmONC),5120; 5144; 5604; 5621; 5622; 5631; 5450; 5623; 5632; 5114
+208,1,1,Ethiopia,Clinical Management Rape (CMR),5660; 5663; 5661; 5662; 5604; 5120; 5369; 5623; 5205; 5454
+209,1,1,Ethiopia,Integrated pharmaceutical logistics system (IPLS),5410; 5452; 5889; 5148; 5893; 5640; 5154; 5156; 5414; 5243
+210,1,1,Ethiopia,Sexual reproductive and health right,5099; 5428; 5660; 5665; 5085; 5618; 5544; 5340; 5084; 5141
+211,1,1,Ethiopia,Emergency Triage and Treatment (ETAT),5887; 5450; 5485; 5508; 5607; 5314; 5120; 5650; 5598; 5604
+212,1,1,Ethiopia,"I I.OP. 2.2.5: Number of (Antenatal care) ANC visits conducted, with project",5604; 5417; 5205; 5641; 5695; 5526; 5313; 5511; 5187; 5623
+213,1,1,Ethiopia,OP. 2.2.6: Number of Pediatric consultations provided with project support,5604; 5568; 5576; 5526; 5629; 5543; 5187; 5120; 5630; 5114
+214,1,1,Ethiopia,OP. 2.3.1: Number of critical referral cases supported with allowances,5641; 5690; 5633; 5417; 5695; 5156; 5642; 5407; 5568; 5622
+215,1,1,Ethiopia,OP. 2.3.2: Number of Health staff with acquired knowledge on the referral system (disaggregated by sex),5546; 5156; 5419; 5543; 5151; 5532; 5563; 5253; 5623; 5531
+217,1,1,Ethiopia,•Pharmaceutical commodity (IPC) hygiene material,5637; 5311; 5178; 5496; 5139; 5138; 5312; 5140; 5145; 5142
+218,1,1,Ethiopia,budget to cover ambulances running costs,5624; 5415; 5434; 5606; 5625; 5569; 5485; 5160; 5240; 5118
+219,1,1,Ethiopia,Crop and vegetable production,5317; 5255; 5259; 5260; 5258; 5895; 5257; 5254; 5605; 5261
+220,1,1,Ethiopia,irrigation supported vegetable production by host community & refugees,5317; 5490; 5890; 5895; 5891; 5142; 5360; 5592; 5476; 5259
+221,1,1,Ethiopia,livestock thematic (dairy farm and others),5256; 5893; 5895; 5891; 5264; 5267; 5263; 5488; 5360; 5254
+222,1,1,Ethiopia,OP. 3.1.2: Number of people assisted with goat provision and received,5264; 5263; 5256; 5205; 5543; 5182; 5360; 5213; 5641; 5207
+223,1,1,Ethiopia,OP. 3.1.3: Number of beneficiaries supported with banana seedlings distribution,5494; 5259; 5358; 5450; 5317; 5567; 5511; 5182; 5490; 5577
+224,1,1,Ethiopia,O.P. 3.1.4: Number of Fishing business group formed in Woreda Gog,5651; 5132; 5649; 5270; 5691; 5490; 5890; 5650; 5893; 5414
+225,1,1,Ethiopia,"Mortality rate disaggregated by group (local population, refugee, etc.), sex and age",5623; 5654; 5263; 5653; 5252; 5486; 5511; 5450; 5754; 5264
+227,1,1,Ethiopia,"People's perception on quality of health services in the targeted areas disaggregated by group, sex and age",5154; 5653; 5623; 5659; 5539; 5617; 5541; 5419; 5151; 5532
+229,1,1,Ethiopia,Establishment of an integrated referral system,5532; 5531; 5148; 5156; 5568; 5526; 5253; 5452; 5446; 5694
+230,1,1,Ethiopia,Number of local development plans directly supported,5612; 5610; 5691; 5492; 5181; 5191; 5690; 5576; 5526; 5613
+232,1,1,Ethiopia,Improved mobile court service delivery for refugees at the end of the project period,5623; 5511; 5695; 5694; 5418; 5415; 5532; 5577; 5690; 5639
+233,1,1,Ethiopia,"Number of people participating in gender and RBA activities disaggregated by group, sex and age",5617; 5541; 5544; 5618; 5539; 5540; 5369; 5428; 5660; 5368
+234,1,1,Ethiopia,% of neonatal deaths in a health facility that are audited,5144; 5263; 5441; 5450; 5208; 5207; 5623; 5641; 5632; 5264
+235,1,1,Ethiopia,"Number of outpatient consultations (new & revisits) segregated by, sex,",5623; 5543; 5205; 5428; 5369; 5533; 5511; 5660; 5617; 5541
+236,1,1,Ethiopia,Number of inclusive referral committees established that are actively meeting every month,5526; 5691; 5531; 5532; 5530; 5529; 5196; 5535; 5656; 5369
+237,1,1,Ethiopia,"Number of referrals through the improved referral system segregated sex,",5618; 5544; 5357; 5428; 5252; 5444; 5369; 5539; 5457; 5253
+238,1,1,Ethiopia,Number of health facilities in the Gambella regional Stated supported by this project with tracer medicine and medical equipment.,5148; 5690; 5650; 5691; 5175; 5210; 5648; 5143; 5485; 5182
+239,1,1,Ethiopia,"# of people participating in interactive sport and cultural events disaggregated by group, ethnicity, and sex on constructed sport field",5618; 5544; 5541; 5617; 5530; 5529; 5533; 5368; 5419; 5614
+240,1,1,Ethiopia,Number of Sports Fields constructed Number of Peace Tukuls constructed,5654; 5147; 5257; 5656; 5609; 5432; 5611; 5755; 5314; 5271
+241,1,1,Ethiopia,SO 1.1. Provision of Shelter to reduce the likelihood of health and protection consequences,5314; 5199; 5632; 5634; 5486; 5313; 5244; 5631; 5633; 5485
+242,1,1,Ethiopia,Percentage of people that feels their safety and dignity in improved in ESNFI services at the end of the project.,5623; 5534; 5450; 5511; 5205; 5238; 5567; 5659; 5653; 5658
+243,1,1,Ethiopia,"Under CO1, # displacement affected population that received in-kind or cash for emergency shelter assistance to improve physical protection and to reduce the consequences of health risks",5486; 5180; 5623; 5314; 5806; 5633; 5638; 5470; 5199; 5181
+244,1,1,Ethiopia,SO1.2 Conduct public community awareness raising campaigns on GBV & PSEA with a focus on addressing stigma and promoting access to services.,5446; 5461; 5531; 5455; 5663; 5151; 5567; 5419; 5467; 5564
+246,1,1,Ethiopia,SO1.2 Provide PSS services to women and adolescent girls including through women & girls friendly spaces and community-based structures,5446; 5252; 5894; 5141; 5531; 5368; 5564; 5369; 5540; 5563
+247,1,1,Ethiopia,SO2.1 Provide Dignity Kits in cash/voucher and in kind,5411; 5892; 5623; 5180; 5638; 5639; 5893; 5890; 5895; 5694
+249,1,1,Ethiopia,"Under CO1, # of individuals i.e. specialized frontline GBV services providers, trained on CMR, PSS, PFA, case management, etc.",5148; 5694; 5156; 5418; 5452; 5693; 5437; 5691; 5690; 5410
+250,1,1,Ethiopia,"Under CO1, # of women & girls friendly spaces (WGFSs) (Permanent/ Temporary) established/ supported.",5435; 5634; 5428; 5694; 5632; 5313; 5586; 5633; 5180; 5141
+251,1,1,Ethiopia,Sector/Cluster,5624; 5446; 5427; 5691; 5147; 5610; 5692; 5491; 5257; 5690
+252,1,1,Ethiopia,"Under CO1, # of individuals benefiting from awareness-raising and Explosive Ordnance Risk Education training activities (Sex and Age disaggregated data - SADD).",5205; 5385; 5238; 5886; 5466; 5508; 5202; 5885; 5441; 5567
+253,1,1,Ethiopia,"Under CO2, # IDPs in site provided with lifesaving WASH HKI",5585; 5636; 5470; 5635; 5637; 5243; 5809; 5361; 5176; 5887
+254,1,1,Ethiopia,"SO 2.1.2 Ensure care and maintenance of the site’s infrastructure, while mitigating the impacts of environmental degradation",5271; 5491; 5814; 5272; 5268; 5887; 5508; 5808; 5145; 5593
+255,1,1,Ethiopia,Number of schools decommissioning in the target area,5357; 5223; 5629; 5141; 5630; 5140; 5143; 5271; 5144; 5175
+257,1,1,Ethiopia,Camp Coordination and Camp Management,5314; 5191; 5492; 5360; 5313; 5691; 5508; 5529; 5181; 5531
+258,1,1,Ethiopia,SO 2.3 - Distribution of teaching and learning materials to the most affected children,5629; 5630; 5140; 5144; 5223; 5357; 5385; 5543; 5114; 5567
+259,1,1,Ethiopia,Number of new youths joined at business strengthened by the project,5158; 5692; 5202; 5659; 5567; 5691; 5465; 5250; 5529; 5532
+260,1,1,Ethiopia,% of project beneficiaries who are actively operating full time business,5158; 5458; 5212; 5434; 5529; 5690; 5542; 5691; 5204; 5507
+261,1,1,Ethiopia,·% of project beneficiaries trained on business development services,5158; 5458; 5567; 5511; 5419; 5184; 5529; 5534; 5691; 5659
+262,1,1,Ethiopia,% of project beneficiaries with confidence improved regarding managing their business,5567; 5534; 5659; 5184; 5133; 5542; 5792; 5419; 5529; 5458
+263,1,1,Ethiopia,Number of beneficiaries selected for hard (technical) and soft skills training,5385; 5203; 5204; 5206; 5202; 5205; 5214; 5209; 5210; 5158
+264,1,1,Ethiopia,"Number of beneficiaries trained on financial management, bookkeeping, and business development services",5209; 5204; 5158; 5385; 5202; 5214; 5458; 5411; 5454; 5205
+265,1,1,Ethiopia,"Number of business cooperatives newly established or strengthened (Bakery, Soap and detergent, Irrigation cooperative, Waste Management cooperative and etc.)",5360; 5691; 5459; 5132; 5756; 5692; 5158; 5526; 5143; 5894
+266,1,1,Ethiopia,Number of youths or business owners attended inspirational sessions on entrepreneurship,5458; 5567; 5577; 5659; 5158; 5454; 5385; 5542; 5658; 5267
+267,1,1,Ethiopia,Number of beneficiaries gained apprenticeships and mentorships with identified potential businesses,5158; 5204; 5202; 5214; 5438; 5385; 5458; 5567; 5265; 5206
+268,1,1,Ethiopia,Number of business groups received toolkits or materials,5693; 5691; 5690; 5532; 5196; 5240; 5156; 5577; 5535; 5531
+269,1,1,Ethiopia,"% of stakeholders participated in the round tables discussions and partnership agreement, and expressed their satisfaction on the results produced by the project intervention",5534; 5529; 5567; 5647; 5530; 5658; 5535; 5360; 5576; 5184
+270,1,1,Ethiopia,Number of coordination mechanisms (and/or partnerships) that have been established from regional to woreda levels to support and facilitate project interventions,5612; 5691; 5526; 5610; 5576; 5529; 5609; 5462; 5530; 5187
+271,1,1,Ethiopia,Number of agreements made and networking achieved with stakeholders/ service providers,5148; 5526; 5576; 5452; 5154; 5691; 5156; 5446; 5532; 5417
+272,1,1,Ethiopia,Number of discussion platforms conducted with potential stakeholders and duty bearers,5446; 5576; 5656; 5568; 5526; 5148; 5755; 5611; 5594; 5196
+273,1,1,Ethiopia,Number of collaborative and performance review workshops held per quarter,5693; 5266; 5691; 5209; 5210; 5607; 5615; 5212; 5208; 5461
+274,1,1,Ethiopia,"% of beneficiaries satisfied in relation to accessing services from public, private, and civil society organizations.",5534; 5511; 5532; 5184; 5154; 5623; 5531; 5151; 5567; 5658
+275,1,1,Ethiopia,Number of shades or working places facilitated for business groups,5437; 5158; 5476; 5459; 5148; 5533; 5427; 5458; 5690; 5438
+276,1,1,Ethiopia,% of target beneficiaries beliefs that persons with disability can work and generate income,5542; 5623; 5358; 5250; 5511; 5433; 5567; 5534; 5184; 5158
+277,1,1,Ethiopia,Number of persons with disability operating business based on opportunities created by the project,5158; 5567; 5250; 5196; 5542; 5205; 5623; 5385; 5269; 5195
+278,1,1,Ethiopia,% of women have the power to make decisions about their own economic activities,5420; 5626; 5428; 5627; 5366; 5435; 5436; 5367; 5618; 5544
+279,1,1,Ethiopia,Number of gender analysis conducted,5428; 5539; 5627; 5614; 5369; 5618; 5544; 5420; 5626; 5435
+281,1,1,Ethiopia,"Number of participants received community awareness sessions on identified barriers for female, male and persons with disability to do business",5196; 5533; 5567; 5529; 5658; 5531; 5526; 5419; 5368; 5195
+282,1,1,Ethiopia,Number and per item cost of NFIs distributed,5639; 5434; 5689; 5415; 5624; 5182; 5157; 5452; 5269; 5156
+283,1,1,Ethiopia,Number of individuals in the settlement receiving support from settlements interventions,5567; 5526; 5577; 5181; 5196; 5511; 5250; 5623; 5691; 5754
+284,1,1,Ethiopia,Percent individuals receiving shelter assistance out of the total number residents in identified settlement(s),5313; 5632; 5181; 5633; 5623; 5511; 5244; 5199; 5634; 5179
+285,1,1,Ethiopia,Percent of settlement beneficiaries who believe settlement interventions met or exceeded expectations,5511; 5184; 5623; 5567; 5417; 5658; 5534; 5418; 5482; 5691
+286,1,1,Ethiopia,Amount and percent of the activity budget spent on goods and services produced/procured in country,5624; 5610; 5625; 5606; 5152; 5258; 5434; 5425; 5613; 5458
+287,1,1,Ethiopia,"Total number of individuals (beneficiaries) who received training on proper use and reuse, handling and washing and disposal of LLINs.",5139; 5650; 5266; 5242; 5209; 5136; 5175; 5204; 5206; 5243
+289,1,1,Ethiopia,# of damaged classrooms which have been rehabilitated and well furnished.,5223; 5180; 5357; 5629; 5140; 5131; 5141; 5187; 5143; 5205
+290,1,1,Ethiopia,# of students supported with the scholastic materials,5629; 5630; 5223; 5202; 5140; 5652; 5180; 5141; 5693; 5206
+291,1,1,Ethiopia,# of beneficiaries who received technical training on grinding mill operation # of grinding mill houses constructed # of grinding mill management committee members received BDS training # of joint supportive supervision conducted with project stakeholders,5204; 5596; 5212; 5209; 5692; 5266; 5206; 5205; 5529; 5507
+292,1,1,south_sudan,# of community DRR committees established and/or reactivated in target locations.,5691; 5526; 5462; 5461; 5530; 5532; 5529; 5690; 5638; 5658
+293,1,1,south_sudan,"# of DRR members trained on risk reduction, emergency preparedness, and anticipatory action. (Gender, Age, Disability)",5205; 5623; 5385; 5543; 5511; 5238; 5441; 5195; 5206; 5450
+294,1,1,south_sudan,# Kilometres of the new dyke constructed at the indicated safety level and according to the engineering standard as outlined in the tender document.,5508; 5314; 5485; 5593; 5271; 5268; 5887; 5272; 5609; 5441
+295,1,1,south_sudan,# of anticipatory action plans activated in response to early warning triggers during the project period.,5508; 5238; 5191; 5609; 5529; 5811; 5612; 5530; 5807; 5888
+296,1,1,south_sudan,"# of people addressed through awareness creation on anticipatory action, preparedness, and emergency response and/or received timely and actionable early warning messages in user-friendly formats (Gender, Age, Disability)",5238; 5419; 5461; 5531; 5529; 5151; 5251; 5411; 5567; 5120
+297,1,1,south_sudan,"# of people receive anticipatory action support (Gender, Age, Disability)",5196; 5623; 5567; 5511; 5195; 5534; 5543; 5250; 5577; 5659
+298,1,1,south_sudan,"# of HHs received climate-smart agricultural (CSA) inputs (i.e. seeds), agri-cultural tools and capacity building training on climate-smart agricultural (CSA) practices",5891; 5886; 5596; 5317; 5895; 5466; 5885; 5266; 5268; 5810
+300,1,1,south_sudan,# of Village PIPs developed and endorsed through the PIP process,5893; 5894; 5889; 5890; 5891; 5892; 5895; 5240; 5526; 5124
+301,1,1,south_sudan,"% of population who can reach a water source within 500 meters or 30 minutes round-trip. (Gender, Age, Disability)",5343; 5125; 5121; 5124; 5650; 5122; 5134; 5592; 5312; 5340
+302,1,1,south_sudan,# of new water points constructed,5147; 5129; 5132; 5124; 5123; 5126; 5648; 5649; 5651; 5650
+303,1,1,south_sudan,# of water points rehabilitated,5648; 5650; 5126; 5132; 5649; 5131; 5651; 5129; 5124; 5592
+304,1,1,south_sudan,# of people accessed clean water,5121; 5122; 5125; 5635; 5128; 5175; 5242; 5174; 5651; 5243
+305,1,1,south_sudan,# of water management committees established/strengthened and trained on the operation and maintenance of the new innovative technology.,5132; 5131; 5651; 5649; 5592; 5129; 5133; 5648; 5650; 5139
+306,1,1,south_sudan,"# Community Hygiene Volunteers (CHVs) trained (Gender, Age, Disability)",5311; 5205; 5623; 5526; 5894; 5357; 5142; 5136; 5891; 5636
+307,1,1,south_sudan,"# of people addressed through hygiene promotion activities (Gender, Age, Disability)",5311; 5140; 5454; 5142; 5457; 5136; 5139; 5540; 5242; 5357
+308,1,1,south_sudan,"# of schoolgirls addressed through dignity kit distribution (Age, Disability)",5630; 5629; 5357; 5623; 5141; 5616; 5252; 5539; 5540; 5144
+309,1,1,south_sudan,# of households that engage in income generating activities (IGAs)/ market-oriented production,5892; 5258; 5487; 5605; 5895; 5425; 5317; 5893; 5889; 5152
+310,1,1,south_sudan,"% of targeted population who have successfully started or expanded a viable income-generating activity (IGA) or small business (Gender, Age, Disability)",5358; 5158; 5435; 5433; 5542; 5350; 5487; 5250; 5152; 5458
+311,1,1,south_sudan,"# of graduates provided with financial literacy and start‑up grants to launch viable small businesses (Gender, Age, Disability)",5202; 5158; 5385; 5204; 5214; 5203; 5458; 5629; 5411; 5213
+312,1,1,south_sudan,# of VTCs with improved physical accessibility features installed,5485; 5198; 5887; 5593; 5179; 5607; 5313; 5632; 5531; 5253
+313,1,1,south_sudan,"# of awareness-raising campaigns implemented on gender equality, disability inclusion, and peacebuilding.",5663; 5367; 5366; 5567; 5444; 5369; 5428; 5623; 5577; 5542
+314,1,1,south_sudan,"% of community members who report that disputes are increasingly resolved through dialogue and non-violent means. (Gender, Age, Disability, Displacement status + Relevant parameters as identified by conflict assessment)",5656; 5695; 5754; 5417; 5657; 5667; 5644; 5647; 5655; 5661
+316,1,1,south_sudan,# and type of peace dialogues conducted at community level,5656; 5654; 5894; 5754; 5655; 5755; 5446; 5658; 5647; 5695
+317,1,1,south_sudan,# of MoUs signed between peace committees and county peace and security structures,5645; 5609; 5656; 5251; 5531; 5532; 5644; 5647; 5654; 5646
+318,1,1,south_sudan,"# CBS facilitators recruited/trained and deployed (Gender, Age, Disability)",5205; 5623; 5511; 5546; 5563; 5196; 5385; 5250; 5540; 5369
+319,1,1,south_sudan,# of CBS groups formed and CBS sessions facilitated,5532; 5691; 5692; 5531; 5530; 5196; 5195; 5535; 5526; 5529
+320,1,1,south_sudan,"% people that attend 12 out of 15 sessions / cycle (Gender, Age, Disability, Displacement status + Relevant parameters as identified by conflict assessment)",5417; 5657; 5623; 5205; 5754; 5659; 5252; 5618; 5544; 5511
+321,1,1,south_sudan,"-Number of peace committees established -Number of people participated in peace workshops, sessions and trainings",5656; 5654; 5657; 5195; 5609; 5754; 5526; 5530; 5191; 5529
+322,1,1,south_sudan,% of marginalized and vulnerable people who report a self-perceived change in income due to ENA project,5358; 5567; 5542; 5250; 5543; 5482; 5623; 5511; 5418; 5465
+323,1,1,south_sudan,-Number of model business farms established,5267; 5458; 5266; 5270; 5489; 5895; 5490; 5255; 5488; 5459
+324,1,1,south_sudan,-Number of farmers (malé/female) received small grants -Number VSLA groups established - Number of fishery groups established,5490; 5360; 5270; 5256; 5267; 5255; 5414; 5568; 5645; 5266
+325,1,1,south_sudan,Number people trained on entrepreneurship and business skills,5385; 5204; 5158; 5266; 5265; 5458; 5203; 5214; 5209; 5202
+326,1,1,south_sudan,Number of staff trained on ABCD model by the lead Dorcas trainer,5209; 5596; 5205; 5203; 5266; 5211; 5212; 5204; 5158; 5693
+327,1,1,south_sudan,Livelihood Coping Strategies Index (L-CSI): % of all households reporting 0-3 L-CSI,5091; 5628; 5464; 5598; 5632; 5642; 5621; 5634; 5633; 5264
+328,1,1,south_sudan,% of households assessed their level of poverty through poverty stoplight their poverty status improved through project interventions.,5329; 5567; 5187; 5659; 5238; 5326; 5621; 5534; 5628; 5658
+329,1,1,south_sudan,Number of households adopting and engaging in productive asset creation/farms through adopting the asset-based community driven development (ABCD) approach.,5490; 5267; 5256; 5360; 5487; 5489; 5317; 5476; 5895; 5894
+330,1,1,south_sudan,Number of business action plans developed by HHs,5458; 5448; 5454; 5691; 5459; 5492; 5576; 5530; 5350; 5690
+331,1,1,south_sudan,Number of vulnerable households supported with Flourish grant scheme for business diversification,5487; 5250; 5638; 5892; 5623; 5358; 5633; 5567; 5187; 5511
+332,1,1,south_sudan,% households reporting improved well being,5534; 5659; 5641; 5091; 5184; 5152; 5658; 5269; 5692; 5142
+333,1,1,south_sudan,% reporting peaceful coexistence,5647; 5654; 5754; 5655; 5657; 5534; 5656; 5658; 5184; 5755
+334,1,1,south_sudan,% households adopting improved practices,5454; 5490; 5152; 5267; 5588; 5455; 5142; 5482; 5489; 5350
+336,1,1,south_sudan,# VSLA groups ctive members,5532; 5692; 5530; 5347; 5531; 5132; 5196; 5535; 5690; 5195
+337,1,1,south_sudan,# Preparedness plans,5191; 5238; 5492; 5459; 5628; 5889; 5350; 5811; 5813; 5886
+339,1,1,south_sudan,"1110a.4 End-use of cash (by FHH, MHH) % used for food % spent on non-food items % saved % shared % invested in business % used for other purposes",5180; 5606; 5422; 5469; 5690; 5625; 5152; 5633; 5613; 5090
+340,1,1,south_sudan,1110a.5 % of Participant’s (f/m) reported satisfaction with the distribution process,5184; 5155; 5534; 5133; 5419; 5713; 5659; 5413; 5511; 5658
+342,1,1,south_sudan,Number of households received agricultural inputs Number of farmers trained on climate-smart agronomic practices,5490; 5266; 5488; 5267; 5259; 5891; 5317; 5489; 5360; 5258
+343,1,1,south_sudan,Number of Community Anticipatory Action Committees (CAA) established and equipped to fulfill their role. Number of action plans developed and validated by the community and local stakeholders in each of the Bomas.,5526; 5530; 5656; 5576; 5691; 5191; 5187; 5529; 5894; 5813
+344,1,1,south_sudan,LTO 2.1 Number of households that are food secure,5892; 5327; 5090; 5199; 5631; 5182; 5895; 5313; 5317; 5620
+345,1,1,south_sudan,LTO 2.2: Number of communities with improved climate resilience,5806; 5812; 5813; 5810; 5808; 5809; 5807; 5811; 5885; 5814
+346,1,1,south_sudan,% of targeted smallholder farmers with access to locally adapted seeds and/or animal breads,5256; 5489; 5488; 5891; 5255; 5267; 5494; 5895; 5490; 5266
+347,1,1,south_sudan,MTO indicator 2.3.4: Number of biodiversity conservation practices adopted by targeted local farmers,5488; 5271; 5489; 5490; 5267; 5268; 5256; 5492; 5890; 5814
+348,1,1,south_sudan,% of local governments or communities with updated climate risk reduction plans,5808; 5814; 5813; 5811; 5188; 5807; 5482; 5812; 5810; 5480
+349,1,1,south_sudan,Number of smallholder farmers with access to locally adapted sorghum seeds,5494; 5267; 5266; 5255; 5891; 5490; 5270; 5488; 5254; 5317
+350,1,1,south_sudan,Number of HHs trained,5209; 5211; 5210; 5214; 5206; 5202; 5204; 5205; 5203; 5212
+351,1,1,south_sudan,Weighted average score Inclusion Marker,5269; 5090; 5620; 5252; 5363; 5083; 5253; 5659; 5641; 5206
+352,1,1,south_sudan,Number of HHs registered,5635; 5636; 5637; 5156; 5532; 5433; 5215; 5693; 5211; 5639
+354,1,1,sudan,"Unemployment rate (% of total labour force) disaggregated by sex, age, disability, migratory status, and location.",5433; 5435; 5203; 5204; 5158; 5441; 5439; 5428; 5541; 5617
+355,1,1,sudan,"Percentage increase in households reporting improved ability to cope with future shocks disaggregated by sex, age, disability, migratory status, and location.",5628; 5091; 5238; 5188; 5598; 5264; 5358; 5486; 5464; 5567
+358,1,1,sudan,2.3 Percentage increase in fishery production at the end of project.,5429; 5358; 5256; 5605; 5260; 5895; 5691; 5262; 5317; 5569
+359,1,1,sudan,"3.1 Number of beneficiaries (persons) with access to financial services with EU support disaggregated by sex, ownership, and type of beneficiary: farmers/ livestock/fishery producer status, disability, and location.",5623; 5511; 5422; 5543; 5205; 5269; 5250; 5358; 5414; 5156
+360,1,1,sudan,1.1.2. Number of demonstration plots established disaggregated by location.,5268; 5147; 5492; 5257; 5272; 5612; 5187; 5271; 5314; 5508
+361,1,1,sudan,"1.1.3. Number of persons supported to engage in fishery production disaggregated by sex, age, disability, migratory status, and location.",5617; 5541; 5650; 5085; 5623; 5182; 5250; 5450; 5428; 5651
+362,1,1,sudan,"1.1.4. Number of youth and women who established Income Generation Activities (IGA) disaggregated by sex, age, disability, migratory status, and location.",5617; 5541; 5539; 5358; 5487; 5540; 5085; 5158; 5616; 5250
+363,1,1,sudan,"1.1.5. Number farmers of supported to engage in horticulture production disaggregated by sex, age, disability, migratory status, and location.",5267; 5490; 5255; 5266; 5254; 5489; 5494; 5261; 5256; 5317
+364,1,1,sudan,"1.1.6. Number of women headed households supported to engage in poultry production disaggregated by sex, age, disability, migratory status, and location.",5085; 5617; 5541; 5428; 5084; 5420; 5435; 5099; 5626; 5264
+365,1,1,sudan,"1.1.7. Number of households supported to engage in animal/livestock production disaggregated by sex, age, disability, migratory status, and location.",5264; 5263; 5617; 5541; 5256; 5487; 5543; 5182; 5258; 5892
+366,1,1,sudan,"1.2.1. Number of community extension agents (persons) trained disaggregated by sex, age, disability, migratory status, and location.",5250; 5205; 5623; 5202; 5252; 5533; 5439; 5213; 5437; 5196
+367,1,1,sudan,"1.2.2. Number of farmers (persons) benefitting from extension services (through AEW/CAHWS) disaggregated by sex, age, disability, migratory status, and location.",5267; 5490; 5266; 5617; 5541; 5261; 5262; 5450; 5254; 5895
+368,1,1,sudan,"1.3.1. Number of female headed households supported with inputs and training on home garden practices for HH food diversity disaggregated by age, disability, migratory status, and location.",5541; 5617; 5085; 5084; 5099; 5891; 5317; 5428; 5089; 5254
+369,1,1,sudan,2.1.1 Number of market assessments conducted,5270; 5414; 5425; 5258; 5426; 5589; 5641; 5427; 5157; 5456
+370,1,1,sudan,2.2.1 Number of experiences sharing events/visits organized in-country,5527; 5658; 5567; 5529; 5690; 5151; 5659; 5415; 5610; 5612
+371,1,1,sudan,"3.1.1 Number of farmer, livestock, and fishery associations established/strengthened and legalized disaggregated by location.",5490; 5257; 5360; 5267; 5256; 5645; 5271; 5489; 5488; 5255
+372,1,1,sudan,3.1.2 Number of producer association representatives trained on lobby and advocacy disaggregated by location.,5596; 5429; 5576; 5266; 5205; 5419; 5490; 5369; 5530; 5691
+373,1,1,sudan,3.1.3 Number of producer associations Networks and Umbrella established and strengthened disaggregated by location.,5429; 5360; 5459; 5691; 5692; 5586; 5452; 5490; 5414; 5596
+374,1,1,sudan,3.2.1 Number of multi-stakeholder platforms to established (State and locality level) disaggregated by location.,5446; 5148; 5147; 5143; 5271; 5427; 5198; 5492; 5612; 5223
+375,1,1,sudan,"3.2.2 Number of persons benefiting from discussions conducted between Banks/MFIs, farmers, and other key stakeholders disaggregated by sex, age, location and migratory status and disability as relevant.",5623; 5543; 5541; 5617; 5428; 5567; 5539; 5435; 5544; 5618
+376,1,1,sudan,4.1.1 Number of watershed and geophysics assessments conducted.,5648; 5649; 5651; 5650; 5589; 5268; 5492; 5271; 5129; 5272
+377,1,1,sudan,"4.1.2 Number of water harvesting systems rehabilitated/upgraded for humans, livestock and agriculture disaggregated by location and infrastructure type.",5649; 5648; 5651; 5592; 5132; 5122; 5650; 5131; 5271; 5129
+378,1,1,sudan,"4.1.3 Number of persons reached with messages on good hygiene and sanitation practices disaggregated by sex, age, disability, migratory status, and location.",5311; 5178; 5142; 5137; 5242; 5174; 5623; 5175; 5541; 5617
+379,1,1,sudan,"4.1.4 Number of water resources management committees / members supported disaggregate by sex, age, disability, migratory status, and location as relevant.",5651; 5650; 5132; 5649; 5648; 5592; 5131; 5124; 5122; 5133
+380,1,1,sudan,"4.1.5 Number of persons reached with conflict resolution and management support disaggregated by sex, age, location, disability, migratory status, and location",5657; 5754; 5417; 5695; 5623; 5656; 5250; 5647; 5644; 5252
+381,1,1,sudan,"1110a.2 Number of crisis-affected women, men, girls, and boys receiving food assistance (in-kind, vouchers, or cash)",5577; 5892; 5633; 5182; 5250; 5623; 5511; 5642; 5407; 5598
+382,1,1,sudan,"(In-kind / vouchers only) 1110a.3 End-use of food (by FHH, MHH) % consumed % saved % shared % sold or traded % diverted to other uses",5152; 5090; 5414; 5422; 5690; 5469; 5426; 5182; 5155; 5694
+383,1,1,sudan,(All transfer modalities – for Participation and Accountability to Affected Populations) 1110a.5 Participant’s (f/m) reported satisfaction with the distribution process,5511; 5623; 5184; 5534; 5641; 5567; 5414; 5658; 5462; 5638
+385,1,1,sudan,1111.4 # of months of food assistance,5619; 5092; 5605; 5604; 5892; 5090; 5182; 5317; 5606; 5895
+386,1,1,sudan,1311.2 # of committee meetings held,5693; 5691; 5131; 5692; 5690; 5656; 5531; 5532; 5462; 5638
+387,1,1,sudan,"For gender equality and inclusion training for community advisory committee members 1312.1 # of gender-equality trainings offered for women and men on the community advisory committee (on importance of women’s active participation, decision-making, and leadership in project activities)",5369; 5368; 5367; 5547; 5614; 5366; 5444; 5428; 5546; 5540
+388,1,1,sudan,1312.2 # of community advisory committee members trained on gender (f/m/marginalized group members),5369; 5546; 5368; 5428; 5563; 5547; 5367; 5618; 5544; 5539
+389,1,1,sudan,For projects that completed GBV referral pathway mapping: 1332.1 # and % of staff (f/m) trained on gender-based violence referral pathways and GBV risk mitigation,5663; 5660; 5661; 5662; 5369; 5435; 5614; 5507; 5546; 5367
+390,1,1,sudan,1332.2 # and % of staff (f/m) oriented to implement partner prevention of sexual exploitation and abuse policies and procedures,5660; 5546; 5435; 5547; 5507; 5369; 5428; 5436; 5563; 5544
+391,1,1,sudan,1333.1 # and % of people (f/m) provided with information about rights and entitlements in the project,5623; 5251; 5532; 5690; 5643; 5511; 5543; 5542; 5567; 5531
+392,1,1,sudan,# of community dialogues organized,5894; 5526; 5656; 5461; 5658; 5462; 5446; 5756; 5576; 5527
+393,1,1,sudan,# of FSL support committees established at camp and state levels,5691; 5532; 5535; 5091; 5531; 5689; 5464; 5690; 5692; 5694
+394,1,1,sudan,# of partnership methodology manuals developed,5526; 5576; 5889; 5612; 5894; 5691; 5693; 5410; 5360; 5893
+395,1,1,sudan,# of lobby and advocacy session conducted,5577; 5530; 5567; 5691; 5529; 5454; 5532; 5576; 5531; 5535
+397,1,1,sudan,# of producers groups for refuges and host communities established / linked / strengthened,5526; 5691; 5894; 5187; 5429; 5459; 5586; 5360; 5890; 5532
+399,1,1,sudan,# of demonstration farms established,5266; 5488; 5267; 5490; 5489; 5891; 5360; 5256; 5895; 5893
+401,1,1,sudan,# of farmers who received fertilizers and pesticides,5266; 5490; 5267; 5488; 5255; 5261; 5489; 5260; 5360; 5257
+402,1,1,sudan,# of new nursery sites established # of existing nursery sites supported,5257; 5147; 5492; 5271; 5491; 5568; 5889; 5223; 5148; 5893
+403,1,1,sudan,# of community animal health workers trained,5596; 5209; 5210; 5205; 5256; 5211; 5213; 5891; 5208; 5207
+404,1,1,sudan,# of people trained on improved animal husbandry practices,5266; 5209; 5256; 5891; 5264; 5206; 5211; 5210; 5208; 5207
+405,1,1,sudan,# of small ruminants/goats distributed,5264; 5263; 5893; 5256; 5254; 5258; 5211; 5153; 5208; 5257
+406,1,1,sudan,# of poultry distributed for target households # of production units distributed,5258; 5259; 5254; 5407; 5263; 5605; 5893; 5089; 5317; 5264
+407,1,1,sudan,# of vaccines and medicines purchased,5156; 5639; 5182; 5264; 5157; 5453; 5426; 5208; 5153; 5144
+408,1,1,sudan,# of community consultation conducted to verify needs,5526; 5407; 5628; 5535; 5621; 5187; 5196; 5568; 5527; 5894
+410,1,1,sudan,# of handover ceremony conducted,5645; 5640; 5689; 5639; 5693; 5511; 5623; 5462; 5239; 5893
+411,1,1,sudan,%of farmers report increased security in the area,5489; 5488; 5260; 5256; 5895; 5255; 5317; 5267; 5360; 5441
+412,1,1,sudan,# of people receiving agricultural support,5360; 5490; 5890; 5891; 5267; 5488; 5895; 5317; 5260; 5567
+413,1,1,sudan,# of Post Distribution Monitoring Conducted,5497; 5258; 5887; 5259; 5429; 5640; 5148; 5464; 5635; 5262
+414,1,1,sudan,# of Post Harvest Monitoring Conducted,5262; 5258; 5261; 5259; 5254; 5266; 5255; 5891; 5268; 5429
+415,1,1,sudan,1650 people have improved access to mental health,5532; 5695; 5659; 5179; 5577; 5253; 5174; 5313; 5196; 5250
+416,1,1,sudan,4 safe spaces will be constructed,5314; 5244; 5485; 5199; 5198; 5508; 5634; 5179; 5313; 5632
+417,1,1,sudan,1000 people participated in sports and artistic events,5577; 5529; 5533; 5530; 5658; 5527; 5544; 5618; 5693; 5582
+418,1,1,sudan,Group counselling sessions conducted,5196; 5195; 5657; 5417; 5532; 5577; 5692; 5205; 5535; 5691
+419,1,1,sudan,300 individuals received capacity building training,5202; 5210; 5205; 5204; 5181; 5385; 5214; 5693; 5691; 5209
+420,1,1,sudan,150 individuals revived start-up in-kind grants,5638; 5693; 5689; 5196; 5691; 5195; 5202; 5567; 5347; 5346
+421,1,1,sudan,300 individuals capacitated,5205; 5182; 5250; 5535; 5175; 5179; 5577; 5124; 5181; 5416
+422,1,1,sudan,30 business groups received start-up in-kind grants,5196; 5458; 5689; 5195; 5347; 5693; 5346; 5567; 5240; 5202
+423,1,1,sudan,"# of returnee households that have received skills training and start-up grants, and are actively engaged in livelihood activities",5204; 5214; 5438; 5385; 5433; 5203; 5158; 5891; 5202; 5638
+424,1,1,uganda,Increased number of households accessing CCOs timely.,5641; 5640; 5892; 5142; 5642; 5198; 5691; 5414; 5527; 5621
+425,1,1,uganda,Increased number of smallholder farmers receiving quality extension services.,5267; 5489; 5488; 5490; 5266; 5260; 5270; 5891; 5256; 5360
+426,1,1,uganda,Output Program Indicators,5269; 5605; 5615; 5609; 5411; 5258; 5624; 5429; 5607; 5410
+427,1,1,uganda,Module indicator,5609; 5508; 5887; 5607; 5611; 5615; 5650; 5614; 5648; 5529
+428,1,1,uganda,"2,75428 land service providers in 14 districts are",5148; 5713; 5645; 5271; 5154; 5452; 5491; 5257; 5646; 5643
+429,1,1,uganda,technically capacitated to implement good practcies for,5410; 5652; 5210; 5454; 5489; 5691; 5576; 5265; 5490; 5154
+430,1,1,uganda,"systematci land registratoin for CCO, 2) Fit-for",5268; 5271; 5491; 5814; 5649; 5645; 5641; 5272; 5643; 5713
+431,1,1,uganda,purpose land demarcatoin and 3) inclusive and gender-,5665; 5428; 5646; 5435; 5616; 5645; 5252; 5491; 5540; 5444
+432,1,1,uganda,sensitvie approaches in awareness creatoin and,5531; 5529; 5419; 5151; 5461; 5150; 5411; 5195; 5652; 5658
+433,1,1,uganda,confilct resolutoin are implemented,5813; 5459; 5812; 5570; 5806; 5638; 5586; 5811; 5885; 5808
+434,1,1,uganda,In 14 districts capacities have been built on the legal and,5645; 5643; 5691; 5667; 5271; 5695; 5690; 5257; 5532; 5198
+436,1,1,uganda,responsibiliteis and operatvie procedures.,5410; 5576; 5450; 5459; 5454; 5508; 5492; 5526; 5543; 5145
+437,1,1,uganda,OI 1.1 80% of the 150 officials of decentralised land,5271; 5643; 5713; 5491; 5667; 5268; 5175; 5272; 5257; 5645
+438,1,1,uganda,framework on a scale of 1 to 5 with 3 or higher.,5691; 5648; 5887; 5607; 5649; 5492; 5268; 5459; 5410; 5651
+439,1,1,uganda,OI 1.2 80% of the 150 officials confrim that they are,5465; 5441; 5530; 5175; 5251; 5340; 5205; 5419; 5531; 5507
+440,1,1,uganda,OI 1.3 16 District land surveyors are capacitated to train,5272; 5492; 5257; 5271; 5266; 5210; 5181; 5209; 5645; 5211
+441,1,1,uganda,and provide backstopping in fti-for purpose land,5814; 5271; 5491; 5492; 5268; 5806; 5272; 5895; 5643; 5812
+442,1,1,uganda,demarcation,5644; 5665; 5271; 5349; 5147; 5262; 5492; 5491; 5643; 5167
+443,1,1,uganda,Milestones,5492; 5886; 5540; 5204; 5885; 5812; 5616; 5130; 5691; 5191
+444,1,1,uganda,150 trainers at district level have been trained on legal,5209; 5266; 5211; 5210; 5596; 5202; 5214; 5206; 5205; 5267
+445,1,1,uganda,310 physical planners and 70 District Land Board,5271; 5814; 5272; 5491; 5492; 5645; 5181; 5612; 5713; 5667
+446,1,1,uganda,members are capacitated to verify and approve CCO,5531; 5418; 5529; 5641; 5411; 5417; 5251; 5507; 5694; 5594
+447,1,1,uganda,applicatoins according to their mandate,5576; 5350; 5167; 5490; 5452; 5465; 5643; 5418; 5588; 5450
+448,1,1,uganda,14 sub county training plans are developed by the,5202; 5210; 5526; 5894; 5691; 5266; 5891; 5568; 5612; 5889
+449,1,1,uganda,districts,5644; 5271; 5491; 5257; 5667; 5713; 5814; 5894; 5272; 5656
+450,1,1,uganda,In 62 sub counties capacities have been built to,5691; 5645; 5535; 5148; 5271; 5622; 5621; 5526; 5313; 5257
+451,1,1,uganda,purpose (FFP) land registratoin for customary land and,5491; 5271; 5268; 5814; 5643; 5645; 5665; 5272; 5646; 5257
+452,1,1,uganda,the issuance of CCO.,5418; 5639; 5417; 5641; 5642; 5890; 5893; 5410; 5414; 5691
+453,1,1,uganda,"OI 2.1 150 trainers have conducted CD with 2,604 sub-",5211; 5209; 5210; 5205; 5202; 5693; 5206; 5266; 5214; 5203
+454,1,1,uganda,country officials on roles and procedures.,5610; 5576; 5543; 5436; 5612; 5454; 5649; 5526; 5651; 5691
+455,1,1,uganda,"OI 2.2 80% of the 2,604 officials at sub county and parish",5713; 5623; 5691; 5643; 5530; 5369; 5450; 5358; 5534; 5641
+456,1,1,uganda,level report knowledge of land mechanisms and,5268; 5271; 5491; 5814; 5272; 5713; 5492; 5257; 5649; 5643
+458,1,1,uganda,"OI 4.1 In 62 sub counties, officials and traditional authoriteis have the capacities to resolve or refer land disputes.29",5645; 5667; 5644; 5271; 5643; 5646; 5491; 5257; 5656; 5713
+459,1,1,uganda,"OI 4.2 62 sub counteis implement awareness raising campaigns in various villages on land rights, land laws and land documentatoin processes.30",5491; 5814; 5488; 5645; 5271; 5646; 5649; 5713; 5272; 5643
+460,1,1,uganda,Outcome for RBF: At least 70% of the local target communities state they are aware of land tenure options and ways to secure their customary land rights,5643; 5271; 5491; 5814; 5667; 5713; 5646; 5268; 5645; 5489
+461,1,1,uganda,"Outcome 1: Learning and Skilling: By 2030, more children, adolescents, and young people – particularly girls, refugees and those with disabilities have their right met to quality, equitable, inclusive, and safe learning, better preparing them for their future. Outcome 2: By 2027, girls and boys in Karamoja aged 3–19 progressively achieve age-appropriate learning outcomes.",5629; 5630; 5385; 5357; 5202; 5204; 5206; 5659; 5542; 5223
+462,1,1,uganda,1.3: ECD facilitators/teachers who received training with funding provided by UNICEF (UNICEF Indicator language) (disaggregated by sex and disability).,5205; 5623; 5511; 5209; 5213; 5210; 5206; 5385; 5418; 5543
+463,1,1,uganda,"1.4: Existence of national policy, leadership, and budget for early learning – Score 1-4",5891; 5610; 5629; 5569; 5256; 5691; 5568; 5886; 5630; 5596
+464,1,1,uganda,1.5: Existence of quality teaching and learning environments for early learning,5629; 5223; 5652; 5209; 5630; 5891; 5140; 5202; 5212; 5265
+465,1,1,uganda,"1.6: Number of children in the hard-to-reach communities benefiting from early childhood education through alternative approaches (such as home-based provision of ECD, accelerated school readiness models, parent education, among others) with support from UNICEF (disaggregated by sex and disability).",5629; 5630; 5223; 5205; 5623; 5357; 5144; 5250; 5567; 5187
+466,1,1,uganda,PSEA indicator 1: Number of UNICEF-supported sites which have communications materials on how to report on SEA and on survivor-centred assistance.,5187; 5623; 5650; 5205; 5486; 5238; 5196; 5577; 5511; 5806
+467,1,1,uganda,PSEA indicator 3: Number of children and adults who have access to a UNICEF-supported SEA reporting channel (disaggregated by sex and disability).,5623; 5205; 5511; 5653; 5650; 5182; 5253; 5340; 5174; 5543
+468,1,1,uganda,"GBV indicator 4: Number of women, girls, and boys accessing GBV risk mitigation, prevention, and/or response interventions (disaggregated by sex and disability).",5663; 5623; 5205; 5660; 5340; 5182; 5252; 5417; 5188; 5099
+469,1,1,uganda,"Number of children, adolescents, caregivers, and community members reached through SBC messaging on positive norms and on prevention/access to quality services (disaggregated by sex and disability).",5623; 5532; 5659; 5531; 5253; 5151; 5196; 5658; 5663; 5567
+471,1,1,syria,# of meters of the water pipeline rehabilitated,5131; 5130; 5176; 5648; 5129; 5649; 5343; 5132; 5330; 5122
+472,1,1,syria,The amount of total water loss (calculated as a % of the total water supply capacity),5125; 5330; 5122; 5129; 5592; 5312; 5121; 5132; 5651; 5126
+473,1,1,syria,% increase in the production of farmers of the Damascene Rose in Aleppo,5255; 5256; 5260; 5270; 5317; 5259; 5429; 5254; 5895; 5489
+474,1,1,syria,# of processing units established,5432; 5132; 5624; 5586; 5429; 5692; 5129; 5257; 5410; 5691
+475,1,1,syria,# of farmers who are able to operate and manage the packaging and labelling unit independently,5255; 5429; 5891; 5489; 5360; 5267; 5895; 5488; 5266; 5490
+476,1,1,syria,# of farmers who report/have increased knowledge about sustainable agricultural practices,5488; 5490; 5267; 5489; 5266; 5891; 5255; 5261; 5360; 5260
+477,1,1,syria,# of participants who have increased self-awareness and are aware of the effect of their attitude on others,5419; 5658; 5659; 5529; 5195; 5567; 5531; 5530; 5461; 5480
+478,1,1,syria,# of participants who report more gender equal relations in their household,5428; 5369; 5618; 5544; 5420; 5368; 5444; 5626; 5541; 5617
+479,1,1,syria,"Increase in the quantity of, and improvement in the quality of positive interactions between different age/gender/ethnic/religious groups in each community (and between communities)",5655; 5756; 5658; 5567; 5368; 5349; 5252; 5444; 5369; 5533
+480,1,1,syria,# of people who participated in at least 12 out of 15 socio-therapy sessions,5659; 5205; 5196; 5657; 5195; 5658; 5532; 5530; 5533; 5534
+481,1,1,syria,# of socio-therapy groups that took place by the end of the project,5196; 5195; 5567; 5657; 5659; 5658; 5205; 5526; 5532; 5534
+482,1,1,syria,# of trained and active facilitators,5209; 5596; 5212; 5530; 5266; 5385; 5267; 5529; 5489; 5454
+483,1,1,syria,% of participants and facilitators who state they are aware of the feedback and complaints mechanism established for their use,5461; 5419; 5462; 5529; 5531; 5151; 5418; 5155; 5534; 5658
+484,1,1,syria,"Based on the findings of MSNA, the average percentage of people with a score categorized as 'high' reduced coping stratgy index in three locations (Hama, Aleppo, RD) is 77.78%. The aim is to reduce this to 50%",5464; 5091; 5486; 5238; 5754; 5623; 5598; 5659; 5663; 5511
+485,1,1,syria,"ZOA: In Hama: Year one - Distribution of water pumps for irrigation to 500 HHs farmersHHs (614 female, 762 male, 650 girls, 473 boys) in As-Suqaylabiyah - Al Madiq castle - Climate smart agriculture training for farmers and 30 agriculture staff for 500 HHs farmers (same farmers) (651 female, 808 male, 690 girls, 501 boys) In year two The same farmers will benefit from distribution of agricultural inputs and training on climate smart practices. ( the same beneficiaries ) In year three, the same farmers will benefit from distribution of agricultural inputs ( seasonal inputs ) and training on climate smart practices. ( the same beneficiaries ) in Aleppo: - Rehabilitation of irrigation canals supporting 9,000 farmers (2211 female, 2745 male, 1702 girls , 2342 boys) GOPA-DERD: in Hama: - Rehabilitation of irrigation canals supporting 3,000 farmers (737 female, 915 male, 781 girls, 567 boys) In Rural Damascus: EPDC: in Rural Damascus: - Distribution of agriculture inputs for 500 farmers HHs (614 female, 762 male, 650 girls, 473 boys) SSSD: in Aleppo: - Support of 60 ( 30 on year two and the same on year three ) Micro, Small, and Medium-sized Enterprises (MSME) for 60 households (74 female, 91 male, 78 girls, 57 boys)",5635; 5490; 5266; 5651; 5125; 5124; 5317; 5649; 5121; 5357
+487,1,1,syria,"In Rural Damascus: GOPA-DERd: -Rehabilitation of bakery for 3600 HHs ( 4422 female, 5489 male, 4683 girls, 3405 boys)",5895; 5604; 5357; 5892; 5085; 5090; 5541; 5617; 5893; 5182
+488,1,1,syria,ZOA will develop tools to measure this indicator.,5650; 5531; 5648; 5268; 5607; 5589; 5651; 5482; 5419; 5649
+489,1,1,syria,"ZOA: in Rural Damascus: _M aR le eh 1a 8b 3il 0it a , t Bio on y so f 1 w 13at 5e r , Gw ie rl ll s f 1o 5r 66 10 0 )0 beneficiaries ( Female 1474, _Fe R me ah la eb 2il 4it 5a 7ti o ,n M o af l et w 3o 0 5w 0a ,t e Br o yn se t 1w 8o 9r 2k s , f Go ir r l1 s 0 20 60 00 2 b )eneficiaries ( Both activities will reach beneficiaries from the same location",5254; 5654; 5268; 5271; 5257; 5469; 5264; 5090; 5259; 5258
+492,1,1,syria,Number of persons reached by the implementation of specific GBV prevention measures,5663; 5567; 5623; 5691; 5199; 5182; 5486; 5205; 5238; 5187
+494,1,1,syria,"GOPA-DERD: in Hama: year one : Child protection and case management for 1250 individuals ( 750 Girls , 500 Boys ) Year two : Child protection and case management for 1250 individuals ( 750 Girls , 500 Boys ) Year three : Child protection and case management for 1250 individuals ( 750 Girls , 500 Boys )",5144; 5629; 5357; 5630; 5604; 5114; 5636; 5174; 5175; 5141
+496,1,1,syria,Local partners will be supported to become part of JR level decisionmaking. Progress will be measured during annual JR evaluation workshops.,5612; 5576; 5615; 5691; 5540; 5539; 5543; 5692; 5530; 5418
+497,1,1,syria,"A survey will be developed or integrated into other tools (e.g. PDM's or FGD's) to measure whether services are delivered in a safe, accessible, accountable and participatory manner",5151; 5154; 5531; 5419; 5543; 5253; 5532; 5156; 5526; 5461
+498,1,1,syria,"Number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme",5238; 5187; 5526; 5567; 5191; 5205; 5535; 5195; 5811; 5508
+499,1,1,syria,ZOA and Local partners will include affected population within their programme and will ensure their participation in decision making. For each activity ZOA conducts verification calls for sample of beneficiaries who recieves the assisstance from ZOA activities and from local partners as well,5691; 5418; 5690; 5526; 5567; 5529; 5612; 5535; 5531; 5187
+501,1,1,syria,Food Security and Agriculture,5895; 5890; 5328; 5891; 5892; 5090; 5317; 5893; 5327; 5605
+502,1,1,syria,"Indic 4.3.1: # of people (Women, Men, Boys, Girls, PLWD) with improved access to sanitation services through support to sanitation systems by repairing, rehabilitation, upgrading, operation and maintenance including sewage networks, wastewater treatment",5142; 5243; 5311; 5178; 5175; 5145; 5143; 5636; 5637; 5242
+503,1,1,syria,"Means of Verification: Comments : ZOA will use DG ECHO’s guidance on how to measure this indicator, by including eight mandatory questions and seven follow-up questions into the PDM surveys, which cover the four core elements of protection mainstreaming.",5589; 5419; 5151; 5207; 5531; 5611; 5615; 5508; 5587; 5418
+505,1,1,syria,Indicator 1.1.5 (Custom),5609; 5648; 5650; 5589; 5268; 5147; 5508; 5649; 5651; 5887
+506,1,1,syria,Means of Verification: Comments :,5589; 5411; 5438; 5413; 5641; 5419; 5611; 5462; 5461; 5543
+508,1,1,syria,Activity Code,5530; 5529; 5508; 5385; 5607; 5887; 5609; 5576; 5531; 5464
+509,1,1,yemen,"Rehabilitation/ construction of 3 water supply sources at communal , training of 3 Water User Committees and support to GARWSP. Target is reach of the water systems with an average of 500 HH per one water system.",5132; 5651; 5650; 5124; 5125; 5648; 5122; 5121; 5592; 5649
+510,1,1,yemen,"Hygiene promotion through: training of community hygiene promoters, HH visits, awareness raising, events and cleaning campaigns potentially in schools. Target is the same as for indicator WSH-I4 as the same beneficiaries are targeted.",5140; 5311; 5637; 5636; 5139; 5357; 5142; 5242; 5635; 5141
+511,1,1,yemen,"After the intervention, we anticipate that 95% of targeted individuals will report an increased sense of safety and well-being after engaging in the protection activities. The measurement will be done by assessing selected beneficiaries by the CBPNs and conducting post-distribution monitoring (PDM) on the provision of protection cash assistance, legal cash assistance, GBV cash assistance, and livelihood and skills-building activities. The M&E team will develop an M&E tool to be used in order to collect data.",5418; 5205; 5567; 5691; 5623; 5411; 5650; 5238; 5187; 5358
+512,1,1,yemen,"A total of 18,250 persons will receive an appropriate response from the planned protection activities.",5511; 5462; 5623; 5187; 5238; 5205; 5567; 5691; 5526; 5250
+513,1,1,yemen,"A total of 8,700 people will be provided with information on relevant rights, legal aid and documentation AND/OR support to alternative housing. This will be done through the information dissemination materials and the CBPN.",5623; 5577; 5691; 5643; 5690; 5198; 5532; 5250; 5526; 5313
+514,1,1,yemen,"Awareness raising and information on protection risks and services will be provided through CBPNs and other community leaders and dissemination of Protection/GBV materials to the community will be made to reach 10,000 beneficiaries in the sessions. The project will conduct awareness sessions which will be planned together with the community in order to empower them and create sustainability. The materials will be gender sensitive in nature and in the local language.",5567; 5508; 5811; 5529; 5187; 5205; 5810; 5691; 5507; 5813
+515,1,1,yemen,"Networks (CBPNs) in each of the targeted districts and build their capacity so that they increase their knowledge on protection issues and mobilize the community to respond to the protection needs of persons of concern. The project manager, along with the protection monitors, will be responsible for establishing, training, and supporting the monthly meetings of the CBPNs (one meeting per month will be conducted for 10 months).",5526; 5691; 5187; 5507; 5191; 5485; 5148; 5189; 5508; 5532
+516,1,1,yemen,"The target will be reached by providing psychosocial counselling, psycho-social support, case management, and referral to other service providers through the established/ pre-existing protection network.",5532; 5535; 5148; 5196; 5156; 5531; 5577; 5154; 5253; 5534
+517,1,1,yemen,Through providing Cash assistants to GBV survivors and Livelihood and skills building for persons at risk from GBV will be provided for a total 60 women.,5663; 5250; 5627; 5623; 5626; 5638; 5511; 5411; 5428; 5435
+518,1,1,yemen,"Through provide legal assistance, including civil documentation, legal advice, HLP, counselling, representation and dispute resolution etc.",5695; 5417; 5623; 5418; 5511; 5196; 5576; 5656; 5543; 5657
+519,1,1,yemen,ZOA and SDF plan to support 92 groups. It is estimated that 20 HHs will directly benefit per group cash transfer * average HH size of 7 = 12880 people. ZOA= 50 groups and SDF 42 groups.,5690; 5694; 5638; 5639; 5532; 5691; 5346; 5692; 5347; 5689
+520,1,1,yemen,See budget on partner share of SDF.,5569; 5610; 5690; 5624; 5639; 5418; 5691; 5091; 5606; 5625
+521,1,1,yemen,5% of the program budget of SDF.,5606; 5691; 5418; 5690; 5624; 5689; 5625; 5410; 5694; 5464
+522,1,1,yemen,"Based on the capacity-building plan to be prepared, SDF will receive capacity-strengthening support internally or externally.",5691; 5410; 5418; 5692; 5806; 5195; 5180; 5569; 5638; 5535
+523,1,1,yemen,"The beneficiaThe beneficiaries will be selected in adherence to the selection criteria approved by clusters, receive assistance matching their needs, satisfied with it, have access to functional feedback and complaints instruments, and protected by appropriate PSEA mechanisms.",5534; 5535; 5531; 5418; 5532; 5576; 5623; 5568; 5184; 5691
+524,1,1,yemen,"Young people, women, and persons with disabilities will participate in the design and implementation of the GCT as the approach of the intervention is community participatory. The participation of the affected people will be mainly through the community structures like CCs and the CBPN.",5691; 5567; 5526; 5533; 5690; 5658; 5694; 5894; 5187; 5564
+525,1,1,yemen,"Since the community groups (50 ZOA groups + 42 SDF groups * 10 members), Water User Committee members (3 WUCs * 5 members) as well as the CBPN (2 * 5 members) will play an active role in the design, implemenation and monitoring of their community projects, these beneficiaries are counted towards this indicator. Female and Male Under 18 are youth which are a primary target group, especially in the MPC/FSL activities.",5132; 5651; 5124; 5133; 5122; 5650; 5121; 5691; 5532; 5635
+526,1,1,yemen,"This indicator counts the number of groups that will each come up with their context specific plan, which is an adaptation to their communities of the Yemen Joint Reponse MPC/FSL activities.",5691; 5195; 5238; 5191; 5531; 5535; 5690; 5609; 5532; 5529
+527,1,1,yemen,"Joint learning & evaluation / Ideas: joint solutions to challenges, innovations The GCT approach is not a new intervention, but the modality is relatively new to Yemen. SDF’s strong experience in community mobilization will be key in the co-design process. SDF and ZOA will work together, with the support from the CMWG, to document learnings well to share the experience widely within the Yemen Joint Response consortium and beyond.",5691; 5195; 5656; 5464; 5567; 5647; 5091; 5692; 5526; 5657
+528,1,1,yemen,"Partners from the JR, specifically CARE and Diversity, will implement MPC in Al-Dhale'e city and Qatabah, while Dorcas, Saving Children, and Youth will implement MPC and protection sectors in Al-Dhale'e city. SDF and ZOA will discuss about this with these partners at the governorate and district levels to guarantee geographic complementarity and coverage and to avoid duplication of effort.",5691; 5623; 5649; 5418; 5454; 5132; 5651; 5690; 5357; 5187
+530,1,1,yemen,Neotatal mortality rate. target 0%,5263; 5264; 5450; 5654; 5396; 5494; 5604; 5441; 5269; 5329
+531,1,1,yemen,[Description],5645; 5469; 5652; 5639; 5616; 5893; 5625; 5180; 5889; 5184
+534,1,1,yemen,No indicator defined. Measured through evaluations,5650; 5589; 5648; 5887; 5651; 5649; 5611; 5615; 5269; 5508
+535,1,1,yemen,Number of people living in settlements with a functional drainage network,5124; 5497; 5651; 5177; 5125; 5121; 5649; 5175; 5122; 5648
+536,1,1,yemen,Crude Mortality rate (number of deaths/10.000p/day),5654; 5263; 5264; 5450; 5238; 5441; 5396; 5125; 5261; 5486
+537,1,1,yemen,Case fatality rate - Epidemics,5654; 5263; 5264; 5450; 5238; 5441; 5189; 5486; 5314; 5754
+538,1,1,yemen,Number of health facilities rehabilitated,5143; 5205; 5175; 5145; 5450; 5250; 5144; 5180; 5210; 5142
+539,1,1,yemen,Number of mental health consultations,5196; 5659; 5577; 5195; 5568; 5543; 5650; 5576; 5417; 5695
+540,1,1,yemen,Number of live births attended by skilled health personnel,5441; 5210; 5385; 5433; 5158; 5214; 5202; 5450; 5215; 5208
+541,1,1,yemen,Number of outbreak alerts responded to,5238; 5191; 5486; 5577; 5187; 5314; 5264; 5485; 5189; 5508
+542,1,1,yemen,Number of primary health care consultations,5196; 5568; 5543; 5641; 5156; 5454; 5407; 5121; 5642; 5148
+543,1,1,yemen,Number of hospitalisations,5174; 5604; 5210; 5124; 5208; 5148; 5144; 5450; 5313; 5175
+544,1,1,yemen,"Number of children who received community based treatment for malaria, diarrhoea and/or acute respiratory infections",5114; 5117; 5119; 5118; 5120; 5604; 5144; 5142; 5577; 5511
+545,1,1,yemen,Number of SGBV victims receiving assistance in less than 72 hours,5417; 5663; 5205; 5511; 5250; 5418; 5623; 5486; 5642; 5695
+546,1,1,yemen,Nutrition,5605; 5090; 5089; 5317; 5083; 5892; 5326; 5631; 5620; 5895
+547,1,1,yemen,Severe Acute Malnutrition recovery rate.,5604; 5119; 5117; 5120; 5114; 5118; 5187; 5326; 5173; 5264
+548,1,1,yemen,Coverage of the nutrition program,5605; 5090; 5892; 5182; 5527; 5891; 5895; 5604; 5620; 5089
+549,1,1,yemen,"Number of SMART, coverage, NCA or other surveys implemented",5691; 5641; 5187; 5414; 5196; 5568; 5690; 5485; 5535; 5182
+550,1,1,yemen,Number of children under 5 admitted for treatment of Severe or Moderate Acute Malnutrition,5604; 5114; 5119; 5117; 5118; 5120; 5144; 5630; 5140; 5629
+551,1,1,yemen,Number of health facilities where nutrition programmes are implemented,5148; 5143; 5605; 5090; 5604; 5182; 5454; 5357; 5527; 5476
+552,1,1,yemen,Number of people screened for under nutrition,5182; 5617; 5541; 5090; 5084; 5085; 5089; 5620; 5605; 5083
+553,1,1,yemen,Shelter and settlements,5244; 5632; 5314; 5313; 5181; 5199; 5634; 5179; 5180; 5631
+554,1,1,yemen,Number of people in displacement sites with functional coordination and management mechanisms,5691; 5181; 5530; 5450; 5189; 5462; 5195; 5191; 5187; 5132
+555,1,1,yemen,Number of people with unhindered access to and living in secure settlements,5653; 5244; 5198; 5250; 5199; 5313; 5179; 5643; 5205; 5486
+556,1,1,yemen,Education in emergencies,5191; 5238; 5629; 5886; 5205; 5810; 5485; 5885; 5189; 5811
+557,1,1,yemen,"% targeted children who transition (1) into formal from NFE, or (2) into the next level of NFE, or (3) into the next academic year of formal education",5629; 5630; 5202; 5204; 5203; 5209; 5540; 5357; 5206; 5214
+559,1,1,yemen,% of targeted persons reporting an increased sense of safety and well-being after engaging in the protection activities under this project,5251; 5567; 5205; 5419; 5238; 5653; 5441; 5659; 5507; 5529
+560,1,1,yemen,Number of persons reached by the implementation of specific prevention measures,5567; 5577; 5205; 5199; 5187; 5623; 5250; 5441; 5251; 5182
+561,1,1,yemen,"Number of persons who receive information on relevant rights, legal aid and documentation AND/OR support to alternative housing",5623; 5543; 5196; 5633; 5577; 5313; 5632; 5511; 5643; 5199
+562,1,1,yemen,Number of protection information management (PIM) products enabling evidence-informed action for quality protection outcomes produced,5508; 5485; 5595; 5810; 5454; 5886; 5808; 5441; 5199; 5456
+563,1,1,yemen,Number of participants showing an increased knowledge on the protection subject in focus,5251; 5205; 5529; 5419; 5507; 5595; 5531; 5567; 5467; 5653
+564,1,1,yemen,"Number of concrete strategies to prevent, report and/or respond to child recruitment at individual, community and/or national level",5629; 5416; 5630; 5691; 5205; 5533; 5250; 5187; 5357; 5526
+565,1,1,yemen,Number of unaccompanied and/or separated children who are reunited with their caregivers OR in appropriate protective care arrangements based on BIA,5144; 5623; 5313; 5179; 5198; 5511; 5630; 5175; 5641; 5205
+566,1,1,yemen,Number of persons who have received detention visits by the end of the project,5205; 5623; 5567; 5695; 5532; 5511; 5250; 5577; 5604; 5187
+567,1,1,yemen,Number of advocacy products produced and disseminated AND/OR number of meetings/events held,5577; 5567; 5196; 5691; 5576; 5454; 5530; 5195; 5453; 5455
+568,1,1,yemen,Number of survivors who receive an appropriate response to GBV,5663; 5205; 5417; 5623; 5511; 5238; 5695; 5250; 5567; 5418
+569,1,1,yemen,Number of persons who obtain appropriate documentation/legal status,5695; 5643; 5641; 5645; 5623; 5417; 5156; 5175; 5198; 5642
+570,1,1,yemen,Number of persons separated from their family who have re-established and maintained contacts AND/OR have been reunified with their families,5756; 5655; 5250; 5638; 5196; 5658; 5433; 5657; 5360; 5695
+571,1,1,yemen,Disaster Risk Reduction / Disaster Preparedness,5191; 5238; 5189; 5314; 5508; 5810; 5812; 5486; 5811; 5485
+572,1,1,yemen,Number of people participating in interventions that enhance their capacity to face shocks and stresses,5195; 5238; 5657; 5628; 5091; 5250; 5567; 5598; 5417; 5464
+573,1,1,yemen,Number of people covered by early action/ contingency plans,5238; 5691; 5191; 5567; 5695; 5577; 5576; 5205; 5187; 5754
+574,1,1,yemen,Number of people whose livelihoods and assets are protected from shocks and stresses,5250; 5486; 5450; 5187; 5199; 5653; 5188; 5890; 5806; 5205
+575,1,1,yemen,Localization,5427; 5612; 5610; 5150; 5181; 5421; 5644; 5613; 5652; 5207
+576,1,1,yemen,% of total nr of partners indicating progress on equitable partnership in partner survey DRA,5360; 5691; 5610; 5534; 5756; 5612; 5418; 5543; 5417; 5511
+577,1,1,yemen,% of risk sharing measures between DRA partners and local partners implemented.,5612; 5418; 5508; 5690; 5511; 5450; 5888; 5188; 5417; 5691
+578,1,1,yemen,Accountability,5890; 5755; 5143; 5695; 5643; 5251; 5623; 5446; 5808; 5810
+579,1,1,yemen,Collaborative impact (CI),5567; 5691; 5417; 5658; 5756; 5418; 5655; 5462; 5482; 5657
+580,1,1,yemen,Not defined - measured through the end evaluation,5615; 5611; 5589; 5410; 5464; 5543; 5651; 5261; 5650; 5648
+581,1,1,yemen,Is techinical expertise in regards to sectors exchanged between JR partners? YES/NO,5455; 5612; 5429; 5692; 5607; 5410; 5360; 5694; 5691; 5265
+582,1,1,yemen,Is there one or more instances of sharing resources ? YES/NO,5527; 5532; 5638; 5693; 5691; 5196; 5690; 5655; 5414; 5151
+583,1,1,yemen,Are there one or more learning activities conducted? YES/NO,5212; 5385; 5214; 5202; 5204; 5266; 5596; 5203; 5209; 5210
+584,1,1,yemen,Are there (monitoring) tools and frameworks shared amongst and newly used by partners? YES/NO,5446; 5531; 5612; 5607; 5529; 5526; 5419; 5411; 5461; 5691
+585,1,1,yemen,Are there integrated programme activities conducted in the JR? YES/NO,5691; 5540; 5604; 5607; 5454; 5455; 5615; 5530; 5564; 5529
+586,1,1,yemen,Are two or more partners carrying out joint programming in one geographical areas within the JR? YES/NO,5612; 5610; 5691; 5693; 5615; 5690; 5891; 5360; 5181; 5542
+587,1,1,yemen,Is there one or more innovations intervention that are piloted or scaled in the JR? YES/NO,5455; 5454; 5482; 5540; 5691; 5490; 5480; 5267; 5458; 5567
+588,1,1,yemen,Are there one or more joint advocacy activities conducted? YES/NO,5196; 5691; 5567; 5576; 5195; 5530; 5577; 5656; 5526; 5813
+589,1,1,yemen,Disability disaggregated data,5617; 5541; 5623; 5196; 5250; 5464; 5195; 5182; 5543; 5252
+590,1,1,yemen,"General notes: • The Washington Group Questions (WGQ) Short Set are 6 questions designed to identify people with disabilities. Its major objective is to provide information on disability status that is comparable worldwide. • The WGQ should always be used in conjunction with other measurement tools and should not be used in isolation, because it is intended as a screening tool only. • The WGQ is not suitable for children under the age of 5. For this reason, UNICEF and the WG developed the Child Functioning Module (CFM) which is designed to better identify all children with disability. • The WGQ should not to be used as a tool to identify type of impairment; it is not designed for this purpose. It is only meant to identify a person with a disability. Guidance note on using the WGQ: • Ask the WGQ to each HH member individually. • Adopt a neutral attitude; avoid using the word disability during the interview. • Do not pre-select people. E.g. you don’t ask first ‘do you have a disability yes/or no?‘ before using the WQG. This might cause an underestimation of prevalence. • Do not change any question or wording! Always use the same wording and all response categories. • Always ask all WG-questions and answer options, regardless of the situation (even though it might seem repetitive). • Respect the answer given by the respondent; it is not up to the enumerator to judge. Guidance on analysing the data: • If a person responds “Yes, a lot of difficulty” or “Cannot do at all” to ONE of the 6 questions, they need to be considered a person with disability. • Everyone else is regarded as a person without disability. Links: • WGQ SS: https://www.washingtongroup-disability.com/question-sets/wg-short-set-on-functioning-wg-ss/ • WGQ for children under age of 5: https://www.washingtongroup-disability.com/question-sets/wg-unicef-child-functioning-module-cfm/",5196; 5532; 5622; 5526; 5195; 5179; 5531; 5657; 5535; 5659
+593,1,1,yemen,# of consultation workshops organized involving community leaders/ representatives aimed at advocating for women and girls rights,5369; 5368; 5577; 5367; 5526; 5576; 5196; 5663; 5428; 5457
+594,1,1,yemen,"# of fully resourced operational women and girls safe spaces providing safe access to information and non-stigmatizing multi-sectorial GBV response services (psychosocial, legal, medical, etc)",5663; 5623; 5198; 5531; 5435; 5446; 5253; 5653; 5151; 5205
+595,1,1,yemen,"Proportion of women and girls in the target areas, including those with disabilities, that feel they are able to participate in social/economic/political life",5366; 5367; 5435; 5542; 5369; 5428; 5368; 5252; 5544; 5618
+596,1,1,yemen,"% targeted CSO reporting increased capacity to protect and promote the rights of women and girls, and contribute to their socio-economic, civic and cultural participation",5428; 5369; 5663; 5435; 5367; 5366; 5623; 5251; 5544; 5618
+597,1,1,yemen,"# of women beneficiaries of business development services who set up their own business and are self-employed, by the end of the project (EU GAPIII indicator)",5435; 5436; 5542; 5158; 5366; 5428; 5614; 5419; 5627; 5567
+598,1,1,yemen,% of women-led businesses that remain operational one year set up,5436; 5435; 5420; 5428; 5366; 5457; 5626; 5369; 5627; 5459
+599,1,1,yemen,% of beneficiaries reached with hygiene promotion and community engagement activities,5242; 5567; 5658; 5142; 5454; 5511; 5311; 5140; 5588; 5530
+602,1,1,yemen,"2.1.1 # of adaptations in the design and/or implementation of the project, as a result of the input from beneficiaries. 2.2.2 # of community initiatives successfully completed and handed over",5567; 5482; 5187; 5480; 5526; 5807; 5462; 5691; 5658; 5461
+604,1,1,yemen,-Selection and training of local facilitators -Community sensitization outreach -Formation of community groups -Designing of community initiatives by groups -Analysis and evaluation of initiatives -Group Cash Transfers distributions -Implementation of community initiatives -Support and guidance of community initiatives through trained facilitators,5638; 5526; 5461; 5462; 5533; 5576; 5658; 5691; 5894; 5187

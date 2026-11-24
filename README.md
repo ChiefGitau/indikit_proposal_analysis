@@ -173,6 +173,55 @@ checks the files. `import-review --export-gold` writes gold files from reviewed 
 - The reverse check and the LLM extraction of text-only logframes cost extra calls (~1 per novel candidate / section).
 - Scanned PDFs need `--ocr`; nine documents are `partial`.
 
+## Deploying the Streamlit app (Streamlit Community Cloud)
+
+The IndiKit app in `MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app/` can be hosted for free on Streamlit
+Community Cloud, straight from this GitHub repository. GitHub Pages cannot host it, because it only serves static
+files. Every push to the deployed branch redeploys the app.
+
+**What the deployed app reads.** Only files committed to this repository. It makes no LLM calls, needs no API key
+and has no secrets to configure.
+
+| Data | Path |
+|------|------|
+| Pipeline results (Proposal Overview, Indicator Matching, Analysis IndiKit) | `outputs/latest/` |
+| IndiKit metadata library | `pipeline/metadata/indikit_metadata.jsonl` |
+| IndiKit export | `MEAL_Proposal-main/MEAL_Proposal-main/data/indicators/Export indikit.csv` |
+| Site scrape (Site Comparison) | `MEAL_Proposal-main/MEAL_Proposal-main/data/indicators/data_analysis/site_scrape/scraped.json` |
+
+**Read-only by default.** Without the environment variable `ZOA_LOCAL_MODE`, the app never scrapes the live site,
+never runs the pipeline and never writes the analysis log. The Site Comparison page then compares against the
+committed scrape. Community Cloud's file system resets on every restart anyway, so nothing written there would last.
+
+**Updating the data.** Do it on your own machine and push:
+
+```bash
+cd MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app
+ZOA_LOCAL_MODE=1 streamlit run app.py      # Site Comparison: scrape, then "Refresh pipeline data"
+cd ../../..
+git add outputs/latest pipeline/metadata/indikit_metadata.jsonl \
+        MEAL_Proposal-main/MEAL_Proposal-main/data/indicators/data_analysis/site_scrape
+git commit -m "Refresh IndiKit data" && git push
+```
+
+A new pipeline run (`python -m pipeline.run run ...`) also rewrites `outputs/latest/`; commit and push it the same way.
+
+**First deploy.**
+
+1. Push this repository to GitHub. Keep the ignored folders (knowledge bases, LLM caches, `outputs/runs/`, `.env`)
+   out of it.
+2. On [share.streamlit.io](https://share.streamlit.io), choose "Create app", then the repository, the branch `main`
+   and the main file path `MEAL_Proposal-main/MEAL_Proposal-main/zoa_indikit_app/app.py`.
+3. Under "Advanced settings", choose Python 3.12. The pinned versions in the app's `requirements.txt` were tested on
+   it. Community Cloud uses that file, not the pipeline's `requirements.txt` in the repository root, because it
+   prefers the dependency file next to the main file.
+4. Deploy. The first build takes a few minutes. The theme comes from `.streamlit/config.toml` in the repository root.
+
+**Who can open it.** The app is public for now: anyone with the link can see it, including the indicator wordings
+and evidence quotes from the proposals. An app from a public repository is public automatically. An app from a
+private repository starts private; make it public under "Share" in the app, or keep it private and invite viewers by
+email there.
+
 ## Data sources and their quirks
 
 All raw IndiKit files live under `MEAL_Proposal-main/MEAL_Proposal-main/` and are read-only; derived files go

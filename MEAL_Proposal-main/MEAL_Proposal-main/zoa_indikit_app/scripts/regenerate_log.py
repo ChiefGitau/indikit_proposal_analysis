@@ -12,6 +12,7 @@ Uses the same loader / embeddings / log modules as the app, so results match
 the pages (real sentence-transformer embeddings + UMAP when installed).
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -19,6 +20,7 @@ import pandas as pd
 
 # Make `src` importable when run from the app root.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+os.environ.setdefault("ZOA_LOCAL_MODE", "1")  # this script exists to write the log
 
 from src.analysis_log import log_section  # noqa: E402
 from src.embeddings import embed_indicators, project_2d  # noqa: E402

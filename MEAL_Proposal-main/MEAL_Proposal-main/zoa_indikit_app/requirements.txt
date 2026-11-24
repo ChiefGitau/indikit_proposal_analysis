@@ -1,20 +1,26 @@
+# Python 3.12. This file is also the dependency file for the Streamlit Community Cloud deploy: Community Cloud
+# reads the requirements.txt next to app.py before the pipeline's own file in the repository root. Choose
+# Python 3.12 under "Advanced settings" when deploying. Versions are pinned to a set that runs the app locally.
+#
 # Core — the app runs fully on these (semantic pages fall back to TF-IDF + PCA).
-streamlit>=1.49        # pages use width="stretch" (added in 1.49)
-pandas
-plotly
-scikit-learn
-openpyxl               # Indicator Matching page: review.xlsx download
-# Site Comparison page: scrape the live IndiKit site (requests ships with the
-# stack; beautifulsoup4 parses the server-rendered HTML).
-requests
-beautifulsoup4
-# numpy: pinned <2 so it stays compatible with torch 2.2.2 (see ML extras below).
-numpy==1.26.4
+streamlit==1.67.0      # pages use width="stretch" (added in 1.49)
+pandas==3.0.6
+plotly==7.1.0
+scikit-learn==1.9.1
+openpyxl==3.1.5        # Indicator Matching page: review.xlsx download
+# Site Comparison page: src/scraper.py imports these even in the read-only mode (live scraping only runs with
+# ZOA_LOCAL_MODE=1).
+requests==2.34.2
+beautifulsoup4==4.15.0
+# numpy 2 is required: pyarrow (which Streamlit uses to draw every table) refuses numpy<2.
+numpy==2.5.5
+pyarrow==26.0.1
 
 # Optional — real semantic embeddings + UMAP for the Semantic Map / Duplicates.
 # These versions are a known-good set for Intel macOS / Python 3.12, where:
 #   * PyTorch has no wheels after 2.2.2 (so torch is capped there),
-#   * torch 2.2.2 needs numpy<2,
+#   * torch 2.2.2 needs numpy<2, which conflicts with the numpy 2 / pyarrow pins above, so these extras need
+#     a separate local environment and are never installed on Community Cloud,
 #   * numba needs numpy>=1.24,<2.4  → numpy 1.26.4 satisfies both,
 #   * transformers 5.x is incompatible with torch 2.2.2 → pin <5.
 # Upgrade pip first (`pip install --upgrade pip`) so llvmlite/numba install as

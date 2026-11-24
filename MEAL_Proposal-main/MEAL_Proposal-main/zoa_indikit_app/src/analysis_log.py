@@ -12,6 +12,8 @@ Durable store on disk under ``data/analysis_log/``::
 
 Each section holds the most recent run of that page, tagged with the filter
 context that produced it.
+
+Writes only happen with ``ZOA_LOCAL_MODE=1`` (see ``src/config.py``); the deployed app is read-only.
 """
 
 import io
@@ -22,6 +24,8 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+
+from src.config import LOCAL_MODE
 
 # Canonical location in the central data dir (shared with docs/analysis reports).
 LOG_DIR = (
@@ -61,6 +65,8 @@ def log_section(section, *, metrics=None, tables=None, context=None, indexed_tab
     ``indexed_tables`` – names in ``tables`` whose row index should be kept
                          (crosstabs, where the index is the row label).
     """
+    if not LOCAL_MODE:  # read-only app: never write to the repository's files
+        return
     manifest = _load()
     entry = manifest.setdefault(section, {"metrics": {}, "tables": {}, "context": {}})
 
@@ -91,7 +97,7 @@ def read_table(rel_path: str) -> pd.DataFrame:
 
 
 def clear_log() -> None:
-    if LOG_DIR.exists():
+    if LOCAL_MODE and LOG_DIR.exists():
         shutil.rmtree(LOG_DIR)
 
 

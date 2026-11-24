@@ -1,0 +1,33 @@
+{
+ "run_id": "run-20261115-233434",
+ "provider": "openai",
+ "answer_model": "gpt-6.1-terra",
+ "extraction_model": "gpt-6-luna",
+ "use_knowledge": true,
+ "use_search_terms": true,
+ "use_rerank": false,
+ "kb_types": [
+  "text",
+  "outline",
+  "table"
+ ],
+ "top_k": 4,
+ "top_n": 5,
+ "baseline_retrieval": false,
+ "tau": null,
+ "tau_percentile": 90.0,
+ "top_m": 60,
+ "route_sectors": false,
+ "include_export_only": true,
+ "novel_pass": true,
+ "reverse_check": true,
+ "workers": 4,
+ "max_calls": 9000,
+ "max_cost_usd": 25.0,
+ "force": false,
+ "mode": "docs",
+ "prompt_version": "disclosure-v2",
+ "rubric_version": "rubric-v1",
+ "watermark": "",
+ "fingerprint": "4d78859936cd"
+}

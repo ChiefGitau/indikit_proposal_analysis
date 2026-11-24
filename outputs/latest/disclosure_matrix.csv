@@ -1,0 +1,433 @@
+doc_id,indikit_id,indikit_name,sector,match_type,n_document_indicators,doc_indicator_ids,sources,on_site,country,region
+proposals-africa-burkina-small-bfa2601-project-proposal-pareco2-1st-february-9b2851f6,5152,Use of Promoted Products / Services,Food Security and Livelihoods,close,2,D002; D005,disclosure,False,Burkina,africa
+proposals-africa-burkina-small-bfa2601-project-proposal-pareco2-1st-february-9b2851f6,5476,Use of Eco-Friendly Practices / Products,Food Security and Livelihoods,close,1,D007,disclosure,True,Burkina,africa
+proposals-africa-burkina-small-bfa2601-project-proposal-pareco2-1st-february-9b2851f6,5588,Adoption of Environmental Protection Practices,Food Security and Livelihoods,close,1,D007,disclosure,False,Burkina,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5265,Acquired Knowledge / Skills,Food Security and Livelihoods,close,1,D011,disclosure,False,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",close,1,D004,disclosure,False,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,close,1,D005,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5491,Area of Land Under Improved Management,Food Security and Livelihoods,close,1,D005,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D009,disclosure,False,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5652,Acquired Knowledge / Skills,Shelter,close,1,D011,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5814,Area of Land Under Improved Management,Climate Resilience,close,1,D005,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-copy-of-annexe-c-cadre-logique-pa-57f2cdea,5886,Acquired Knowledge / Skills,Climate Resilience,close,1,D011,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-parcelle-full-proposal-final-vers-50170735,5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,close,1,D001,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-parcelle-full-proposal-final-vers-50170735,5491,Area of Land Under Improved Management,Food Security and Livelihoods,close,1,D001,disclosure,True,burundi,africa
+proposals-africa-burundi-large-parcelle-enabel-parcelle-full-proposal-final-vers-50170735,5814,Area of Land Under Improved Management,Climate Resilience,close,1,D001,disclosure,True,burundi,africa
+proposals-africa-burundi-large-proposal-land-scale-burundi-05-11-2021-a-editer-p-263f2e70,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,close,1,D001,disclosure,True,burundi,africa
+proposals-africa-burundi-large-proposal-land-scale-burundi-05-11-2021-a-editer-p-263f2e70,5644,Land Conflict Resolution Rate through ADR,Peacebuilding,close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-large-proposal-land-scale-burundi-05-11-2021-a-editer-p-263f2e70,5713,Performance of Land Administration Services,Peacebuilding,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5532,Accessing a Service,Food Security and Livelihoods,close,1,D017,reverse_check,False,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5576,Engagement with Decision Makers,Food Security and Livelihoods,close,1,D039,disclosure,True,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,verbatim,2,D013; D036,disclosure; reverse_check,True,burundi,africa
+proposals-africa-burundi-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-31032023-contract-zoa-2023-signed-snv-and-zoa-9480551e,5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,close,1,D013,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-31032023-contract-zoa-2023-signed-snv-and-zoa-9480551e,5807,Adoption of Promoted Adaptation Measures,Climate Resilience,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-31032023-contract-zoa-2023-signed-snv-and-zoa-9480551e,5813,Adoption of Promoted Practices,Climate Resilience,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-addendum-proposal-for-cafetaria-model-2-schools-cd667a5a,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D005,disclosure,False,burundi,africa
+proposals-africa-burundi-medium-addendum-proposal-for-cafetaria-model-2-schools-cd667a5a,5630,Education: School Attendance,cross-cutting: Cash and Voucher Assistance,close,1,D001,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5129,Water Source Functionality,"Water, Sanitation and Hygiene",close,1,D006,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5179,Access to Adequate Shelter,Shelter,verbatim,2,D002; D005,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5181,Local Participation in Shelter Construction,Shelter,verbatim,1,D005,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5244,Safe and Dignified Shelters,Shelter,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5260,Agricultural Productivity,Food Security and Livelihoods,verbatim,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5313,Access to Shelter,Shelter,close,3,D002; D005; D011,disclosure; reverse_check,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5450,Survival Rate,Food Security and Livelihoods,close,1,D010,reverse_check,False,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5632,Shelter: Use of Quality Shelter,Shelter,close,1,D011,reverse_check,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D003,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5756,Perceived Community Cohesion,Peacebuilding,verbatim,1,D001,reverse_check,True,burundi,africa
+proposals-africa-burundi-medium-kinanira-resilience-proposal-abbdeae5,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5179,Access to Adequate Shelter,Shelter,close,1,D006,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5313,Access to Shelter,Shelter,close,1,D006,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5358,Increased Income,Food Security and Livelihoods,close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D007,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-logframe-for-ruyigi-projects-f0863ee7,5892,PIP: # of households with increased income,Food Security and Livelihoods,close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5179,Access to Adequate Shelter,Shelter,close,1,D006,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5260,Agricultural Productivity,Food Security and Livelihoods,close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",close,1,D008,disclosure,False,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5313,Access to Shelter,Shelter,close,1,D006,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5428,Gender Representation,Food Security and Livelihoods,close,1,D012,disclosure,False,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D007,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-medium-resilience-zba-ruyigi-resilience-proposal-modifi-ef7907be,5890,PIP: # of people undertaking actions to manage and protect natural resources,Food Security and Livelihoods,close,1,D008,disclosure,True,burundi,africa
+proposals-africa-burundi-small-addendum-proposal-for-the-empowering-women-in-sma-13df457a,5428,Gender Representation,Food Security and Livelihoods,close,1,D003,disclosure,False,burundi,africa
+proposals-africa-burundi-small-create-proposal-full-proposal-final-29-08-2025-bee8e41f,5756,Perceived Community Cohesion,Peacebuilding,close,1,D001,reverse_check,True,burundi,africa
+proposals-africa-burundi-small-create-proposal-full-proposal-final-29-08-2025-bee8e41f,5806,Amount of Resources Saved,Climate Resilience,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,3,D001; D003; D004,disclosure; reverse_check,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5428,Gender Representation,Food Security and Livelihoods,close,1,D010,disclosure,False,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5476,Use of Eco-Friendly Practices / Products,Food Security and Livelihoods,close,1,D004,disclosure,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,3,D001; D003; D004,disclosure; reverse_check,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5526,Engagement in Identifying Needs and Solutions,Food Security and Livelihoods,close,1,D007,disclosure,False,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D007,disclosure,False,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5532,Accessing a Service,Food Security and Livelihoods,close,1,D006,disclosure,False,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,2,D003; D009,disclosure,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5890,PIP: # of people undertaking actions to manage and protect natural resources,Food Security and Livelihoods,close,1,D003,disclosure,True,burundi,africa
+proposals-africa-burundi-small-koppert-foundation-proposal-adjusted-07bc030f,5891,PIP: # of farmer households who are trained through peer-to-peer learning,Food Security and Livelihoods,close,1,D005,disclosure,True,burundi,africa
+proposals-africa-burundi-small-modified-proposal-chicken-project-burundi-hatchte-1f99c2e7,5358,Increased Income,Food Security and Livelihoods,close,1,D002,disclosure,True,burundi,africa
+proposals-africa-burundi-small-modified-proposal-chicken-project-burundi-hatchte-1f99c2e7,5360,Farmers’ Cooperation,Food Security and Livelihoods,close,1,D005,disclosure,False,burundi,africa
+proposals-africa-burundi-small-modified-proposal-chicken-project-burundi-hatchte-1f99c2e7,5428,Gender Representation,Food Security and Livelihoods,close,1,D007,disclosure,False,burundi,africa
+proposals-africa-burundi-small-modified-proposal-chicken-project-burundi-hatchte-1f99c2e7,5891,PIP: # of farmer households who are trained through peer-to-peer learning,Food Security and Livelihoods,close,1,D003,reverse_check,True,burundi,africa
+proposals-africa-burundi-small-proposal-for-zba-project-in-rumonge-final-71858afd,5358,Increased Income,Food Security and Livelihoods,close,1,D002,reverse_check,True,burundi,africa
+proposals-africa-burundi-small-proposal-for-zba-project-in-rumonge-final-71858afd,5892,PIP: # of households with increased income,Food Security and Livelihoods,close,1,D002,reverse_check,True,burundi,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5257,Cropping Area,Food Security and Livelihoods,close,1,D016,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5329,Living Below the Poverty Line,Food Security and Livelihoods,close,1,D001,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5366,Attitudes Towards Women’s Economic Participation,Gender Diversity & Inclusion,verbatim,1,D065,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5368,Women’s Participation in Community Groups,Gender Diversity & Inclusion,close,1,D077,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5444,Attitudes Towards Gender Equality,Gender Diversity & Inclusion,verbatim,2,D064; D065,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5487,Diversified Income,Food Security and Livelihoods,close,1,D005,reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D015,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5491,Area of Land Under Improved Management,Food Security and Livelihoods,close,1,D016,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5492,Fulfilment of Landscape Management Plans,Food Security and Livelihoods,close,1,D023,reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5530,Active Participation in Activities,Food Security and Livelihoods,verbatim,1,D032,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5577,People Reached,Food Security and Livelihoods,close,1,D076,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5606,Cash Spending,Food Security and Livelihoods,close,1,D030,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5644,Land Conflict Resolution Rate through ADR,Peacebuilding,close,2,D057; D063,disclosure; reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5647,Satisfaction with Conflict Resolution,Peacebuilding,close,1,D058,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D083,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5656,Conflicts Addressed and Resolved by Different Actors,Peacebuilding,close,2,D057; D063,disclosure; reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5693,Number of GCT Workshop Participants,cross-cutting: Cash and Voucher Assistance,close,1,D054,reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5756,Perceived Community Cohesion,Peacebuilding,close,1,D083,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5814,Area of Land Under Improved Management,Climate Resilience,close,1,D016,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D009,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5891,PIP: # of farmer households who are trained through peer-to-peer learning,Food Security and Livelihoods,close,1,D017,disclosure,True,DRC,africa
+proposals-africa-drc-large-raise-20250613-logframe-66b78112,5893,PIP: # of farm plans (PIP) developed jointly by the household,Food Security and Livelihoods,close,1,D014,reverse_check,True,DRC,africa
+proposals-africa-drc-large-raise-cod2404-narrative-proposal-sas-p-d6741e79,5329,Living Below the Poverty Line,Food Security and Livelihoods,close,1,D001,reverse_check,False,DRC,africa
+proposals-africa-drc-large-raise-cod2404-narrative-proposal-sas-p-d6741e79,5428,Gender Representation,Food Security and Livelihoods,verbatim,2,D004; D005,disclosure,False,DRC,africa
+proposals-africa-drc-large-raise-cod2404-narrative-proposal-sas-p-d6741e79,5606,Cash Spending,Food Security and Livelihoods,close,1,D003,disclosure,False,DRC,africa
+proposals-africa-drc-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,DRC,africa
+proposals-africa-drc-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,DRC,africa
+proposals-africa-drc-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5532,Accessing a Service,Food Security and Livelihoods,close,1,D017,reverse_check,False,DRC,africa
+proposals-africa-drc-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,verbatim,2,D013; D036,disclosure; reverse_check,True,DRC,africa
+proposals-africa-drc-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5196,Self-Help Groups - Coverage,Food Security and Livelihoods,close,1,D059,reverse_check,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",close,1,D043,disclosure,False,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5358,Increased Income,Food Security and Livelihoods,close,1,D014,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5363,Household Decision-Making Index,Gender Diversity & Inclusion,close,1,D022,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5420,Women’s Economic Decision-Making,Food Security and Livelihoods,close,1,D022,disclosure,False,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5444,Attitudes Towards Gender Equality,Gender Diversity & Inclusion,close,1,D023,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D043,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5530,Active Participation in Activities,Food Security and Livelihoods,verbatim,1,D015,reverse_check,False,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5652,Acquired Knowledge / Skills,Shelter,verbatim,1,D002,reverse_check,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5655,Perception of Social Cohesion and Trust,Peacebuilding,verbatim,1,D001,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5756,Perceived Community Cohesion,Peacebuilding,close,1,D001,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5792,Trust,Peacebuilding,close,1,D001,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5892,PIP: # of households with increased income,Food Security and Livelihoods,close,1,D014,disclosure,True,DRC,africa
+proposals-africa-drc-small-selfrise-20240911-log-frame-selfrise-18875734,5893,PIP: # of farm plans (PIP) developed jointly by the household,Food Security and Livelihoods,close,2,D037; D046,reverse_check,True,DRC,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5090,FSL: Food Consumption Score,Food Security and Livelihoods,close,1,D003,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5091,FSL: Coping Strategy Index,Food Security and Livelihoods,close,1,D015,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D006,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5175,Access to Excreta Disposal Facilities,"Water, Sanitation and Hygiene",close,1,D007,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5206,Achievement of Vocational Education Training Competency Standards,Food Security and Livelihoods,close,1,D044,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5265,Acquired Knowledge / Skills,Food Security and Livelihoods,close,1,D051,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5328,Food Insecurity Experience Scale (FIES),Food Security and Livelihoods,close,1,D017,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5532,Accessing a Service,Food Security and Livelihoods,close,1,D013,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,close,1,D012,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5605,Household food production,Food Security and Livelihoods,close,1,D053,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5620,Food Consumption Score,Food Security and Livelihoods,close,1,D003,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eu-basic-services-copy-of-eu-project-logframe-16fe6e45,5652,Acquired Knowledge / Skills,Shelter,close,1,D051,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5184,Beneficiaries' Satisfaction,Shelter,close,2,D008; D012,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5419,Awareness of Product / Service,Gender Diversity & Inclusion,close,1,D009,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5531,Awareness of How to Access a Service,Food Security and Livelihoods,verbatim,1,D009,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5532,Accessing a Service,Food Security and Livelihoods,close,3,D003; D010; D011,disclosure; reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,close,2,D008; D012,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D005,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-annex-c-log-frame-62c6dafa,5792,Trust,Peacebuilding,close,1,D005,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5156,Number of Clients Served,Food Security and Livelihoods,close,1,D011,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5184,Beneficiaries' Satisfaction,Shelter,close,2,D003; D004,disclosure; reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5532,Accessing a Service,Food Security and Livelihoods,close,2,D011; D016,disclosure; reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,close,1,D004,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5577,People Reached,Food Security and Livelihoods,close,1,D010,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D006,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5713,Performance of Land Administration Services,Peacebuilding,close,1,D004,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-eutf-top-up-t05-eutf-hoa-et-77-02-doa-dec-31-202-f21f4c57,5756,Perceived Community Cohesion,Peacebuilding,close,1,D006,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D019,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5182,Access to Non-Food Items,Shelter,close,1,D015,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,2,D004; D006,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D026,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,verbatim,1,D027,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,close,1,D027,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D019,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-final-full-proposal-c6bf0ec1,5639,Total CVA Value Distributed,cross-cutting: Cash and Voucher Assistance,verbatim,2,D005; D007,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-tear-reviewed-and-last-e960b61d,5358,Increased Income,Food Security and Livelihoods,close,1,D001,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-tear-reviewed-and-last-e960b61d,5422,Use of Financial Products / Services,Food Security and Livelihoods,close,2,D020; D023,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-tear-reviewed-and-last-e960b61d,5423,Value of Loans Accessed,Food Security and Livelihoods,close,1,D022,reverse_check,False,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5137,Availability of Soap,"Water, Sanitation and Hygiene",close,1,D013,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5138,Handwashing Facilities With Soap and Water,"Water, Sanitation and Hygiene",verbatim,1,D013,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5142,Use of Improved Sanitation Facility,"Water, Sanitation and Hygiene",close,1,D014,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5174,Access to Bathing Facilities,"Water, Sanitation and Hygiene",close,1,D015,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5179,Access to Adequate Shelter,Shelter,close,1,D009,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5182,Access to Non-Food Items,Shelter,close,1,D003,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5184,Beneficiaries' Satisfaction,Shelter,close,2,D004; D016,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5330,Drinking Water Quality (residual chlorine),"Water, Sanitation and Hygiene",close,1,D012,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,close,2,D004; D016,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,close,1,D002,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5637,WASH: Hygiene,"Water, Sanitation and Hygiene",close,1,D013,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-revised-proposal-tigray-emergency-response-2-0e8649e2,5639,Total CVA Value Distributed,cross-cutting: Cash and Voucher Assistance,verbatim,1,D010,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,verbatim,2,D013; D036,disclosure; reverse_check,True,Ethiopia,africa
+proposals-africa-ethiopia-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-small-eth2315-foco-proposal-2024-4d616430,5184,Beneficiaries' Satisfaction,Shelter,close,1,D001,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-small-eth2315-foco-proposal-2024-4d616430,5534,Satisfaction with Provided Assistance,Food Security and Livelihoods,close,1,D001,disclosure,False,Ethiopia,africa
+proposals-africa-ethiopia-small-eth2315-foco-proposal-2024-4d616430,5630,Education: School Attendance,cross-cutting: Cash and Voucher Assistance,close,1,D002,disclosure,True,Ethiopia,africa
+proposals-africa-ethiopia-small-grinding-mill-development-proposal-44d9a658,5487,Diversified Income,Food Security and Livelihoods,close,1,D001,reverse_check,True,Ethiopia,africa
+proposals-africa-south-sudan-large-aweil-east-emergency-project-narrative-pharus-5e31a829,5090,FSL: Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-aweil-east-emergency-project-narrative-pharus-5e31a829,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D002,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-large-aweil-east-emergency-project-narrative-pharus-5e31a829,5620,Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D016,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D022,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5136,Hand Washing Practice,"Water, Sanitation and Hygiene",close,1,D024,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5188,Climate Risk Perception,Climate Resilience,close,1,D004,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5189,Community-Led Disaster Risk Management,Shelter,close,1,D007,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5202,Enrolment in Vocational Education Training,Food Security and Livelihoods,close,1,D035,reverse_check,False,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5238,Perception of Disaster Preparedness,Climate Resilience,close,1,D006,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5266,Testing of Promoted Practices,"Water, Sanitation and Hygiene",close,1,D017,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D017,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5311,Adequate WASH Services and Hygiene Practices,"Water, Sanitation and Hygiene",verbatim,1,D005,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5358,Increased Income,Food Security and Livelihoods,close,1,D002,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5429,Product / Service’s Perceived Contribution to Higher Production,Food Security and Livelihoods,close,1,D015,reverse_check,False,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5464,FSL: Reduced Coping Strategy Index,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5486,Reduced Vulnerability,Food Security and Livelihoods,close,1,D011,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D017,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D022,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5644,Land Conflict Resolution Rate through ADR,Peacebuilding,close,1,D042,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D040,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5656,Conflicts Addressed and Resolved by Different Actors,Peacebuilding,close,1,D042,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5756,Perceived Community Cohesion,Peacebuilding,close,2,D003; D040,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5807,Adoption of Promoted Adaptation Measures,Climate Resilience,close,1,D017,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5813,Adoption of Promoted Practices,Climate Resilience,close,1,D017,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,verbatim,1,D020,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-ssd2602-project-document-7243422a,5892,PIP: # of households with increased income,Food Security and Livelihoods,close,1,D002,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,close,2,D013; D036,disclosure; reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-emergency-shelter-assistance-concept-note-jun-7c498574,5428,Gender Representation,Food Security and Livelihoods,close,1,D001,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ena-project-strengthening-the-resilience-path-5b8d591d,5368,Women’s Participation in Community Groups,Gender Diversity & Inclusion,close,1,D003,reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-small-ena-project-strengthening-the-resilience-path-5b8d591d,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D008,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ena-project-strengthening-the-resilience-path-5b8d591d,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D006,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ena-project-strengthening-the-resilience-path-5b8d591d,5754,Prevalence of Conflicts,Peacebuilding,close,1,D001,reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-small-ewash-proposal-for-eo-metterdaad-968c4a6b,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-flourish-proposal-narrative-bor-south-county-947c3c83,5428,Gender Representation,Food Security and Livelihoods,close,1,D006,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-flourish-proposal-narrative-bor-south-county-947c3c83,5454,Adoption of the Promoted Management Practices,Food Security and Livelihoods,close,1,D002,reverse_check,False,south_sudan,africa
+proposals-africa-south-sudan-small-flourish-proposal-narrative-bor-south-county-947c3c83,5891,PIP: # of farmer households who are trained through peer-to-peer learning,Food Security and Livelihoods,close,1,D001,reverse_check,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5189,Community-Led Disaster Risk Management,Shelter,close,1,D012,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,2,D005; D006,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5255,Crop Production,Food Security and Livelihoods,close,1,D008,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5263,Animal Mortality,Food Security and Livelihoods,close,1,D010,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,close,1,D004,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,close,1,D004,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5640,Timely Delivery of Cash,cross-cutting: Cash and Voucher Assistance,close,1,D006,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5641,Received Correct Amount of CVA,cross-cutting: Cash and Voucher Assistance,close,1,D006,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-hdp-nexus-proposal-fv-612154ea,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D014,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5090,FSL: Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5091,FSL: Coping Strategy Index,Food Security and Livelihoods,close,1,D002,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,2,D005; D006,reverse_check,False,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5251,Awareness of Rights,Gender Diversity & Inclusion,close,1,D012,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5511,Assistance Delivery,Gender Diversity & Inclusion,close,1,D011,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D003,reverse_check,False,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5620,Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-project-agreement-template-current-docx-8679e003,5623,Protection Mainstreaming,Shelter,close,1,D011,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-revised-yew-project-proposal-y3-narrative-cle-334bee98,5204,Completion Rate in Vocational Education Training,Food Security and Livelihoods,close,1,D001,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-revised-yew-project-proposal-y3-narrative-cle-334bee98,5205,Participation of Vulnerable Groups,Food Security and Livelihoods,close,1,D002,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-south-sudan-emergency-response-project-aweil-cfbbb8f1,5090,FSL: Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-south-sudan-emergency-response-project-aweil-cfbbb8f1,5620,Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2405-project-proposal-pharus-resilience-in-1452caa0,5428,Gender Representation,Food Security and Livelihoods,verbatim,3,D001; D002; D003,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2511-final-narrative-report-zoa-dorcas-e4c078bc,5238,Perception of Disaster Preparedness,Climate Resilience,verbatim,1,D003,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2511-final-narrative-report-zoa-dorcas-e4c078bc,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D001,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2511-final-narrative-report-zoa-dorcas-e4c078bc,5885,Acquired Climate Resilience Knowledge / Skills,Climate Resilience,close,1,D003,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2511-final-narrative-report-zoa-dorcas-e4c078bc,5886,Acquired Knowledge / Skills,Climate Resilience,close,1,D003,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2516-ecosystem-restoration-proposal-fv-app-6795e921,5361,Environmentally-Friendly Energy Technologies,Food Security and Livelihoods,close,1,D014,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2516-ecosystem-restoration-proposal-fv-app-6795e921,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D005,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2516-ecosystem-restoration-proposal-fv-app-6795e921,5491,Area of Land Under Improved Management,Food Security and Livelihoods,close,1,D013,disclosure,True,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2516-ecosystem-restoration-proposal-fv-app-6795e921,5590,Energy-Saving Measures,Food Security and Livelihoods,close,1,D014,disclosure,False,south_sudan,africa
+proposals-africa-south-sudan-small-ssd2516-ecosystem-restoration-proposal-fv-app-6795e921,5693,Number of GCT Workshop Participants,cross-cutting: Cash and Voucher Assistance,close,1,D009,reverse_check,True,south_sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D004,disclosure,True,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D013,disclosure,True,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5257,Cropping Area,Food Security and Livelihoods,close,1,D005,reverse_check,False,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5260,Agricultural Productivity,Food Security and Livelihoods,close,2,D006; D011,disclosure; reverse_check,True,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5328,Food Insecurity Experience Scale (FIES),Food Security and Livelihoods,close,1,D001,disclosure,True,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5428,Gender Representation,Food Security and Livelihoods,close,1,D024,disclosure,False,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5476,Use of Eco-Friendly Practices / Products,Food Security and Livelihoods,close,1,D007,reverse_check,True,sudan,africa
+proposals-africa-sudan-large-eu-integrated-fsl-2-2-annex-i-logical-framework-mat-e5235151,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,1,D004,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5091,FSL: Coping Strategy Index,Food Security and Livelihoods,close,1,D002,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D005,disclosure,False,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5251,Awareness of Rights,Gender Diversity & Inclusion,close,1,D012,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D018,disclosure,False,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5511,Assistance Delivery,Gender Diversity & Inclusion,close,1,D011,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5530,Active Participation in Activities,Food Security and Livelihoods,close,2,D003; D004,disclosure; reverse_check,False,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5620,Food Consumption Score,Food Security and Livelihoods,close,1,D001,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-9042a67e,5623,Protection Mainstreaming,Shelter,close,1,D011,disclosure,True,sudan,africa
+proposals-africa-sudan-large-food-assisitance-of-war-affected-idps-3350-zoa-suda-e315ea3e,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D001,disclosure,False,sudan,africa
+proposals-africa-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,sudan,africa
+proposals-africa-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,sudan,africa
+proposals-africa-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5532,Accessing a Service,Food Security and Livelihoods,close,1,D017,reverse_check,False,sudan,africa
+proposals-africa-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,verbatim,2,D013; D036,disclosure; reverse_check,True,sudan,africa
+proposals-africa-sudan-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,sudan,africa
+proposals-africa-sudan-small-annex-a-project-description-revised-30-nov-ccc34355,5204,Completion Rate in Vocational Education Training,Food Security and Livelihoods,close,1,D001,reverse_check,False,sudan,africa
+proposals-africa-sudan-small-annex-a-project-description-revised-30-nov-ccc34355,5259,Reported Crop Yield Per Unit,Food Security and Livelihoods,close,1,D002,disclosure,False,sudan,africa
+proposals-africa-sudan-small-cbpf-sud-23-r-ingo-shf-proposal-narrative-east-darf-585bd2f4,5259,Reported Crop Yield Per Unit,Food Security and Livelihoods,close,1,D001,reverse_check,False,sudan,africa
+proposals-africa-sudan-small-economic-empowerment-social-mental-well-being-for-v-d728d181,5657,Absence of Tensions or Conflicts due to Assistance Provided,Peace Nexus,close,1,D001,reverse_check,True,sudan,africa
+proposals-africa-sudan-small-economic-empowerment-social-mental-well-being-for-v-d728d181,5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,verbatim,1,D001,reverse_check,True,sudan,africa
+proposals-africa-sudan-small-khartoum-responses-foco-proposal-revised-2026-2a815263,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D001,disclosure,False,sudan,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5148,Number of Service Providers,Food Security and Livelihoods,close,1,D015,disclosure,False,uganda,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5265,Acquired Knowledge / Skills,Food Security and Livelihoods,close,1,D018,reverse_check,False,uganda,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5271,Area of Degraded Land Under Sustainable Management,Food Security and Livelihoods,close,1,D045,disclosure,True,uganda,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5491,Area of Land Under Improved Management,Food Security and Livelihoods,close,1,D045,disclosure,True,uganda,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5644,Land Conflict Resolution Rate through ADR,Peacebuilding,close,1,D043,disclosure,True,uganda,africa
+proposals-africa-uganda-large-290903-a-grip-improved-fullproposal-excerpts-for-c-17c79b33,5652,Acquired Knowledge / Skills,Shelter,close,1,D018,reverse_check,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5142,Use of Improved Sanitation Facility,"Water, Sanitation and Hygiene",close,1,D001,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5175,Access to Excreta Disposal Facilities,"Water, Sanitation and Hygiene",close,1,D001,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5358,Increased Income,Food Security and Livelihoods,close,1,D004,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,close,1,D009,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5644,Land Conflict Resolution Rate through ADR,Peacebuilding,close,1,D006,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5656,Conflicts Addressed and Resolved by Different Actors,Peacebuilding,close,1,D007,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,close,1,D008,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,verbatim,1,D003,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5890,PIP: # of people undertaking actions to manage and protect natural resources,Food Security and Livelihoods,verbatim,1,D005,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5891,PIP: # of farmer households who are trained through peer-to-peer learning,Food Security and Livelihoods,close,1,D002,disclosure,True,uganda,africa
+proposals-africa-uganda-large-hope-copy-of-logframe-hope-project-final-73cc548d,5892,PIP: # of households with increased income,Food Security and Livelihoods,close,1,D004,disclosure,True,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5267,Adoption of Promoted Practices (1),Food Security and Livelihoods,close,1,D037,reverse_check,True,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5490,Adoption of Promoted Practices (2),"Water, Sanitation and Hygiene",close,1,D037,reverse_check,True,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D017,reverse_check,False,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5532,Accessing a Service,Food Security and Livelihoods,close,1,D017,reverse_check,False,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5576,Engagement with Decision Makers,Food Security and Livelihoods,close,1,D039,disclosure,True,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5643,Land Tenure Security (Legal Documentation and Perception),Peacebuilding,verbatim,2,D013; D036,disclosure; reverse_check,True,uganda,africa
+proposals-africa-uganda-large-zoa-we-are-able-full-proposal-v6-ea4bffa8,5889,PIP: # of households who are implementing their PIP plans,Food Security and Livelihoods,close,1,D018,disclosure,True,uganda,africa
+proposals-africa-uganda-small-ebola-preparedness-and-response-proposal-june-2026-0b89e4e0,5629,Education: Enrolment,cross-cutting: Cash and Voucher Assistance,close,1,D001,disclosure,True,uganda,africa
+proposals-africa-uganda-small-final-unicef-cfei-cef-uga-20260721-zoa-submission-4eb682f9,5148,Number of Service Providers,Food Security and Livelihoods,close,1,D003,reverse_check,False,uganda,africa
+proposals-africa-uganda-small-final-unicef-cfei-cef-uga-20260721-zoa-submission-4eb682f9,5154,Quality of Provided Services,Food Security and Livelihoods,close,1,D003,reverse_check,False,uganda,africa
+proposals-africa-uganda-small-final-unicef-cfei-cef-uga-20260721-zoa-submission-4eb682f9,5577,People Reached,Food Security and Livelihoods,close,1,D009,reverse_check,False,uganda,africa
+proposals-africa-uganda-small-final-unicef-cfei-cef-uga-20260721-zoa-submission-4eb682f9,5629,Education: Enrolment,cross-cutting: Cash and Voucher Assistance,close,1,D013,disclosure,True,uganda,africa
+proposals-africa-uganda-small-final-unicef-cfei-cef-uga-20260721-zoa-submission-4eb682f9,5630,Education: School Attendance,cross-cutting: Cash and Voucher Assistance,close,2,D002; D013,disclosure,True,uganda,africa
+proposals-africa-uganda-small-revised-concept-note-nourish-17-12-2024-d7e7b41e,5158,Generation of Employment Opportunities,Food Security and Livelihoods,close,1,D001,disclosure,False,uganda,africa
+proposals-africa-uganda-small-revised-concept-note-nourish-17-12-2024-d7e7b41e,5486,Reduced Vulnerability,Food Security and Livelihoods,close,1,D002,disclosure,False,uganda,africa
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D007,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D005,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D005,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5179,Access to Adequate Shelter,Shelter,verbatim,2,D003; D004,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,2,D008; D009,disclosure,False,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5244,Safe and Dignified Shelters,Shelter,verbatim,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5313,Access to Shelter,Shelter,close,1,D004,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5616,Gender and Age marks,Food Security and Livelihoods,close,1,D006,disclosure,False,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,1,D007,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-2023-00217-mr-01-01-18-jan-2024-53620d43,5888,Climate risk integration,Climate Resilience,close,1,D010,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D008,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5179,Access to Adequate Shelter,Shelter,verbatim,2,D003; D004,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5244,Safe and Dignified Shelters,Shelter,verbatim,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5598,Livelihood Coping Strategy Index,Food Security and Livelihoods,close,1,D009,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5606,Cash Spending,Food Security and Livelihoods,close,1,D006,disclosure,False,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,1,D008,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,verbatim,1,D007,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5623,Protection Mainstreaming,Shelter,close,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5625,Expenditure (2),cross-cutting: Cash and Voucher Assistance,verbatim,1,D010,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5628,Livelihood Coping Strategies Indicator for Essential Needs,cross-cutting: Cash and Voucher Assistance,close,1,D009,disclosure,True,syria,Asia
+proposals-asia-syria-large-allepo-copy-of-annex-14-meal-plan-echo-2a409e63,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D002,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",verbatim,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5131,Water Source Repairs,"Water, Sanitation and Hygiene",close,1,D005,reverse_check,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5242,Perception of WASH Needs,"Water, Sanitation and Hygiene",close,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5424,Amount of Production,Food Security and Livelihoods,close,1,D009,reverse_check,False,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D025,disclosure,False,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5429,Product / Service’s Perceived Contribution to Higher Production,Food Security and Livelihoods,close,1,D007,reverse_check,False,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D012,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5623,Protection Mainstreaming,Shelter,verbatim,1,D012,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5638,Group Cash Transfer: Increased Resilience,cross-cutting: Cash and Voucher Assistance,verbatim,1,D023,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5655,Perception of Social Cohesion and Trust,Peacebuilding,close,1,D014,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,close,1,D016,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5689,Total GCT Amount Distributed,cross-cutting: Cash and Voucher Assistance,close,1,D027,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5691,GCT Increased Capacity to Plan and Implement,cross-cutting: Cash and Voucher Assistance,verbatim,1,D024,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5694,GCT Process - Protection Mainstreaming,cross-cutting: Cash and Voucher Assistance,close,1,D012,disclosure,True,syria,Asia
+proposals-asia-syria-large-earthquake-aftermath-logframe-foco-fund-b10db330,5756,Perceived Community Cohesion,Peacebuilding,close,2,D014; D026,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,2,D001; D002,disclosure; reverse_check,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5091,FSL: Coping Strategy Index,Food Security and Livelihoods,close,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D011,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5311,Adequate WASH Services and Hygiene Practices,"Water, Sanitation and Hygiene",verbatim,1,D009,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D025,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5610,% of Country Budget to Local Partners,Localisation,close,2,D023; D024,disclosure; reverse_check,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,2,D001; D002,disclosure; reverse_check,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5623,Protection Mainstreaming,Shelter,verbatim,1,D025,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5635,WASH: Water supply,"Water, Sanitation and Hygiene",close,1,D011,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5653,People's Perception of Security,Peacebuilding,close,1,D013,disclosure,True,syria,Asia
+proposals-asia-syria-large-joint-response-syria-joint-response-2024-2026-zoa-ann-458639ad,5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,close,1,D014,reverse_check,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D004,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5242,Perception of WASH Needs,"Water, Sanitation and Hygiene",close,1,D004,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5461,Awareness of Community Feedback and Response Mechanism,cross-cutting: Cash and Voucher Assistance,close,1,D007,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,verbatim,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,close,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5631,Shelter: Non-Food Items,Shelter,close,1,D006,disclosure,True,syria,Asia
+proposals-asia-syria-large-multi-sectoral-cbpf-syr-24-s-ingo-33359-revised-propo-65642a77,5635,WASH: Water supply,"Water, Sanitation and Hygiene",verbatim,1,D004,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D016,disclosure,False,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5411,Awareness of Cash & Voucher Assistance Programme,cross-cutting: Cash and Voucher Assistance,close,1,D004,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D013,disclosure,False,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5461,Awareness of Community Feedback and Response Mechanism,cross-cutting: Cash and Voucher Assistance,close,1,D003,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5464,FSL: Reduced Coping Strategy Index,Food Security and Livelihoods,verbatim,1,D002,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,verbatim,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5622,Basic Needs (Alternative),cross-cutting: Cash and Voucher Assistance,close,1,D001,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5626,Women's Decision Making: Women's Involvement,cross-cutting: Cash and Voucher Assistance,close,1,D015,disclosure,True,syria,Asia
+proposals-asia-syria-small-cbpf-syr-24-s-ingo-33280-revision-submitted-fe94971f,5639,Total CVA Value Distributed,cross-cutting: Cash and Voucher Assistance,verbatim,1,D014,disclosure,True,syria,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5083,Individual Dietary Diversity Score,Food Security and Livelihoods,close,1,D035,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5084,Women Dietary Diversity Score,Food Security and Livelihoods,close,1,D035,disclosure,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5085,Minimum Dietary Diversity - Women,Food Security and Livelihoods,close,1,D035,disclosure,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D033,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D042,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5140,Hygiene Education at Schools,"Water, Sanitation and Hygiene",close,1,D044,reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5175,Access to Excreta Disposal Facilities,"Water, Sanitation and Hygiene",verbatim,1,D040,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5177,Solid Waste Management,"Water, Sanitation and Hygiene",verbatim,1,D043,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5178,Access to Hygiene Items,"Water, Sanitation and Hygiene",close,1,D039,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5179,Access to Adequate Shelter,Shelter,verbatim,1,D069,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5182,Access to Non-Food Items,Shelter,close,2,D026; D072,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5209,Successfully Trained Teachers/ Trainers,Food Security and Livelihoods,close,1,D079,reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5223,Adequate School Infrastructure,Shelter,close,1,D078,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5238,Perception of Disaster Preparedness,Climate Resilience,close,1,D100,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,2,D097; D098,disclosure; reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5242,Perception of WASH Needs,"Water, Sanitation and Hygiene",verbatim,2,D001; D038,disclosure; reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5244,Safe and Dignified Shelters,Shelter,verbatim,1,D068,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5251,Awareness of Rights,Gender Diversity & Inclusion,close,1,D086,reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5311,Adequate WASH Services and Hygiene Practices,"Water, Sanitation and Hygiene",verbatim,2,D001; D038,disclosure; reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5464,FSL: Reduced Coping Strategy Index,Food Security and Livelihoods,close,1,D034,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5485,Protection of Services / Infrastructure Against Hazards,Shelter,close,1,D105,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5486,Reduced Vulnerability,Food Security and Livelihoods,close,1,D103,reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5497,Coverage of Solid Waste Management System,"Water, Sanitation and Hygiene",verbatim,1,D043,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D115,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5530,Active Participation in Activities,Food Security and Livelihoods,close,2,D116; D117,disclosure; reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5577,People Reached,Food Security and Livelihoods,close,1,D102,reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5610,% of Country Budget to Local Partners,Localisation,close,1,D111,reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,1,D033,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5621,Basic Needs,cross-cutting: Cash and Voucher Assistance,verbatim,3,D013; D029; D096,disclosure; reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5623,Protection Mainstreaming,Shelter,verbatim,1,D115,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5629,Education: Enrolment,cross-cutting: Cash and Voucher Assistance,close,1,D074,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5654,Violent Deaths per 100.000 People,Peacebuilding,close,1,D045,reverse_check,True,yemen,Asia
+proposals-asia-yemen-large-joint-response-copy-of-pcm2024-2026-logframe-sdf-zoa-636c248b,5659,Well-Being Questionnaire (SRQ 20),Peacebuilding,close,1,D048,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-lift-annex-c-logical-framework-0643456a,5251,Awareness of Rights,Gender Diversity & Inclusion,close,1,D015,disclosure,True,yemen,Asia
+proposals-asia-yemen-large-lift-annex-c-logical-framework-0643456a,5422,Use of Financial Products / Services,Food Security and Livelihoods,close,1,D010,reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-lift-annex-c-logical-framework-0643456a,5428,Gender Representation,Food Security and Livelihoods,close,1,D008,reverse_check,False,yemen,Asia
+proposals-asia-yemen-large-lift-annex-c-logical-framework-0643456a,5532,Accessing a Service,Food Security and Livelihoods,close,2,D007; D017,reverse_check,False,yemen,Asia
+proposals-asia-yemen-small-cbpf-yem-25-s-ingo-37789-yem2507-final-proposal-7e4a3f4a,5090,FSL: Food Consumption Score,Food Security and Livelihoods,close,1,D003,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-cbpf-yem-25-s-ingo-37789-yem2507-final-proposal-7e4a3f4a,5428,Gender Representation,Food Security and Livelihoods,verbatim,1,D001,disclosure,False,yemen,Asia
+proposals-asia-yemen-small-cbpf-yem-25-s-ingo-37789-yem2507-final-proposal-7e4a3f4a,5616,Gender and Age marks,Food Security and Livelihoods,close,1,D004,disclosure,False,yemen,Asia
+proposals-asia-yemen-small-cbpf-yem-25-s-ingo-37789-yem2507-final-proposal-7e4a3f4a,5639,Total CVA Value Distributed,cross-cutting: Cash and Voucher Assistance,verbatim,1,D002,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5121,Access to Drinking Water,"Water, Sanitation and Hygiene",close,1,D001,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5125,Water Quantity,"Water, Sanitation and Hygiene",close,1,D002,reverse_check,True,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D005,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5544,Gender Ratio in Activities,Food Security and Livelihoods,close,1,D003,reverse_check,False,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5618,Gender Ratio in Activities,Food Security and Livelihoods,close,1,D003,reverse_check,False,yemen,Asia
+proposals-asia-yemen-small-yem2405-desalination-proposal-e94f0a6e,5623,Protection Mainstreaming,Shelter,verbatim,1,D005,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2500-gcts-in-taiz-governorate-18ffa3c8,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D004,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2500-gcts-in-taiz-governorate-18ffa3c8,5623,Protection Mainstreaming,Shelter,verbatim,1,D004,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2500-gcts-in-taiz-governorate-18ffa3c8,5638,Group Cash Transfer: Increased Resilience,cross-cutting: Cash and Voucher Assistance,verbatim,1,D003,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5090,FSL: Food Consumption Score,Food Security and Livelihoods,verbatim,1,D001,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5239,Number of Cash Transfer Recipients,Food Security and Livelihoods,close,1,D002,disclosure,False,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5368,Women’s Participation in Community Groups,Gender Diversity & Inclusion,close,1,D006,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5511,Assistance Delivery,Gender Diversity & Inclusion,verbatim,1,D005,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5530,Active Participation in Activities,Food Security and Livelihoods,close,1,D003,reverse_check,False,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5620,Food Consumption Score,Food Security and Livelihoods,verbatim,1,D001,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-yem2603-support-for-idps-in-aden-city-70c42da6,5623,Protection Mainstreaming,Shelter,verbatim,1,D005,disclosure,True,yemen,Asia
+proposals-asia-yemen-small-zoa-group-cash-transfers-taiz-yemen-project-proposal-1822770f,5638,Group Cash Transfer: Increased Resilience,cross-cutting: Cash and Voucher Assistance,close,1,D001,disclosure,True,yemen,Asia

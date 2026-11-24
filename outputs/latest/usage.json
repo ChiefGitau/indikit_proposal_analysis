@@ -1,0 +1,30 @@
+{
+ "calls": 8086,
+ "cached_hits": 0,
+ "failures": 7,
+ "prompt_tokens": 22003274,
+ "completion_tokens": 502584,
+ "cost_usd": 24.2457,
+ "latency_s": 23485.42,
+ "max_calls": 9000,
+ "max_cost_usd": 25.0,
+ "per_model": {
+  "gpt-6.1-terra": {
+   "calls": 8034,
+   "cached": 0,
+   "failures": 0,
+   "prompt_tokens": 21883385,
+   "completion_tokens": 466452,
+   "cost_usd": 24.215645
+  },
+  "gpt-6-luna": {
+   "calls": 52,
+   "cached": 0,
+   "failures": 7,
+   "prompt_tokens": 119889,
+   "completion_tokens": 36132,
+   "cost_usd": 0.030054
+  }
+ },
+ "stopped_reason": null
+}

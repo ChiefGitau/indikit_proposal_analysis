@@ -1,0 +1,72 @@
+# Run report - run-20261115-233434
+
+Written 2026-11-16 09:59:18.
+
+## Configuration
+
+- **config_fingerprint**: 4d78859936cd
+- **provider**: openai
+- **answer_model**: gpt-6.1-terra
+- **extraction_model**: gpt-6-luna
+- **prompt_version**: disclosure-v2
+- **rubric_version**: rubric-v1
+- **novel_prompt_version**: extract-v2
+- **reverse_prompt_version**: reverse-v1
+- **retrieval**: enhanced top_n=5 top_k=4 rerank=False search_terms=True kb_types=('text', 'outline', 'table')
+- **gate**: tau=p90 top_m=60
+- **route_sectors**: False
+- **include_export_only**: True
+- **mode**: full
+
+## Counts
+
+- **documents**: 115
+- **documents_processed**: 108
+- **documents_skipped**: 7
+- **documents_failed**: 0
+- **pairs_selected**: 7016
+- **pairs_asked**: 6996
+- **pairs_cached**: 20
+- **pairs_present**: 345
+- **pairs_failed**: 0
+- **unsupported_dropped**: 0
+- **novel_llm_calls**: 52
+- **reverse_check_candidates**: 967
+- **reverse_check_recovered**: 93
+- **export_only_matches**: 43
+
+## Usage
+
+- **calls**: 8086
+- **cached_hits**: 0
+- **failures**: 7
+- **prompt_tokens**: 22003274
+- **completion_tokens**: 502584
+- **cost_usd**: 24.2457
+- **latency_s**: 23485.42
+- **max_calls**: 9000
+- **max_cost_usd**: 25.0
+- **stopped_reason**: None
+
+Per model:
+
+| model | calls | cached | failures | prompt_tokens | completion_tokens | cost_usd |
+|---|---|---|---|---|---|---|
+| gpt-6.1-terra | 8034 | 0 | 0 | 21883385 | 466452 | 24.215645 |
+| gpt-6-luna | 52 | 0 | 7 | 119889 | 36132 | 0.030054 |
+
+
+- **runtime_seconds**: 614.5
+- **seconds_per_pair**: 1.9
+- **cost_per_pair_usd**: 0.003
+- **cost_per_document_usd**: 0.2245
+
+## Errors
+
+- table Logical Framework | Logical Framework: no JSON object in the response
+- table Logical Framework | Logical Framework: no JSON object in the response
+- table p.19 | Selected indicators per sector/sub-sector:: no JSON object in the response
+- table p.13-14 | biodiversity conservation and climate smart agricultural practices Activity (iv) Climate-Smart Agriculture report, training reports and attendance lists, Beneficiary digital registration and distribution list (RedRose) Project Management staff: no JSON object in the response
+- table p.45 | ANNEXES > Annex 3 Logical framework A-GRIP: no JSON object in the response
+- table p.47 | ANNEXES > Annex 3 Logical framework A-GRIP: no JSON object in the response
+- table sheet Logframe | Logframe: no JSON object in the response

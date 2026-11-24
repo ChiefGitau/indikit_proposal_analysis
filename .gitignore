@@ -29,8 +29,8 @@ outputs/cache/
 *.egg-info/
 outputs/kb_baseline/
 
-# Phase 3 run outputs, evaluation artefacts and the LLM response cache (never tracked)
+# Phase 3 run outputs, evaluation artefacts and the LLM response cache (never tracked).
+# outputs/latest/ IS tracked: the Streamlit app reads it, and the deployed app only sees what is in the repository.
 outputs/runs/
-outputs/latest/
 outputs/eval/
 outputs/cache/agent/
